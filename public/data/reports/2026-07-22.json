@@ -1,0 +1,1884 @@
+{
+  "date": "2026-07-22",
+  "generatedAt": "2026-07-22T03:46:02.936Z",
+  "timezone": "Asia/Bangkok",
+  "status": "degraded",
+  "kpi": {
+    "totalCollected": 893,
+    "afterDedup": 538,
+    "afterPrefilter": 22,
+    "published": 22,
+    "positive": 3,
+    "neutral": 15,
+    "negative": 4,
+    "highImpact": 3,
+    "competitorAlerts": 1,
+    "evRelated": 7,
+    "international": 3,
+    "oemOpportunities": 0,
+    "b2bOpportunities": 1,
+    "b2cOpportunities": 0,
+    "o1Supporting": 3,
+    "o2Supporting": 1,
+    "socialMentions": 0,
+    "demandSignals": 1
+  },
+  "daily": {
+    "executiveSummaryTh": "วันนี้ระบบคัดกรองข่าวที่เกี่ยวข้องกับ Air4 ได้ 22 ข่าว แบ่งเป็นเชิงบวก 3 ข่าว เป็นกลาง 15 ข่าว และเชิงลบ 4 ข่าว คะแนนผลกระทบสุทธิอยู่ที่ -1.3 ซึ่งจัดอยู่ในระดับเป็นกลางต่อธุรกิจ ข่าวเชิงบวกที่สำคัญที่สุดคือ \"อากาศร้อน: อุณหภูมิที่รู้สึกได้สูงสุดเฉลี่ย 37.1°C ใน 7 วันข้างหน้า — ปัจจัยหนุนความต้องการล้างแอร์รถยนต์\" ข่าวที่ต้องเฝ้าระวังมากที่สุดคือ \"รถซีดานขนาด B-segment: Hyundai Accent ยอดขายชะลอตัวแม้จะลดราคาแล้ว ขณะที่ Honda City มียอดขายตามหลัง Toyota Vios - Vietnam.vn\" พบความเคลื่อนไหวของคู่แข่ง 1 รายการ ควรติดตามใกล้ชิด หมายเหตุ: บทวิเคราะห์นี้สร้างโดยระบบกฎอัตโนมัติเนื่องจากไม่สามารถเรียกใช้ AI ได้",
+    "overallSentiment": "neutral",
+    "netImpactScore": -1.34,
+    "urgencyLevel": "low",
+    "opportunitySignals": [
+      {
+        "title": "อากาศร้อน: อุณหภูมิที่รู้สึกได้สูงสุดเฉลี่ย 37.1°C ใน 7 วันข้างหน้า — ปัจจัยหนุนความต้องการล้างแอร์รถยนต์",
+        "detail": "ปัญหากลิ่น/เชื้อราในรถ = ความต้องการบริการหลักของ Air4",
+        "relatedNewsIds": [
+          "ce0d61199427e31e"
+        ]
+      },
+      {
+        "title": "ทำไมคนรุ่น Gen Z ถึงแห่กันซื้อผลิตภัณฑ์ล้างหน้าที่สามารถกำจัดฝุ่นละอองขนาดเล็ก PM2.5 ได้? - Vietnam.vn",
+        "detail": "ประเด็นคุณภาพอากาศหนุนความต้องการล้างแอร์",
+        "relatedNewsIds": [
+          "853b7502b9e7ba21"
+        ]
+      },
+      {
+        "title": "รีไซเคิลแบตลิเทียมไอออนเสื่อมสภาพ ขับเคลื่อนเศรษฐกิจหมุนเวียนอุตฯอีวี",
+        "detail": "ตลาดรถยนต์เติบโต = ปริมาณรถเข้าศูนย์เพิ่ม",
+        "relatedNewsIds": [
+          "f8c8a92230bf6920"
+        ]
+      }
+    ],
+    "riskSignals": [
+      {
+        "title": "รถซีดานขนาด B-segment: Hyundai Accent ยอดขายชะลอตัวแม้จะลดราคาแล้ว ขณะที่ Honda City มียอดขายตามหลัง Toyota Vios - Vietnam.vn",
+        "detail": "ตลาดหดตัว = ปริมาณรถเข้าศูนย์ลดลง",
+        "relatedNewsIds": [
+          "c5706d18458e3830"
+        ]
+      },
+      {
+        "title": "[EN] Honda renews China joint venture despite collapsing sales as CEO says carmaker ‘learned the hard way’",
+        "detail": "คู่แข่ง (Wise) เคลื่อนไหวในตลาด",
+        "relatedNewsIds": [
+          "a0a349379ef5b5b4"
+        ]
+      },
+      {
+        "title": "รถกระบะในเดือนพฤษภาคม: Ford Ranger กลับมาได้รับความนิยมอีกครั้ง ขณะที่ Mitsubishi Triton ยอดขายลดลงอย่างมาก - Vietnam.vn",
+        "detail": "ตลาดหดตัว = ปริมาณรถเข้าศูนย์ลดลง",
+        "relatedNewsIds": [
+          "08ea04e2620b648f"
+        ]
+      }
+    ],
+    "actionsToday": [
+      {
+        "action": "ประเมินผลกระทบจากข่าว: รถซีดานขนาด B-segment: Hyundai Accent ยอดขายชะลอตัวแม้จะลดราคาแล้ว ขณะที่ Honda City มียอดขายตามหลัง Toyota Vios - Vietnam.vn",
+        "owner": "Business Intelligence",
+        "priority": "high",
+        "deadline": "today",
+        "reason": "ตลาดหดตัว = ปริมาณรถเข้าศูนย์ลดลง",
+        "relatedNewsIds": [
+          "c5706d18458e3830"
+        ]
+      },
+      {
+        "action": "ประเมินผลกระทบจากข่าว: [EN] Honda renews China joint venture despite collapsing sales as CEO says carmaker ‘learned the hard way’",
+        "owner": "Business Intelligence",
+        "priority": "high",
+        "deadline": "today",
+        "reason": "คู่แข่ง (Wise) เคลื่อนไหวในตลาด",
+        "relatedNewsIds": [
+          "a0a349379ef5b5b4"
+        ]
+      }
+    ],
+    "actionsWithin7Days": [
+      {
+        "action": "ต่อยอดโอกาสจากข่าว: อากาศร้อน: อุณหภูมิที่รู้สึกได้สูงสุดเฉลี่ย 37.1°C ใน 7 วันข้างหน้า — ปัจจัยหนุนความต้องการล้างแอร์รถยนต์",
+        "owner": "B2B Sales & Marketing",
+        "priority": "medium",
+        "deadline": "within_7_days",
+        "reason": "ปัญหากลิ่น/เชื้อราในรถ = ความต้องการบริการหลักของ Air4",
+        "relatedNewsIds": [
+          "ce0d61199427e31e"
+        ]
+      },
+      {
+        "action": "ต่อยอดโอกาสจากข่าว: ทำไมคนรุ่น Gen Z ถึงแห่กันซื้อผลิตภัณฑ์ล้างหน้าที่สามารถกำจัดฝุ่นละอองขนาดเล็ก PM2.5 ได้? - Vietnam.vn",
+        "owner": "B2B Sales & Marketing",
+        "priority": "medium",
+        "deadline": "within_7_days",
+        "reason": "ประเด็นคุณภาพอากาศหนุนความต้องการล้างแอร์",
+        "relatedNewsIds": [
+          "853b7502b9e7ba21"
+        ]
+      }
+    ],
+    "actionsToMonitor": [
+      {
+        "action": "ติดตามความเคลื่อนไหวของ Wise",
+        "owner": "Business Development",
+        "priority": "medium",
+        "deadline": "monitor",
+        "reason": "ความเคลื่อนไหวของคู่แข่งอาจกระทบส่วนแบ่งตลาด",
+        "relatedNewsIds": [
+          "a0a349379ef5b5b4"
+        ]
+      }
+    ],
+    "okrAssessment": {
+      "O1": "สัญญาณวันนี้ยังไม่ชี้ชัดต่อเป้าหมายรายได้รวม +15% YoY",
+      "O2": "ข่าวที่เกี่ยวกับช่องทางนอก Toyota OEM มี 4 รายการ",
+      "benefitingChannels": [
+        "B2B"
+      ],
+      "atRiskChannels": [
+        "OEM",
+        "B2C"
+      ],
+      "prioritisationNote": "ควรตรวจสอบด้วย AI Analysis เพื่อความแม่นยำ"
+    },
+    "ceoQuestions": [
+      "ข่าววันนี้มีรายการใดที่ควรเปลี่ยนลำดับความสำคัญของแผนการขายหรือไม่",
+      "มีลูกค้ารายใดที่ควรเข้าไปติดต่อทันทีจากสัญญาณที่พบ"
+    ]
+  },
+  "items": [
+    {
+      "title": "อากาศร้อน: อุณหภูมิที่รู้สึกได้สูงสุดเฉลี่ย 37.1°C ใน 7 วันข้างหน้า — ปัจจัยหนุนความต้องการล้างแอร์รถยนต์",
+      "link": "https://open-meteo.com/",
+      "snippet": "ข้อมูลพยากรณ์: อุณหภูมิที่รู้สึกได้สูงสุดรายเมือง กรุงเทพฯ 41.4°C · หาดใหญ่ 40.3°C · นครราชสีมา 38.8°C · เชียงใหม่ 38.7°C. ค่าเฉลี่ยถ่วงน้ำหนักตามความหนาแน่นของศูนย์บริการอยู่ที่ 37.1°C จุดสูงสุดอยู่ที่ กรุงเทพฯ 41.4°C. [การตีความของระบบ] อากาศร้อนทำให้ผู้ใช้รถเปิดแอร์หนักและนานขึ้น คอยล์เย็นสะสมความชื้นและสิ่งสกปรกเร็วขึ้น มักตามมาด้วยอาการแอร์ไม่เย็นและกลิ่นอับ ซึ่งเป็นช่วงที่ความต้องการบริการล้างแอร์รถยนต์สูงขึ้นตามฤดูกาล",
+      "publishedAt": "2026-07-22T03:45:57.906Z",
+      "sourceId": "weather-signal",
+      "sourceName": "Open-Meteo (พยากรณ์อากาศ)",
+      "sourceTier": 1,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": false,
+      "itemKind": "signal",
+      "id": "ce0d61199427e31e",
+      "canonicalUrl": "https://open-meteo.com",
+      "contentHash": "9e1dc625faa31a9f404d9783",
+      "collectedAt": "2026-07-22T03:45:57.907Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 39,
+      "matchedCategories": [
+        "AC_CLEANING"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "อากาศร้อน: อุณหภูมิที่รู้สึกได้สูงสุดเฉลี่ย 37.1°C ใน 7 วันข้างหน้า — ปัจจัยหนุนความต้องการล้างแอร์รถยนต์",
+      "shortSummaryTh": "ข้อมูลพยากรณ์: อุณหภูมิที่รู้สึกได้สูงสุดรายเมือง กรุงเทพฯ 41.4°C · หาดใหญ่ 40.3°C · นครราชสีมา 38.8°C · เชียงใหม่ 38.7°C. ค่าเฉลี่ยถ่วงน้ำหนักตามความหนาแน่นของศูนย์บริการอยู่ที่ 37.1°C จุดสูงสุดอยู่ที่ กรุงเทพฯ 41.4°C. [การตีความของระบบ] อากาศร้อนทำให้ผู้ใช้รถเปิดแอร์หนักและนานขึ้น คอยล์เย็นสะสมคว…",
+      "classification": "positive",
+      "impactScore": 5,
+      "confidence": 68,
+      "relevanceScore": 100,
+      "newsCategory": "AC_CLEANING",
+      "affectedChannels": [
+        "B2B"
+      ],
+      "affectedProducts": [
+        "AC_CLEANING"
+      ],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "positive",
+        "O2": "positive"
+      },
+      "positiveImpacts": [
+        "ปัญหากลิ่น/เชื้อราในรถ = ความต้องการบริการหลักของ Air4",
+        "เกี่ยวข้องกับบริการหลักโดยตรง"
+      ],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "วิเคราะห์ด้วยกฎอัตโนมัติ (ไม่ได้ใช้ AI)"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "high",
+          "deadline": "today"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://open-meteo.com",
+      "titleOriginal": "อากาศร้อน: อุณหภูมิที่รู้สึกได้สูงสุดเฉลี่ย 37.1°C ใน 7 วันข้างหน้า — ปัจจัยหนุนความต้องการล้างแอร์รถยนต์",
+      "originalSnippet": "ข้อมูลพยากรณ์: อุณหภูมิที่รู้สึกได้สูงสุดรายเมือง กรุงเทพฯ 41.4°C · หาดใหญ่ 40.3°C · นครราชสีมา 38.8°C · เชียงใหม่ 38.7°C. ค่าเฉลี่ยถ่วงน้ำหนักตามความหนาแน่นของศูนย์บริการอยู่ที่ 37.1°C จุดสูงสุดอยู่ที่ กรุงเทพฯ 41.4°C. [การตีความของระบบ] อากาศร้อนทำให้ผู้ใช้รถเปิดแอร์หนักและนานขึ้น คอยล์เย็นสะสมความชื้นและสิ่งสกปรกเร็วขึ้น มักตามมาด้วยอาการแอร์ไม่เย็นและกลิ่นอับ ซึ่งเป็นช่วงที่ความต้องการบริการล้างแอร์รถยนต์สูงขึ้นตามฤดูกาล"
+    },
+    {
+      "title": "รถซีดานขนาด B-segment: Hyundai Accent ยอดขายชะลอตัวแม้จะลดราคาแล้ว ขณะที่ Honda City มียอดขายตามหลัง Toyota Vios - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOU0pYNDRVMEhXUF9wU2F1UVN5SS1hN1hZYU9oSUxCT3JkQ2E1OWZoX1lmYTNoTXJkdFdzRVRwajJBNHpxVDZydlV2QlllMURDY005R1BKR2NrZ1hldzg4OWJuNGpRQ2dHLTJtckVBVGlKdlFDRzRSell3bVJYLXAtNDZnRGtoWFRuV2VlMDdyQUFWbjhGNDRLVGJHWGVxRmdtaEtvckEtb2YwMEU?oc=5",
+      "snippet": "รถซีดานขนาด B-segment: Hyundai Accent ยอดขายชะลอตัวแม้จะลดราคาแล้ว ขณะที่ Honda City มียอดขายตามหลัง Toyota Vios Vietnam.vn",
+      "publishedAt": "2026-07-21T06:02:26.000Z",
+      "sourceId": "google-news:th-TH",
+      "sourceName": "Vietnam.vn",
+      "sourceTier": 2,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "c5706d18458e3830",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOU0pYNDRVMEhXUF9wU2F1UVN5SS1hN1hZYU9oSUxCT3JkQ2E1OWZoX1lmYTNoTXJkdFdzRVRwajJBNHpxVDZydlV2QlllMURDY005R1BKR2NrZ1hldzg4OWJuNGpRQ2dHLTJtckVBVGlKdlFDRzRSell3bVJYLXAtNDZnRGtoWFRuV2VlMDdyQUFWbjhGNDRLVGJHWGVxRmdtaEtvckEtb2YwMEU",
+      "contentHash": "24bbed8c397f4027c69d71ef",
+      "collectedAt": "2026-07-22T03:45:57.907Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 15,
+      "matchedCategories": [
+        "OEM_BRANDS",
+        "INTERNATIONAL"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [
+        "Toyota",
+        "Honda",
+        "Hyundai"
+      ],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "รถซีดานขนาด B-segment: Hyundai Accent ยอดขายชะลอตัวแม้จะลดราคาแล้ว ขณะที่ Honda City มียอดขายตามหลัง Toyota Vios - Vietnam.vn",
+      "shortSummaryTh": "รถซีดานขนาด B-segment: Hyundai Accent ยอดขายชะลอตัวแม้จะลดราคาแล้ว ขณะที่ Honda City มียอดขายตามหลัง Toyota Vios Vietnam.vn",
+      "classification": "negative",
+      "impactScore": -5,
+      "confidence": 58,
+      "relevanceScore": 59,
+      "newsCategory": "OEM_BRANDS",
+      "affectedChannels": [
+        "OEM"
+      ],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "negative",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [],
+      "negativeImpacts": [
+        "ตลาดหดตัว = ปริมาณรถเข้าศูนย์ลดลง",
+        "แรงกดดันด้านราคา กระทบมาร์จิ้น"
+      ],
+      "reasoningSummary": [
+        "วิเคราะห์ด้วยกฎอัตโนมัติ (ไม่ได้ใช้ AI)"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "high",
+          "deadline": "today"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOU0pYNDRVMEhXUF9wU2F1UVN5SS1hN1hZYU9oSUxCT3JkQ2E1OWZoX1lmYTNoTXJkdFdzRVRwajJBNHpxVDZydlV2QlllMURDY005R1BKR2NrZ1hldzg4OWJuNGpRQ2dHLTJtckVBVGlKdlFDRzRSell3bVJYLXAtNDZnRGtoWFRuV2VlMDdyQUFWbjhGNDRLVGJHWGVxRmdtaEtvckEtb2YwMEU",
+      "titleOriginal": "รถซีดานขนาด B-segment: Hyundai Accent ยอดขายชะลอตัวแม้จะลดราคาแล้ว ขณะที่ Honda City มียอดขายตามหลัง Toyota Vios - Vietnam.vn",
+      "originalSnippet": "รถซีดานขนาด B-segment: Hyundai Accent ยอดขายชะลอตัวแม้จะลดราคาแล้ว ขณะที่ Honda City มียอดขายตามหลัง Toyota Vios Vietnam.vn"
+    },
+    {
+      "title": "Honda renews China joint venture despite collapsing sales as CEO says carmaker ‘learned the hard way’",
+      "link": "https://www.autonews.com/honda/an-honda-renews-china-gac-joint-venture-mibe-learns-hard-way-0721/",
+      "snippet": "Honda Motor Co. extended its China joint venture with GAC Group through 2038 despite sales plunging from 1.63 million vehicles in 2020 to 645,000 in 2025. CEO Toshihiro Mibe says cutting ties with China would not be wise.",
+      "publishedAt": "2026-07-21T10:30:31.000Z",
+      "sourceId": "automotive-news",
+      "sourceName": "Automotive News",
+      "sourceTier": 2,
+      "sourceCountry": "GLOBAL",
+      "language": "en",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "a0a349379ef5b5b4",
+      "canonicalUrl": "https://autonews.com/honda/an-honda-renews-china-gac-joint-venture-mibe-learns-hard-way-0721",
+      "contentHash": "368eb5bbc3d790e0d46f1ca6",
+      "collectedAt": "2026-07-22T03:45:57.907Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 15,
+      "matchedCategories": [
+        "OEM_BRANDS",
+        "COMPETITOR"
+      ],
+      "matchedCompetitors": [
+        "Wise"
+      ],
+      "matchedBrands": [
+        "Honda"
+      ],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "[EN] Honda renews China joint venture despite collapsing sales as CEO says carmaker ‘learned the hard way’",
+      "shortSummaryTh": "Honda Motor Co. extended its China joint venture with GAC Group through 2038 despite sales plunging from 1.63 million vehicles in 2020 to 645,000 in 2025. CEO Toshihiro Mibe says cutting ties with China would not be wise.",
+      "classification": "negative",
+      "impactScore": -3,
+      "confidence": 58,
+      "relevanceScore": 59,
+      "newsCategory": "COMPETITOR",
+      "affectedChannels": [
+        "OEM"
+      ],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "Global"
+      ],
+      "affectedCompetitors": [
+        "Wise"
+      ],
+      "okrImpact": {
+        "O1": "negative",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [],
+      "negativeImpacts": [
+        "คู่แข่ง (Wise) เคลื่อนไหวในตลาด"
+      ],
+      "reasoningSummary": [
+        "ตรวจพบคู่แข่ง: Wise"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "high",
+          "deadline": "today"
+        }
+      ],
+      "timeHorizon": "immediate",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://autonews.com/honda/an-honda-renews-china-gac-joint-venture-mibe-learns-hard-way-0721",
+      "titleOriginal": "Honda renews China joint venture despite collapsing sales as CEO says carmaker ‘learned the hard way’",
+      "originalSnippet": "Honda Motor Co. extended its China joint venture with GAC Group through 2038 despite sales plunging from 1.63 million vehicles in 2020 to 645,000 in 2025. CEO Toshihiro Mibe says cutting ties with China would not be wise."
+    },
+    {
+      "title": "รถกระบะในเดือนพฤษภาคม: Ford Ranger กลับมาได้รับความนิยมอีกครั้ง ขณะที่ Mitsubishi Triton ยอดขายลดลงอย่างมาก - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQlJoUG9JUFY2bzRaMC1KWXRiUmZOdGVfeWkwUDNJS1JNRjJ4X1RqWS1oMFpsRXR6T1lYRXZJTDVQRHdZMjlPXzNYRDFqLTBaSnJQd3RJYUNzQ3IwYWwwV1hJSGgwaThmbnhMeDIxYkNFNWNCbjVNWDhqX3pUa2gyc1pOTjViOUUyb0xHVkFIekhVOWpTU0JVa01YWGFoRWZFWFE?oc=5",
+      "snippet": "รถกระบะในเดือนพฤษภาคม: Ford Ranger กลับมาได้รับความนิยมอีกครั้ง ขณะที่ Mitsubishi Triton ยอดขายลดลงอย่างมาก Vietnam.vn",
+      "publishedAt": "2026-07-21T16:46:31.000Z",
+      "sourceId": "google-news:th-TH",
+      "sourceName": "Vietnam.vn",
+      "sourceTier": 2,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "08ea04e2620b648f",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQlJoUG9JUFY2bzRaMC1KWXRiUmZOdGVfeWkwUDNJS1JNRjJ4X1RqWS1oMFpsRXR6T1lYRXZJTDVQRHdZMjlPXzNYRDFqLTBaSnJQd3RJYUNzQ3IwYWwwV1hJSGgwaThmbnhMeDIxYkNFNWNCbjVNWDhqX3pUa2gyc1pOTjViOUUyb0xHVkFIekhVOWpTU0JVa01YWGFoRWZFWFE",
+      "contentHash": "8b3179712e9961b41d623743",
+      "collectedAt": "2026-07-22T03:45:57.907Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 16,
+      "matchedCategories": [
+        "AUTO_MARKET",
+        "OEM_BRANDS",
+        "INTERNATIONAL"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [
+        "Mitsubishi",
+        "Ford"
+      ],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "รถกระบะในเดือนพฤษภาคม: Ford Ranger กลับมาได้รับความนิยมอีกครั้ง ขณะที่ Mitsubishi Triton ยอดขายลดลงอย่างมาก - Vietnam.vn",
+      "shortSummaryTh": "รถกระบะในเดือนพฤษภาคม: Ford Ranger กลับมาได้รับความนิยมอีกครั้ง ขณะที่ Mitsubishi Triton ยอดขายลดลงอย่างมาก Vietnam.vn",
+      "classification": "negative",
+      "impactScore": -2,
+      "confidence": 53,
+      "relevanceScore": 62,
+      "newsCategory": "OEM_BRANDS",
+      "affectedChannels": [
+        "OEM"
+      ],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "negative",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [],
+      "negativeImpacts": [
+        "ตลาดหดตัว = ปริมาณรถเข้าศูนย์ลดลง"
+      ],
+      "reasoningSummary": [
+        "วิเคราะห์ด้วยกฎอัตโนมัติ (ไม่ได้ใช้ AI)"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQlJoUG9JUFY2bzRaMC1KWXRiUmZOdGVfeWkwUDNJS1JNRjJ4X1RqWS1oMFpsRXR6T1lYRXZJTDVQRHdZMjlPXzNYRDFqLTBaSnJQd3RJYUNzQ3IwYWwwV1hJSGgwaThmbnhMeDIxYkNFNWNCbjVNWDhqX3pUa2gyc1pOTjViOUUyb0xHVkFIekhVOWpTU0JVa01YWGFoRWZFWFE",
+      "titleOriginal": "รถกระบะในเดือนพฤษภาคม: Ford Ranger กลับมาได้รับความนิยมอีกครั้ง ขณะที่ Mitsubishi Triton ยอดขายลดลงอย่างมาก - Vietnam.vn",
+      "originalSnippet": "รถกระบะในเดือนพฤษภาคม: Ford Ranger กลับมาได้รับความนิยมอีกครั้ง ขณะที่ Mitsubishi Triton ยอดขายลดลงอย่างมาก Vietnam.vn"
+    },
+    {
+      "title": "ทำไมคนรุ่น Gen Z ถึงแห่กันซื้อผลิตภัณฑ์ล้างหน้าที่สามารถกำจัดฝุ่นละอองขนาดเล็ก PM2.5 ได้? - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPbXJmYk9NeC1VY0ZtbDNkeFBaLUFOek5RSF9fUE5salAxY0I2ZDhsWTFSY3FMN1RmbWJEcWF3NDhoQ0JIZkItd1lOT2xqbnVyY1hLZ2ZXYW9hX0wwZjR5VjZOaTdQbnZyN1lUOHktUl84WHNRdEs1cEJCRGg2VTR0TmFwN0JXRC14Y210cTZOd3FiRmpKQlc4QWZnaw?oc=5",
+      "snippet": "ทำไมคนรุ่น Gen Z ถึงแห่กันซื้อผลิตภัณฑ์ล้างหน้าที่สามารถกำจัดฝุ่นละอองขนาดเล็ก PM2.5 ได้? Vietnam.vn",
+      "publishedAt": "2026-07-21T10:40:23.000Z",
+      "sourceId": "google-news:th-TH",
+      "sourceName": "Vietnam.vn",
+      "sourceTier": 2,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "853b7502b9e7ba21",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPbXJmYk9NeC1VY0ZtbDNkeFBaLUFOek5RSF9fUE5salAxY0I2ZDhsWTFSY3FMN1RmbWJEcWF3NDhoQ0JIZkItd1lOT2xqbnVyY1hLZ2ZXYW9hX0wwZjR5VjZOaTdQbnZyN1lUOHktUl84WHNRdEs1cEJCRGg2VTR0TmFwN0JXRC14Y210cTZOd3FiRmpKQlc4QWZnaw",
+      "contentHash": "dcdd3b1270910bd5c06d2980",
+      "collectedAt": "2026-07-22T03:45:57.907Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 13,
+      "matchedCategories": [
+        "AUTO_MARKET",
+        "INTERNATIONAL"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "ทำไมคนรุ่น Gen Z ถึงแห่กันซื้อผลิตภัณฑ์ล้างหน้าที่สามารถกำจัดฝุ่นละอองขนาดเล็ก PM2.5 ได้? - Vietnam.vn",
+      "shortSummaryTh": "ทำไมคนรุ่น Gen Z ถึงแห่กันซื้อผลิตภัณฑ์ล้างหน้าที่สามารถกำจัดฝุ่นละอองขนาดเล็ก PM2.5 ได้? Vietnam.vn",
+      "classification": "positive",
+      "impactScore": 2,
+      "confidence": 53,
+      "relevanceScore": 52,
+      "newsCategory": "AUTO_MARKET",
+      "affectedChannels": [],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "positive",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [
+        "ประเด็นคุณภาพอากาศหนุนความต้องการล้างแอร์"
+      ],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "วิเคราะห์ด้วยกฎอัตโนมัติ (ไม่ได้ใช้ AI)"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPbXJmYk9NeC1VY0ZtbDNkeFBaLUFOek5RSF9fUE5salAxY0I2ZDhsWTFSY3FMN1RmbWJEcWF3NDhoQ0JIZkItd1lOT2xqbnVyY1hLZ2ZXYW9hX0wwZjR5VjZOaTdQbnZyN1lUOHktUl84WHNRdEs1cEJCRGg2VTR0TmFwN0JXRC14Y210cTZOd3FiRmpKQlc4QWZnaw",
+      "titleOriginal": "ทำไมคนรุ่น Gen Z ถึงแห่กันซื้อผลิตภัณฑ์ล้างหน้าที่สามารถกำจัดฝุ่นละอองขนาดเล็ก PM2.5 ได้? - Vietnam.vn",
+      "originalSnippet": "ทำไมคนรุ่น Gen Z ถึงแห่กันซื้อผลิตภัณฑ์ล้างหน้าที่สามารถกำจัดฝุ่นละอองขนาดเล็ก PM2.5 ได้? Vietnam.vn"
+    },
+    {
+      "title": "กรุงโตเกียว ประเทศญี่ปุ่น เพิ่มเงินอุดหนุนสูงสุดคันละ 1,300,000 เยน (275,000 บาท) ดันรถไฟฟ้า BEV และ PHEV",
+      "link": "https://autolifethailand.tv/news-tokypo-will-raise-subsidy-for-ev-and-phev-buyer/",
+      "snippet": "Tokyo Metropolitan Government หรือ องค์การปกครองโตเกียวของประเทศญี่ปุ่น ภายใต้รัฐบาลของ ผู้นำหญิงคนแรกของประเทศ จากพรรคเสรีประชาธิปไตย (LDP) ได้ประกาศเมื่อวันที่ 24 มิถุนายน 2026 ว่าจะเพิ่มจำนวนเงินสนับสนุนให้กับผู้บริโภค ที่ออกรถยนต์ไฟฟ้า BEV และ รถยนต์ที่ใช้ขุมพลัง PHEV ในปีงบประมาณ 2026 โดยให้มีผลตั้งแต่วันที่ 1 กรกฎาคม 2026 เป็นต้นไป สำหรับมูลค่าเงินอุดหนุนสูงสุด มีดังต่อไปนี้ BEV รถไฟฟ้า เงินอุดหนุนสูงสุดสำหรับรถยนต์ไฟฟ้า จากเดิม 1,000,000 เยน (ราว 210,000 บาท) เพิ่มเป็น 1,300,000 เยน (ราว 275,000 บาท) PHEV Plug-in Hybrid เงินอุดหนุนสูงสุดสำหรับรถยนต์ PHEV จากเดิม 850,000 เยน (ราว 179,00…",
+      "publishedAt": "2026-07-21T06:00:11.000Z",
+      "sourceId": "autolifethailand",
+      "sourceName": "AutoLife Thailand",
+      "sourceTier": 2,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "327a27f4df64fe50",
+      "canonicalUrl": "https://autolifethailand.tv/news-tokypo-will-raise-subsidy-for-ev-and-phev-buyer",
+      "contentHash": "d8963c1e6e31697d6ad1e332",
+      "collectedAt": "2026-07-22T03:45:57.907Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 9,
+      "matchedCategories": [
+        "EV",
+        "OEM_BRANDS"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [
+        "Kia"
+      ],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "กรุงโตเกียว ประเทศญี่ปุ่น เพิ่มเงินอุดหนุนสูงสุดคันละ 1,300,000 เยน (275,000 บาท) ดันรถไฟฟ้า BEV และ PHEV",
+      "shortSummaryTh": "Tokyo Metropolitan Government หรือ องค์การปกครองโตเกียวของประเทศญี่ปุ่น ภายใต้รัฐบาลของ ผู้นำหญิงคนแรกของประเทศ จากพรรคเสรีประชาธิปไตย (LDP) ได้ประกาศเมื่อวันที่ 24 มิถุนายน 2026 ว่าจะเพิ่มจำนวนเงินสนับสนุนให้กับผู้บริโภค ที่ออกรถยนต์ไฟฟ้า BEV และ รถยนต์ที่ใช้ขุมพลัง PHEV ในปีงบประมาณ 2026 โดยให้มี…",
+      "classification": "negative",
+      "impactScore": -2,
+      "confidence": 53,
+      "relevanceScore": 40,
+      "newsCategory": "EV",
+      "affectedChannels": [
+        "B2C"
+      ],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "negative",
+        "O2": "negative"
+      },
+      "positiveImpacts": [
+        "รถ EV ยังต้องล้างแอร์ และเจ้าของ EV ใส่ใจคุณภาพอากาศในห้องโดยสารสูง"
+      ],
+      "negativeImpacts": [
+        "ต้นทุนเพิ่ม กระทบกำไร",
+        "EV ไม่มีหัวฉีดน้ำมัน = ความต้องการ Power Flow ลดลงในระยะยาว"
+      ],
+      "reasoningSummary": [
+        "ข่าว EV: ผลบวกต่อ AC_CLEANING หักลบผลลบต่อ POWER_FLOW → ประเมินผลสุทธิ"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "long-term",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://autolifethailand.tv/news-tokypo-will-raise-subsidy-for-ev-and-phev-buyer",
+      "titleOriginal": "กรุงโตเกียว ประเทศญี่ปุ่น เพิ่มเงินอุดหนุนสูงสุดคันละ 1,300,000 เยน (275,000 บาท) ดันรถไฟฟ้า BEV และ PHEV",
+      "originalSnippet": "Tokyo Metropolitan Government หรือ องค์การปกครองโตเกียวของประเทศญี่ปุ่น ภายใต้รัฐบาลของ ผู้นำหญิงคนแรกของประเทศ จากพรรคเสรีประชาธิปไตย (LDP) ได้ประกาศเมื่อวันที่ 24 มิถุนายน 2026 ว่าจะเพิ่มจำนวนเงินสนับสนุนให้กับผู้บริโภค ที่ออกรถยนต์ไฟฟ้า BEV และ รถยนต์ที่ใช้ขุมพลัง PHEV ในปีงบประมาณ 2026 โดยให้มีผลตั้งแต่วันที่ 1 กรกฎาคม 2026 เป็นต้นไป สำหรับมูลค่าเงินอุดหนุนสูงสุด มีดังต่อไปนี้ BEV รถไฟฟ้า เงินอุดหนุนสูงสุดสำหรับรถยนต์ไฟฟ้า จากเดิม 1,000,000 เยน (ราว 210,000 บาท) เพิ่มเป็น 1,300,000 เยน (ราว 275,000 บาท) PHEV Plug-in Hybrid เงินอุดหนุนสูงสุดสำหรับรถยนต์ PHEV จากเดิม 850,000 เยน (ราว 179,00…"
+    },
+    {
+      "title": "รีไซเคิลแบตลิเทียมไอออนเสื่อมสภาพ ขับเคลื่อนเศรษฐกิจหมุนเวียนอุตฯอีวี",
+      "link": "https://www.matichon.co.th/economy/eco-report/news_5815814",
+      "snippet": "ตลาดรถยนต์ไฟฟ้า (อีวี) ของไทยกำลังเติบโตแบบก้าวกระโดด เ […]",
+      "publishedAt": "2026-07-22T03:07:49.000Z",
+      "sourceId": "matichon",
+      "sourceName": "มติชน",
+      "sourceTier": 2,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "f8c8a92230bf6920",
+      "canonicalUrl": "https://matichon.co.th/economy/eco-report/news_5815814",
+      "contentHash": "ddff3c252a6cf404aa697efe",
+      "collectedAt": "2026-07-22T03:45:57.907Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 10,
+      "matchedCategories": [
+        "EV",
+        "INTERNATIONAL"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "รีไซเคิลแบตลิเทียมไอออนเสื่อมสภาพ ขับเคลื่อนเศรษฐกิจหมุนเวียนอุตฯอีวี",
+      "shortSummaryTh": "ตลาดรถยนต์ไฟฟ้า (อีวี) ของไทยกำลังเติบโตแบบก้าวกระโดด เ […]",
+      "classification": "positive",
+      "impactScore": 2,
+      "confidence": 48,
+      "relevanceScore": 43,
+      "newsCategory": "EV",
+      "affectedChannels": [],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "positive",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [
+        "ตลาดรถยนต์เติบโต = ปริมาณรถเข้าศูนย์เพิ่ม",
+        "รถ EV ยังต้องล้างแอร์ และเจ้าของ EV ใส่ใจคุณภาพอากาศในห้องโดยสารสูง"
+      ],
+      "negativeImpacts": [
+        "EV ไม่มีหัวฉีดน้ำมัน = ความต้องการ Power Flow ลดลงในระยะยาว"
+      ],
+      "reasoningSummary": [
+        "ข่าว EV: ผลบวกต่อ AC_CLEANING หักลบผลลบต่อ POWER_FLOW → ประเมินผลสุทธิ"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "long-term",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://matichon.co.th/economy/eco-report/news_5815814",
+      "titleOriginal": "รีไซเคิลแบตลิเทียมไอออนเสื่อมสภาพ ขับเคลื่อนเศรษฐกิจหมุนเวียนอุตฯอีวี",
+      "originalSnippet": "ตลาดรถยนต์ไฟฟ้า (อีวี) ของไทยกำลังเติบโตแบบก้าวกระโดด เ […]"
+    },
+    {
+      "title": "10 อันดับรถยนต์ที่ขายได้ช้าที่สุดในเดือนมิถุนายน: Isuzu mu-X ตกไปอยู่อันดับสุดท้ายอย่างน่าประหลาดใจ ขณะที่ Toyota Avanza กลับมาทำยอดขายได้ดีอีกครั้ง - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMmhZbFVQR3BHUVlqQ3BWY0REVEgyamFfMjhNNnRSOXlMRkc1X3NQM3pCU1N2OFVCcV9uZ0tFSFpKWDFab0hpQkdLNkNfZ3MyWGR3NWhad3hXVWphVVkxc2V2MHVZUk0wYUhMX3dxSWRZWXFlejh6Y3BQVGp4d2UtanRqREZEUVpxSEhMaERISzVBMmZSYVZmWGZtX3hRZFJ6UXc?oc=5",
+      "snippet": "10 อันดับรถยนต์ที่ขายได้ช้าที่สุดในเดือนมิถุนายน: Isuzu mu-X ตกไปอยู่อันดับสุดท้ายอย่างน่าประหลาดใจ ขณะที่ Toyota Avanza กลับมาทำยอดขายได้ดีอีกครั้ง Vietnam.vn",
+      "publishedAt": "2026-07-21T16:39:30.000Z",
+      "sourceId": "google-news:th-TH",
+      "sourceName": "Vietnam.vn",
+      "sourceTier": 2,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "d3a1afc1276abe78",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMmhZbFVQR3BHUVlqQ3BWY0REVEgyamFfMjhNNnRSOXlMRkc1X3NQM3pCU1N2OFVCcV9uZ0tFSFpKWDFab0hpQkdLNkNfZ3MyWGR3NWhad3hXVWphVVkxc2V2MHVZUk0wYUhMX3dxSWRZWXFlejh6Y3BQVGp4d2UtanRqREZEUVpxSEhMaERISzVBMmZSYVZmWGZtX3hRZFJ6UXc",
+      "contentHash": "380cc9a7a43a7ee702003bc1",
+      "collectedAt": "2026-07-22T03:45:57.907Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 14,
+      "matchedCategories": [
+        "OEM_BRANDS",
+        "INTERNATIONAL"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [
+        "Toyota",
+        "Isuzu"
+      ],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "10 อันดับรถยนต์ที่ขายได้ช้าที่สุดในเดือนมิถุนายน: Isuzu mu-X ตกไปอยู่อันดับสุดท้ายอย่างน่าประหลาดใจ ขณะที่ Toyota Avanza กลับมาทำยอดขายได้ดีอีกครั้ง - Vietnam.vn",
+      "shortSummaryTh": "10 อันดับรถยนต์ที่ขายได้ช้าที่สุดในเดือนมิถุนายน: Isuzu mu-X ตกไปอยู่อันดับสุดท้ายอย่างน่าประหลาดใจ ขณะที่ Toyota Avanza กลับมาทำยอดขายได้ดีอีกครั้ง Vietnam.vn",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 58,
+      "relevanceScore": 55,
+      "newsCategory": "OEM_BRANDS",
+      "affectedChannels": [
+        "OEM"
+      ],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "วิเคราะห์ด้วยกฎอัตโนมัติ (ไม่ได้ใช้ AI)"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMmhZbFVQR3BHUVlqQ3BWY0REVEgyamFfMjhNNnRSOXlMRkc1X3NQM3pCU1N2OFVCcV9uZ0tFSFpKWDFab0hpQkdLNkNfZ3MyWGR3NWhad3hXVWphVVkxc2V2MHVZUk0wYUhMX3dxSWRZWXFlejh6Y3BQVGp4d2UtanRqREZEUVpxSEhMaERISzVBMmZSYVZmWGZtX3hRZFJ6UXc",
+      "titleOriginal": "10 อันดับรถยนต์ที่ขายได้ช้าที่สุดในเดือนมิถุนายน: Isuzu mu-X ตกไปอยู่อันดับสุดท้ายอย่างน่าประหลาดใจ ขณะที่ Toyota Avanza กลับมาทำยอดขายได้ดีอีกครั้ง - Vietnam.vn",
+      "originalSnippet": "10 อันดับรถยนต์ที่ขายได้ช้าที่สุดในเดือนมิถุนายน: Isuzu mu-X ตกไปอยู่อันดับสุดท้ายอย่างน่าประหลาดใจ ขณะที่ Toyota Avanza กลับมาทำยอดขายได้ดีอีกครั้ง Vietnam.vn"
+    },
+    {
+      "title": "Krungsri Auto ครองแชมป์แบรนด์สินเชื่อรถยนต์ ตอกย้ำความเชื่อมั่นจากผู้ใช้รถทั่วไทย คว้า Marketeer No.1 Brand Thailand 5 ปีซ้อน - มิติหุ้น | ชี้ชัดทุกการลงทุน - มิติหุ้น",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9pZFIyNFdsX3MweEozNDFtZkdDZnJpd1phM1dHWlVSc1ktalJWa0JabGpQWjJER09PQUI4S2NFeXFMQ0lmQXNTLS16ODlIZmpmcDFEMVhR?oc=5",
+      "snippet": "Krungsri Auto ครองแชมป์แบรนด์สินเชื่อรถยนต์ ตอกย้ำความเชื่อมั่นจากผู้ใช้รถทั่วไทย คว้า Marketeer No.1 Brand Thailand 5 ปีซ้อน - มิติหุ้น | ชี้ชัดทุกการลงทุน มิติหุ้น",
+      "publishedAt": "2026-07-20T05:10:19.000Z",
+      "sourceId": "google-news:th-TH",
+      "sourceName": "มิติหุ้น",
+      "sourceTier": 2,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "32a9c7d7ea86d61f",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9pZFIyNFdsX3MweEozNDFtZkdDZnJpd1phM1dHWlVSc1ktalJWa0JabGpQWjJER09PQUI4S2NFeXFMQ0lmQXNTLS16ODlIZmpmcDFEMVhR",
+      "contentHash": "2a4656c3bfc2d17c36e07e42",
+      "collectedAt": "2026-07-22T03:45:57.907Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 13,
+      "matchedCategories": [
+        "AUTO_MARKET",
+        "INTERNATIONAL"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "Krungsri Auto ครองแชมป์แบรนด์สินเชื่อรถยนต์ ตอกย้ำความเชื่อมั่นจากผู้ใช้รถทั่วไทย คว้า Marketeer No.1 Brand Thailand 5 ปีซ้อน - มิติหุ้น | ชี้ชัดทุกการลงทุน - มิติหุ้น",
+      "shortSummaryTh": "Krungsri Auto ครองแชมป์แบรนด์สินเชื่อรถยนต์ ตอกย้ำความเชื่อมั่นจากผู้ใช้รถทั่วไทย คว้า Marketeer No.1 Brand Thailand 5 ปีซ้อน - มิติหุ้น | ชี้ชัดทุกการลงทุน มิติหุ้น",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 58,
+      "relevanceScore": 52,
+      "newsCategory": "AUTO_MARKET",
+      "affectedChannels": [],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "วิเคราะห์ด้วยกฎอัตโนมัติ (ไม่ได้ใช้ AI)"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9pZFIyNFdsX3MweEozNDFtZkdDZnJpd1phM1dHWlVSc1ktalJWa0JabGpQWjJER09PQUI4S2NFeXFMQ0lmQXNTLS16ODlIZmpmcDFEMVhR",
+      "titleOriginal": "Krungsri Auto ครองแชมป์แบรนด์สินเชื่อรถยนต์ ตอกย้ำความเชื่อมั่นจากผู้ใช้รถทั่วไทย คว้า Marketeer No.1 Brand Thailand 5 ปีซ้อน - มิติหุ้น | ชี้ชัดทุกการลงทุน - มิติหุ้น",
+      "originalSnippet": "Krungsri Auto ครองแชมป์แบรนด์สินเชื่อรถยนต์ ตอกย้ำความเชื่อมั่นจากผู้ใช้รถทั่วไทย คว้า Marketeer No.1 Brand Thailand 5 ปีซ้อน - มิติหุ้น | ชี้ชัดทุกการลงทุน มิติหุ้น"
+    },
+    {
+      "title": "รถยนต์ไฟฟ้าคันใหม่ของ Geely สามารถวิ่งได้ไกลถึง 720 กิโลเมตรด้วยแบตเตอรี่ขนาดเล็ก - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOc1VYSjBEY2oyZlVEYndJUlpja0dhN3J4cldrWk1icHU2eTMya1lfckYyS196NmNDOWhiVVVGdElNeWpxQ1JHNUhXN3hYb0gtSmV0Q2x3ZlFTWlllZlViZVAtTk1RLUtIeklLbXJtZHl0cFNndnFJdHBTX0UxRU9seg?oc=5",
+      "snippet": "รถยนต์ไฟฟ้าคันใหม่ของ Geely สามารถวิ่งได้ไกลถึง 720 กิโลเมตรด้วยแบตเตอรี่ขนาดเล็ก Vietnam.vn",
+      "publishedAt": "2026-07-21T14:18:05.000Z",
+      "sourceId": "google-news:th-TH",
+      "sourceName": "Vietnam.vn",
+      "sourceTier": 2,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "36dd37287739e01d",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOc1VYSjBEY2oyZlVEYndJUlpja0dhN3J4cldrWk1icHU2eTMya1lfckYyS196NmNDOWhiVVVGdElNeWpxQ1JHNUhXN3hYb0gtSmV0Q2x3ZlFTWlllZlViZVAtTk1RLUtIeklLbXJtZHl0cFNndnFJdHBTX0UxRU9seg",
+      "contentHash": "be0890575a8450b9fc5c273a",
+      "collectedAt": "2026-07-22T03:45:57.907Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 13,
+      "matchedCategories": [
+        "EV",
+        "OEM_BRANDS",
+        "INTERNATIONAL"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [
+        "Geely"
+      ],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "รถยนต์ไฟฟ้าคันใหม่ของ Geely สามารถวิ่งได้ไกลถึง 720 กิโลเมตรด้วยแบตเตอรี่ขนาดเล็ก - Vietnam.vn",
+      "shortSummaryTh": "รถยนต์ไฟฟ้าคันใหม่ของ Geely สามารถวิ่งได้ไกลถึง 720 กิโลเมตรด้วยแบตเตอรี่ขนาดเล็ก Vietnam.vn",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 48,
+      "relevanceScore": 52,
+      "newsCategory": "EV",
+      "affectedChannels": [
+        "OEM"
+      ],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [
+        "รถ EV ยังต้องล้างแอร์ และเจ้าของ EV ใส่ใจคุณภาพอากาศในห้องโดยสารสูง"
+      ],
+      "negativeImpacts": [
+        "EV ไม่มีหัวฉีดน้ำมัน = ความต้องการ Power Flow ลดลงในระยะยาว"
+      ],
+      "reasoningSummary": [
+        "ข่าว EV: ผลบวกต่อ AC_CLEANING หักลบผลลบต่อ POWER_FLOW → ประเมินผลสุทธิ"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "long-term",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOc1VYSjBEY2oyZlVEYndJUlpja0dhN3J4cldrWk1icHU2eTMya1lfckYyS196NmNDOWhiVVVGdElNeWpxQ1JHNUhXN3hYb0gtSmV0Q2x3ZlFTWlllZlViZVAtTk1RLUtIeklLbXJtZHl0cFNndnFJdHBTX0UxRU9seg",
+      "titleOriginal": "รถยนต์ไฟฟ้าคันใหม่ของ Geely สามารถวิ่งได้ไกลถึง 720 กิโลเมตรด้วยแบตเตอรี่ขนาดเล็ก - Vietnam.vn",
+      "originalSnippet": "รถยนต์ไฟฟ้าคันใหม่ของ Geely สามารถวิ่งได้ไกลถึง 720 กิโลเมตรด้วยแบตเตอรี่ขนาดเล็ก Vietnam.vn"
+    },
+    {
+      "title": "กระบะ ข้ามทางรถไฟ อ้างไม่ทันระวัง ถูกรถไฟขบวนสินค้าพุ่งชนพังยับ",
+      "link": "https://www.khaosod.co.th/around-thailand/news_10332764",
+      "snippet": "พ่อขับกระบะไปส่งลูกสาว ขากลับวกกลับทางเดิม ข้ามทางรถไฟ อ้าง ไม่ทันระวัง ไม้กั้นกำลังลง มองแต่ด้านขวา ไม่ทันมองด้านซ้าย ก่อนถูกรถไฟขบวนสินค้าชนพังยับ เมื่อเวลา 06.30 น. วันที่ 22 ก.ค.2569 ร.ต.อ.สมยศ จันทเลิศ รองสารวัตร(สอบสวน) สภ.บางน้ำเปรี้ยว รับแจ้งเหตุรถกระบะถูกรถไฟขบวนสินค้าพุ่งชน บริเวณจุดตัดทางรถไฟหน้าโรงเรียนแห่งหนึ่ง ต.โยธา อ.บางน้ำเปรี้ยว จ.ฉะเชิงเทรา จึงรุดไปตรวจสอบพร้อมเจ้าหน้าที่กู้ภัยฉะเชิงเทรา จุดบางน้ำเปรี้ยว ที่เกิดเหตุพบรถกระบะ ยี่ห้ออีซูซุ ดีแมคซ์ ทะเบียน ฉะเชิงเทรา สภาพด้านหน้าพังเสียหายอย่างหนัก ส่วนด้านท้ายรถถูกรถไฟขบวนสินค้าซึ่งเดินทางจาก มาบตาพุด จ.ระยอง มุ่งหน้าสถานี แก…",
+      "publishedAt": "2026-07-22T01:08:43.000Z",
+      "sourceId": "khaosod",
+      "sourceName": "ข่าวสด",
+      "sourceTier": 2,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "984f73392e195b80",
+      "canonicalUrl": "https://khaosod.co.th/around-thailand/news_10332764",
+      "contentHash": "89cddb54600fcb658c61a3e2",
+      "collectedAt": "2026-07-22T03:45:57.907Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 11,
+      "matchedCategories": [
+        "AUTO_MARKET",
+        "OEM_BRANDS"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [
+        "Isuzu"
+      ],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "กระบะ ข้ามทางรถไฟ อ้างไม่ทันระวัง ถูกรถไฟขบวนสินค้าพุ่งชนพังยับ",
+      "shortSummaryTh": "พ่อขับกระบะไปส่งลูกสาว ขากลับวกกลับทางเดิม ข้ามทางรถไฟ อ้าง ไม่ทันระวัง ไม้กั้นกำลังลง มองแต่ด้านขวา ไม่ทันมองด้านซ้าย ก่อนถูกรถไฟขบวนสินค้าชนพังยับ เมื่อเวลา 06.30 น. วันที่ 22 ก.ค.2569 ร.ต.อ.สมยศ จันทเลิศ รองสารวัตร(สอบสวน) สภ.บางน้ำเปรี้ยว รับแจ้งเหตุรถกระบะถูกรถไฟขบวนสินค้าพุ่งชน บริเวณจุดตัดทา…",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 58,
+      "relevanceScore": 46,
+      "newsCategory": "OEM_BRANDS",
+      "affectedChannels": [
+        "OEM"
+      ],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "วิเคราะห์ด้วยกฎอัตโนมัติ (ไม่ได้ใช้ AI)"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://khaosod.co.th/around-thailand/news_10332764",
+      "titleOriginal": "กระบะ ข้ามทางรถไฟ อ้างไม่ทันระวัง ถูกรถไฟขบวนสินค้าพุ่งชนพังยับ",
+      "originalSnippet": "พ่อขับกระบะไปส่งลูกสาว ขากลับวกกลับทางเดิม ข้ามทางรถไฟ อ้าง ไม่ทันระวัง ไม้กั้นกำลังลง มองแต่ด้านขวา ไม่ทันมองด้านซ้าย ก่อนถูกรถไฟขบวนสินค้าชนพังยับ เมื่อเวลา 06.30 น. วันที่ 22 ก.ค.2569 ร.ต.อ.สมยศ จันทเลิศ รองสารวัตร(สอบสวน) สภ.บางน้ำเปรี้ยว รับแจ้งเหตุรถกระบะถูกรถไฟขบวนสินค้าพุ่งชน บริเวณจุดตัดทางรถไฟหน้าโรงเรียนแห่งหนึ่ง ต.โยธา อ.บางน้ำเปรี้ยว จ.ฉะเชิงเทรา จึงรุดไปตรวจสอบพร้อมเจ้าหน้าที่กู้ภัยฉะเชิงเทรา จุดบางน้ำเปรี้ยว ที่เกิดเหตุพบรถกระบะ ยี่ห้ออีซูซุ ดีแมคซ์ ทะเบียน ฉะเชิงเทรา สภาพด้านหน้าพังเสียหายอย่างหนัก ส่วนด้านท้ายรถถูกรถไฟขบวนสินค้าซึ่งเดินทางจาก มาบตาพุด จ.ระยอง มุ่งหน้าสถานี แก…"
+    },
+    {
+      "title": "Hyundai's next EV for Australia could be sourced from the home of the Ford Ranger and Toyota HiLux - drive.com.au",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOeGFuOTkwVks5dVYydThUMERoTWlfdzNUWFFrRUVxQ0ZnUUNIcmlzR0V2dWtkSDdCdjdGMThfUWV2endCVUI1d0VjeENnVmNqRm9hbExpa2l1VFhEenNYSFFsZUxsdFRUSlZLV2c2Ukp5T05xRnZidUwyS1pxaUwyS3JUc1NrcFl4MjFNdHdtUVcwajJwb1hfWnY4QXcxNGFVM05zd1pLaw?oc=5",
+      "snippet": "Hyundai's next EV for Australia could be sourced from the home of the Ford Ranger and Toyota HiLux drive.com.au",
+      "publishedAt": "2026-07-22T00:04:32.000Z",
+      "sourceId": "google-news:en-TH",
+      "sourceName": "drive.com.au",
+      "sourceTier": 2,
+      "sourceCountry": "TH",
+      "language": "en",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "40781c5a1b404a9c",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOeGFuOTkwVks5dVYydThUMERoTWlfdzNUWFFrRUVxQ0ZnUUNIcmlzR0V2dWtkSDdCdjdGMThfUWV2endCVUI1d0VjeENnVmNqRm9hbExpa2l1VFhEenNYSFFsZUxsdFRUSlZLV2c2Ukp5T05xRnZidUwyS1pxaUwyS3JUc1NrcFl4MjFNdHdtUVcwajJwb1hfWnY4QXcxNGFVM05zd1pLaw",
+      "contentHash": "62be8c5bfa98268fc28cd7c4",
+      "collectedAt": "2026-07-22T03:45:57.907Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 11,
+      "matchedCategories": [
+        "OEM_BRANDS"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [
+        "Toyota",
+        "Ford",
+        "Hyundai"
+      ],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "[EN] Hyundai's next EV for Australia could be sourced from the home of the Ford Ranger and Toyota HiLux - drive.com.au",
+      "shortSummaryTh": "Hyundai's next EV for Australia could be sourced from the home of the Ford Ranger and Toyota HiLux drive.com.au",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 48,
+      "relevanceScore": 46,
+      "newsCategory": "EV",
+      "affectedChannels": [
+        "OEM"
+      ],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [
+        "รถ EV ยังต้องล้างแอร์ และเจ้าของ EV ใส่ใจคุณภาพอากาศในห้องโดยสารสูง"
+      ],
+      "negativeImpacts": [
+        "EV ไม่มีหัวฉีดน้ำมัน = ความต้องการ Power Flow ลดลงในระยะยาว"
+      ],
+      "reasoningSummary": [
+        "ข่าว EV: ผลบวกต่อ AC_CLEANING หักลบผลลบต่อ POWER_FLOW → ประเมินผลสุทธิ"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "long-term",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOeGFuOTkwVks5dVYydThUMERoTWlfdzNUWFFrRUVxQ0ZnUUNIcmlzR0V2dWtkSDdCdjdGMThfUWV2endCVUI1d0VjeENnVmNqRm9hbExpa2l1VFhEenNYSFFsZUxsdFRUSlZLV2c2Ukp5T05xRnZidUwyS1pxaUwyS3JUc1NrcFl4MjFNdHdtUVcwajJwb1hfWnY4QXcxNGFVM05zd1pLaw",
+      "titleOriginal": "Hyundai's next EV for Australia could be sourced from the home of the Ford Ranger and Toyota HiLux - drive.com.au",
+      "originalSnippet": "Hyundai's next EV for Australia could be sourced from the home of the Ford Ranger and Toyota HiLux drive.com.au"
+    },
+    {
+      "title": "ภาพรถคันจริง ครบทุกสี Mazda6e รถไฟฟ้า100% ราคาอย่างเป็นทางการ : 1,169,000 – 1,199,000 บาท (นำเข้า CBU จีน) | แบต 77.9 kWh วิ่งระยะ 654 km.",
+      "link": "https://autolifethailand.tv/photo-mazda6e-ev-bev-thailand/",
+      "snippet": "Mazda6e รถไฟฟ้า100% Mazda6e ราคาอย่างเป็นทางการ (นำเข้า CBU จีน) โดย มาสด้า ประเทศไทย Mazda6e Long Range RWD Premium 1,169,000 บาท Mazda6e Long Range RWD Exclusive 1,199,000 บาท เป็นความร่วมมือระหว่าง Mazda – ChangAn ที่นำเอาแพลตฟอร์มของ Deepal L07 มาพัฒนาใหม่เป็น Mazda EZ-6 หรือ Global Name ใช้ชื่อว่า Mazda6e สำหรับตลาดนอกประเทศจีน รวมถึง ประเทศไทย โดย Mazda6e ที่จำหน่ายในประเทศไทย ผลิตที่โรงงาน ChangAn Mazda Automobile ที่เมือง Nanjing, China หนานจิง ประเทศจีน Dimension […] The post ภาพรถคันจริง ครบทุกสี Mazda6e รถไฟฟ้า100% ราคาอย่างเป็นทางการ : 1,169,000 – 1,199,000 บาท (นำเข้า CBU จีน) |…",
+      "publishedAt": "2026-07-20T05:09:41.000Z",
+      "sourceId": "autolifethailand",
+      "sourceName": "AutoLife Thailand",
+      "sourceTier": 2,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "111aca13c5b50557",
+      "canonicalUrl": "https://autolifethailand.tv/photo-mazda6e-ev-bev-thailand",
+      "contentHash": "6f638bf0d77e06502b2b1661",
+      "collectedAt": "2026-07-22T03:45:57.907Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 10,
+      "matchedCategories": [
+        "OEM_BRANDS",
+        "INTERNATIONAL"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [
+        "Mazda",
+        "Changan"
+      ],
+      "hasAutomotiveContext": true,
+      "duplicateGroupId": "e09c686dabc52139",
+      "relatedCoverage": [
+        {
+          "sourceName": "Pantip (แท็ก รถยนต์ไฟฟ้า)",
+          "url": "https://pantip.com/topic/44169988",
+          "tier": 3
+        }
+      ],
+      "titleTh": "ภาพรถคันจริง ครบทุกสี Mazda6e รถไฟฟ้า100% ราคาอย่างเป็นทางการ : 1,169,000 – 1,199,000 บาท (นำเข้า CBU จีน) | แบต 77.9 kWh วิ่งระยะ 654 km.",
+      "shortSummaryTh": "Mazda6e รถไฟฟ้า100% Mazda6e ราคาอย่างเป็นทางการ (นำเข้า CBU จีน) โดย มาสด้า ประเทศไทย Mazda6e Long Range RWD Premium 1,169,000 บาท Mazda6e Long Range RWD Exclusive 1,199,000 บาท เป็นความร่วมมือระหว่าง Mazda – ChangAn ที่นำเอาแพลตฟอร์มของ Deepal L07 มาพัฒนาใหม่เป็น Mazda EZ-6 หรือ Global Name ใช้ชื่…",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 58,
+      "relevanceScore": 43,
+      "newsCategory": "OEM_BRANDS",
+      "affectedChannels": [
+        "OEM"
+      ],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "วิเคราะห์ด้วยกฎอัตโนมัติ (ไม่ได้ใช้ AI)"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://autolifethailand.tv/photo-mazda6e-ev-bev-thailand",
+      "titleOriginal": "ภาพรถคันจริง ครบทุกสี Mazda6e รถไฟฟ้า100% ราคาอย่างเป็นทางการ : 1,169,000 – 1,199,000 บาท (นำเข้า CBU จีน) | แบต 77.9 kWh วิ่งระยะ 654 km.",
+      "originalSnippet": "Mazda6e รถไฟฟ้า100% Mazda6e ราคาอย่างเป็นทางการ (นำเข้า CBU จีน) โดย มาสด้า ประเทศไทย Mazda6e Long Range RWD Premium 1,169,000 บาท Mazda6e Long Range RWD Exclusive 1,199,000 บาท เป็นความร่วมมือระหว่าง Mazda – ChangAn ที่นำเอาแพลตฟอร์มของ Deepal L07 มาพัฒนาใหม่เป็น Mazda EZ-6 หรือ Global Name ใช้ชื่อว่า Mazda6e สำหรับตลาดนอกประเทศจีน รวมถึง ประเทศไทย โดย Mazda6e ที่จำหน่ายในประเทศไทย ผลิตที่โรงงาน ChangAn Mazda Automobile ที่เมือง Nanjing, China หนานจิง ประเทศจีน Dimension […] The post ภาพรถคันจริง ครบทุกสี Mazda6e รถไฟฟ้า100% ราคาอย่างเป็นทางการ : 1,169,000 – 1,199,000 บาท (นำเข้า CBU จีน) |…"
+    },
+    {
+      "title": "เจ้าของรถกระบะหลายรายกำลังขายรถของตนในราคาขาดทุน โดยหลายคันใช้งานไปเพียงไม่กี่ร้อยกิโลเมตรเท่านั้น - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOc19vNzNjYTY1OW1JWDlFcnlyN09Hd25HSGJFSHBKUERVS09ZaGdKZUtUSTRsQXloS1M0NjRBXzVPWlJ4OGZvQ2pOSFNPQzR6TTJpNTJWOVVaUl96cXFYS1Z3bzdoWE44N2N3MUhVVG81bmRpQmdrWnRJS1BFWmxVX2lBOWJKNjA3ZmtLZGtaYTE0Qlk?oc=5",
+      "snippet": "เจ้าของรถกระบะหลายรายกำลังขายรถของตนในราคาขาดทุน โดยหลายคันใช้งานไปเพียงไม่กี่ร้อยกิโลเมตรเท่านั้น Vietnam.vn",
+      "publishedAt": "2026-07-21T08:14:16.000Z",
+      "sourceId": "google-news:th-TH",
+      "sourceName": "Vietnam.vn",
+      "sourceTier": 2,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "0d03c5ba1a14ee80",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOc19vNzNjYTY1OW1JWDlFcnlyN09Hd25HSGJFSHBKUERVS09ZaGdKZUtUSTRsQXloS1M0NjRBXzVPWlJ4OGZvQ2pOSFNPQzR6TTJpNTJWOVVaUl96cXFYS1Z3bzdoWE44N2N3MUhVVG81bmRpQmdrWnRJS1BFWmxVX2lBOWJKNjA3ZmtLZGtaYTE0Qlk",
+      "contentHash": "dac77cadf7da27b8655b651b",
+      "collectedAt": "2026-07-22T03:45:57.907Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 10,
+      "matchedCategories": [
+        "AUTO_MARKET",
+        "INTERNATIONAL"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "เจ้าของรถกระบะหลายรายกำลังขายรถของตนในราคาขาดทุน โดยหลายคันใช้งานไปเพียงไม่กี่ร้อยกิโลเมตรเท่านั้น - Vietnam.vn",
+      "shortSummaryTh": "เจ้าของรถกระบะหลายรายกำลังขายรถของตนในราคาขาดทุน โดยหลายคันใช้งานไปเพียงไม่กี่ร้อยกิโลเมตรเท่านั้น Vietnam.vn",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 53,
+      "relevanceScore": 43,
+      "newsCategory": "AUTO_MARKET",
+      "affectedChannels": [
+        "B2C"
+      ],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "วิเคราะห์ด้วยกฎอัตโนมัติ (ไม่ได้ใช้ AI)"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOc19vNzNjYTY1OW1JWDlFcnlyN09Hd25HSGJFSHBKUERVS09ZaGdKZUtUSTRsQXloS1M0NjRBXzVPWlJ4OGZvQ2pOSFNPQzR6TTJpNTJWOVVaUl96cXFYS1Z3bzdoWE44N2N3MUhVVG81bmRpQmdrWnRJS1BFWmxVX2lBOWJKNjA3ZmtLZGtaYTE0Qlk",
+      "titleOriginal": "เจ้าของรถกระบะหลายรายกำลังขายรถของตนในราคาขาดทุน โดยหลายคันใช้งานไปเพียงไม่กี่ร้อยกิโลเมตรเท่านั้น - Vietnam.vn",
+      "originalSnippet": "เจ้าของรถกระบะหลายรายกำลังขายรถของตนในราคาขาดทุน โดยหลายคันใช้งานไปเพียงไม่กี่ร้อยกิโลเมตรเท่านั้น Vietnam.vn"
+    },
+    {
+      "title": "ความต้องการรถยนต์ไฟฟ้าพุ่งสูงขึ้นท่ามกลางวิกฤตเชื้อเพลิงทั่วโลก - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNYW1oS2pXYkdnTDRyT0VxekM5NnZzRnI4ZkpERzlza2EzZDFFeFZGZE9WdG9VWnNnbWFoRFJFbXJBdVBmbDFtNjRnOG1lZ0w5U2w1Z3NEcjlTeFJlTkZHcS1IUDgySFBRaHp5eV9zU2EwUWpBUnlpa3lCVXhJU2JXZktzd2J1TE5GQVQ0akw5LS0xVGpJNUZTT1pGUQ?oc=5",
+      "snippet": "ความต้องการรถยนต์ไฟฟ้าพุ่งสูงขึ้นท่ามกลางวิกฤตเชื้อเพลิงทั่วโลก Vietnam.vn",
+      "publishedAt": "2026-07-21T13:02:21.000Z",
+      "sourceId": "google-news:th-TH",
+      "sourceName": "Vietnam.vn",
+      "sourceTier": 2,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "7151fb725bcd63fb",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNYW1oS2pXYkdnTDRyT0VxekM5NnZzRnI4ZkpERzlza2EzZDFFeFZGZE9WdG9VWnNnbWFoRFJFbXJBdVBmbDFtNjRnOG1lZ0w5U2w1Z3NEcjlTeFJlTkZHcS1IUDgySFBRaHp5eV9zU2EwUWpBUnlpa3lCVXhJU2JXZktzd2J1TE5GQVQ0akw5LS0xVGpJNUZTT1pGUQ",
+      "contentHash": "7e17002a4f3a33c24c9a2c27",
+      "collectedAt": "2026-07-22T03:45:57.907Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 10,
+      "matchedCategories": [
+        "EV",
+        "INTERNATIONAL"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "ความต้องการรถยนต์ไฟฟ้าพุ่งสูงขึ้นท่ามกลางวิกฤตเชื้อเพลิงทั่วโลก - Vietnam.vn",
+      "shortSummaryTh": "ความต้องการรถยนต์ไฟฟ้าพุ่งสูงขึ้นท่ามกลางวิกฤตเชื้อเพลิงทั่วโลก Vietnam.vn",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 48,
+      "relevanceScore": 43,
+      "newsCategory": "EV",
+      "affectedChannels": [],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [
+        "รถ EV ยังต้องล้างแอร์ และเจ้าของ EV ใส่ใจคุณภาพอากาศในห้องโดยสารสูง"
+      ],
+      "negativeImpacts": [
+        "EV ไม่มีหัวฉีดน้ำมัน = ความต้องการ Power Flow ลดลงในระยะยาว"
+      ],
+      "reasoningSummary": [
+        "ข่าว EV: ผลบวกต่อ AC_CLEANING หักลบผลลบต่อ POWER_FLOW → ประเมินผลสุทธิ"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "long-term",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNYW1oS2pXYkdnTDRyT0VxekM5NnZzRnI4ZkpERzlza2EzZDFFeFZGZE9WdG9VWnNnbWFoRFJFbXJBdVBmbDFtNjRnOG1lZ0w5U2w1Z3NEcjlTeFJlTkZHcS1IUDgySFBRaHp5eV9zU2EwUWpBUnlpa3lCVXhJU2JXZktzd2J1TE5GQVQ0akw5LS0xVGpJNUZTT1pGUQ",
+      "titleOriginal": "ความต้องการรถยนต์ไฟฟ้าพุ่งสูงขึ้นท่ามกลางวิกฤตเชื้อเพลิงทั่วโลก - Vietnam.vn",
+      "originalSnippet": "ความต้องการรถยนต์ไฟฟ้าพุ่งสูงขึ้นท่ามกลางวิกฤตเชื้อเพลิงทั่วโลก Vietnam.vn"
+    },
+    {
+      "title": "Honda เลิกผลิต Prologue ปิดฉากรถ EV รุ่นสุดท้ายในแดนมะกัน",
+      "link": "https://www.headlightmag.com/2026-07-20-world-news-honda-ends-prologue/",
+      "snippet": "Honda ประกาศยุติการผลิต Prologue รถยนต์ไฟฟ้ารุ่นสุดท้าย […] The post Honda เลิกผลิต Prologue ปิดฉากรถ EV รุ่นสุดท้ายในแดนมะกัน appeared first on HeadLight Magazine .",
+      "publishedAt": "2026-07-20T16:06:06.000Z",
+      "sourceId": "headlightmag",
+      "sourceName": "HeadLightMag",
+      "sourceTier": 2,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "65084693cec517b5",
+      "canonicalUrl": "https://headlightmag.com/2026-07-20-world-news-honda-ends-prologue",
+      "contentHash": "bf9a94eb0a7e798296e3ba67",
+      "collectedAt": "2026-07-22T03:45:57.907Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 9,
+      "matchedCategories": [
+        "EV",
+        "OEM_BRANDS"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [
+        "Honda"
+      ],
+      "hasAutomotiveContext": true,
+      "duplicateGroupId": "65084693cec517b5",
+      "relatedCoverage": [],
+      "titleTh": "Honda เลิกผลิต Prologue ปิดฉากรถ EV รุ่นสุดท้ายในแดนมะกัน",
+      "shortSummaryTh": "Honda ประกาศยุติการผลิต Prologue รถยนต์ไฟฟ้ารุ่นสุดท้าย […] The post Honda เลิกผลิต Prologue ปิดฉากรถ EV รุ่นสุดท้ายในแดนมะกัน appeared first on HeadLight Magazine .",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 53,
+      "relevanceScore": 40,
+      "newsCategory": "EV",
+      "affectedChannels": [
+        "OEM"
+      ],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [
+        "รถ EV ยังต้องล้างแอร์ และเจ้าของ EV ใส่ใจคุณภาพอากาศในห้องโดยสารสูง"
+      ],
+      "negativeImpacts": [
+        "EV ไม่มีหัวฉีดน้ำมัน = ความต้องการ Power Flow ลดลงในระยะยาว"
+      ],
+      "reasoningSummary": [
+        "ข่าว EV: ผลบวกต่อ AC_CLEANING หักลบผลลบต่อ POWER_FLOW → ประเมินผลสุทธิ"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "long-term",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://headlightmag.com/2026-07-20-world-news-honda-ends-prologue",
+      "titleOriginal": "Honda เลิกผลิต Prologue ปิดฉากรถ EV รุ่นสุดท้ายในแดนมะกัน",
+      "originalSnippet": "Honda ประกาศยุติการผลิต Prologue รถยนต์ไฟฟ้ารุ่นสุดท้าย […] The post Honda เลิกผลิต Prologue ปิดฉากรถ EV รุ่นสุดท้ายในแดนมะกัน appeared first on HeadLight Magazine ."
+    },
+    {
+      "title": "ไทยว่าไง ?! Toyota BZ4X Touring รถไฟฟ้า100% ยืดความยาวเพิ่ม เตรียมเปิดตัวพวงมาลัยขวาในอินโดฯ เน้นสายลุย",
+      "link": "https://autolifethailand.tv/toyota-bz4x-touring-ev-bev-indonesia-japan/",
+      "snippet": "Toyota BZ4X Touring Toyota BZ4X Touring รถไฟฟ้า100% ยืดความยาวเพิ่ม เตรียมเปิดตัวพวงมาลัยขวาในอินโดฯ ขายในญี่ปุ่นแพงกว่า BZ4X ปกติเพียง 52,000 บาท เน้นสายลุย และ อรรถประโยชน์ที่มากขึ้น โตโยต้า อินโดนีเซีย ได้เผย TEASER เตรียมเปิดตัวรถไฟฟ้า100% เพิ่มอีก 1 รุ่น โดยสื่อคาดกันว่าจะเป็น BZ4X Touring เสริมทัพจากก่อนหน้านี้ที่มีทั้ง BZ4X และ Urban Cruiser ขายอยู่ 2 รุ่น โดยจุดเด่นของ BZ4X Touring คือ เน้นตกแต่ง เพื่อการลุยที่มากกว่า BZ4X รุ่นปกติ เพิ่มราวหลังคา รวมไปถึงเน้นอรรถประโยชน์ใช้สอย เพิ่มพื้นที่เก็บสัมภาระที่มากขึ้นกว่าเดิม Dimension มิติตัวถัง BZ4X Touring ยาว 4,830 มิลลิเมตร กว้าง […] The…",
+      "publishedAt": "2026-07-21T10:32:31.000Z",
+      "sourceId": "autolifethailand",
+      "sourceName": "AutoLife Thailand",
+      "sourceTier": 2,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "7cf43d47ad21e672",
+      "canonicalUrl": "https://autolifethailand.tv/toyota-bz4x-touring-ev-bev-indonesia-japan",
+      "contentHash": "cd00ef5e44d836716f05d93f",
+      "collectedAt": "2026-07-22T03:45:57.907Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 9,
+      "matchedCategories": [
+        "OEM_BRANDS",
+        "INTERNATIONAL"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [
+        "Toyota"
+      ],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "ไทยว่าไง ?! Toyota BZ4X Touring รถไฟฟ้า100% ยืดความยาวเพิ่ม เตรียมเปิดตัวพวงมาลัยขวาในอินโดฯ เน้นสายลุย",
+      "shortSummaryTh": "Toyota BZ4X Touring Toyota BZ4X Touring รถไฟฟ้า100% ยืดความยาวเพิ่ม เตรียมเปิดตัวพวงมาลัยขวาในอินโดฯ ขายในญี่ปุ่นแพงกว่า BZ4X ปกติเพียง 52,000 บาท เน้นสายลุย และ อรรถประโยชน์ที่มากขึ้น โตโยต้า อินโดนีเซีย ได้เผย TEASER เตรียมเปิดตัวรถไฟฟ้า100% เพิ่มอีก 1 รุ่น โดยสื่อคาดกันว่าจะเป็น BZ4X Touring เสร…",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 58,
+      "relevanceScore": 40,
+      "newsCategory": "OEM_BRANDS",
+      "affectedChannels": [
+        "OEM"
+      ],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "วิเคราะห์ด้วยกฎอัตโนมัติ (ไม่ได้ใช้ AI)"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://autolifethailand.tv/toyota-bz4x-touring-ev-bev-indonesia-japan",
+      "titleOriginal": "ไทยว่าไง ?! Toyota BZ4X Touring รถไฟฟ้า100% ยืดความยาวเพิ่ม เตรียมเปิดตัวพวงมาลัยขวาในอินโดฯ เน้นสายลุย",
+      "originalSnippet": "Toyota BZ4X Touring Toyota BZ4X Touring รถไฟฟ้า100% ยืดความยาวเพิ่ม เตรียมเปิดตัวพวงมาลัยขวาในอินโดฯ ขายในญี่ปุ่นแพงกว่า BZ4X ปกติเพียง 52,000 บาท เน้นสายลุย และ อรรถประโยชน์ที่มากขึ้น โตโยต้า อินโดนีเซีย ได้เผย TEASER เตรียมเปิดตัวรถไฟฟ้า100% เพิ่มอีก 1 รุ่น โดยสื่อคาดกันว่าจะเป็น BZ4X Touring เสริมทัพจากก่อนหน้านี้ที่มีทั้ง BZ4X และ Urban Cruiser ขายอยู่ 2 รุ่น โดยจุดเด่นของ BZ4X Touring คือ เน้นตกแต่ง เพื่อการลุยที่มากกว่า BZ4X รุ่นปกติ เพิ่มราวหลังคา รวมไปถึงเน้นอรรถประโยชน์ใช้สอย เพิ่มพื้นที่เก็บสัมภาระที่มากขึ้นกว่าเดิม Dimension มิติตัวถัง BZ4X Touring ยาว 4,830 มิลลิเมตร กว้าง […] The…"
+    },
+    {
+      "title": "ในเมื่อมีตัวเลือกมากมาย ทำไมผู้บริโภคยังคงไว้วางใจในรถยนต์โตโยต้า? - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNVHlyZmdLVWs3MmFuNEhjMVh6Y01mRjRBVmxYcEdjOWNNQWZSSjhtWTJ3d2wweTItY0ZQNEk4ejBwaTFLQ1BaVUdTSWdYZFlSckxiWld1WXZGSHQ1akhIaUZuVmpKTVpjc3JrWGtzTWQ4eG14dlE2QWpaQ1h1LTVRaTNmTEthdjZjNjFpVE10X0FXeVhqOUpOb0RB?oc=5",
+      "snippet": "ในเมื่อมีตัวเลือกมากมาย ทำไมผู้บริโภคยังคงไว้วางใจในรถยนต์โตโยต้า? Vietnam.vn",
+      "publishedAt": "2026-07-22T03:33:21.000Z",
+      "sourceId": "google-news:th-TH",
+      "sourceName": "Vietnam.vn",
+      "sourceTier": 2,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "3ee6e15a9ab6362b",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNVHlyZmdLVWs3MmFuNEhjMVh6Y01mRjRBVmxYcEdjOWNNQWZSSjhtWTJ3d2wweTItY0ZQNEk4ejBwaTFLQ1BaVUdTSWdYZFlSckxiWld1WXZGSHQ1akhIaUZuVmpKTVpjc3JrWGtzTWQ4eG14dlE2QWpaQ1h1LTVRaTNmTEthdjZjNjFpVE10X0FXeVhqOUpOb0RB",
+      "contentHash": "f67b0a6b4a856af8ad0964ff",
+      "collectedAt": "2026-07-22T03:45:57.907Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 9,
+      "matchedCategories": [
+        "OEM_BRANDS",
+        "INTERNATIONAL"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [
+        "Toyota"
+      ],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "ในเมื่อมีตัวเลือกมากมาย ทำไมผู้บริโภคยังคงไว้วางใจในรถยนต์โตโยต้า? - Vietnam.vn",
+      "shortSummaryTh": "ในเมื่อมีตัวเลือกมากมาย ทำไมผู้บริโภคยังคงไว้วางใจในรถยนต์โตโยต้า? Vietnam.vn",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 53,
+      "relevanceScore": 40,
+      "newsCategory": "OEM_BRANDS",
+      "affectedChannels": [
+        "OEM",
+        "B2C"
+      ],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "วิเคราะห์ด้วยกฎอัตโนมัติ (ไม่ได้ใช้ AI)"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNVHlyZmdLVWs3MmFuNEhjMVh6Y01mRjRBVmxYcEdjOWNNQWZSSjhtWTJ3d2wweTItY0ZQNEk4ejBwaTFLQ1BaVUdTSWdYZFlSckxiWld1WXZGSHQ1akhIaUZuVmpKTVpjc3JrWGtzTWQ4eG14dlE2QWpaQ1h1LTVRaTNmTEthdjZjNjFpVE10X0FXeVhqOUpOb0RB",
+      "titleOriginal": "ในเมื่อมีตัวเลือกมากมาย ทำไมผู้บริโภคยังคงไว้วางใจในรถยนต์โตโยต้า? - Vietnam.vn",
+      "originalSnippet": "ในเมื่อมีตัวเลือกมากมาย ทำไมผู้บริโภคยังคงไว้วางใจในรถยนต์โตโยต้า? Vietnam.vn"
+    },
+    {
+      "title": "Automotive Aftermarket Fuel Additives Market Size To Exceed $4.85 Billion By 2035 - SNS Insider",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE0yaldrcnR4Q3FBLVhTalk2WmlBcWFNaFIzYWxiMXNOSGxUeVF6Y2JFMWw0bktQU3laeThWY0Y5Qk9tb3dkcTRFelRDdkY1U2MxbmdxbWxxbU5aRkVVajRQbjNMYm1kTFkzQUoxaGJuUDNuMzhtTzhSUGtB?oc=5",
+      "snippet": "Automotive Aftermarket Fuel Additives Market Size To Exceed $4.85 Billion By 2035 SNS Insider",
+      "publishedAt": "2026-07-21T09:18:17.000Z",
+      "sourceId": "google-news:en-SG",
+      "sourceName": "SNS Insider",
+      "sourceTier": 2,
+      "sourceCountry": "SG",
+      "language": "en",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "900f159995752aa1",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE0yaldrcnR4Q3FBLVhTalk2WmlBcWFNaFIzYWxiMXNOSGxUeVF6Y2JFMWw0bktQU3laeThWY0Y5Qk9tb3dkcTRFelRDdkY1U2MxbmdxbWxxbU5aRkVVajRQbjNMYm1kTFkzQUoxaGJuUDNuMzhtTzhSUGtB",
+      "contentHash": "f494853d2b78165fea3b8cbe",
+      "collectedAt": "2026-07-22T03:45:57.907Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 9,
+      "matchedCategories": [
+        "AUTO_MARKET",
+        "INTERNATIONAL"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [],
+      "hasAutomotiveContext": true,
+      "duplicateGroupId": "6b4bd20497149068",
+      "relatedCoverage": [],
+      "titleTh": "[EN] Automotive Aftermarket Fuel Additives Market Size To Exceed $4.85 Billion By 2035 - SNS Insider",
+      "shortSummaryTh": "Automotive Aftermarket Fuel Additives Market Size To Exceed $4.85 Billion By 2035 SNS Insider",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 53,
+      "relevanceScore": 40,
+      "newsCategory": "AUTO_MARKET",
+      "affectedChannels": [],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "SG"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "วิเคราะห์ด้วยกฎอัตโนมัติ (ไม่ได้ใช้ AI)"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE0yaldrcnR4Q3FBLVhTalk2WmlBcWFNaFIzYWxiMXNOSGxUeVF6Y2JFMWw0bktQU3laeThWY0Y5Qk9tb3dkcTRFelRDdkY1U2MxbmdxbWxxbU5aRkVVajRQbjNMYm1kTFkzQUoxaGJuUDNuMzhtTzhSUGtB",
+      "titleOriginal": "Automotive Aftermarket Fuel Additives Market Size To Exceed $4.85 Billion By 2035 - SNS Insider",
+      "originalSnippet": "Automotive Aftermarket Fuel Additives Market Size To Exceed $4.85 Billion By 2035 SNS Insider"
+    },
+    {
+      "title": "OEM Charging Ecosystems Compared: How Hyundai, Tata, MG, Mahindra and Kia Are Building the Next EV Battleground - Autopunditz",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNYzJxWVh1MnJnZHhzenF5bGR4MGNjbkRSSXZ2eEx4X3FLeWNicjVxeEdmYkFJb0haQ2FOWk1EWDctS3J4NHRfTVhUQ2dxa1FlbkNfWG1JejMzajJvOU0wemNBTHpGclVNc0R5VUNuV3U2M2pUZ0NwS3o5bWVyeFpLNUZTZnVSUzN3NklKd3hSbzFFR0pWVEdPQi1HbTNwVnpORllsV1R4YVB4VFJRS21xa2NieDFRcTNQRGlCSTRuSUJIRFN2NGJzeQ?oc=5",
+      "snippet": "OEM Charging Ecosystems Compared: How Hyundai, Tata, MG, Mahindra and Kia Are Building the Next EV Battleground Autopunditz",
+      "publishedAt": "2026-07-21T13:30:29.000Z",
+      "sourceId": "google-news:en-TH",
+      "sourceName": "Autopunditz",
+      "sourceTier": 2,
+      "sourceCountry": "TH",
+      "language": "en",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "0786d544c72ba522",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNYzJxWVh1MnJnZHhzenF5bGR4MGNjbkRSSXZ2eEx4X3FLeWNicjVxeEdmYkFJb0haQ2FOWk1EWDctS3J4NHRfTVhUQ2dxa1FlbkNfWG1JejMzajJvOU0wemNBTHpGclVNc0R5VUNuV3U2M2pUZ0NwS3o5bWVyeFpLNUZTZnVSUzN3NklKd3hSbzFFR0pWVEdPQi1HbTNwVnpORllsV1R4YVB4VFJRS21xa2NieDFRcTNQRGlCSTRuSUJIRFN2NGJzeQ",
+      "contentHash": "fae4893c19a0605d090551d5",
+      "collectedAt": "2026-07-22T03:45:57.907Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 9,
+      "matchedCategories": [
+        "OEM_BRANDS"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [
+        "MG",
+        "Hyundai",
+        "Kia"
+      ],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "[EN] OEM Charging Ecosystems Compared: How Hyundai, Tata, MG, Mahindra and Kia Are Building the Next EV Battleground - Autopunditz",
+      "shortSummaryTh": "OEM Charging Ecosystems Compared: How Hyundai, Tata, MG, Mahindra and Kia Are Building the Next EV Battleground Autopunditz",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 53,
+      "relevanceScore": 40,
+      "newsCategory": "EV",
+      "affectedChannels": [
+        "OEM"
+      ],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [
+        "รถ EV ยังต้องล้างแอร์ และเจ้าของ EV ใส่ใจคุณภาพอากาศในห้องโดยสารสูง"
+      ],
+      "negativeImpacts": [
+        "EV ไม่มีหัวฉีดน้ำมัน = ความต้องการ Power Flow ลดลงในระยะยาว"
+      ],
+      "reasoningSummary": [
+        "ข่าว EV: ผลบวกต่อ AC_CLEANING หักลบผลลบต่อ POWER_FLOW → ประเมินผลสุทธิ"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "long-term",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNYzJxWVh1MnJnZHhzenF5bGR4MGNjbkRSSXZ2eEx4X3FLeWNicjVxeEdmYkFJb0haQ2FOWk1EWDctS3J4NHRfTVhUQ2dxa1FlbkNfWG1JejMzajJvOU0wemNBTHpGclVNc0R5VUNuV3U2M2pUZ0NwS3o5bWVyeFpLNUZTZnVSUzN3NklKd3hSbzFFR0pWVEdPQi1HbTNwVnpORllsV1R4YVB4VFJRS21xa2NieDFRcTNQRGlCSTRuSUJIRFN2NGJzeQ",
+      "titleOriginal": "OEM Charging Ecosystems Compared: How Hyundai, Tata, MG, Mahindra and Kia Are Building the Next EV Battleground - Autopunditz",
+      "originalSnippet": "OEM Charging Ecosystems Compared: How Hyundai, Tata, MG, Mahindra and Kia Are Building the Next EV Battleground Autopunditz"
+    },
+    {
+      "title": "Car Cleaning Products That Actually Work - MSN",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQeUNtbV9BVnUta3FHUFY1NndxMEVlT3c2NElHQ25lWGJkaTlzVV9aQmxUUlV6NDBLZWhHaVprWDVIaUdnajYxM0k5R2hyb0JEZ1BjTFdDRnBlYTltbWxVdHRQSVphSEx3V0tMZlotN1F1aE53cU5BVTlrQVNLVk9QOHotNko5Uy1LNzlHNE5nTVdGY1JaclJwd3ZR?oc=5",
+      "snippet": "Car Cleaning Products That Actually Work MSN",
+      "publishedAt": "2026-07-20T09:54:42.000Z",
+      "sourceId": "google-news:en-TH",
+      "sourceName": "MSN",
+      "sourceTier": 2,
+      "sourceCountry": "TH",
+      "language": "en",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "21b18e993785b080",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQeUNtbV9BVnUta3FHUFY1NndxMEVlT3c2NElHQ25lWGJkaTlzVV9aQmxUUlV6NDBLZWhHaVprWDVIaUdnajYxM0k5R2hyb0JEZ1BjTFdDRnBlYTltbWxVdHRQSVphSEx3V0tMZlotN1F1aE53cU5BVTlrQVNLVk9QOHotNko5Uy1LNzlHNE5nTVdGY1JaclJwd3ZR",
+      "contentHash": "de7b9e7fb086edf74ac04417",
+      "collectedAt": "2026-07-22T03:45:57.907Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 9,
+      "matchedCategories": [
+        "TRADING"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "[EN] Car Cleaning Products That Actually Work - MSN",
+      "shortSummaryTh": "Car Cleaning Products That Actually Work MSN",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 53,
+      "relevanceScore": 40,
+      "newsCategory": "TRADING",
+      "affectedChannels": [],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "วิเคราะห์ด้วยกฎอัตโนมัติ (ไม่ได้ใช้ AI)"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQeUNtbV9BVnUta3FHUFY1NndxMEVlT3c2NElHQ25lWGJkaTlzVV9aQmxUUlV6NDBLZWhHaVprWDVIaUdnajYxM0k5R2hyb0JEZ1BjTFdDRnBlYTltbWxVdHRQSVphSEx3V0tMZlotN1F1aE53cU5BVTlrQVNLVk9QOHotNko5Uy1LNzlHNE5nTVdGY1JaclJwd3ZR",
+      "titleOriginal": "Car Cleaning Products That Actually Work - MSN",
+      "originalSnippet": "Car Cleaning Products That Actually Work MSN"
+    },
+    {
+      "title": "FINESSA has won the Tire Category Award at the 39th Nihon Kogyo Shimbun Automotive Aftermarket Products Grand Prix 2026. - Moomoo",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNd1pkbHhuRWhPOTdfVHNWSHVZdXEtNE5YQ3JlRVZESnRSOFh3d2xIQ0ppZ2FfTHhwWGhWakt0Uk1LdFFXSWhWR3A3T3ByNUNJbUJMdGR6TjhDREtfTUdobFJ6WnlLekFvQ1ZNQWkzMlk4a2l5dGpQczR2Mlk4aGRRRE1nYllITDZndVpoR0lJYThvRUkzbTdzSw?oc=5",
+      "snippet": "FINESSA has won the Tire Category Award at the 39th Nihon Kogyo Shimbun Automotive Aftermarket Products Grand Prix 2026. Moomoo",
+      "publishedAt": "2026-07-20T15:00:00.000Z",
+      "sourceId": "google-news:en-SG",
+      "sourceName": "Moomoo",
+      "sourceTier": 2,
+      "sourceCountry": "SG",
+      "language": "en",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "013f5dc7de2d3a7f",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNd1pkbHhuRWhPOTdfVHNWSHVZdXEtNE5YQ3JlRVZESnRSOFh3d2xIQ0ppZ2FfTHhwWGhWakt0Uk1LdFFXSWhWR3A3T3ByNUNJbUJMdGR6TjhDREtfTUdobFJ6WnlLekFvQ1ZNQWkzMlk4a2l5dGpQczR2Mlk4aGRRRE1nYllITDZndVpoR0lJYThvRUkzbTdzSw",
+      "contentHash": "1d7878b22b6c6271b9923d75",
+      "collectedAt": "2026-07-22T03:45:57.907Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 9,
+      "matchedCategories": [
+        "AUTO_MARKET",
+        "INTERNATIONAL"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "[EN] FINESSA has won the Tire Category Award at the 39th Nihon Kogyo Shimbun Automotive Aftermarket Products Grand Prix 2026. - Moomoo",
+      "shortSummaryTh": "FINESSA has won the Tire Category Award at the 39th Nihon Kogyo Shimbun Automotive Aftermarket Products Grand Prix 2026. Moomoo",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 58,
+      "relevanceScore": 40,
+      "newsCategory": "AUTO_MARKET",
+      "affectedChannels": [],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "SG"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "วิเคราะห์ด้วยกฎอัตโนมัติ (ไม่ได้ใช้ AI)"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNd1pkbHhuRWhPOTdfVHNWSHVZdXEtNE5YQ3JlRVZESnRSOFh3d2xIQ0ppZ2FfTHhwWGhWakt0Uk1LdFFXSWhWR3A3T3ByNUNJbUJMdGR6TjhDREtfTUdobFJ6WnlLekFvQ1ZNQWkzMlk4a2l5dGpQczR2Mlk4aGRRRE1nYllITDZndVpoR0lJYThvRUkzbTdzSw",
+      "titleOriginal": "FINESSA has won the Tire Category Award at the 39th Nihon Kogyo Shimbun Automotive Aftermarket Products Grand Prix 2026. - Moomoo",
+      "originalSnippet": "FINESSA has won the Tire Category Award at the 39th Nihon Kogyo Shimbun Automotive Aftermarket Products Grand Prix 2026. Moomoo"
+    }
+  ],
+  "sourceHealth": [
+    {
+      "sourceId": "pcd-air4thai",
+      "sourceName": "กรมควบคุมมลพิษ (คุณภาพอากาศ)",
+      "ok": true,
+      "itemCount": 0,
+      "durationMs": 1742
+    },
+    {
+      "sourceId": "prachachat",
+      "sourceName": "ประชาชาติธุรกิจ",
+      "ok": true,
+      "itemCount": 20,
+      "durationMs": 17540
+    },
+    {
+      "sourceId": "headlightmag",
+      "sourceName": "HeadLightMag",
+      "ok": true,
+      "itemCount": 10,
+      "durationMs": 1725
+    },
+    {
+      "sourceId": "autolifethailand",
+      "sourceName": "AutoLife Thailand",
+      "ok": true,
+      "itemCount": 10,
+      "durationMs": 1336
+    },
+    {
+      "sourceId": "autospinn",
+      "sourceName": "Autospinn",
+      "ok": true,
+      "itemCount": 20,
+      "durationMs": 1364
+    },
+    {
+      "sourceId": "khaosod",
+      "sourceName": "ข่าวสด",
+      "ok": true,
+      "itemCount": 20,
+      "durationMs": 1422
+    },
+    {
+      "sourceId": "matichon",
+      "sourceName": "มติชน",
+      "ok": true,
+      "itemCount": 20,
+      "durationMs": 2350
+    },
+    {
+      "sourceId": "bangkokpost-business",
+      "sourceName": "Bangkok Post — Business",
+      "ok": true,
+      "itemCount": 10,
+      "durationMs": 2261
+    },
+    {
+      "sourceId": "automotive-news",
+      "sourceName": "Automotive News",
+      "ok": true,
+      "itemCount": 20,
+      "durationMs": 2742
+    },
+    {
+      "sourceId": "tire-business",
+      "sourceName": "Tire Business (Workshop / Aftermarket)",
+      "ok": true,
+      "itemCount": 20,
+      "durationMs": 5169
+    },
+    {
+      "sourceId": "just-auto",
+      "sourceName": "Just Auto",
+      "ok": true,
+      "itemCount": 10,
+      "durationMs": 1534
+    },
+    {
+      "sourceId": "insideevs",
+      "sourceName": "InsideEVs",
+      "ok": true,
+      "itemCount": 20,
+      "durationMs": 1286
+    },
+    {
+      "sourceId": "electrek",
+      "sourceName": "Electrek",
+      "ok": true,
+      "itemCount": 20,
+      "durationMs": 1323
+    },
+    {
+      "sourceId": "motor1",
+      "sourceName": "Motor1",
+      "ok": true,
+      "itemCount": 20,
+      "durationMs": 1279
+    },
+    {
+      "sourceId": "carscoops",
+      "sourceName": "Carscoops",
+      "ok": true,
+      "itemCount": 18,
+      "durationMs": 1403
+    },
+    {
+      "sourceId": "paultan",
+      "sourceName": "Paul Tan's Automotive News (MY/ASEAN)",
+      "ok": true,
+      "itemCount": 20,
+      "durationMs": 1352
+    },
+    {
+      "sourceId": "vnexpress-intl",
+      "sourceName": "VnExpress International",
+      "ok": true,
+      "itemCount": 20,
+      "durationMs": 1399
+    },
+    {
+      "sourceId": "nikkei-asia",
+      "sourceName": "Nikkei Asia",
+      "ok": true,
+      "itemCount": 20,
+      "durationMs": 1271
+    },
+    {
+      "sourceId": "google-news:th-TH",
+      "sourceName": "Google News (th-TH)",
+      "ok": true,
+      "itemCount": 148,
+      "durationMs": 16168
+    },
+    {
+      "sourceId": "google-news:en-TH",
+      "sourceName": "Google News (en-TH)",
+      "ok": true,
+      "itemCount": 89,
+      "durationMs": 16781
+    },
+    {
+      "sourceId": "google-news:en-SG",
+      "sourceName": "Google News (en-SG)",
+      "ok": true,
+      "itemCount": 89,
+      "durationMs": 16894
+    },
+    {
+      "sourceId": "google-news:en-PH",
+      "sourceName": "Google News (en-PH)",
+      "ok": true,
+      "itemCount": 89,
+      "durationMs": 16895
+    },
+    {
+      "sourceId": "google-news:en-US",
+      "sourceName": "Google News (en-US)",
+      "ok": true,
+      "itemCount": 89,
+      "durationMs": 16840
+    },
+    {
+      "sourceId": "pantip",
+      "sourceName": "Pantip (ห้องรถยนต์)",
+      "ok": true,
+      "itemCount": 90,
+      "durationMs": 7744
+    },
+    {
+      "sourceId": "facebook-owned",
+      "sourceName": "Facebook (เพจที่บริษัทดูแล)",
+      "ok": false,
+      "itemCount": 0,
+      "durationMs": 0,
+      "error": "ยังไม่ได้ตั้งค่า FACEBOOK_PAGE_TOKEN — robots.txt ของ Facebook ห้าม crawl จึงต้องใช้ Graph API เท่านั้น (เข้าถึงได้เฉพาะเพจที่บริษัทดูแล)"
+    },
+    {
+      "sourceId": "tiktok",
+      "sourceName": "TikTok (แฮชแท็กที่ติดตาม)",
+      "ok": false,
+      "itemCount": 0,
+      "durationMs": 0,
+      "error": "ยังไม่ได้ตั้งค่า TIKTOK_ACCESS_TOKEN — เนื้อหา TikTok ถูก render ด้วย JS และ ToS จำกัดการ scrape จึงต้องใช้ Display API เท่านั้น"
+    },
+    {
+      "sourceId": "weather-signal",
+      "sourceName": "Open-Meteo (พยากรณ์อากาศ / คุณภาพอากาศ)",
+      "ok": true,
+      "itemCount": 1,
+      "durationMs": 3032
+    }
+  ],
+  "errors": [],
+  "ai": {
+    "enabled": false,
+    "model": null,
+    "itemsAnalyzedByAi": 0,
+    "itemsAnalyzedByFallback": 22,
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "estimatedCostUsd": 0
+  }
+}

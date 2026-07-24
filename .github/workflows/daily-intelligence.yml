@@ -1,0 +1,99 @@
+name: Daily Intelligence
+
+# ทำงานทุกวันเวลา 08:00 น. ตามเวลาประเทศไทย
+# GitHub Actions ใช้ UTC เท่านั้น (ไม่มีคีย์ timezone) — 08:00 Asia/Bangkok = 01:00 UTC
+# ประเทศไทยไม่มี Daylight Saving Time จึงตรงทั้งปี
+on:
+  schedule:
+    - cron: '0 1 * * *'
+  workflow_dispatch:
+    inputs:
+      no_ai:
+        description: 'ปิดการใช้ AI (ใช้ rule-based เท่านั้น)'
+        type: boolean
+        default: false
+
+# ให้สิทธิ์เท่าที่จำเป็น
+permissions:
+  contents: write
+
+# กันงานซ้อนกัน — ถ้ามีรอบก่อนหน้ายังทำงานอยู่ ให้รอจนเสร็จ
+concurrency:
+  group: daily-intelligence
+  cancel-in-progress: false
+
+jobs:
+  collect-and-analyze:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run tests
+        run: npm test
+
+      - name: Run daily intelligence pipeline
+        id: pipeline
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
+          TIMEZONE: Asia/Bangkok
+          LOG_LEVEL: info
+        run: |
+          if [ "${{ inputs.no_ai }}" = "true" ]; then
+            npm run daily -- --no-ai 2>&1 | tee run.log
+          else
+            npm run daily 2>&1 | tee run.log
+          fi
+
+      - name: Verify dashboard is deployable
+        run: npm run build:dashboard
+
+      - name: Commit updated report
+        run: |
+          git config user.name  "air4-intelligence-bot"
+          git config user.email "actions@github.com"
+
+          git add public/data
+
+          # ตรวจว่ามีข้อมูลใหม่จริงก่อน commit
+          if git diff --staged --quiet; then
+            echo "ไม่มีข้อมูลใหม่ — ข้ามการ commit"
+            exit 0
+          fi
+
+          git commit -m "data: รายงานข่าวกรองประจำวัน $(TZ=Asia/Bangkok date +%F)"
+
+          # ป้องกันการชนกับ commit อื่นระหว่างรอบ
+          for attempt in 1 2 3; do
+            if git push; then
+              echo "push สำเร็จ"
+              exit 0
+            fi
+            echo "push ล้มเหลว (ครั้งที่ $attempt) — rebase แล้วลองใหม่"
+            git pull --rebase --autostash || true
+          done
+          echo "::error::push ล้มเหลวหลังจากลอง 3 ครั้ง"
+          exit 1
+
+      - name: Upload logs on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: run-log-${{ github.run_id }}
+          path: |
+            run.log
+            public/data/latest.json
+          retention-days: 14
+          if-no-files-found: ignore

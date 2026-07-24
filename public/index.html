@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Air4 Daily Automotive Intelligence</title>
+  <meta name="description" content="รายงานข่าวกรองธุรกิจยานยนต์ประจำวันสำหรับ บริษัท แอร์โฟร์อินเตอร์เนชั่นแนล จำกัด">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="referrer" content="no-referrer">
+  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%2314243a'/><text x='16' y='22' font-size='16' font-family='monospace' font-weight='bold' fill='white' text-anchor='middle'>A4</text></svg>">
+</head>
+<body>
+
+<header class="masthead">
+  <div class="masthead__inner">
+    <div class="brand">
+      <span class="brand__mark">AIR4</span>
+      <div>
+        <h1 class="brand__title">Daily Automotive Intelligence</h1>
+        <div class="brand__sub" data-i18n="brand.sub">ข่าวกรองธุรกิจยานยนต์ประจำวัน · แอร์โฟร์อินเตอร์เนชั่นแนล</div>
+      </div>
+    </div>
+
+    <div class="masthead__meta">
+      <label class="meta-pair">
+        <span class="meta-pair__k" data-i18n="range.k">ช่วงวันที่</span>
+        <select id="rangePreset" data-i18n-attr="aria-label:range.aria">
+          <option value="latest" data-i18n="range.latest">วันล่าสุด</option>
+          <option value="7" data-i18n="range.7">7 วันล่าสุด</option>
+          <option value="14" data-i18n="range.14">14 วันล่าสุด</option>
+          <option value="30" data-i18n="range.30">30 วันล่าสุด</option>
+          <option value="custom" data-i18n="range.custom">กำหนดเอง…</option>
+        </select>
+      </label>
+      <label class="meta-pair" id="customFrom" hidden>
+        <span class="meta-pair__k" data-i18n="range.from">ตั้งแต่</span>
+        <input type="date" id="dateFrom" data-i18n-attr="aria-label:range.fromAria">
+      </label>
+      <label class="meta-pair" id="customTo" hidden>
+        <span class="meta-pair__k" data-i18n="range.to">ถึง</span>
+        <input type="date" id="dateTo" data-i18n-attr="aria-label:range.toAria">
+      </label>
+      <div class="meta-pair">
+        <span class="meta-pair__k" data-i18n="meta.showing">กำลังแสดง</span>
+        <span class="meta-pair__v" id="rangeLabel">—</span>
+      </div>
+      <div class="meta-pair">
+        <span class="meta-pair__k" data-i18n="meta.updated">อัปเดตล่าสุด</span>
+        <span class="meta-pair__v" id="updatedAt">—</span>
+      </div>
+      <div class="meta-pair">
+        <span class="meta-pair__k" data-i18n="meta.funnel">ตรวจสอบ / ผ่านคัดกรอง</span>
+        <span class="meta-pair__v num" id="funnel">—</span>
+      </div>
+      <span class="status status--ok" id="statusPill">
+        <span class="status__dot"></span><span id="statusText">กำลังโหลด</span>
+      </span>
+      <div class="toolbar">
+        <div class="seg" id="themeSeg" role="group" data-i18n-attr="aria-label:theme.aria">
+          <button class="seg__btn" data-theme-choice="auto" type="button" aria-pressed="true" data-i18n="theme.auto">ตามระบบ</button>
+          <button class="seg__btn" data-theme-choice="light" type="button" aria-pressed="false" title="Light">
+            <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2v2.6M12 19.4V22M4.2 4.2l1.9 1.9M17.9 17.9l1.9 1.9M2 12h2.6M19.4 12H22M4.2 19.8l1.9-1.9M17.9 6.1l1.9-1.9"/></svg>
+          </button>
+          <button class="seg__btn" data-theme-choice="dark" type="button" aria-pressed="false" title="Dark">
+            <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a7 7 0 0 0 10.5 10.5Z"/></svg>
+          </button>
+        </div>
+        <div class="seg" id="langSeg" role="group" data-i18n-attr="aria-label:lang.aria">
+          <button class="seg__btn" data-lang-choice="th" type="button" aria-pressed="true">ไทย</button>
+          <button class="seg__btn" data-lang-choice="en" type="button" aria-pressed="false">EN</button>
+        </div>
+      </div>
+      <button class="btn" id="refreshBtn" type="button" data-i18n="btn.refresh">โหลดข้อมูลใหม่</button>
+    </div>
+  </div>
+</header>
+
+<main class="shell" id="app">
+  <p id="loadState" class="empty" role="status" data-i18n="state.loading">กำลังโหลดรายงาน…</p>
+
+  <div id="content" hidden>
+
+    <!-- KPI -->
+    <section class="kpis" id="kpis" data-i18n-attr="aria-label:sec.kpi"></section>
+
+    <!-- Executive briefing -->
+    <section class="section" aria-labelledby="briefHead">
+      <div class="section__head">
+        <h2 class="section__title" id="briefHead" data-i18n="sec.brief">บทสรุปสำหรับผู้บริหาร</h2>
+        <span class="section__note" id="briefBy"></span>
+      </div>
+      <div class="briefing">
+        <article class="card brief-main">
+          <h2 data-i18n="brief.today">สถานการณ์วันนี้</h2>
+          <p class="brief-main__body" id="execSummary"></p>
+
+          <div class="ruler" aria-hidden="true">
+            <div class="ruler__head">
+              <span data-i18n="brief.ruler">คะแนนผลกระทบสุทธิต่อธุรกิจ</span>
+              <span class="ruler__score num" id="netScore">0.0</span>
+            </div>
+            <div class="ruler__track">
+              <span class="ruler__zero"></span>
+              <span class="ruler__pin" id="netPin" style="left:50%"></span>
+            </div>
+            <div class="ruler__scale">
+              <span data-i18n="brief.scaleNeg">−5 เชิงลบ</span><span>0</span><span data-i18n="brief.scalePos">+5 เชิงบวก</span>
+            </div>
+          </div>
+          <p class="section__note" id="urgency"></p>
+        </article>
+
+        <div class="brief-side">
+          <article class="card signal signal--opp">
+            <h3 class="signal__title" data-i18n="brief.opp">โอกาสสำคัญ</h3>
+            <ul id="opportunities"></ul>
+          </article>
+          <article class="card signal signal--risk">
+            <h3 class="signal__title" data-i18n="brief.risk">ความเสี่ยงที่ต้องเฝ้าระวัง</h3>
+            <ul id="risks"></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- OKR -->
+    <section class="section" aria-labelledby="okrHead">
+      <div class="section__head">
+        <h2 class="section__title" id="okrHead" data-i18n="sec.okr">ผลกระทบต่อเป้าหมายองค์กร (OKRs)</h2>
+      </div>
+      <div class="actions" id="okrBox"></div>
+    </section>
+
+    <!-- Actions -->
+    <section class="section" aria-labelledby="actHead">
+      <div class="section__head">
+        <h2 class="section__title" id="actHead" data-i18n="sec.actions">สิ่งที่ควรลงมือทำ</h2>
+        <span class="section__note" id="actNote">แบ่งตามกรอบเวลาและแผนกที่รับผิดชอบ</span>
+      </div>
+      <div class="actions" id="actions"></div>
+    </section>
+
+    <!-- Charts -->
+    <section class="section" aria-labelledby="chartHead">
+      <div class="section__head">
+        <h2 class="section__title" id="chartHead" data-i18n="sec.charts">ภาพรวมเชิงตัวเลข</h2>
+      </div>
+      <div class="charts" id="charts"></div>
+    </section>
+
+    <!-- News -->
+    <section class="section" aria-labelledby="newsHead">
+      <div class="section__head">
+        <h2 class="section__title" id="newsHead" data-i18n="sec.news">ข่าวที่ผ่านการคัดกรอง</h2>
+        <span class="section__note" data-i18n="sec.newsNote">เรียงตามระดับผลกระทบต่อธุรกิจ</span>
+      </div>
+
+      <div class="filters">
+        <div class="filters__row">
+          <div class="chips" id="verdictChips" role="group" data-i18n-attr="aria-label:filter.aria">
+            <button class="chip" data-verdict="all" aria-pressed="true" type="button" data-i18n="filter.all">ทั้งหมด</button>
+            <button class="chip chip--pos" data-verdict="positive" aria-pressed="false" type="button" data-i18n="verdict.positive">เชิงบวก</button>
+            <button class="chip chip--neu" data-verdict="neutral" aria-pressed="false" type="button" data-i18n="verdict.neutral">เป็นกลาง</button>
+            <button class="chip chip--neg" data-verdict="negative" aria-pressed="false" type="button" data-i18n="verdict.negative">เชิงลบ</button>
+            <button class="chip chip--saved" data-verdict="saved" aria-pressed="false" type="button">
+              <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3.8h12a1 1 0 0 1 1 1v15.4l-7-4.2-7 4.2V4.8a1 1 0 0 1 1-1Z"/></svg>
+              <span data-i18n="filter.saved">ที่บันทึกไว้</span><span class="chip__count" id="savedCount"></span>
+            </button>
+          </div>
+          <span class="filters__count" id="resultCount"></span>
+        </div>
+        <div class="filters__row" style="margin-top:10px">
+          <input class="filters__search" type="search" id="searchBox"
+                 data-i18n-attr="placeholder:filter.search,aria-label:filter.searchAria">
+          <select id="fCountry" aria-label="กรองตามประเทศ"></select>
+          <select id="fSource" aria-label="กรองตามแหล่งข่าว"></select>
+          <select id="fTier" aria-label="กรองตามระดับความน่าเชื่อถือ">
+            <option value="" data-i18n="filter.allTiers">ทุกระดับแหล่งข่าว</option>
+            <option value="1" data-i18n="filter.tier1">Tier 1 — ทางการ</option>
+            <option value="2" data-i18n="filter.tier2">Tier 2 — สำนักข่าว</option>
+            <option value="3" data-i18n="filter.tier3">Tier 3 — ยังไม่ยืนยัน</option>
+          </select>
+          <select id="fCategory" aria-label="กรองตามหมวดข่าว"></select>
+          <select id="fChannel" aria-label="กรองตามช่องทาง">
+            <option value="" data-i18n="filter.allChannels">ทุกช่องทาง</option>
+            <option value="OEM">OEM</option>
+            <option value="B2B">B2B</option>
+            <option value="B2C">B2C</option>
+          </select>
+          <select id="fProduct" aria-label="กรองตามผลิตภัณฑ์">
+            <option value="" data-i18n="filter.allProducts">ทุกผลิตภัณฑ์</option>
+            <option value="AC_CLEANING" data-i18n="prodFilter.AC_CLEANING">ล้างแอร์รถยนต์</option>
+            <option value="POWER_FLOW" data-i18n="prodFilter.POWER_FLOW">Power Flow (ล้างหัวฉีด)</option>
+            <option value="TRADING" data-i18n="prodFilter.TRADING">น้ำยา Trading</option>
+          </select>
+          <select id="fImpact" aria-label="กรองตามระดับผลกระทบ">
+            <option value="0" data-i18n="filter.impactAll">ผลกระทบทุกระดับ</option>
+            <option value="2" data-i18n="filter.impact2">|ผลกระทบ| ≥ 2</option>
+            <option value="3" data-i18n="filter.impact3">|ผลกระทบ| ≥ 3 (สูง)</option>
+            <option value="4" data-i18n="filter.impact4">|ผลกระทบ| ≥ 4 (สูงมาก)</option>
+          </select>
+          <label style="display:flex;align-items:center;gap:6px;font-size:13px;color:var(--ink-2)">
+            <input type="checkbox" id="fCompetitor"> <span data-i18n="filter.competitorOnly">เฉพาะข่าวคู่แข่ง</span>
+          </label>
+          <button class="btn" id="resetFilters" type="button" data-i18n="filter.reset">ล้างตัวกรอง</button>
+        </div>
+      </div>
+
+      <div class="saved-bar" id="savedBar" hidden>
+        <span class="saved-bar__label" id="savedBarLabel"></span>
+        <button class="btn" id="savedExport" type="button" data-i18n="saved.export">ดาวน์โหลดเป็นไฟล์</button>
+        <button class="btn" id="savedCopy" type="button" data-i18n="saved.copyLinks">คัดลอกลิงก์ทั้งหมด</button>
+        <button class="btn" id="savedClear" type="button" data-i18n="saved.clear">ล้างรายการที่บันทึก</button>
+      </div>
+      <div class="news" id="newsGrid"></div>
+      <p class="empty" id="newsEmpty" hidden>
+        <strong id="newsEmptyTitle" data-i18n="filter.emptyTitle">ไม่พบข่าวที่ตรงกับตัวกรอง</strong>
+        <span id="newsEmptyHint" data-i18n="filter.emptyHint">ลองล้างตัวกรองหรือเปลี่ยนคำค้นหา</span>
+      </p>
+    </section>
+
+    <!-- System status -->
+    <section class="section" aria-labelledby="sysHead">
+      <div class="section__head">
+        <h2 class="section__title" id="sysHead" data-i18n="sec.system">สถานะระบบและแหล่งข่าว</h2>
+        <span class="section__note" id="aiNote"></span>
+      </div>
+      <div class="health" id="health"></div>
+      <div id="errorBox"></div>
+    </section>
+
+    <p class="footnote">
+      <span data-i18n="footnote"></span>
+    </p>
+  </div>
+</main>
+
+<div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+<div class="scrim" id="scrim" data-open="false"></div>
+<aside class="drawer" id="drawer" data-open="false" role="dialog" aria-modal="true" aria-labelledby="drawerTitle" aria-hidden="true">
+  <div class="drawer__head">
+    <h2 id="drawerTitle" data-i18n="drawer.title">รายละเอียดข่าว</h2>
+    <button class="drawer__close" id="drawerClose" type="button" data-i18n-attr="aria-label:drawer.close">&times;</button>
+  </div>
+  <div class="drawer__body" id="drawerBody"></div>
+</aside>
+
+<script src="assets/i18n.js"></script>
+<script src="assets/aggregate.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

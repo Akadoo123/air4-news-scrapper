@@ -1,0 +1,27 @@
+# ประเทศเป้าหมาย — ตลาดหลักและตลาด OEM ต่างประเทศ
+home:
+  code: TH
+  name_th: ไทย
+  name_en: Thailand
+
+oem_markets:
+  - { code: SG, name_th: สิงคโปร์,    name_en: Singapore,   lang: en }
+  - { code: PH, name_th: ฟิลิปปินส์,   name_en: Philippines, lang: en }
+  - { code: LA, name_th: ลาว,        name_en: Laos,        lang: lo }
+  - { code: TW, name_th: ไต้หวัน,     name_en: Taiwan,      lang: zh }
+  - { code: VN, name_th: เวียดนาม,    name_en: Vietnam,     lang: vi }
+  - { code: QA, name_th: กาตาร์,      name_en: Qatar,       lang: en }
+  - { code: HK, name_th: ฮ่องกง,      name_en: Hong Kong,   lang: zh }
+  - { code: KR, name_th: เกาหลีใต้,    name_en: South Korea, lang: ko }
+  - { code: OM, name_th: โอมาน,      name_en: Oman,        lang: en }
+
+# ตลาดที่อาจเป็น OEM ใหม่ — AI ต้องระบุเหตุผลว่าทำไมน่าสนใจ
+prospect_markets:
+  - { code: MY, name_th: มาเลเซีย,    name_en: Malaysia,    rationale_hint: ตลาดรถยนต์ใหญ่ ภูมิอากาศร้อนชื้น ใกล้ไทย }
+  - { code: ID, name_th: อินโดนีเซีย,  name_en: Indonesia,   rationale_hint: ตลาดรถยนต์ใหญ่ที่สุดใน ASEAN }
+  - { code: KH, name_th: กัมพูชา,     name_en: Cambodia,    rationale_hint: ตลาดชายแดน ต้นทุนเข้าตลาดต่ำ }
+  - { code: MM, name_th: เมียนมา,     name_en: Myanmar,     rationale_hint: ตลาดชายแดน }
+  - { code: AE, name_th: สหรัฐอาหรับเอมิเรตส์, name_en: United Arab Emirates, rationale_hint: อากาศร้อนจัด ภาระระบบแอร์สูง ต่อยอดจาก Qatar/Oman }
+  - { code: SA, name_th: ซาอุดีอาระเบีย, name_en: Saudi Arabia, rationale_hint: อากาศร้อนจัด ตลาด GCC ขนาดใหญ่ }
+  - { code: IN, name_th: อินเดีย,     name_en: India,       rationale_hint: ปริมาณรถสูงมาก ปัญหาฝุ่นและคุณภาพอากาศรุนแรง }
+  - { code: JP, name_th: ญี่ปุ่น,      name_en: Japan,       rationale_hint: ต้นทาง OEM ของ Toyota/Isuzu }

@@ -1,0 +1,281 @@
+# ============================================================
+# Sources — ลำดับความสำคัญ: RSS/API ก่อน → Search → Scraping ท้ายสุด
+# tier1 = แหล่งทางการ | tier2 = สำนักข่าว | tier3 = Social/ตลาด (ต้องติดป้าย "ยังไม่ยืนยัน")
+#
+# หมายเหตุ: ฟีดสาธารณะเปลี่ยน URL ได้ตลอด ระบบจึงทำ Source Health Check
+# แหล่งที่ล้มจะถูกข้ามและบันทึกลง log — ไม่ทำให้ทั้ง Pipeline ล้ม
+# ============================================================
+
+defaults:
+  max_items: 20
+  timeout_ms: 15000
+
+# ---------- 1) Google News RSS (Search-based, ไม่ต้องใช้ API Key) ----------
+google_news:
+  enabled: true
+  endpoint: https://news.google.com/rss/search
+  tier: 2
+  # ตัวแปรภาษา/ประเทศที่จะยิง query
+  locales:
+    - { id: th-TH, hl: th,    gl: TH, ceid: "TH:th", country: TH, language: th }
+    - { id: en-TH, hl: en-TH, gl: TH, ceid: "TH:en", country: TH, language: en }
+    - { id: en-SG, hl: en-SG, gl: SG, ceid: "SG:en", country: SG, language: en }
+    - { id: en-PH, hl: en-PH, gl: PH, ceid: "PH:en", country: PH, language: en }
+    - { id: en-US, hl: en-US, gl: US, ceid: "US:en", country: GLOBAL, language: en }
+  # จำกัดจำนวน query ต่อรอบเพื่อคุมเวลาและ rate limit
+  max_queries_per_locale: 14
+  max_items_per_query: 12
+
+# ---------- 2) Direct RSS feeds ----------
+# ทุก URL ด้านล่างผ่านการตรวจสอบแล้วว่าใช้งานได้จริง
+# ตรวจซ้ำได้ด้วย:  npx tsx scripts/check-feeds.ts
+feeds:
+  # ===== Tier 1 — ทางการ =====
+  - id: pcd-air4thai
+    name: กรมควบคุมมลพิษ (คุณภาพอากาศ)
+    url: https://www.pcd.go.th/feed
+    tier: 1
+    country: TH
+    language: th
+    enabled: true
+
+  # ===== Tier 2 — สื่อธุรกิจ / ยานยนต์ ไทย =====
+  - id: prachachat
+    name: ประชาชาติธุรกิจ
+    url: https://www.prachachat.net/feed
+    tier: 2
+    country: TH
+    language: th
+    enabled: true
+  - id: headlightmag
+    name: HeadLightMag
+    url: https://www.headlightmag.com/feed
+    tier: 2
+    country: TH
+    language: th
+    enabled: true
+  - id: autolifethailand
+    name: AutoLife Thailand
+    url: https://autolifethailand.tv/feed
+    tier: 2
+    country: TH
+    language: th
+    enabled: true
+  - id: autospinn
+    name: Autospinn
+    url: https://www.autospinn.com/rss
+    tier: 2
+    country: TH
+    language: th
+    enabled: true
+  - id: khaosod
+    name: ข่าวสด
+    url: https://www.khaosod.co.th/feed
+    tier: 2
+    country: TH
+    language: th
+    enabled: true
+  - id: matichon
+    name: มติชน
+    url: https://www.matichon.co.th/feed
+    tier: 2
+    country: TH
+    language: th
+    enabled: true
+  - id: bangkokpost-business
+    name: Bangkok Post — Business
+    url: https://www.bangkokpost.com/rss/data/business.xml
+    tier: 2
+    country: TH
+    language: en
+    enabled: true
+
+  # ===== Tier 2 — Aftermarket / Workshop ต่างประเทศ (ตรงกับลูกค้า B2B ที่สุด) =====
+  - id: automotive-news
+    name: Automotive News
+    url: https://www.autonews.com/arc/outboundfeeds/rss/
+    tier: 2
+    country: GLOBAL
+    language: en
+    enabled: true
+  - id: tire-business
+    name: Tire Business (Workshop / Aftermarket)
+    url: https://www.tirebusiness.com/arc/outboundfeeds/rss/
+    tier: 2
+    country: GLOBAL
+    language: en
+    enabled: true
+  - id: just-auto
+    name: Just Auto
+    url: https://www.just-auto.com/feed/
+    tier: 2
+    country: GLOBAL
+    language: en
+    enabled: true
+
+  # ===== Tier 2 — EV / เทคโนโลยียานยนต์ =====
+  - id: insideevs
+    name: InsideEVs
+    url: https://insideevs.com/rss/articles/all/
+    tier: 2
+    country: GLOBAL
+    language: en
+    enabled: true
+  - id: electrek
+    name: Electrek
+    url: https://electrek.co/feed/
+    tier: 2
+    country: GLOBAL
+    language: en
+    enabled: true
+  - id: motor1
+    name: Motor1
+    url: https://www.motor1.com/rss/articles/all/
+    tier: 2
+    country: GLOBAL
+    language: en
+    enabled: true
+  - id: carscoops
+    name: Carscoops
+    url: https://www.carscoops.com/feed/
+    tier: 2
+    country: GLOBAL
+    language: en
+    enabled: true
+
+  # ===== Tier 2 — ตลาด OEM ต่างประเทศ =====
+  - id: paultan
+    name: Paul Tan's Automotive News (MY/ASEAN)
+    url: https://paultan.org/feed/
+    tier: 2
+    country: MY
+    language: en
+    enabled: true
+  - id: vnexpress-intl
+    name: VnExpress International
+    url: https://e.vnexpress.net/rss/news.rss
+    tier: 2
+    country: VN
+    language: en
+    enabled: true
+  - id: nikkei-asia
+    name: Nikkei Asia
+    url: https://asia.nikkei.com/rss/feed/nar
+    tier: 2
+    country: GLOBAL
+    language: en
+    enabled: true
+
+# ---------- แหล่งที่ตรวจแล้วใช้งานไม่ได้ (เก็บไว้เพื่อไม่ให้ลองซ้ำ) ----------
+# สำนักข่าวเหล่านี้ยังคงถูกครอบคลุมผ่าน Google News RSS อยู่แล้ว
+# ตรวจซ้ำเป็นระยะได้ด้วย: npx tsx scripts/check-feeds.ts <url>
+disabled_feeds:
+  - { id: thansettakij,    reason: 'ยกเลิกบริการ RSS (คืนค่าเป็น HTML)',        url: https://www.thansettakij.com/rss/all }
+  - { id: nationthailand,  reason: 'ยกเลิกบริการ RSS (คืนค่าเป็น HTML)',        url: https://www.nationthailand.com/rss }
+  - { id: mgr-motoring,    reason: 'HTTP 404 — ย้าย/ปิดฟีดหมวด Motoring',       url: https://mgronline.com/rss/detail/motoring.xml }
+  - { id: motortrivia,     reason: 'HTTP 404 — ไม่มีฟีดสาธารณะแล้ว',            url: https://www.motortrivia.com/feed }
+  - { id: thairath,        reason: 'HTTP 404 — ไม่มีฟีดหมวดรถยนต์',             url: https://www.thairath.co.th/rss/auto }
+  - { id: aftermarket-news, reason: 'HTTP 403 — บล็อก bot ทุกตัว',              url: https://www.aftermarketnews.com/feed/ }
+  - { id: ratchet-wrench,  reason: 'HTTP 404 — เปลี่ยนโครงสร้างเว็บไซต์',        url: https://www.ratchetandwrench.com/rss }
+  - { id: greencarcongress, reason: 'เชื่อมต่อไม่ได้ (TLS/เครือข่าย)',           url: https://www.greencarcongress.com/index.xml }
+  - { id: autoindustriya,  reason: 'HTTP 404 — ไม่มีฟีดสาธารณะแล้ว',            url: https://www.autoindustriya.com/rss }
+  - { id: toyota-global,   reason: 'HTTP 404 — Newsroom ไม่มี RSS สาธารณะ',     url: https://global.toyota/en/newsroom/rss.xml }
+  - { id: isuzu-global,    reason: 'HTTP 404 — ไม่มี RSS สาธารณะ',              url: https://www.isuzu.co.jp/world/press/rss.xml }
+  - { id: yt-thai-carcare, reason: 'robots.txt ของ YouTube ไม่อนุญาต — เคารพกฎ', url: 'https://www.youtube.com/feeds/videos.xml' }
+
+# ---------- 3) Social listening ----------
+# วิธีเข้าถึงแต่ละแพลตฟอร์มถูกกำหนดโดย robots.txt จริงที่ตรวจเมื่อ 2026-07-21
+# ดูรายละเอียดเหตุผลใน src/collectors/social.ts
+social:
+  enabled: true
+  sources:
+    # ---- Pantip: robots.txt อนุญาต (ห้ามเฉพาะ /ads.php) → ใช้งานได้ทันที ----
+    - id: pantip
+      name: Pantip (ห้องรถยนต์)
+      platform: pantip
+      enabled: true
+      max_items: 15
+      # แท็กต้องมีอยู่จริงบน Pantip มิฉะนั้นจะได้ HTTP 404
+      # ตรวจแล้วว่าใช้งานได้จริง (2026-07-21)
+      # หน้าแท็กเรียงตามเวลาล่าสุด จึงเหมาะกับรายงานรายวัน
+      tags:
+        - รถยนต์
+        - ศูนย์บริการรถยนต์
+        - ดูแลรักษารถยนต์
+        - อู่ซ่อมรถ
+        - รถยนต์ไฟฟ้า
+        - เครื่องปรับอากาศ
+      # หมายเหตุ: ไม่ใช้ "คำค้นหา" ของ Pantip
+      # เพราะผลการค้นหาเรียงตามความเกี่ยวข้อง ไม่ใช่ตามเวลา
+      # และไม่มีพารามิเตอร์ให้เรียงตามวันที่ (ตรวจแล้ว 2026-07-21)
+      # ผลที่ได้จึงเป็นกระทู้อายุ 200–350 วัน ซึ่งไม่ใช่ "สัญญาณของวันนี้"
+      # ถ้าต้องการค้นหาย้อนหลัง ให้ทำเป็นรายงานแยกต่างหาก
+      searches: []
+
+    # ---- Facebook: robots.txt = "User-agent: *  Disallow: /" ห้าม crawl ----
+    # ใช้ Graph API เท่านั้น และเข้าถึงได้เฉพาะเพจที่บริษัทเป็นเจ้าของ/ดูแล
+    # เปิดใช้โดยตั้งค่า FACEBOOK_PAGE_TOKEN แล้วใส่ page id ด้านล่าง
+    - id: facebook-owned
+      name: Facebook (เพจที่บริษัทดูแล)
+      platform: facebook
+      enabled: true
+      max_items: 15
+      pageIds: []          # ใส่ page id ที่นี่ เช่น ["123456789"]
+
+    # ---- TikTok: เนื้อหา render ด้วย JS + ToS จำกัดการ scrape ----
+    # ใช้ Display/Research API เท่านั้น เปิดใช้โดยตั้งค่า TIKTOK_ACCESS_TOKEN
+    - id: tiktok
+      name: TikTok (แฮชแท็กที่ติดตาม)
+      platform: tiktok
+      enabled: true
+      max_items: 15
+      hashtags:
+        - ล้างแอร์รถยนต์
+        - คาร์แคร์
+
+# ---------- 4) Weather / Air quality — สัญญาณอุปสงค์ ----------
+# อากาศร้อน = ใช้แอร์หนัก = ความต้องการล้างแอร์เพิ่ม
+# PM2.5 สูง = ใส่ใจอากาศในห้องโดยสาร = ความต้องการล้างแอร์/ฟิลเตอร์เพิ่ม
+# Open-Meteo ใช้ฟรี ไม่ต้องมี API key
+weather:
+  enabled: true
+  thresholds:
+    heat_strong: 40        # °C (อุณหภูมิที่รู้สึกได้) — สัญญาณแรง
+    heat_moderate: 36      # °C — เริ่มมีผลต่ออุปสงค์
+    pm25_unhealthy: 50     # µg/m³
+    pm25_moderate: 37.5    # µg/m³
+    forecast_days: 7
+  # weight = ความหนาแน่นของศูนย์บริการ/ลูกค้าเป้าหมายโดยประมาณ
+  cities:
+    - { id: bangkok,   name_th: กรุงเทพฯ,        lat: 13.7563, lon: 100.5018, weight: 5 }
+    - { id: chonburi,  name_th: ชลบุรี,          lat: 13.3611, lon: 100.9847, weight: 3 }
+    - { id: chiangmai, name_th: เชียงใหม่,       lat: 18.7883, lon: 98.9853,  weight: 2 }
+    - { id: khonkaen,  name_th: ขอนแก่น,         lat: 16.4419, lon: 102.8360, weight: 2 }
+    - { id: korat,     name_th: นครราชสีมา,      lat: 14.9799, lon: 102.0977, weight: 2 }
+    - { id: hatyai,    name_th: หาดใหญ่,         lat: 7.0086,  lon: 100.4747, weight: 2 }
+
+# ---------- 5) News API (ใช้ต่อเมื่อมี NEWS_API_KEY เท่านั้น) ----------
+newsapi:
+  enabled_if_key: true
+  endpoint: https://newsapi.org/v2/everything
+  tier: 2
+  page_size: 20
+  max_queries: 8
+
+# ---------- 4) Web scraping (ปิดเป็นค่าเริ่มต้น) ----------
+scraping:
+  enabled: false
+  respect_robots_txt: true
+  playwright_only_for: []          # ใส่ domain ที่ต้อง render JS จริง ๆ เท่านั้น
+  notes: >-
+    ใช้เฉพาะแหล่งที่ไม่มี RSS/API, ไม่ข้าม Paywall,
+    เก็บเฉพาะ metadata + snippet สั้น ไม่เก็บบทความเต็ม
+
+# ---------- นโยบายการดึงข้อมูล ----------
+policy:
+  per_domain_delay_ms: 1200
+  max_retries: 2
+  backoff_base_ms: 800
+  respect_robots_txt: true
+  store_full_article: false
+  max_snippet_chars: 600

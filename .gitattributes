@@ -1,0 +1,11 @@
+# ปกติให้ git normalize เป็น LF ในที่เก็บ
+* text=auto eol=lf
+
+# ไฟล์ Windows ต้องเป็น CRLF เสมอ (PowerShell 5.1 / cmd)
+# หมายเหตุ: .ps1 ภาษาไทยต้องมี UTF-8 BOM ด้วย — git ไม่แตะ BOM (เป็นเนื้อหาไฟล์)
+*.ps1 text eol=crlf
+*.cmd text eol=crlf
+
+# ไฟล์ข้อมูล/ผลลัพธ์ ไม่ต้องนับ diff ยาว ๆ ในหน้า PR
+public/data/**/*.json linguist-generated=true
+package-lock.json linguist-generated=true

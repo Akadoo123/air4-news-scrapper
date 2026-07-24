@@ -1,0 +1,274 @@
+# ============================================================
+# Keywords — ใช้ 2 หน้าที่
+#   1) สร้าง Search Query สำหรับ Google News RSS (query: true)
+#   2) ให้คะแนน Rule-based Prefilter (weight) ก่อนส่งเข้า AI
+# ============================================================
+
+# คำที่ "ต้องมีอย่างน้อย 1 คำ" จึงจะถือว่าอยู่ในบริบทยานยนต์
+automotive_context:
+  th: [รถยนต์, รถ, ยานยนต์, ศูนย์บริการ, อู่, คาร์แคร์, ยานพาหนะ, อีวี, ปิกอัพ, กระบะ, เก๋ง, ค่ายรถ]
+  en: [car, cars, vehicle, vehicles, automotive, auto, motor, dealership, workshop, garage, "car care", EV, "pickup truck", fleet]
+
+categories:
+
+  # ---------- 4.1 ตลาดรถยนต์โดยรวม ----------
+  - id: AUTO_MARKET
+    name_th: ตลาดรถยนต์โดยรวม
+    weight: 6
+    terms:
+      th:
+        - { t: ยอดขายรถยนต์, query: true }
+        - { t: ยอดจดทะเบียนรถยนต์, query: true }
+        - { t: ยอดผลิตรถยนต์, query: true }
+        - { t: ส่งออกรถยนต์, query: true }
+        - { t: ตลาดรถยนต์มือสอง, query: true }
+        - { t: อายุเฉลี่ยรถยนต์ }
+        - { t: รถเข้าศูนย์บริการ, query: true }
+        - { t: ธุรกิจศูนย์บริการรถยนต์ }
+        - { t: ธุรกิจอู่ซ่อมรถ, query: true }
+        - { t: ธุรกิจคาร์แคร์, query: true }
+        - { t: ค่าซ่อมบำรุงรถยนต์ }
+        - { t: ค่าซ่อม }
+        - { t: พฤติกรรมเจ้าของรถ }
+        - { t: กำลังซื้อ }
+        - { t: หนี้ครัวเรือน }
+        - { t: ราคาน้ำมัน }
+        - { t: สินเชื่อรถยนต์, query: true }
+        - { t: สินเชื่อรถ }
+        - { t: ยอดขายรถ }
+        - { t: รถกระบะ }
+        - { t: นโยบายอุตสาหกรรมยานยนต์, query: true }
+        - { t: ภาษีนำเข้ารถยนต์ }
+        - { t: มาตรฐานสิ่งแวดล้อมรถยนต์ }
+        - { t: PM2.5, query: true }
+        - { t: ฝุ่นละออง }
+        - { t: คุณภาพอากาศ, query: true }
+        - { t: อากาศในห้องโดยสาร }
+      en:
+        - { t: car sales Thailand, query: true }
+        - { t: vehicle registrations Thailand, query: true }
+        - { t: automotive production Thailand, query: true }
+        - { t: automotive aftermarket, query: true }
+        - { t: used car market, query: true }
+        - { t: average vehicle age }
+        - { t: service centre visits }
+        - { t: vehicle maintenance cost }
+        - { t: auto loan interest rate }
+        - { t: emission regulation }
+        - { t: emission rules }
+        - { t: emission standard }
+        - { t: environmental regulation }
+        - { t: compliance cost }
+        - { t: air quality index }
+        - { t: workshop }
+        - { t: garage }
+
+  # ---------- 4.2 ตลาดรถยนต์ไฟฟ้า ----------
+  - id: EV
+    name_th: ตลาดรถยนต์ไฟฟ้า
+    weight: 6
+    dual_impact: true          # Positive ต่อ AC_CLEANING / Negative ต่อ POWER_FLOW
+    terms:
+      th:
+        - { t: ยอดขายรถ EV, query: true }
+        - { t: รถยนต์ไฟฟ้า, query: true }
+        - { t: ศูนย์บริการรถ EV, query: true }
+        - { t: บริการหลังการขาย EV, query: true }
+        - { t: ระบบปรับอากาศรถ EV }
+        - { t: ฮีทปั๊ม }
+        - { t: ระบายความร้อนแบตเตอรี่ }
+        - { t: บำรุงรักษาแอร์รถไฟฟ้า }
+        - { t: เปิดตัวรถ EV รุ่นใหม่, query: true }
+        - { t: นโยบายสนับสนุน EV, query: true }
+      en:
+        - { t: EV sales Thailand, query: true }
+        - { t: EV service network, query: true }
+        - { t: EV after-sales problem, query: true }
+        - { t: EV heat pump HVAC, query: true }
+        - { t: battery thermal management }
+        - { t: EV cabin air quality, query: true }
+        - { t: EV incentive policy }
+
+  # ---------- 4.3 ตลาดล้างแอร์รถยนต์ (Core) ----------
+  - id: AC_CLEANING
+    name_th: ตลาดล้างแอร์รถยนต์
+    weight: 14
+    core: true
+    terms:
+      th:
+        # คำสั้นก่อน — สื่อไทยมักไม่เขียนเต็มวลี ("ดูแลแอร์รถยนต์", "ล้างคอยล์เย็น")
+        - { t: แอร์รถยนต์, query: true }
+        - { t: ล้างแอร์, query: true }
+        - { t: ตู้แอร์ }
+        - { t: คอยล์เย็น }
+        - { t: คอยล์ร้อน }
+        - { t: อีวาโปเรเตอร์ }
+        - { t: ไส้กรองอากาศ }
+        - { t: ล้างแอร์รถยนต์, query: true }
+        - { t: ล้างแอร์ไม่ถอดตู้, query: true }
+        - { t: ล้างคอยล์เย็นรถยนต์, query: true }
+        - { t: กลิ่นอับในรถ, query: true }
+        - { t: เชื้อรา, query: true }
+        - { t: แบคทีเรีย }
+        - { t: ฆ่าเชื้อในรถยนต์ }
+      en:
+        - { t: car air conditioning cleaning, query: true }
+        - { t: automotive evaporator cleaning, query: true }
+        - { t: automotive condenser cleaning, query: true }
+        - { t: non-disassembly AC cleaning, query: true }
+        - { t: cabin air cleaning, query: true }
+        - { t: car air deodorizing }
+        - { t: car air disinfection }
+        - { t: automotive HVAC maintenance, query: true }
+        - { t: cabin air quality, query: true }
+        - { t: automotive mold and bacteria }
+        - { t: car odor removal, query: true }
+        - { t: air conditioning maintenance equipment }
+
+  # ---------- 4.4 ล้างหัวฉีดและเครื่องยนต์ (Core) ----------
+  - id: INJECTOR
+    name_th: ตลาดล้างหัวฉีดและเครื่องยนต์
+    weight: 12
+    core: true
+    ice_only: true
+    terms:
+      th:
+        - { t: ล้างหัวฉีด, query: true }
+        - { t: ล้างลิ้นปีกผีเสื้อ }
+        - { t: เขม่าคาร์บอนเครื่องยนต์ }
+        - { t: ประหยัดน้ำมันเชื้อเพลิง }
+        - { t: มาตรฐานไอเสียรถยนต์, query: true }
+        - { t: ตรวจวัดแรงม้า }
+      en:
+        - { t: fuel injector cleaning, query: true }
+        - { t: fuel injector cleaning machine, query: true }
+        - { t: fuel system cleaning, query: true }
+        - { t: carbon cleaning engine, query: true }
+        - { t: engine performance service }
+        - { t: fuel economy service }
+        - { t: emission reduction service }
+        - { t: throttle body cleaning }
+        - { t: fuel additive }
+        - { t: injector cleaner, query: true }
+
+  # ---------- 4.5 Trading และบริการต่อเนื่อง ----------
+  - id: TRADING
+    name_th: สินค้า Trading และบริการต่อเนื่อง
+    weight: 9
+    terms:
+      th:
+        - { t: น้ำยาล้างห้องเครื่อง, query: true }
+        - { t: ไล่หนูในรถยนต์, query: true }
+        - { t: หนูกัดสายไฟรถ, query: true }
+        - { t: น้ำยาล้างจานเบรก }
+        - { t: เคลือบเบาะรถยนต์, query: true }
+        - { t: เคลือบยางรถยนต์ }
+        - { t: ผลิตภัณฑ์ดูแลรถยนต์, query: true }
+      en:
+        - { t: engine bay cleaning, query: true }
+        - { t: engine bay coating }
+        - { t: rat repellent for car, query: true }
+        - { t: rodent damage in vehicles, query: true }
+        - { t: brake cleaner }
+        - { t: brake disc cleaner }
+        - { t: car seat coating }
+        - { t: interior coating car }
+        - { t: tire coating }
+        - { t: car detailing chemicals, query: true }
+        - { t: car care products, query: true }
+        - { t: automotive chemical }
+        - { t: automotive chemicals }
+        - { t: cleaning product }
+        - { t: cleaning products }
+
+  # ---------- 4.7 แบรนด์รถยนต์และเครือข่ายศูนย์บริการ ----------
+  - id: OEM_BRANDS
+    name_th: แบรนด์รถยนต์และเครือข่ายศูนย์บริการ
+    weight: 7
+    terms:
+      th:
+        - { t: เปิดศูนย์บริการใหม่, query: true }
+        - { t: ปิดศูนย์บริการ, query: true }
+        - { t: เปลี่ยนผู้แทนจำหน่าย }
+        - { t: เรียกคืนรถ, query: true }
+        - { t: ปัญหาระบบแอร์รถยนต์, query: true }
+        - { t: ขยายเครือข่ายศูนย์บริการ, query: true }
+        - { t: บริการดูแลรถใหม่ }
+      en:
+        - { t: new service centre opening, query: true }
+        - { t: dealer network expansion, query: true }
+        - { t: vehicle recall air conditioning, query: true }
+        - { t: warranty change }
+        - { t: service interval change }
+        - { t: car care service launch }
+
+brands:
+  priority: [Toyota, Isuzu]
+  # สื่อไทยเขียนชื่อแบรนด์เป็นภาษาไทย จึงต้องมี alias ไม่งั้นจะตรวจไม่เจอเลย
+  aliases:
+    Toyota: [โตโยต้า]
+    Isuzu: [อีซูซุ]
+    Honda: [ฮอนด้า]
+    Mitsubishi: [มิตซูบิชิ, มิตซู]
+    BYD: [บีวายดี]
+    Tesla: [เทสลา]
+    Ford: [ฟอร์ด]
+    Mercedes-Benz: [เมอร์เซเดส, เบนซ์]
+    BMW: [บีเอ็มดับเบิลยู]
+    Nissan: [นิสสัน]
+    Mazda: [มาสด้า]
+    Suzuki: [ซูซูกิ]
+    MG: [เอ็มจี]
+    GWM: [เกรท วอลล์, เกรทวอลล์]
+    Changan: [ฉางอาน]
+    NETA: [เนต้า]
+    Geely: [จีลี่]
+    Zeekr: [ซีเคอร์]
+    Hyundai: [ฮุนได]
+    Kia: [เกีย]
+  all:
+    - Toyota
+    - Isuzu
+    - Honda
+    - Mitsubishi
+    - BYD
+    - Tesla
+    - Ford
+    - Mercedes-Benz
+    - BMW
+    - Nissan
+    - Mazda
+    - Suzuki
+    - MG
+    - GWM
+    - Changan
+    - NETA
+    - Geely
+    - Zeekr
+    - Hyundai
+    - Kia
+
+# คำที่บ่งชี้ว่าเป็น Press Release / Sponsored
+press_release_markers:
+  - "ข่าวประชาสัมพันธ์"
+  - "PR News"
+  - "press release"
+  - "newswire"
+  - "prnewswire"
+  - "businesswire"
+  - "แถลงข่าว"
+sponsored_markers:
+  - "advertorial"
+  - "sponsored"
+  - "paid partnership"
+  - "โฆษณา"
+  - "บทความโฆษณา"
+
+# คำที่ตัดทิ้งทันที (Noise)
+hard_exclude:
+  - "ดูดวง"
+  - "หวย"
+  - "เลขเด็ด"
+  - "ผลบอล"
+  - "horoscope"
+  - "lottery"

@@ -1,0 +1,65 @@
+name: Deploy Dashboard
+
+# Deploy Dashboard ไปยัง GitHub Pages
+# ทำงานเมื่อ: (1) ข้อมูลใหม่ถูก commit  (2) แก้ไขหน้า Dashboard  (3) สั่งด้วยมือ
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'public/**'
+      - '.github/workflows/deploy-dashboard.yml'
+  workflow_run:
+    workflows: ['Daily Intelligence']
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# ให้ deploy ทีละรอบ และยกเลิกรอบเก่าที่ยังค้างอยู่
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    # ถ้าถูกเรียกจาก workflow_run ให้ deploy เฉพาะเมื่อรอบก่อนหน้าสำเร็จ
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Verify dashboard and data
+        run: npm run build:dashboard
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,127 @@
+# ============================================================
+# Air4 Business Context — ใช้เป็น Context หลักของ AI ทุก Prompt
+# ============================================================
+company:
+  name_th: บริษัท แอร์โฟร์อินเตอร์เนชั่นแนล จำกัด
+  name_en: Air4 International Co., Ltd.
+  size: บริษัทขนาดเล็ก พนักงานประมาณ 70 คน
+  location: รามอินทรา ซอย 14 กรุงเทพมหานคร ประเทศไทย
+  primary_customers:
+    - ศูนย์บริการรถยนต์
+    - อู่ซ่อมรถ
+    - ร้านคาร์แคร์
+  business_model: >-
+    ให้ลูกค้ายืมเครื่องล้างฟรี (Razor-and-blade)
+    และสร้างรายได้หลักจากการขายน้ำยาแบบใช้ซ้ำ (Recurring consumables)
+
+channels:
+  - id: OEM
+    brand: แบรนด์ของลูกค้า (White label)
+    detail: Toyota Aircare, Isuzu Airwash
+    note: ช่องทางรายได้หลักปัจจุบัน พึ่งพา Toyota สูง
+  - id: B2B
+    brand: Air4
+    detail: ฝากเครื่องและน้ำยาไว้ที่ศูนย์รถยนต์ อู่ซ่อมรถ ร้านคาร์แคร์
+  - id: B2C
+    brand: Airpro
+    detail: หน้าร้านของบริษัท ให้บริการเจ้าของรถโดยตรง
+
+products:
+  - id: AC_CLEANING
+    name_th: เครื่องล้างแอร์รถยนต์แบบไม่ถอดตู้
+    name_en: Non-disassembly car AC cleaning machine
+    pain_points:
+      - ทำความสะอาดระบบแอร์รถยนต์
+      - ช่วยให้อากาศภายในรถดีขึ้น
+      - ลดกลิ่นไม่พึงประสงค์
+      - ทำให้แอร์เย็นเร็วขึ้น
+      - เพิ่มประสิทธิภาพระบบแอร์
+      - ยืดอายุระบบแอร์
+      - เกี่ยวข้องกับสุขภาพผู้ขับขี่และครอบครัว
+    strengths:
+      - มีผลทดสอบประสิทธิภาพเป็นตัวเลข
+      - มีใบรับรองด้านประสิทธิภาพและความปลอดภัย
+      - มีทีม R&D และซื้อตู้แอร์รถยนต์มาวิจัยจริง
+      - มีประสบการณ์ในตลาดยาวนาน
+      - ISO 9001 และ ISO 14001
+      - มีการดำเนินการด้าน Carbon Footprint
+      - มี Success Case กับ OEM และตลาดต่างประเทศ
+    powertrain_exposure: ทั้ง ICE และ EV (EV ยังต้องล้างแอร์)
+  - id: POWER_FLOW
+    name_th: เครื่องล้างหัวฉีด Power Flow
+    name_en: Power Flow fuel injector cleaning machine
+    pain_points:
+      - เพิ่มประสิทธิภาพเครื่องยนต์
+      - ช่วยให้สตาร์ตรถดีขึ้น
+      - ช่วยประหยัดน้ำมัน
+      - ลดการปล่อยมลพิษ
+      - เพิ่มแรงม้าและแรงบิด
+      - ยืดอายุอุปกรณ์เครื่องยนต์
+      - ลดค่าซ่อมบำรุง
+    powertrain_exposure: ICE เท่านั้น — EV ที่เพิ่มขึ้นเป็นความเสี่ยงโดยตรง
+  - id: TRADING
+    name_th: กลุ่มน้ำยา Trading
+    name_en: Trading chemical products
+    items:
+      - น้ำยาล้าง เคลือบ และไล่หนูห้องเครื่อง
+      - น้ำยาล้างจานเบรก
+      - น้ำยาเคลือบเบาะรถยนต์
+      - น้ำยาเคลือบยางและป้องกันสุนัขปัสสาวะ
+      - น้ำยาล้างหัวฉีดแบบเติมถังน้ำมัน
+    powertrain_exposure: ส่วนใหญ่เป็นกลาง (Interior/Exterior care)
+
+target_b2b_segments:
+  - id: BRAND_DEALERS
+    name: ศูนย์รถยนต์แบรนด์ใหญ่
+    brands: [Honda, Isuzu, Mitsubishi, Toyota, EV brands]
+  - id: WORKSHOPS
+    name: อู่รถและร้านคาร์แคร์
+    characteristics:
+      - จำนวนรถต่อแห่งไม่สูง
+      - จำนวน Workshop มาก (Long tail)
+      - อ่อนไหวด้านราคา
+      - บางแห่งต้องการซื้อเครื่องขาด
+      - บางแห่งไม่ต้องการผูกกับการซื้อน้ำยา
+
+okrs:
+  O1:
+    statement: รายได้รวมเพิ่มขึ้น 15% เมื่อเทียบกับเดือนเดียวกันของปีก่อน (YoY)
+    lens: ข่าวใดที่เพิ่มหรือลดรายได้รวม / จำนวนรถเข้าศูนย์ / กำลังซื้อ
+  O2:
+    statement: รายได้ที่ไม่ใช่ Toyota OEM (ในและต่างประเทศ) ต้องมีสัดส่วนมากกว่า 20%
+    current_state: ปัจจุบันประมาณ 10%
+    lens: ข่าวใดที่ช่วยลดการพึ่งพา Toyota OEM — B2B, B2C, Isuzu OEM, OEM ใหม่, ตลาดต่างประเทศ, Power Flow, Trading
+
+analysis_priorities:
+  - การเพิ่มรายได้รวม
+  - การลดการพึ่งพา Toyota OEM
+  - การเติบโตของ B2B
+  - การเติบโตของ B2C
+  - การเติบโตของ Isuzu OEM
+  - การเปิดตลาด OEM ใหม่
+  - การเพิ่มยอดขาย Power Flow
+  - การขายสินค้า Trading
+  - การขยายตลาดต่างประเทศ
+
+departments:
+  - OEM Sales & Marketing
+  - B2B Sales & Marketing
+  - B2C Sales & Marketing
+  - Graphic & IT
+  - R&D & QA
+  - Stock & Procurement
+  - HR
+  - Finance
+  - Accounting
+  - Production
+  - Service & Maintenance
+  - Business Development
+  - Business Intelligence
+
+classification_guidance:
+  ev_rule: >-
+    ห้ามจัด EV เป็น Positive หรือ Negative โดยอัตโนมัติ
+    EV เติบโต = Positive ต่อ AC_CLEANING (รถ EV ยังต้องล้างแอร์ และให้ความสำคัญกับ Cabin Air Quality สูง)
+    แต่ = Negative ต่อ POWER_FLOW (ไม่มีหัวฉีดน้ำมัน)
+    ต้องประเมินผลกระทบสุทธิ (Net impact) ก่อนเลือกประเภทหลัก
+  tie_rule: หากผลดีและผลเสียสมดุล หรือข้อมูลยังไม่พอ ให้จัดเป็น neutral

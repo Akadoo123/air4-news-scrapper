@@ -1,0 +1,67 @@
+# ============================================================
+# คู่แข่ง — ชื่อคู่แข่งหลายรายเป็นคำทั่วไป (Wizard, Wise, Fresh Air)
+# จึงต้อง "บังคับ" ให้มี automotive context ร่วมด้วยเสมอ (กัน False Positive)
+# ============================================================
+require_automotive_context: true
+
+competitors:
+  - id: wizard
+    name: Wizard
+    aliases: ["Wizard", "วิซาร์ด", "วิซาร์ท"]
+    ambiguous: true
+    country: TH
+    notes: ชื่อเป็นคำทั่วไปมาก — ต้องมีคำเกี่ยวกับรถยนต์ประกอบเสมอ
+  - id: fresh_air
+    name: Fresh Air
+    aliases: ["Fresh Air", "เฟรชแอร์", "เฟรช แอร์"]
+    ambiguous: true
+    country: TH
+    notes: 'วลี "Fresh air" เป็นคำทั่วไปด้านคุณภาพอากาศ — ต้องมี car/รถยนต์ ประกอบ'
+  - id: fresh_car
+    name: Fresh Car
+    aliases: ["Fresh Car", "เฟรชคาร์", "เฟรช คาร์"]
+    ambiguous: false
+    country: TH
+  - id: wise
+    name: Wise
+    aliases: ["Wise", "ไวส์"]
+    ambiguous: true
+    country: TH
+    notes: ชนกับบริษัทโอนเงิน Wise — ต้องมี automotive context เข้มงวด
+
+# คำที่ถ้าพบร่วมกับชื่อคู่แข่ง = แทบแน่ใจว่าเป็น False Positive
+negative_context_terms:
+  - money transfer
+  - remittance
+  - fintech
+  - โอนเงิน
+  - แลกเงิน
+  - harry potter
+  - wizard of oz
+  - เกม
+  - game
+  - anime
+  - การ์ตูน
+  - air purifier for home
+  - เครื่องฟอกอากาศในบ้าน
+
+# สัญญาณ (Signal) ของคู่แข่งที่ต้องจับ
+watch_signals:
+  - { id: new_branch,       th: เปิดศูนย์ใหม่,                    severity: high }
+  - { id: new_oem,          th: ได้ลูกค้า OEM ใหม่,                severity: critical }
+  - { id: new_product,      th: เปิดตัวผลิตภัณฑ์ใหม่,               severity: high }
+  - { id: price_cut,        th: ลดราคา,                        severity: critical }
+  - { id: promotion,        th: ทำโปรโมชั่น,                     severity: medium }
+  - { id: commission_up,    th: เพิ่มค่าคอมมิชชัน,                 severity: high }
+  - { id: service_with_tech,th: ให้บริการพร้อมช่าง,                severity: high }
+  - { id: outright_sale,    th: ขายเครื่องขาด,                    severity: high }
+  - { id: fleet_expansion,  th: ขยายจำนวนเครื่อง,                 severity: medium }
+  - { id: dealer_tieup,     th: จับมือกับศูนย์รถยนต์,               severity: critical }
+  - { id: mass_hiring,      th: รับสมัครทีมขายหรือช่างจำนวนมาก,      severity: medium }
+  - { id: intl_expansion,   th: ขยายต่างประเทศ,                   severity: high }
+  - { id: new_cert,         th: ได้ใบรับรองใหม่,                   severity: medium }
+  - { id: patent,           th: ได้สิทธิบัตร,                      severity: high }
+  - { id: new_test_result,  th: มีผลทดสอบใหม่,                    severity: medium }
+  - { id: complaint,        th: มีข้อร้องเรียน,                    severity: medium }
+  - { id: quality_issue,    th: มีปัญหาด้านคุณภาพหรือความปลอดภัย,    severity: medium }
+  - { id: model_change,     th: เปลี่ยน Business Model,           severity: high }
