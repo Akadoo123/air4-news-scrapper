@@ -81,7 +81,12 @@ export class AiProvider {
 
   private track(usage: Anthropic.Beta.BetaUsage | undefined): void {
     if (!usage) return;
-    const price = PRICING[this.model] ?? { input: 5, output: 25 };
+    // จับคู่แบบ prefix เพื่อรองรับ model ID ที่มีวันที่ต่อท้าย
+    // (เช่น 'claude-haiku-4-5-20251001' ให้ตรงกับราคาของ 'claude-haiku-4-5')
+    const price =
+      PRICING[this.model] ??
+      Object.entries(PRICING).find(([id]) => this.model.startsWith(id))?.[1] ??
+      { input: 5, output: 25 };
     const input = usage.input_tokens ?? 0;
     const output = usage.output_tokens ?? 0;
     const cacheRead = usage.cache_read_input_tokens ?? 0;

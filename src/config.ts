@@ -28,7 +28,7 @@ function str(name: string, fallback: string): string {
 export const env = {
   anthropicApiKey: process.env.ANTHROPIC_API_KEY ?? '',
   aiProvider: str('AI_PROVIDER', 'anthropic'),
-  aiModel: str('AI_MODEL', 'claude-haiku-4-5'),
+  aiModel: str('AI_MODEL', 'claude-haiku-4-5-20251001'),
   aiEnabled: bool('AI_ENABLED', true),
   aiEffortItem: str('AI_EFFORT_ITEM', 'low'),
   aiEffortDaily: str('AI_EFFORT_DAILY', 'high'),
