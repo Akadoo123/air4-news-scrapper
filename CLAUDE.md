@@ -125,5 +125,7 @@ npx tsx scripts/check-feeds.ts   # ตรวจว่าฟีดไหนตา
   `RETENTION_DAYS` ถ้าเก็บแค่ id รายการที่ผู้ใช้บันทึกจะหายไปเอง
 - **Dashboard รองรับทั้งธีมสว่างและมืด** ผ่าน CSS custom properties
   สีของกราฟอยู่ใน CSS (`.trend__*`) ไม่ใช่ใน JS เพื่อให้เปลี่ยนตามธีมได้
-- Model เริ่มต้นคือ `claude-opus-4-8` ใช้ `effort: low` สำหรับรายข่าว (คุมต้นทุน)
-  และ `effort: high` + adaptive thinking สำหรับสรุปรายวัน
+- Model เริ่มต้นคือ `claude-haiku-4-5` (เลือกเพื่อคุมต้นทุน ~$2-3/เดือน) ใช้ `effort: low`
+  สำหรับรายข่าว และ `effort: high` + adaptive thinking สำหรับสรุปรายวัน
+  เปลี่ยน model ได้ที่ `AI_MODEL` (env/Secret) หรือแก้ default ใน `config.ts`
+  ถ้าใส่ model ใหม่ อย่าลืมเพิ่มราคาใน `PRICING` (`src/ai/provider.ts`) ไม่งั้นจะคิดเป็นราคา opus

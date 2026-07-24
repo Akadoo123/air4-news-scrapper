@@ -22,7 +22,7 @@ export interface UsageTotals {
   estimatedCostUsd: number;
 }
 
-/** ราคา Claude Opus 4.8 (USD ต่อ 1M tokens) — ปรับได้เมื่อเปลี่ยน model */
+/** ราคา (USD ต่อ 1M tokens) แยกตาม model — ใช้คำนวณค่าใช้จ่ายโดยประมาณ */
 const PRICING: Record<string, { input: number; output: number }> = {
   'claude-opus-4-8': { input: 5, output: 25 },
   'claude-opus-4-7': { input: 5, output: 25 },
