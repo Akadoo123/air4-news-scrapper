@@ -1,162 +1,179 @@
 {
   "date": "2026-07-25",
-  "generatedAt": "2026-07-24T18:36:59.778Z",
+  "generatedAt": "2026-07-25T04:01:12.487Z",
   "timezone": "Asia/Bangkok",
   "status": "degraded",
   "kpi": {
-    "totalCollected": 955,
-    "afterDedup": 531,
-    "afterPrefilter": 19,
-    "published": 16,
-    "positive": 1,
+    "totalCollected": 944,
+    "afterDedup": 504,
+    "afterPrefilter": 20,
+    "published": 17,
+    "positive": 2,
     "neutral": 14,
     "negative": 1,
-    "highImpact": 0,
+    "highImpact": 1,
     "competitorAlerts": 0,
-    "evRelated": 12,
-    "international": 2,
+    "evRelated": 13,
+    "international": 1,
     "oemOpportunities": 0,
-    "b2bOpportunities": 0,
+    "b2bOpportunities": 1,
     "b2cOpportunities": 1,
-    "o1Supporting": 1,
-    "o2Supporting": 1,
+    "o1Supporting": 2,
+    "o2Supporting": 2,
     "socialMentions": 0,
-    "demandSignals": 0
+    "demandSignals": 1
   },
   "daily": {
-    "executiveSummaryTh": "วันนี้เป็นวันที่ค่อนข้างเงียบสำหรับ Air4 โดยมีข่าว 16 ข่าว ส่วนใหญ่ (14 ข่าว) เป็นกลางและเกาะกระแสรถยนต์ไฟฟ้า (EV) ทั้งในและต่างประเทศ เช่น การเปิดตัว LEPAS, Mercedes GLC EV, Mazda6e และการรุกตลาดของแบรนด์จีน ข่าวที่สำคัญและเป็นลบที่สุดคือ ส.อ.ท. ปรับลดคาดการณ์ยอดผลิตรถยนต์ในไทยเหลือ 1.45 ล้านคัน (19e0f0557a1a66bf) ซึ่งกดดัน O1 โดยตรงเพราะสะท้อนกำลังซื้อและจำนวนรถใหม่ที่ลดลง ส่วนกระแส EV ที่เร่งตัวขึ้นให้ผลสุทธิเป็นกลาง คือ เป็นบวกต่อเครื่องล้างแอร์ (AC_CLEANING) เพราะรถ EV ยังต้องดูแลคุณภาพอากาศในห้องโดยสาร แต่เป็นความเสี่ยงระยะยาวต่อ Power Flow (ล้างหัวฉีด) ที่ผูกกับเครื่องยนต์สันดาป ภาพรวมจึงเป็นกลางค่อนไปทางระวัง ไม่มีข่าวที่กระทบ Toyota OEM หรือคู่แข่งโดยตรง ผู้บริหารควรโฟกัสการเตรียม Sales Pitch เจาะตลาด EV สำหรับเครื่องล้างแอร์เพื่อผลักดัน O2 (ลดการพึ่งพา Toyota) และวางแผนรับมือยอดผลิตรถที่หดตัว ไม่มีเรื่องเร่งด่วนที่ต้องตัดสินใจวันนี้",
-    "overallSentiment": "neutral",
-    "netImpactScore": -1,
-    "urgencyLevel": "low",
+    "executiveSummaryTh": "วันนี้ระบบคัดกรองข่าวที่เกี่ยวข้องกับ Air4 ได้ 17 ข่าว แบ่งเป็นเชิงบวก 2 ข่าว เป็นกลาง 14 ข่าว และเชิงลบ 1 ข่าว คะแนนผลกระทบสุทธิอยู่ที่ 3.4 ซึ่งจัดอยู่ในระดับบวกต่อธุรกิจ ข่าวเชิงบวกที่สำคัญที่สุดคือ \"อากาศร้อน: อุณหภูมิที่รู้สึกได้สูงสุดเฉลี่ย 36.3°C ใน 7 วันข้างหน้า — ปัจจัยหนุนความต้องการล้างแอร์รถยนต์\" ข่าวที่ต้องเฝ้าระวังมากที่สุดคือ \"ส.อ.ท.มึน! ยอดผลิตรถยนต์ยังหดตัว ปรับคาดการณ์เหลือ 1.45 ล้านคัน - ไทยโพสต์\" ยังไม่พบความเคลื่อนไหวสำคัญของคู่แข่งในวันนี้ หมายเหตุ: บทวิเคราะห์นี้สร้างโดยระบบกฎอัตโนมัติเนื่องจากไม่สามารถเรียกใช้ AI ได้",
+    "overallSentiment": "positive",
+    "netImpactScore": 3.4,
+    "urgencyLevel": "medium",
     "opportunitySignals": [
       {
-        "title": "กระแส EV เร่งตัวหนุนดีมานด์ล้างแอร์ที่เน้นคุณภาพอากาศในห้องโดยสาร",
-        "detail": "ข่าว EV จำนวนมากทั้งการเปิดตัวรุ่นใหม่และการรุกของแบรนด์จีน สะท้อนฐานรถ EV ที่โตขึ้น ซึ่งรถ EV ยังต้องล้างแอร์และให้ความสำคัญกับ Cabin Air Quality สูง เป็นโอกาสวางตำแหน่ง AC_CLEANING เป็นบริการที่จำเป็นสำหรับ EV",
+        "title": "อากาศร้อน: อุณหภูมิที่รู้สึกได้สูงสุดเฉลี่ย 36.3°C ใน 7 วันข้างหน้า — ปัจจัยหนุนความต้องการล้างแอร์รถยนต์",
+        "detail": "ปัญหากลิ่น/เชื้อราในรถ = ความต้องการบริการหลักของ Air4",
         "relatedNewsIds": [
-          "9790a49027a2340e",
-          "3258e260e55afd53",
-          "a783f64ead756219",
-          "5321fc30f2ea6e09"
+          "ce0d61199427e31e"
         ]
       },
       {
-        "title": "แบรนด์ EV ใหม่หลายรายเข้าไทย เปิดช่องเจาะ OEM/B2B รายใหม่นอก Toyota",
-        "detail": "LEPAS, Chery, Denza, Mazda6e ขยายเครือข่ายศูนย์บริการในไทย เป็นเป้าหมายในการเสนอโครงการล้างแอร์ White-label หรือ B2B เพื่อกระจายรายได้ลดการพึ่งพา Toyota (O2)",
+        "title": "LEPAS วางประเทศไทยเป็นตลาดยุทธศาสตร์ หนุนการเติบโตในอาเซียน",
+        "detail": "ตลาดรถยนต์เติบโต = ปริมาณรถเข้าศูนย์เพิ่ม",
         "relatedNewsIds": [
-          "9790a49027a2340e",
-          "6ca9ada514d23f63",
-          "35558ecb87d0efa3"
-        ]
-      },
-      {
-        "title": "มิตซูบิชิยืนยันลงทุน 16,000 ล้านผลิต EV ในไทย ตอกย้ำความสัมพันธ์ OEM ที่ขยายได้",
-        "detail": "การลงทุนต่อเนื่องของ Mitsubishi ในไทยเป็นสัญญาณเชิงบวกต่อโอกาสขยายงาน OEM กับแบรนด์นอก Toyota",
-        "relatedNewsIds": [
-          "9bfe4046697d8da7",
-          "5b1655df6411811e"
+          "9790a49027a2340e"
         ]
       }
     ],
     "riskSignals": [
       {
-        "title": "ยอดผลิตรถยนต์ไทยหดตัวเหลือ 1.45 ล้านคัน กดดันรายได้รวม",
-        "detail": "การปรับลดคาดการณ์การผลิตสะท้อนกำลังซื้อและจำนวนรถใหม่ที่ลดลง กระทบทั้งความต้องการเครื่องล้างและยอดขายน้ำยาผ่านศูนย์/อู่ กระทบ O1 โดยตรง",
+        "title": "ส.อ.ท.มึน! ยอดผลิตรถยนต์ยังหดตัว ปรับคาดการณ์เหลือ 1.45 ล้านคัน - ไทยโพสต์",
+        "detail": "ตลาดหดตัว = ปริมาณรถเข้าศูนย์ลดลง",
         "relatedNewsIds": [
           "19e0f0557a1a66bf"
         ]
-      },
+      }
+    ],
+    "actionsToday": [
       {
-        "title": "การเปลี่ยนผ่านสู่ EV เป็นความเสี่ยงเชิงโครงสร้างต่อ Power Flow",
-        "detail": "EV ไม่มีหัวฉีดน้ำมัน สัดส่วน EV ที่เพิ่มขึ้นทั้งในไทยและยุโรป (เยอรมนี EV แซงเบนซินแล้ว) ลดฐานตลาดของ Power Flow ในระยะยาว ต้องเร่งกระจายพอร์ตสินค้า",
+        "action": "ประเมินผลกระทบจากข่าว: ส.อ.ท.มึน! ยอดผลิตรถยนต์ยังหดตัว ปรับคาดการณ์เหลือ 1.45 ล้านคัน - ไทยโพสต์",
+        "owner": "Business Intelligence",
+        "priority": "high",
+        "deadline": "today",
+        "reason": "ตลาดหดตัว = ปริมาณรถเข้าศูนย์ลดลง",
         "relatedNewsIds": [
-          "c3944fb762efa449",
-          "a783f64ead756219",
-          "5321fc30f2ea6e09"
+          "19e0f0557a1a66bf"
         ]
       }
     ],
-    "actionsToday": [],
     "actionsWithin7Days": [
       {
-        "action": "จัดทำ Sales Pitch เจาะตลาด EV สำหรับเครื่องล้างแอร์ โดยเน้นประเด็นคุณภาพอากาศในห้องโดยสารและสุขภาพผู้ขับขี่ พร้อมชุดข้อมูลผลทดสอบและใบรับรอง",
+        "action": "ต่อยอดโอกาสจากข่าว: อากาศร้อน: อุณหภูมิที่รู้สึกได้สูงสุดเฉลี่ย 36.3°C ใน 7 วันข้างหน้า — ปัจจัยหนุนความต้องการล้างแอร์รถยนต์",
         "owner": "B2B Sales & Marketing",
         "priority": "medium",
         "deadline": "within_7_days",
-        "reason": "กระแส EV โตต่อเนื่องเป็นโอกาสตรงของ AC_CLEANING และช่วยผลักดัน O2 ผ่านช่องทางนอก Toyota",
+        "reason": "ปัญหากลิ่น/เชื้อราในรถ = ความต้องการบริการหลักของ Air4",
         "relatedNewsIds": [
-          "9790a49027a2340e",
-          "3258e260e55afd53",
-          "a783f64ead756219"
+          "ce0d61199427e31e"
         ]
       },
       {
-        "action": "จัดทำรายชื่อแบรนด์ EV/ศูนย์บริการใหม่ที่เข้าไทย (LEPAS, Chery, Denza, Mazda) เพื่อประเมินโอกาสเปิดดีล OEM/B2B รายใหม่",
-        "owner": "Business Development",
+        "action": "ต่อยอดโอกาสจากข่าว: LEPAS วางประเทศไทยเป็นตลาดยุทธศาสตร์ หนุนการเติบโตในอาเซียน",
+        "owner": "B2B Sales & Marketing",
         "priority": "medium",
         "deadline": "within_7_days",
-        "reason": "กระจายรายได้ลดการพึ่งพา Toyota OEM ตามเป้า O2 (ปัจจุบัน ~10% เทียบเป้า >20%)",
+        "reason": "ตลาดรถยนต์เติบโต = ปริมาณรถเข้าศูนย์เพิ่ม",
         "relatedNewsIds": [
-          "9790a49027a2340e",
-          "9bfe4046697d8da7",
-          "6ca9ada514d23f63"
-        ]
-      },
-      {
-        "action": "ทบทวนแผนยอดขายและสต็อกน้ำยาให้สอดคล้องกับคาดการณ์ยอดผลิตรถที่หดตัว",
-        "owner": "Finance",
-        "priority": "medium",
-        "deadline": "within_7_days",
-        "reason": "ยอดผลิตลดเหลือ 1.45 ล้านคันอาจกดดันปริมาณรถเข้าศูนย์และรายได้ recurring",
-        "relatedNewsIds": [
-          "19e0f0557a1a66bf"
+          "9790a49027a2340e"
         ]
       }
     ],
-    "actionsToMonitor": [
-      {
-        "action": "ติดตามสัดส่วน EV ต่อ ICE ในไทยและผลกระทบต่อยอดขาย Power Flow เพื่อวางแผนกระจายพอร์ตสินค้า Trading",
-        "owner": "Business Intelligence",
-        "priority": "medium",
-        "deadline": "monitor",
-        "reason": "EV เพิ่มขึ้นเป็นความเสี่ยงเชิงโครงสร้างต่อ Power Flow ที่ผูกกับเครื่องยนต์สันดาป",
-        "relatedNewsIds": [
-          "c3944fb762efa449",
-          "a783f64ead756219",
-          "5321fc30f2ea6e09"
-        ]
-      },
-      {
-        "action": "เฝ้าติดตามการลงทุนและการขยายกำลังผลิตของ OEM ในไทย (Mitsubishi ฯลฯ) เพื่อจับจังหวะเสนอความร่วมมือ",
-        "owner": "OEM Sales & Marketing",
-        "priority": "low",
-        "deadline": "monitor",
-        "reason": "ความเคลื่อนไหวการลงทุน OEM อาจเปิดโอกาส White-label ใหม่",
-        "relatedNewsIds": [
-          "9bfe4046697d8da7",
-          "5b1655df6411811e"
-        ]
-      }
-    ],
+    "actionsToMonitor": [],
     "okrAssessment": {
-      "O1": "เป็นลบเล็กน้อย จากการปรับลดคาดการณ์ยอดผลิตรถยนต์ไทยเหลือ 1.45 ล้านคัน ซึ่งสะท้อนกำลังซื้อและจำนวนรถใหม่ที่ลดลง อาจกระทบปริมาณรถเข้าศูนย์และยอดขายน้ำยา",
-      "O2": "เป็นกลางค่อนไปทางบวกเชิงโอกาส กระแส EV และแบรนด์ใหม่หลายรายเข้าไทยเปิดช่องเจาะ OEM/B2B นอก Toyota แต่ยังไม่มีดีลจริงเกิดขึ้น ต้องเร่งดำเนินการเชิงรุก",
+      "O1": "สัญญาณวันนี้สนับสนุนเป้าหมายรายได้รวม +15% YoY",
+      "O2": "ข่าวที่เกี่ยวกับช่องทางนอก Toyota OEM มี 2 รายการ",
       "benefitingChannels": [
         "B2B",
-        "B2C",
-        "OEM"
+        "B2C"
       ],
-      "atRiskChannels": [
-        "OEM"
-      ],
-      "prioritisationNote": "ควรเร่งโครงการวาง AC_CLEANING เป็นบริการสำหรับ EV และเปิดดีล OEM/B2B กับแบรนด์ใหม่เพื่อดัน O2 ขณะเดียวกันเริ่มลดน้ำหนักความคาดหวังจาก Power Flow ในระยะยาว"
+      "atRiskChannels": [],
+      "prioritisationNote": "ควรตรวจสอบด้วย AI Analysis เพื่อความแม่นยำ"
     },
     "ceoQuestions": [
-      "เราควรเร่งพัฒนา Sales Pitch และแพ็กเกจล้างแอร์เฉพาะสำหรับรถ EV (เน้น Cabin Air Quality) เพื่อชิงตลาดแบรนด์จีน/EV ใหม่ที่กำลังขยายศูนย์บริการในไทยหรือไม่?",
-      "ด้วยแนวโน้ม EV ที่เร่งตัวและ ICE ที่หดตัว เราควรกำหนดกรอบเวลาลดการพึ่งพารายได้จาก Power Flow และหาสินค้าทดแทนในกลุ่ม Trading ที่เป็นกลางต่อระบบขับเคลื่อนเมื่อใด?",
-      "เราควรจัดลำดับความสำคัญเข้าหาแบรนด์ OEM ใหม่รายใด (LEPAS, Chery, Mitsubishi EV) ก่อนเพื่อสร้างรายได้ White-label นอก Toyota ให้ถึงเป้า O2 ที่ 20%?"
+      "ข่าววันนี้มีรายการใดที่ควรเปลี่ยนลำดับความสำคัญของแผนการขายหรือไม่",
+      "มีลูกค้ารายใดที่ควรเข้าไปติดต่อทันทีจากสัญญาณที่พบ"
     ]
   },
   "items": [
+    {
+      "title": "อากาศร้อน: อุณหภูมิที่รู้สึกได้สูงสุดเฉลี่ย 36.3°C ใน 7 วันข้างหน้า — ปัจจัยหนุนความต้องการล้างแอร์รถยนต์",
+      "link": "https://open-meteo.com/",
+      "snippet": "ข้อมูลพยากรณ์: อุณหภูมิที่รู้สึกได้สูงสุดรายเมือง กรุงเทพฯ 40°C · นครราชสีมา 39.2°C · ขอนแก่น 38.4°C · หาดใหญ่ 38.3°C. ค่าเฉลี่ยถ่วงน้ำหนักตามความหนาแน่นของศูนย์บริการอยู่ที่ 36.3°C จุดสูงสุดอยู่ที่ กรุงเทพฯ 40°C. [การตีความของระบบ] อากาศร้อนทำให้ผู้ใช้รถเปิดแอร์หนักและนานขึ้น คอยล์เย็นสะสมความชื้นและสิ่งสกปรกเร็วขึ้น มักตามมาด้วยอาการแอร์ไม่เย็นและกลิ่นอับ ซึ่งเป็นช่วงที่ความต้องการบริการล้างแอร์รถยนต์สูงขึ้นตามฤดูกาล",
+      "publishedAt": "2026-07-25T04:01:02.393Z",
+      "sourceId": "weather-signal",
+      "sourceName": "Open-Meteo (พยากรณ์อากาศ)",
+      "sourceTier": 1,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": false,
+      "itemKind": "signal",
+      "id": "ce0d61199427e31e",
+      "canonicalUrl": "https://open-meteo.com",
+      "contentHash": "97f305896d5aa6d09310a0b5",
+      "collectedAt": "2026-07-25T04:01:02.394Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 39,
+      "matchedCategories": [
+        "AC_CLEANING"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "อากาศร้อน: อุณหภูมิที่รู้สึกได้สูงสุดเฉลี่ย 36.3°C ใน 7 วันข้างหน้า — ปัจจัยหนุนความต้องการล้างแอร์รถยนต์",
+      "shortSummaryTh": "ข้อมูลพยากรณ์: อุณหภูมิที่รู้สึกได้สูงสุดรายเมือง กรุงเทพฯ 40°C · นครราชสีมา 39.2°C · ขอนแก่น 38.4°C · หาดใหญ่ 38.3°C. ค่าเฉลี่ยถ่วงน้ำหนักตามความหนาแน่นของศูนย์บริการอยู่ที่ 36.3°C จุดสูงสุดอยู่ที่ กรุงเทพฯ 40°C. [การตีความของระบบ] อากาศร้อนทำให้ผู้ใช้รถเปิดแอร์หนักและนานขึ้น คอยล์เย็นสะสมความชื้น…",
+      "classification": "positive",
+      "impactScore": 5,
+      "confidence": 68,
+      "relevanceScore": 100,
+      "newsCategory": "AC_CLEANING",
+      "affectedChannels": [
+        "B2B"
+      ],
+      "affectedProducts": [
+        "AC_CLEANING"
+      ],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "positive",
+        "O2": "positive"
+      },
+      "positiveImpacts": [
+        "ปัญหากลิ่น/เชื้อราในรถ = ความต้องการบริการหลักของ Air4",
+        "เกี่ยวข้องกับบริการหลักโดยตรง"
+      ],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "วิเคราะห์ด้วยกฎอัตโนมัติ (ไม่ได้ใช้ AI)"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "high",
+          "deadline": "today"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://open-meteo.com",
+      "titleOriginal": "อากาศร้อน: อุณหภูมิที่รู้สึกได้สูงสุดเฉลี่ย 36.3°C ใน 7 วันข้างหน้า — ปัจจัยหนุนความต้องการล้างแอร์รถยนต์",
+      "originalSnippet": "ข้อมูลพยากรณ์: อุณหภูมิที่รู้สึกได้สูงสุดรายเมือง กรุงเทพฯ 40°C · นครราชสีมา 39.2°C · ขอนแก่น 38.4°C · หาดใหญ่ 38.3°C. ค่าเฉลี่ยถ่วงน้ำหนักตามความหนาแน่นของศูนย์บริการอยู่ที่ 36.3°C จุดสูงสุดอยู่ที่ กรุงเทพฯ 40°C. [การตีความของระบบ] อากาศร้อนทำให้ผู้ใช้รถเปิดแอร์หนักและนานขึ้น คอยล์เย็นสะสมความชื้นและสิ่งสกปรกเร็วขึ้น มักตามมาด้วยอาการแอร์ไม่เย็นและกลิ่นอับ ซึ่งเป็นช่วงที่ความต้องการบริการล้างแอร์รถยนต์สูงขึ้นตามฤดูกาล"
+    },
     {
       "title": "LEPAS วางประเทศไทยเป็นตลาดยุทธศาสตร์ หนุนการเติบโตในอาเซียน",
       "link": "https://autolifethailand.tv/interview-ceo-lepas-global-ambition-2030/",
@@ -172,7 +189,7 @@
       "id": "9790a49027a2340e",
       "canonicalUrl": "https://autolifethailand.tv/interview-ceo-lepas-global-ambition-2030",
       "contentHash": "2e24b19e53eb44225abe139e",
-      "collectedAt": "2026-07-24T18:34:26.075Z",
+      "collectedAt": "2026-07-25T04:01:02.394Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 10,
@@ -243,7 +260,7 @@
       "id": "19e0f0557a1a66bf",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0xV19ITWF0MEh2WjJFVEtSZThVcjMweTFORDRLWFZnbE42eDVRakZKcjhLOW1EZm5oYi1XSWRjWEtJYmNFMUNwOW1wZTVYY1VTNFFNd3dTR092dw",
       "contentHash": "bfe207ef6b9066e72d7fff35",
-      "collectedAt": "2026-07-24T18:34:26.075Z",
+      "collectedAt": "2026-07-25T04:01:02.394Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 10,
@@ -295,41 +312,42 @@
       "originalSnippet": "ส.อ.ท.มึน! ยอดผลิตรถยนต์ยังหดตัว ปรับคาดการณ์เหลือ 1.45 ล้านคัน ไทยโพสต์"
     },
     {
-      "title": "ประธานใหญ่ มิตซูบิชิ พบ \"อนุทิน\" ย้ำลงทุน 16,000 ล้านบาท ผลิตรถยนต์ไฟฟ้าในไทย - thansettakij",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1MdDFTdXpqUDh6MlBQaWRMTzM3MnRIZkNFZ3B4ZmdiTHlwMDdkcTZFcWE3b1paMjR0MDNEVk4wY0p0WVZkc19pRmdNN1JSVDZGRlV2VW9XRUpnbEU?oc=5",
-      "snippet": "ประธานใหญ่ มิตซูบิชิ พบ \"อนุทิน\" ย้ำลงทุน 16,000 ล้านบาท ผลิตรถยนต์ไฟฟ้าในไทย thansettakij",
-      "publishedAt": "2026-07-24T05:16:00.000Z",
-      "sourceId": "google-news:th-TH",
-      "sourceName": "thansettakij",
+      "title": "ค่ายรถชิงกำลังซื้อรับตลาดฟื้น “ฮอนด้า” ส่ง Super ONE EV ท้าชนรถจีน",
+      "link": "https://www.prachachat.net/automotive/news-2042747",
+      "snippet": "ค่ายรถจัดทัพรุ่นใหม่-ไมเนอร์เชนจ์ รับยอดขายเริ่มฟื้นตัว ค่ายฮอนด้า นำเข้าอีวีรุ่นใหม่ Super ONE EV ชิงพื้นที่ขายท้าชน รถจีน โตโยต้า ส่ง อัลพาร์ท-เวลไฟล์ เพิ่มความสดใหม่ตลาดเอ็มพีวี ด้าน ส.อ.ท. เผยขายรถ ครึ่งปี 14.63% ส่วนรถอีวียอดพุ่งทะลุ 7 หมื่นคัน … อ่านข่าวต้นฉบับ: ค่ายรถชิงกำลังซื้อรับตลาดฟื้น “ฮอนด้า” ส่ง Super ONE EV ท้าชนรถจีน",
+      "publishedAt": "2026-07-25T02:01:00.000Z",
+      "sourceId": "prachachat",
+      "sourceName": "ประชาชาติธุรกิจ",
       "sourceTier": 2,
       "sourceCountry": "TH",
       "language": "th",
       "unverified": false,
       "itemKind": "news",
-      "id": "9bfe4046697d8da7",
-      "canonicalUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1MdDFTdXpqUDh6MlBQaWRMTzM3MnRIZkNFZ3B4ZmdiTHlwMDdkcTZFcWE3b1paMjR0MDNEVk4wY0p0WVZkc19pRmdNN1JSVDZGRlV2VW9XRUpnbEU",
-      "contentHash": "e4ad065301e26c3d5bddefce",
-      "collectedAt": "2026-07-24T18:34:26.075Z",
+      "id": "cb9f2d86c33fbcfa",
+      "canonicalUrl": "https://prachachat.net/automotive/news-2042747",
+      "contentHash": "a8655394a1aef81ef7ed89fc",
+      "collectedAt": "2026-07-25T04:01:02.394Z",
       "isPressRelease": false,
       "isSponsored": false,
-      "prefilterScore": 13,
+      "prefilterScore": 14,
       "matchedCategories": [
-        "EV",
-        "OEM_BRANDS",
-        "INTERNATIONAL"
+        "AUTO_MARKET",
+        "OEM_BRANDS"
       ],
       "matchedCompetitors": [],
       "matchedBrands": [
-        "Mitsubishi"
+        "Toyota",
+        "Honda"
       ],
       "hasAutomotiveContext": true,
+      "duplicateGroupId": "cb9f2d86c33fbcfa",
       "relatedCoverage": [],
-      "titleTh": "ประธานใหญ่ มิตซูบิชิ พบ \"อนุทิน\" ย้ำลงทุน 16,000 ล้านบาท ผลิตรถยนต์ไฟฟ้าในไทย - thansettakij",
-      "shortSummaryTh": "ประธานใหญ่ มิตซูบิชิ พบ \"อนุทิน\" ย้ำลงทุน 16,000 ล้านบาท ผลิตรถยนต์ไฟฟ้าในไทย thansettakij",
+      "titleTh": "ค่ายรถชิงกำลังซื้อรับตลาดฟื้น “ฮอนด้า” ส่ง Super ONE EV ท้าชนรถจีน",
+      "shortSummaryTh": "ค่ายรถจัดทัพรุ่นใหม่-ไมเนอร์เชนจ์ รับยอดขายเริ่มฟื้นตัว ค่ายฮอนด้า นำเข้าอีวีรุ่นใหม่ Super ONE EV ชิงพื้นที่ขายท้าชน รถจีน โตโยต้า ส่ง อัลพาร์ท-เวลไฟล์ เพิ่มความสดใหม่ตลาดเอ็มพีวี ด้าน ส.อ.ท. เผยขายรถ ครึ่งปี 14.63% ส่วนรถอีวียอดพุ่งทะลุ 7 หมื่นคัน … อ่านข่าวต้นฉบับ: ค่ายรถชิงกำลังซื้อรับตลาดฟื้น…",
       "classification": "neutral",
       "impactScore": 0,
-      "confidence": 48,
-      "relevanceScore": 52,
+      "confidence": 53,
+      "relevanceScore": 55,
       "newsCategory": "EV",
       "affectedChannels": [
         "OEM"
@@ -363,51 +381,45 @@
       ],
       "timeHorizon": "long-term",
       "analyzedBy": "fallback",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1MdDFTdXpqUDh6MlBQaWRMTzM3MnRIZkNFZ3B4ZmdiTHlwMDdkcTZFcWE3b1paMjR0MDNEVk4wY0p0WVZkc19pRmdNN1JSVDZGRlV2VW9XRUpnbEU",
-      "titleOriginal": "ประธานใหญ่ มิตซูบิชิ พบ \"อนุทิน\" ย้ำลงทุน 16,000 ล้านบาท ผลิตรถยนต์ไฟฟ้าในไทย - thansettakij",
-      "originalSnippet": "ประธานใหญ่ มิตซูบิชิ พบ \"อนุทิน\" ย้ำลงทุน 16,000 ล้านบาท ผลิตรถยนต์ไฟฟ้าในไทย thansettakij"
+      "sourceUrl": "https://prachachat.net/automotive/news-2042747",
+      "titleOriginal": "ค่ายรถชิงกำลังซื้อรับตลาดฟื้น “ฮอนด้า” ส่ง Super ONE EV ท้าชนรถจีน",
+      "originalSnippet": "ค่ายรถจัดทัพรุ่นใหม่-ไมเนอร์เชนจ์ รับยอดขายเริ่มฟื้นตัว ค่ายฮอนด้า นำเข้าอีวีรุ่นใหม่ Super ONE EV ชิงพื้นที่ขายท้าชน รถจีน โตโยต้า ส่ง อัลพาร์ท-เวลไฟล์ เพิ่มความสดใหม่ตลาดเอ็มพีวี ด้าน ส.อ.ท. เผยขายรถ ครึ่งปี 14.63% ส่วนรถอีวียอดพุ่งทะลุ 7 หมื่นคัน … อ่านข่าวต้นฉบับ: ค่ายรถชิงกำลังซื้อรับตลาดฟื้น “ฮอนด้า” ส่ง Super ONE EV ท้าชนรถจีน"
     },
     {
-      "title": "Thailand's Car Market Goes Chinese: Geely, BYD, MG Lead EV Revolution As Japanese Dominance Faces Challenge - Autopunditz",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQN1NRUWd5Z3YtRnR2SVlRVVlCamZvRUY5azRDRXVULTkyNkxkWEd1bFkwamZLT1ljWEpkUVh0VG5iRVpVTUZodjZQRUxFNkdLVWxmbVZLRWlGYkV5eFJvSWhQdGw0aXdSeHNZUFVzVk11Z1RLSzdUdjFzSGlCN3BSNnRqTnVSQU1kb2NsN3JwdjhBdXY5S3Nn?oc=5",
-      "snippet": "Thailand's Car Market Goes Chinese: Geely, BYD, MG Lead EV Revolution As Japanese Dominance Faces Challenge Autopunditz",
-      "publishedAt": "2026-07-24T04:11:56.000Z",
-      "sourceId": "google-news:en-US",
-      "sourceName": "Autopunditz",
+      "title": "ยอดขายรถ EV ในมาเลเซีย พุ่งแซงหน้ารถไฮบริดครั้งแรกในครึ่งปีแรก 2026 เดินหน้าปรับเป้า EV ทะลุ 1.2 แสนคันสิ้นปีนี้ - thestandard.co",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ZRUgtOUxPVTRkWmI3SUpSZXFGS21uWXEzUl9ueEV3N29NR0x5UkQtNlRLT1ViS21yTm9LZVRqSmhkaXVjY1cyaGV2djI0OHM4NEJVRUtOejV6ZDlJTjB0OTRSZnhPay16Znc?oc=5",
+      "snippet": "ยอดขายรถ EV ในมาเลเซีย พุ่งแซงหน้ารถไฮบริดครั้งแรกในครึ่งปีแรก 2026 เดินหน้าปรับเป้า EV ทะลุ 1.2 แสนคันสิ้นปีนี้ thestandard.co",
+      "publishedAt": "2026-07-25T02:08:04.000Z",
+      "sourceId": "google-news:th-TH",
+      "sourceName": "thestandard.co",
       "sourceTier": 2,
-      "sourceCountry": "GLOBAL",
-      "language": "en",
+      "sourceCountry": "TH",
+      "language": "th",
       "unverified": false,
       "itemKind": "news",
-      "id": "a783f64ead756219",
-      "canonicalUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQN1NRUWd5Z3YtRnR2SVlRVVlCamZvRUY5azRDRXVULTkyNkxkWEd1bFkwamZLT1ljWEpkUVh0VG5iRVpVTUZodjZQRUxFNkdLVWxmbVZLRWlGYkV5eFJvSWhQdGw0aXdSeHNZUFVzVk11Z1RLSzdUdjFzSGlCN3BSNnRqTnVSQU1kb2NsN3JwdjhBdXY5S3Nn",
-      "contentHash": "60845b17017b100a53831e9d",
-      "collectedAt": "2026-07-24T18:34:26.075Z",
+      "id": "48ada28289276cc8",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ZRUgtOUxPVTRkWmI3SUpSZXFGS21uWXEzUl9ueEV3N29NR0x5UkQtNlRLT1ViS21yTm9LZVRqSmhkaXVjY1cyaGV2djI0OHM4NEJVRUtOejV6ZDlJTjB0OTRSZnhPay16Znc",
+      "contentHash": "f8c3b3ae1a0ab84549209790",
+      "collectedAt": "2026-07-25T04:01:02.394Z",
       "isPressRelease": false,
       "isSponsored": false,
-      "prefilterScore": 13,
+      "prefilterScore": 12,
       "matchedCategories": [
-        "OEM_BRANDS",
-        "INTERNATIONAL"
+        "AUTO_MARKET",
+        "EV"
       ],
       "matchedCompetitors": [],
-      "matchedBrands": [
-        "BYD",
-        "MG",
-        "Geely"
-      ],
+      "matchedBrands": [],
       "hasAutomotiveContext": true,
       "relatedCoverage": [],
-      "titleTh": "[EN] Thailand's Car Market Goes Chinese: Geely, BYD, MG Lead EV Revolution As Japanese Dominance Faces Challenge - Autopunditz",
-      "shortSummaryTh": "Thailand's Car Market Goes Chinese: Geely, BYD, MG Lead EV Revolution As Japanese Dominance Faces Challenge Autopunditz",
+      "titleTh": "ยอดขายรถ EV ในมาเลเซีย พุ่งแซงหน้ารถไฮบริดครั้งแรกในครึ่งปีแรก 2026 เดินหน้าปรับเป้า EV ทะลุ 1.2 แสนคันสิ้นปีนี้ - thestandard.co",
+      "shortSummaryTh": "ยอดขายรถ EV ในมาเลเซีย พุ่งแซงหน้ารถไฮบริดครั้งแรกในครึ่งปีแรก 2026 เดินหน้าปรับเป้า EV ทะลุ 1.2 แสนคันสิ้นปีนี้ thestandard.co",
       "classification": "neutral",
       "impactScore": 0,
-      "confidence": 48,
-      "relevanceScore": 52,
+      "confidence": 53,
+      "relevanceScore": 49,
       "newsCategory": "EV",
-      "affectedChannels": [
-        "OEM"
-      ],
+      "affectedChannels": [],
       "affectedProducts": [],
       "affectedCountries": [
         "TH"
@@ -437,9 +449,9 @@
       ],
       "timeHorizon": "long-term",
       "analyzedBy": "fallback",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQN1NRUWd5Z3YtRnR2SVlRVVlCamZvRUY5azRDRXVULTkyNkxkWEd1bFkwamZLT1ljWEpkUVh0VG5iRVpVTUZodjZQRUxFNkdLVWxmbVZLRWlGYkV5eFJvSWhQdGw0aXdSeHNZUFVzVk11Z1RLSzdUdjFzSGlCN3BSNnRqTnVSQU1kb2NsN3JwdjhBdXY5S3Nn",
-      "titleOriginal": "Thailand's Car Market Goes Chinese: Geely, BYD, MG Lead EV Revolution As Japanese Dominance Faces Challenge - Autopunditz",
-      "originalSnippet": "Thailand's Car Market Goes Chinese: Geely, BYD, MG Lead EV Revolution As Japanese Dominance Faces Challenge Autopunditz"
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ZRUgtOUxPVTRkWmI3SUpSZXFGS21uWXEzUl9ueEV3N29NR0x5UkQtNlRLT1ViS21yTm9LZVRqSmhkaXVjY1cyaGV2djI0OHM4NEJVRUtOejV6ZDlJTjB0OTRSZnhPay16Znc",
+      "titleOriginal": "ยอดขายรถ EV ในมาเลเซีย พุ่งแซงหน้ารถไฮบริดครั้งแรกในครึ่งปีแรก 2026 เดินหน้าปรับเป้า EV ทะลุ 1.2 แสนคันสิ้นปีนี้ - thestandard.co",
+      "originalSnippet": "ยอดขายรถ EV ในมาเลเซีย พุ่งแซงหน้ารถไฮบริดครั้งแรกในครึ่งปีแรก 2026 เดินหน้าปรับเป้า EV ทะลุ 1.2 แสนคันสิ้นปีนี้ thestandard.co"
     },
     {
       "title": "Mercedes-Benz GLC EV รถไฟฟ้า100% เปิดตัวในไทย กันยายน 2026 นี้ ! แบต 800V 94 kWh วิ่ง 713 km. (WLTP) ชาร์จ DC 330 kW",
@@ -456,7 +468,7 @@
       "id": "3258e260e55afd53",
       "canonicalUrl": "https://autolifethailand.tv/mercedes-benz-glc-ev-coming-thailand-sep-2026",
       "contentHash": "67f4e21c388ea9419958d30f",
-      "collectedAt": "2026-07-24T18:34:26.075Z",
+      "collectedAt": "2026-07-25T04:01:02.394Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 10,
@@ -529,7 +541,7 @@
       "id": "e4ea79cd6cb4b459",
       "canonicalUrl": "https://autospinn.com/2026/07/chery-q-news-150904",
       "contentHash": "8d5a1663b13f23f26260f250",
-      "collectedAt": "2026-07-24T18:34:26.075Z",
+      "collectedAt": "2026-07-25T04:01:02.394Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 10,
@@ -597,7 +609,7 @@
       "id": "6ca9ada514d23f63",
       "canonicalUrl": "https://autospinn.com/2026/07/denza-z9gt-official-price-and-specification-thailand-150893",
       "contentHash": "695625bdf23512b42cdb4dbf",
-      "collectedAt": "2026-07-24T18:34:26.075Z",
+      "collectedAt": "2026-07-25T04:01:02.394Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 10,
@@ -665,7 +677,7 @@
       "id": "35558ecb87d0efa3",
       "canonicalUrl": "https://autospinn.com/2026/07/mazda6e-150856",
       "contentHash": "8882e503e63bce70050a4f66",
-      "collectedAt": "2026-07-24T18:34:26.075Z",
+      "collectedAt": "2026-07-25T04:01:02.394Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 10,
@@ -734,7 +746,7 @@
       "id": "c3944fb762efa449",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOTHpxSGNENnFISF9nSkwtSUQyX3g0MmN6SXB1QmdvRnJZQXRxWGsyM3YwVTFWVEVkbDVheDM4N0FWWWtTeVVlOVU1RFVyTEk3S2dIVmtfWmNNc3VrT2NnalY4S19kZXlGazVjMng1ZlJoa2Y3VFp6ai1BN1B6QTUtYQ",
       "contentHash": "c9f309cb49107d8e9cee65b9",
-      "collectedAt": "2026-07-24T18:34:26.075Z",
+      "collectedAt": "2026-07-25T04:01:02.394Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 10,
@@ -788,6 +800,74 @@
       "originalSnippet": "ในประเทศเยอรมนี รถยนต์ไฟฟ้าได้ \"แซงหน้า\" รถยนต์ที่ใช้น้ำมันเบนซินและรถยนต์ไฮบริดเป็นครั้งแรกแล้ว Vietnam.vn"
     },
     {
+      "title": "ต่อไปนี้รถยนต์ไฟฟ้าจะไม่ต้องกังวลเรื่องการครูดใต้ท้องรถและทำให้แบตเตอรี่เสียหายอีกต่อไป ไม่ว่าจะวิ่งบนพื้นผิวแบบใดก็ตาม - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRjJ1VHc2VlNJNzF3dGhvcEtqdGRCM1FEcjJjQjZOX09ZckJBaXVDc0d2Y0FocVBNcnRYV2I2bVMtQ1o5SzNDVXpZYWJVNlg1SVpZUHV6SU4yUlV6dnZUQ01Lb2xNc0tOdkFva3h3cVE4b3ptWURUUDl4Q3VxRVlFVlNFVnE?oc=5",
+      "snippet": "ต่อไปนี้รถยนต์ไฟฟ้าจะไม่ต้องกังวลเรื่องการครูดใต้ท้องรถและทำให้แบตเตอรี่เสียหายอีกต่อไป ไม่ว่าจะวิ่งบนพื้นผิวแบบใดก็ตาม Vietnam.vn",
+      "publishedAt": "2026-07-23T05:37:48.000Z",
+      "sourceId": "google-news:th-TH",
+      "sourceName": "Vietnam.vn",
+      "sourceTier": 2,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "44b9b1bc49b09491",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRjJ1VHc2VlNJNzF3dGhvcEtqdGRCM1FEcjJjQjZOX09ZckJBaXVDc0d2Y0FocVBNcnRYV2I2bVMtQ1o5SzNDVXpZYWJVNlg1SVpZUHV6SU4yUlV6dnZUQ01Lb2xNc0tOdkFva3h3cVE4b3ptWURUUDl4Q3VxRVlFVlNFVnE",
+      "contentHash": "4348817c7ff05c97dddfa15b",
+      "collectedAt": "2026-07-25T04:01:02.394Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 10,
+      "matchedCategories": [
+        "EV",
+        "INTERNATIONAL"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "ต่อไปนี้รถยนต์ไฟฟ้าจะไม่ต้องกังวลเรื่องการครูดใต้ท้องรถและทำให้แบตเตอรี่เสียหายอีกต่อไป ไม่ว่าจะวิ่งบนพื้นผิวแบบใดก็ตาม - Vietnam.vn",
+      "shortSummaryTh": "ต่อไปนี้รถยนต์ไฟฟ้าจะไม่ต้องกังวลเรื่องการครูดใต้ท้องรถและทำให้แบตเตอรี่เสียหายอีกต่อไป ไม่ว่าจะวิ่งบนพื้นผิวแบบใดก็ตาม Vietnam.vn",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 53,
+      "relevanceScore": 43,
+      "newsCategory": "EV",
+      "affectedChannels": [],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [
+        "รถ EV ยังต้องล้างแอร์ และเจ้าของ EV ใส่ใจคุณภาพอากาศในห้องโดยสารสูง"
+      ],
+      "negativeImpacts": [
+        "EV ไม่มีหัวฉีดน้ำมัน = ความต้องการ Power Flow ลดลงในระยะยาว"
+      ],
+      "reasoningSummary": [
+        "ข่าว EV: ผลบวกต่อ AC_CLEANING หักลบผลลบต่อ POWER_FLOW → ประเมินผลสุทธิ"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "long-term",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRjJ1VHc2VlNJNzF3dGhvcEtqdGRCM1FEcjJjQjZOX09ZckJBaXVDc0d2Y0FocVBNcnRYV2I2bVMtQ1o5SzNDVXpZYWJVNlg1SVpZUHV6SU4yUlV6dnZUQ01Lb2xNc0tOdkFva3h3cVE4b3ptWURUUDl4Q3VxRVlFVlNFVnE",
+      "titleOriginal": "ต่อไปนี้รถยนต์ไฟฟ้าจะไม่ต้องกังวลเรื่องการครูดใต้ท้องรถและทำให้แบตเตอรี่เสียหายอีกต่อไป ไม่ว่าจะวิ่งบนพื้นผิวแบบใดก็ตาม - Vietnam.vn",
+      "originalSnippet": "ต่อไปนี้รถยนต์ไฟฟ้าจะไม่ต้องกังวลเรื่องการครูดใต้ท้องรถและทำให้แบตเตอรี่เสียหายอีกต่อไป ไม่ว่าจะวิ่งบนพื้นผิวแบบใดก็ตาม Vietnam.vn"
+    },
+    {
       "title": "สเปนกำลังกลายเป็น \"ศูนย์กลาง\" สำหรับรถยนต์ไฟฟ้าจากจีนในยุโรป - Vietnam.vn",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxObmQwUVVmN3lsa3dkc3l4X0Jhd1BxUGQ1THRSQzZaR2VKOHZkYXNvTGNYWklFeDZQMV9OeVFwX2xPUF9CUmFPcU8tblNTN3o2N3FPVkNUejMyN3NhZkRGS01yRVVaaWJrWUM3cGlwd2c5M0tWd0lpS2h6elFKMGpJa3FmOXRGSmg0bWM3YzJqWQ?oc=5",
       "snippet": "สเปนกำลังกลายเป็น \"ศูนย์กลาง\" สำหรับรถยนต์ไฟฟ้าจากจีนในยุโรป Vietnam.vn",
@@ -802,7 +882,7 @@
       "id": "76f2e2d0a95db627",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxObmQwUVVmN3lsa3dkc3l4X0Jhd1BxUGQ1THRSQzZaR2VKOHZkYXNvTGNYWklFeDZQMV9OeVFwX2xPUF9CUmFPcU8tblNTN3o2N3FPVkNUejMyN3NhZkRGS01yRVVaaWJrWUM3cGlwd2c5M0tWd0lpS2h6elFKMGpJa3FmOXRGSmg0bWM3YzJqWQ",
       "contentHash": "513e6ed3b72be4a0ab4e9634",
-      "collectedAt": "2026-07-24T18:34:26.075Z",
+      "collectedAt": "2026-07-25T04:01:02.394Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 10,
@@ -870,7 +950,7 @@
       "id": "1a51339a1969522d",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZzQ2b0RSeWFQOUZkRzlMRVdHMlBZYms3ckJOWnVoLVM2OU1HV0hjWWxLd3Z1dWNMbkZiRFo5UDROc1o1VWhxcDVqdFFjU2M3Vk0xenoyZXc3VTliVWdRZk5nUWVVaHZVUU80YWJWTzlZZjhSNXgyX2N1ZjQtb2VJMHNKdUVGSmM",
       "contentHash": "f75d21b7b7294f8c8494708a",
-      "collectedAt": "2026-07-24T18:34:26.075Z",
+      "collectedAt": "2026-07-25T04:01:02.394Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 10,
@@ -924,10 +1004,10 @@
       "originalSnippet": "ตลาดรถยนต์ไฟฟ้าทั่วโลกกำลังมีพัฒนาการใหม่ๆ เกิดขึ้นมากมาย Vietnam.vn"
     },
     {
-      "title": "เหตุใดรถยนต์ไฟฟ้าจึงต้องมีการจำกัดความเร็ว? - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5YOVNJbUNRRi11SlF3MExVVDFkbU11X194R1ZaNU1sR1pMU1VobHJjNk9oSUI3SjRkVDlJX2pOb19LcWh2dE1fN3lJWlJ2ckd5c0ptd3RkZUZRWm0zTTNYVEdlT2dtOWZIYXMw?oc=5",
-      "snippet": "เหตุใดรถยนต์ไฟฟ้าจึงต้องมีการจำกัดความเร็ว? Vietnam.vn",
-      "publishedAt": "2026-07-24T08:52:50.000Z",
+      "title": "โรงงานผลิตรถยนต์ไฟฟ้า VinFast Ha Tinh ต้องการรับสมัครพนักงาน 3,000 คน - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNanlvaGs1NkRHVzdranZJaEZsYnp5cEh4QWc5ZEFlSjRkbWQ5a1o3YUs1MWdsbVFqRDQyRmY0UllmUml2T3RQUkYxSzFfbnFOeVhDVUdib3ZZdjBWdHZaUzQ1S0M3VmVQYnVIYUJGeDhGMGZUQWFmSEtJZnZSMUsyQy1KcTZBMFU0amRrOEFwTWpJazZlQmc?oc=5",
+      "snippet": "โรงงานผลิตรถยนต์ไฟฟ้า VinFast Ha Tinh ต้องการรับสมัครพนักงาน 3,000 คน Vietnam.vn",
+      "publishedAt": "2026-07-24T22:30:02.000Z",
       "sourceId": "google-news:th-TH",
       "sourceName": "Vietnam.vn",
       "sourceTier": 2,
@@ -935,10 +1015,10 @@
       "language": "th",
       "unverified": false,
       "itemKind": "news",
-      "id": "4dd49269b2d127d3",
-      "canonicalUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5YOVNJbUNRRi11SlF3MExVVDFkbU11X194R1ZaNU1sR1pMU1VobHJjNk9oSUI3SjRkVDlJX2pOb19LcWh2dE1fN3lJWlJ2ckd5c0ptd3RkZUZRWm0zTTNYVEdlT2dtOWZIYXMw",
-      "contentHash": "04745ecaa08b7c2a77b53d8b",
-      "collectedAt": "2026-07-24T18:34:26.075Z",
+      "id": "e3e16a724627a2d6",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNanlvaGs1NkRHVzdranZJaEZsYnp5cEh4QWc5ZEFlSjRkbWQ5a1o3YUs1MWdsbVFqRDQyRmY0UllmUml2T3RQUkYxSzFfbnFOeVhDVUdib3ZZdjBWdHZaUzQ1S0M3VmVQYnVIYUJGeDhGMGZUQWFmSEtJZnZSMUsyQy1KcTZBMFU0amRrOEFwTWpJazZlQmc",
+      "contentHash": "ad38bc03ba6d23c68063f7f3",
+      "collectedAt": "2026-07-25T04:01:02.394Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 10,
@@ -950,8 +1030,8 @@
       "matchedBrands": [],
       "hasAutomotiveContext": true,
       "relatedCoverage": [],
-      "titleTh": "เหตุใดรถยนต์ไฟฟ้าจึงต้องมีการจำกัดความเร็ว? - Vietnam.vn",
-      "shortSummaryTh": "เหตุใดรถยนต์ไฟฟ้าจึงต้องมีการจำกัดความเร็ว? Vietnam.vn",
+      "titleTh": "โรงงานผลิตรถยนต์ไฟฟ้า VinFast Ha Tinh ต้องการรับสมัครพนักงาน 3,000 คน - Vietnam.vn",
+      "shortSummaryTh": "โรงงานผลิตรถยนต์ไฟฟ้า VinFast Ha Tinh ต้องการรับสมัครพนักงาน 3,000 คน Vietnam.vn",
       "classification": "neutral",
       "impactScore": 0,
       "confidence": 48,
@@ -987,9 +1067,9 @@
       ],
       "timeHorizon": "long-term",
       "analyzedBy": "fallback",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5YOVNJbUNRRi11SlF3MExVVDFkbU11X194R1ZaNU1sR1pMU1VobHJjNk9oSUI3SjRkVDlJX2pOb19LcWh2dE1fN3lJWlJ2ckd5c0ptd3RkZUZRWm0zTTNYVEdlT2dtOWZIYXMw",
-      "titleOriginal": "เหตุใดรถยนต์ไฟฟ้าจึงต้องมีการจำกัดความเร็ว? - Vietnam.vn",
-      "originalSnippet": "เหตุใดรถยนต์ไฟฟ้าจึงต้องมีการจำกัดความเร็ว? Vietnam.vn"
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNanlvaGs1NkRHVzdranZJaEZsYnp5cEh4QWc5ZEFlSjRkbWQ5a1o3YUs1MWdsbVFqRDQyRmY0UllmUml2T3RQUkYxSzFfbnFOeVhDVUdib3ZZdjBWdHZaUzQ1S0M3VmVQYnVIYUJGeDhGMGZUQWFmSEtJZnZSMUsyQy1KcTZBMFU0amRrOEFwTWpJazZlQmc",
+      "titleOriginal": "โรงงานผลิตรถยนต์ไฟฟ้า VinFast Ha Tinh ต้องการรับสมัครพนักงาน 3,000 คน - Vietnam.vn",
+      "originalSnippet": "โรงงานผลิตรถยนต์ไฟฟ้า VinFast Ha Tinh ต้องการรับสมัครพนักงาน 3,000 คน Vietnam.vn"
     },
     {
       "title": "Mitsubishi Motors to Invest THB16 Billion in Thailand for EV Production - kaohoon international",
@@ -1006,7 +1086,7 @@
       "id": "5b1655df6411811e",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE90aThCMkloLW5FWTdRelVqLWFBVUVUMk5RMzRuY0NWMzM4amdBVjUwVjdrU1lOZzdkcFZQSzk4dVdOWnBkN1l0OThUVDI4Sk4xVkkwcEhOUVozcGUtNmcyTVZrQQ",
       "contentHash": "33f753b5ac8c1481461e2faf",
-      "collectedAt": "2026-07-24T18:34:26.075Z",
+      "collectedAt": "2026-07-25T04:01:02.394Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 10,
@@ -1078,7 +1158,7 @@
       "id": "5321fc30f2ea6e09",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9WRkVvQkZ0N25EYU1VTE5YeXYtWVh1ZGZiSFlxcnhJQjhFZXE3dmJPbmZQb1lTOXVNd3hWME0yanZVUkpsdlFSbGwxVThwcTROUy1aZTJDOXNmQTA",
       "contentHash": "4251925057dff9deb04568e0",
-      "collectedAt": "2026-07-24T18:34:26.075Z",
+      "collectedAt": "2026-07-25T04:01:02.394Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 9,
@@ -1136,74 +1216,6 @@
       "originalSnippet": "รถยนต์ไฟฟ้าดันตลาดยุโรปโตไม่หยุด \"BYD-แบรนด์จีน\" เร่งชิงส่วนแบ่ง ยอดขายพุ่ง Thairath.co.th"
     },
     {
-      "title": "สรุปผลประกอบการ Tesla ไตรมาส 2 ปี 2026 ยอดขายรถพุ่ง รายได้โต แต่กำไรหด - iMoD",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5ET0VxUzJmRWJlYThRT3JDLVZwRjZya3FxZS04a3czSmN5aEVwdjFwYVRHVm9JU1pZaHhtblNock5jZk9xTVFCRDZnVzNqbXZsRmFlZTByaTNCcWFIa3dBeWQ3N3RaMGtN?oc=5",
-      "snippet": "สรุปผลประกอบการ Tesla ไตรมาส 2 ปี 2026 ยอดขายรถพุ่ง รายได้โต แต่กำไรหด iMoD",
-      "publishedAt": "2026-07-23T03:17:06.000Z",
-      "sourceId": "google-news:th-TH",
-      "sourceName": "iMoD",
-      "sourceTier": 2,
-      "sourceCountry": "TH",
-      "language": "th",
-      "unverified": false,
-      "itemKind": "news",
-      "id": "73372750c1a86ff9",
-      "canonicalUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5ET0VxUzJmRWJlYThRT3JDLVZwRjZya3FxZS04a3czSmN5aEVwdjFwYVRHVm9JU1pZaHhtblNock5jZk9xTVFCRDZnVzNqbXZsRmFlZTByaTNCcWFIa3dBeWQ3N3RaMGtN",
-      "contentHash": "4de55d5ae3a9254fc5c05232",
-      "collectedAt": "2026-07-24T18:34:26.075Z",
-      "isPressRelease": false,
-      "isSponsored": false,
-      "prefilterScore": 9,
-      "matchedCategories": [
-        "AUTO_MARKET",
-        "OEM_BRANDS"
-      ],
-      "matchedCompetitors": [],
-      "matchedBrands": [
-        "Tesla"
-      ],
-      "hasAutomotiveContext": true,
-      "relatedCoverage": [],
-      "titleTh": "สรุปผลประกอบการ Tesla ไตรมาส 2 ปี 2026 ยอดขายรถพุ่ง รายได้โต แต่กำไรหด - iMoD",
-      "shortSummaryTh": "สรุปผลประกอบการ Tesla ไตรมาส 2 ปี 2026 ยอดขายรถพุ่ง รายได้โต แต่กำไรหด iMoD",
-      "classification": "neutral",
-      "impactScore": 0,
-      "confidence": 53,
-      "relevanceScore": 40,
-      "newsCategory": "OEM_BRANDS",
-      "affectedChannels": [
-        "OEM"
-      ],
-      "affectedProducts": [],
-      "affectedCountries": [
-        "TH"
-      ],
-      "affectedCompetitors": [],
-      "okrImpact": {
-        "O1": "neutral",
-        "O2": "neutral"
-      },
-      "positiveImpacts": [],
-      "negativeImpacts": [],
-      "reasoningSummary": [
-        "วิเคราะห์ด้วยกฎอัตโนมัติ (ไม่ได้ใช้ AI)"
-      ],
-      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
-      "recommendedActions": [
-        {
-          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
-          "owner": "Business Intelligence",
-          "priority": "medium",
-          "deadline": "monitor"
-        }
-      ],
-      "timeHorizon": "1-3 months",
-      "analyzedBy": "fallback",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5ET0VxUzJmRWJlYThRT3JDLVZwRjZya3FxZS04a3czSmN5aEVwdjFwYVRHVm9JU1pZaHhtblNock5jZk9xTVFCRDZnVzNqbXZsRmFlZTByaTNCcWFIa3dBeWQ3N3RaMGtN",
-      "titleOriginal": "สรุปผลประกอบการ Tesla ไตรมาส 2 ปี 2026 ยอดขายรถพุ่ง รายได้โต แต่กำไรหด - iMoD",
-      "originalSnippet": "สรุปผลประกอบการ Tesla ไตรมาส 2 ปี 2026 ยอดขายรถพุ่ง รายได้โต แต่กำไรหด iMoD"
-    },
-    {
       "title": "Ally Financial แต่งตั้ง Sean Leary รับตําแหน่งด้านบริการสินเชื่อรถยนต์ - Investing.com",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBiN2R1T1U4cnBuZ2pGcFlWbFFSeE16OThpN0xhVjcwTXRBU0Q4bTQzZkFURHUwMlRDd3dTNFVKQzhmeXhTX1VNRnVwUU9CdG5xOVJOX1AzVVplUmN0eEFvN05mb3UwUFlZcVYyam9vQQ?oc=5",
       "snippet": "Ally Financial แต่งตั้ง Sean Leary รับตําแหน่งด้านบริการสินเชื่อรถยนต์ Investing.com",
@@ -1218,7 +1230,7 @@
       "id": "8918afb949b1d96e",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBiN2R1T1U4cnBuZ2pGcFlWbFFSeE16OThpN0xhVjcwTXRBU0Q4bTQzZkFURHUwMlRDd3dTNFVKQzhmeXhTX1VNRnVwUU9CdG5xOVJOX1AzVVplUmN0eEFvN05mb3UwUFlZcVYyam9vQQ",
       "contentHash": "63833bd2542561b7c87324de",
-      "collectedAt": "2026-07-24T18:34:26.075Z",
+      "collectedAt": "2026-07-25T04:01:02.394Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 9,
@@ -1281,161 +1293,161 @@
       "sourceName": "ประชาชาติธุรกิจ",
       "ok": true,
       "itemCount": 20,
-      "durationMs": 2522
+      "durationMs": 3193
     },
     {
       "sourceId": "headlightmag",
       "sourceName": "HeadLightMag",
       "ok": true,
       "itemCount": 10,
-      "durationMs": 4804
+      "durationMs": 4079
     },
     {
       "sourceId": "autolifethailand",
       "sourceName": "AutoLife Thailand",
       "ok": true,
       "itemCount": 10,
-      "durationMs": 5771
+      "durationMs": 4658
     },
     {
       "sourceId": "autospinn",
       "sourceName": "Autospinn",
       "ok": true,
       "itemCount": 20,
-      "durationMs": 3655
+      "durationMs": 2645
     },
     {
       "sourceId": "khaosod",
       "sourceName": "ข่าวสด",
       "ok": true,
       "itemCount": 20,
-      "durationMs": 3410
+      "durationMs": 3230
     },
     {
       "sourceId": "matichon",
       "sourceName": "มติชน",
       "ok": true,
       "itemCount": 20,
-      "durationMs": 2207
+      "durationMs": 1971
     },
     {
       "sourceId": "bangkokpost-business",
       "sourceName": "Bangkok Post — Business",
       "ok": true,
       "itemCount": 10,
-      "durationMs": 4973
+      "durationMs": 4444
     },
     {
       "sourceId": "automotive-news",
       "sourceName": "Automotive News",
       "ok": true,
       "itemCount": 20,
-      "durationMs": 4221
+      "durationMs": 2490
     },
     {
       "sourceId": "tire-business",
       "sourceName": "Tire Business (Workshop / Aftermarket)",
       "ok": true,
       "itemCount": 20,
-      "durationMs": 5306
+      "durationMs": 4654
     },
     {
       "sourceId": "just-auto",
       "sourceName": "Just Auto",
       "ok": true,
       "itemCount": 10,
-      "durationMs": 4081
+      "durationMs": 2697
     },
     {
       "sourceId": "insideevs",
       "sourceName": "InsideEVs",
       "ok": true,
       "itemCount": 20,
-      "durationMs": 4210
+      "durationMs": 3064
     },
     {
       "sourceId": "electrek",
       "sourceName": "Electrek",
       "ok": true,
       "itemCount": 20,
-      "durationMs": 2826
+      "durationMs": 2178
     },
     {
       "sourceId": "motor1",
       "sourceName": "Motor1",
       "ok": true,
       "itemCount": 20,
-      "durationMs": 4345
+      "durationMs": 3242
     },
     {
       "sourceId": "carscoops",
       "sourceName": "Carscoops",
       "ok": true,
       "itemCount": 18,
-      "durationMs": 3068
+      "durationMs": 2306
     },
     {
       "sourceId": "paultan",
       "sourceName": "Paul Tan's Automotive News (MY/ASEAN)",
       "ok": true,
       "itemCount": 20,
-      "durationMs": 3010
+      "durationMs": 2915
     },
     {
       "sourceId": "vnexpress-intl",
       "sourceName": "VnExpress International",
       "ok": true,
       "itemCount": 20,
-      "durationMs": 4361
+      "durationMs": 3839
     },
     {
       "sourceId": "nikkei-asia",
       "sourceName": "Nikkei Asia",
       "ok": true,
       "itemCount": 20,
-      "durationMs": 4251
+      "durationMs": 2998
     },
     {
       "sourceId": "google-news:th-TH",
       "sourceName": "Google News (th-TH)",
       "ok": true,
-      "itemCount": 150,
-      "durationMs": 15946
+      "itemCount": 147,
+      "durationMs": 16041
     },
     {
       "sourceId": "google-news:en-TH",
       "sourceName": "Google News (en-TH)",
       "ok": true,
-      "itemCount": 104,
-      "durationMs": 16668
+      "itemCount": 102,
+      "durationMs": 16718
     },
     {
       "sourceId": "google-news:en-SG",
       "sourceName": "Google News (en-SG)",
       "ok": true,
-      "itemCount": 104,
-      "durationMs": 16832
+      "itemCount": 102,
+      "durationMs": 16627
     },
     {
       "sourceId": "google-news:en-PH",
       "sourceName": "Google News (en-PH)",
       "ok": true,
-      "itemCount": 105,
-      "durationMs": 16734
+      "itemCount": 102,
+      "durationMs": 16796
     },
     {
       "sourceId": "google-news:en-US",
       "sourceName": "Google News (en-US)",
       "ok": true,
-      "itemCount": 104,
-      "durationMs": 16833
+      "itemCount": 102,
+      "durationMs": 16807
     },
     {
       "sourceId": "pantip",
       "sourceName": "Pantip (ห้องรถยนต์)",
       "ok": true,
       "itemCount": 90,
-      "durationMs": 9099
+      "durationMs": 8823
     },
     {
       "sourceId": "facebook-owned",
@@ -1457,20 +1469,27 @@
       "sourceId": "weather-signal",
       "sourceName": "Open-Meteo (พยากรณ์อากาศ / คุณภาพอากาศ)",
       "ok": true,
-      "itemCount": 0,
-      "durationMs": 2323
+      "itemCount": 1,
+      "durationMs": 2704
     }
   ],
   "errors": [
-    "[feed:pcd-air4thai] fetch failed"
+    "[feed:pcd-air4thai] fetch failed",
+    "[ai:classify:ce0d61199427e31e] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CdN7GTqfgpSN5iAvYnRa8\"}",
+    "[ai:classify:cb9f2d86c33fbcfa] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CdN7GVvvh9yWDe6C9zXLU\"}",
+    "[ai:classify:48ada28289276cc8] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CdN7GXuVUD4mjyP7tr44X\"}",
+    "[ai:classify:44b9b1bc49b09491] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CdN7GZvn5qTMF1d7cVk6o\"}",
+    "[ai:classify:e3e16a724627a2d6] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CdN7GcLdx2F97wmrVddow\"}",
+    "[ai:classify:2299a49cc3df0946] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CdN7GemyuGKrBZVYpW644\"}",
+    "[ai:daily] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"adaptive thinking is not supported on this model\"},\"request_id\":\"req_011CdN7GgaPDX2WXhUEsPCiY\"}"
   ],
   "ai": {
     "enabled": true,
-    "model": "claude-opus-4-8",
-    "itemsAnalyzedByAi": 3,
-    "itemsAnalyzedByFallback": 16,
-    "inputTokens": 6754,
-    "outputTokens": 6565,
-    "estimatedCostUsd": 0.2905
+    "model": "claude-haiku-4-5-20251001",
+    "itemsAnalyzedByAi": 2,
+    "itemsAnalyzedByFallback": 18,
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "estimatedCostUsd": 0
   }
 }
