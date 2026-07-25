@@ -190,6 +190,11 @@ export const SourceHealthSchema = z.object({
   itemCount: z.number(),
   durationMs: z.number(),
   error: z.string().optional(),
+  /**
+   * false = ยังไม่ได้ตั้งค่า (เช่น ขาด token) ซึ่งเป็นเรื่องปกติ ไม่ใช่ความล้มเหลว
+   * ไม่ระบุ/true = แหล่งที่ตั้งค่าแล้ว (ok หรือ failed จริง)
+   */
+  configured: z.boolean().optional(),
 });
 export type SourceHealth = z.infer<typeof SourceHealthSchema>;
 

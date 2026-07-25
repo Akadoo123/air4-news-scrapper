@@ -101,9 +101,12 @@ export async function runPipeline(opts: RunOptions = {}): Promise<DailyReport> {
     afterPrefilter: candidates.length,
   });
 
-  const failedSources = health.filter((h) => !h.ok).length;
+  // แหล่งที่ "ยังไม่ตั้งค่า" (เช่น FB/TikTok ขาด token) ไม่นับเป็นความล้มเหลว
+  // เพราะเป็นสถานะปกติที่ผู้ใช้ตั้งใจ ไม่ควรทำให้ระบบขึ้นสถานะ degraded
+  const configuredSources = health.filter((h) => h.configured !== false);
+  const failedSources = configuredSources.filter((h) => !h.ok).length;
   const status: DailyReport['status'] =
-    health.length > 0 && failedSources === health.length
+    configuredSources.length > 0 && failedSources === configuredSources.length
       ? 'failed'
       : failedSources > 0 || errors.count > 0
         ? 'degraded'

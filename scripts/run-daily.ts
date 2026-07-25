@@ -32,7 +32,12 @@ async function main() {
   console.log(`  วิเคราะห์โดย AI    : ${report.ai.itemsAnalyzedByAi}`);
   console.log(`  วิเคราะห์โดยกฎ     : ${report.ai.itemsAnalyzedByFallback}`);
   console.log(`  ค่าใช้จ่ายประมาณ   : $${report.ai.estimatedCostUsd.toFixed(4)}`);
-  console.log(`แหล่งข่าวที่ล้มเหลว  : ${report.sourceHealth.filter((h) => !h.ok).length}/${report.sourceHealth.length}`);
+  const configured = report.sourceHealth.filter((h) => h.configured !== false);
+  const notConfigured = report.sourceHealth.length - configured.length;
+  console.log(
+    `แหล่งข่าวที่ล้มเหลว  : ${configured.filter((h) => !h.ok).length}/${configured.length}` +
+      (notConfigured > 0 ? ` (ยังไม่ตั้งค่าอีก ${notConfigured})` : ''),
+  );
   console.log(`ข้อผิดพลาดที่ข้ามไป  : ${report.errors.length}`);
   console.log('──────────────────────────────────────\n');
 

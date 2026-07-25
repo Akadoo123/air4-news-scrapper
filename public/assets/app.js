@@ -1000,10 +1000,18 @@
     const box = $('health');
     clear(box);
     (r.sourceHealth || []).forEach((h) => {
+      // สามสถานะ: ทำงานได้ (เขียว) / ยังไม่ตั้งค่า (เทา) / ล้มเหลวจริง (แดง)
+      const notConfigured = h.configured === false;
+      const dotState = h.ok ? 'ok' : notConfigured ? 'idle' : 'bad';
+      const countText = h.ok
+        ? String(h.itemCount)
+        : notConfigured
+          ? t('sys.notConfigured')
+          : t('sys.failed');
       box.appendChild(el('div', { class: 'health__item', attrs: { title: h.error || '' } }, [
-        el('span', { class: 'health__dot health__dot--' + (h.ok ? 'ok' : 'bad') }),
+        el('span', { class: 'health__dot health__dot--' + dotState }),
         el('span', { class: 'health__name', text: h.sourceName }),
-        el('span', { class: 'health__count', text: h.ok ? String(h.itemCount) : t('sys.failed') }),
+        el('span', { class: 'health__count' + (notConfigured ? ' health__count--idle' : ''), text: countText }),
       ]));
     });
 

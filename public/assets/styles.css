@@ -677,6 +677,9 @@ select, input[type="search"], input[type="date"] {
 .health__dot { width: 7px; height: 7px; border-radius: 50%; flex: none; }
 .health__dot--ok { background: var(--pos); }
 .health__dot--bad { background: var(--neg); }
+/* ยังไม่ตั้งค่า — ไม่ใช่ความล้มเหลว ใช้สีเทากลาง ๆ */
+.health__dot--idle { background: var(--ink-3); }
+.health__count--idle { color: var(--ink-3); font-style: italic; }
 .health__name { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .health__count { font-family: var(--font-num); color: var(--ink-3); }
 

@@ -48,6 +48,7 @@ const skipped = (
   name: string,
   reason: string,
   started: number,
+  configured = true,
 ): SourceHealth => ({
   sourceId: id,
   sourceName: name,
@@ -55,6 +56,7 @@ const skipped = (
   itemCount: 0,
   durationMs: Date.now() - started,
   error: reason,
+  configured,
 });
 
 /* ------------------------------------------------------------
@@ -242,6 +244,7 @@ async function collectFacebook(
         'ยังไม่ได้ตั้งค่า FACEBOOK_PAGE_TOKEN — robots.txt ของ Facebook ห้าม crawl ' +
           'จึงต้องใช้ Graph API เท่านั้น (เข้าถึงได้เฉพาะเพจที่บริษัทดูแล)',
         started,
+        false,
       ),
     };
   }
@@ -319,6 +322,7 @@ async function collectTikTok(
         'ยังไม่ได้ตั้งค่า TIKTOK_ACCESS_TOKEN — เนื้อหา TikTok ถูก render ด้วย JS ' +
           'และ ToS จำกัดการ scrape จึงต้องใช้ Display API เท่านั้น',
         started,
+        false,
       ),
     };
   }
