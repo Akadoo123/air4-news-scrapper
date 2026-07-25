@@ -4,6 +4,7 @@ import { fetchText, isAllowedByRobots } from './http.js';
 import { parseFeed } from '../parsers/feed.js';
 import { buildAllQueries, googleNewsUrl } from './queries.js';
 import { collectSocial } from './social.js';
+import { collectYouTube } from './youtube.js';
 import { collectWeatherSignals } from './weather.js';
 import { truncate, stripHtml } from '../security/sanitize.js';
 import type { RawItem, SourceHealth } from '../types.js';
@@ -61,6 +62,15 @@ export async function collectAll(errors: RunErrors): Promise<CollectResult> {
     health.push(...social.health);
   } catch (err) {
     errors.capture('social', err);
+  }
+
+  // ---- 3.5) YouTube (Data API v3 — ต้องมี YOUTUBE_API_KEY) ----
+  try {
+    const yt = await collectYouTube(errors);
+    items.push(...yt.items);
+    health.push(...yt.health);
+  } catch (err) {
+    errors.capture('youtube', err);
   }
 
   // ---- 4) Weather / air-quality demand signals ----

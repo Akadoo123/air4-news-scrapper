@@ -36,6 +36,7 @@ export const env = {
   newsApiKey: process.env.NEWS_API_KEY ?? '',
   facebookPageToken: process.env.FACEBOOK_PAGE_TOKEN ?? '',
   tiktokAccessToken: process.env.TIKTOK_ACCESS_TOKEN ?? '',
+  youtubeApiKey: process.env.YOUTUBE_API_KEY ?? '',
   databaseUrl: process.env.DATABASE_URL ?? '',
   dashboardBaseUrl: process.env.DASHBOARD_BASE_URL ?? '',
 
@@ -137,6 +138,7 @@ export interface FeedSource {
 }
 import type { SocialSourceConfig } from './collectors/social.js';
 import type { WeatherCity, WeatherThresholds } from './collectors/weather.js';
+import type { YouTubeConfig } from './collectors/youtube.js';
 
 export interface SourcesConfig {
   defaults: { max_items: number; timeout_ms: number };
@@ -150,6 +152,7 @@ export interface SourcesConfig {
   };
   feeds: FeedSource[];
   social?: { enabled: boolean; sources: SocialSourceConfig[] };
+  youtube?: YouTubeConfig;
   weather?: {
     enabled: boolean;
     thresholds?: Partial<WeatherThresholds>;
