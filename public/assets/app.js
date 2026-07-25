@@ -771,6 +771,16 @@
     if (values.some((v) => v.value === current)) sel.value = current;
   }
 
+  /**
+   * จัดกลุ่มแหล่งข่าวสำหรับตัวกรอง — ยุบ YouTube ทุกช่องและ Pantip ทุกแท็ก
+   * ให้เหลือแหล่งละตัวเลือกเดียว (การ์ดข่าวยังโชว์ชื่อช่อง/แท็กเต็มตามเดิม)
+   */
+  function sourceGroup(i) {
+    if (i.sourceId === 'youtube') return 'YouTube';
+    if (typeof i.sourceId === 'string' && i.sourceId.indexOf('pantip') === 0) return 'Pantip';
+    return i.sourceName;
+  }
+
   function buildFilterOptions() {
     const items = state.report.items;
     const uniq = (arr) => [...new Set(arr.filter(Boolean))].sort();
@@ -779,7 +789,7 @@
       uniq(items.flatMap((i) => i.affectedCountries)).map((c) => ({ value: c, label: c })),
       'ทุกประเทศ');
     fillSelect($('fSource'),
-      uniq(items.map((i) => i.sourceName)).map((s) => ({ value: s, label: s })),
+      uniq(items.map(sourceGroup)).map((s) => ({ value: s, label: s })),
       'ทุกแหล่งข่าว');
     fillSelect($('fCategory'),
       uniq(items.map((i) => i.newsCategory)).map((c) => ({ value: c, label: CATEGORY_TH[c] || c })),
@@ -795,7 +805,7 @@
     return pool.filter((i) => {
       if (f.verdict !== 'all' && f.verdict !== 'saved' && i.classification !== f.verdict) return false;
       if (f.country && !(i.affectedCountries || []).includes(f.country)) return false;
-      if (f.source && i.sourceName !== f.source) return false;
+      if (f.source && sourceGroup(i) !== f.source) return false;
       if (f.tier && String(i.sourceTier) !== f.tier) return false;
       if (f.category && i.newsCategory !== f.category) return false;
       if (f.channel && !(i.affectedChannels || []).includes(f.channel)) return false;
