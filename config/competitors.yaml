@@ -4,30 +4,66 @@
 # ============================================================
 require_automotive_context: true
 
+# ข้อมูลด้านล่างมาจากเว็บไซต์สาธารณะของคู่แข่ง (ชื่อ/แบรนด์/เว็บ/สินค้า)
+# ไม่บรรจุข้อมูลลับเชิงกลยุทธ์ (รายได้ กำไร ภัยคุกคาม ฯลฯ) เพราะ repo เป็น public
 competitors:
   - id: wizard
     name: Wizard
     aliases: ["Wizard", "วิซาร์ด", "วิซาร์ท"]
     ambiguous: true
     country: TH
-    notes: ชื่อเป็นคำทั่วไปมาก — ต้องมีคำเกี่ยวกับรถยนต์ประกอบเสมอ
+    company: บริษัท ที.อาร์.โปรดักส์ แอนด์มาร์เก็ตติ้ง จำกัด
+    domain: wizardgroup.com
+    notes: >-
+      คาร์แคร์ครบวงจร B2C 70+ สาขา/แฟรนไชส์ (PTT/Shell/Bangchak) มีแบรนด์ล้างแอร์ "Air Klean"
+      ชื่อ "Wizard" เป็นคำทั่วไปมาก — ต้องมีคำเกี่ยวกับรถยนต์ประกอบเสมอ
+  - id: air_klean
+    name: Air Klean
+    aliases: ["Air Klean", "AirKlean", "แอร์คลีน", "แอร์ คลีน"]
+    ambiguous: true
+    country: TH
+    company: บริษัท ที.อาร์.โปรดักส์ แอนด์มาร์เก็ตติ้ง จำกัด (แบรนด์ในเครือ Wizard)
+    domain: wizardgroup.com
+    notes: >-
+      แบรนด์ล้างแอร์รถยนต์ไม่ถอดตู้ด้วย Micro Cam ในเครือ Wizard — แข่งสินค้าหลักของ Air4 โดยตรง
+      "แอร์คลีน" เป็นคำกว้าง — ต้องมี automotive context ประกอบ
+  - id: eco_air
+    name: ECO AIR
+    aliases: ["ECO AIR", "EcoAir", "อีโคแอร์", "อีโค แอร์", "ECO MACHINE"]
+    ambiguous: true
+    country: TH
+    company: บริษัท อีโคแอร์ (ไทยแลนด์) จำกัด
+    domain: ecoairthailand.co.th
+    notes: >-
+      ล้างแอร์รถยนต์ไม่ถอดตู้ด้วยเครื่องอัตโนมัติ ECO MACHINE III (~15 นาที)
+      + น้ำยา AIR WASH/AIR CLEAN/AIR+PLUS (B2B) — คู่แข่งตรงสินค้าหลักของ Air4
+      "อีโคแอร์/eco air" เป็นคำกว้าง — ต้องมี automotive context ประกอบ
+  - id: fresh_car
+    name: Fresh Car
+    aliases: ["Fresh Car", "FreshCar", "เฟรชคาร์", "เฟรช คาร์"]
+    ambiguous: false
+    country: TH
+    company: บริษัท เฟรช คาร์ จำกัด
+    domain: freshcar.co.th
+    notes: >-
+      คาร์สปาครบวงจร ล้างแอร์ไม่ถอดตู้ + ล้างหัวฉีดอัตโนมัติ ผ่านเครือข่ายศูนย์บริการ (B2B)
   - id: fresh_air
     name: Fresh Air
     aliases: ["Fresh Air", "เฟรชแอร์", "เฟรช แอร์"]
     ambiguous: true
     country: TH
     notes: 'วลี "Fresh air" เป็นคำทั่วไปด้านคุณภาพอากาศ — ต้องมี car/รถยนต์ ประกอบ'
-  - id: fresh_car
-    name: Fresh Car
-    aliases: ["Fresh Car", "เฟรชคาร์", "เฟรช คาร์"]
-    ambiguous: false
-    country: TH
   - id: wise
-    name: Wise
-    aliases: ["Wise", "ไวส์"]
+    name: WISE
+    aliases: ["WISE", "ไวส์", "Wise Lubricant", "ริชไวส์"]
     ambiguous: true
     country: TH
-    notes: ชนกับบริษัทโอนเงิน Wise — ต้องมี automotive context เข้มงวด
+    company: บริษัท ริชไวส์มาร์เก็ตติ้ง จำกัด
+    domain: wiselubricant.com
+    notes: >-
+      เคมีภัณฑ์บำรุงเครื่องยนต์/ระบบเชื้อเพลิง (Engine Flush/Treatment) ขายผ่านโชว์รูม (B2B)
+      แข่งกับ Power Flow และกลุ่ม Trading ของ Air4 (ไม่ใช่ล้างแอร์)
+      ชนกับบริษัทโอนเงิน Wise — ต้องมี automotive context เข้มงวด
 
 # คำที่ถ้าพบร่วมกับชื่อคู่แข่ง = แทบแน่ใจว่าเป็น False Positive
 negative_context_terms:

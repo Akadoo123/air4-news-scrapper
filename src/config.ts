@@ -121,6 +121,8 @@ export interface CompetitorsConfig {
     ambiguous: boolean;
     country: string;
     notes?: string;
+    company?: string;
+    domain?: string;
   }>;
   negative_context_terms: string[];
   watch_signals: Array<{ id: string; th: string; severity: string }>;

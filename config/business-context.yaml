@@ -118,6 +118,32 @@ departments:
   - Business Development
   - Business Intelligence
 
+# ภูมิทัศน์คู่แข่ง — ใช้เป็นบริบทให้ AI เข้าใจว่าใครแข่งกับสินค้าตัวไหนของ Air4
+# ข้อมูลจากเว็บไซต์สาธารณะของคู่แข่งเท่านั้น (ไม่มีข้อมูลการเงิน/กลยุทธ์ภายใน)
+competitor_landscape:
+  air4_brands: [AIR-4, Toyota Aircare, Isuzu Airwash, Power Flow, Airpro]
+  competitors:
+    - brand: Air Klean (เครือ Wizard)
+      company: บริษัท ที.อาร์.โปรดักส์ แอนด์มาร์เก็ตติ้ง จำกัด
+      competes_with: AC_CLEANING
+      note: ล้างแอร์รถยนต์ไม่ถอดตู้ Micro Cam — คู่แข่งตรงสินค้าหลัก
+    - brand: ECO AIR (ECO MACHINE)
+      company: บริษัท อีโคแอร์ (ไทยแลนด์) จำกัด
+      competes_with: AC_CLEANING
+      note: เครื่องล้างแอร์ไม่ถอดตู้อัตโนมัติ + น้ำยา (B2B) — คู่แข่งตรงสินค้าหลัก
+    - brand: Fresh Car
+      company: บริษัท เฟรช คาร์ จำกัด
+      competes_with: AC_CLEANING
+      note: คาร์สปา ล้างแอร์ไม่ถอดตู้ + ล้างหัวฉีด ผ่านศูนย์บริการ (B2B)
+    - brand: Wizard
+      company: บริษัท ที.อาร์.โปรดักส์ แอนด์มาร์เก็ตติ้ง จำกัด
+      competes_with: TRADING
+      note: คาร์แคร์/เคลือบสีครบวงจร B2C เครือข่ายสาขาใหญ่
+    - brand: WISE
+      company: บริษัท ริชไวส์มาร์เก็ตติ้ง จำกัด
+      competes_with: POWER_FLOW
+      note: เคมีบำรุงเครื่องยนต์/ระบบเชื้อเพลิง (Engine Flush) ขายผ่านโชว์รูม — แข่ง Power Flow ไม่ใช่ล้างแอร์
+
 classification_guidance:
   ev_rule: >-
     ห้ามจัด EV เป็น Positive หรือ Negative โดยอัตโนมัติ
