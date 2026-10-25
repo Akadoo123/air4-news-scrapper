@@ -1,72 +1,70 @@
 {
-  "date": "2026-10-24",
-  "generatedAt": "2026-10-24T05:19:30.697Z",
+  "date": "2026-10-25",
+  "generatedAt": "2026-10-25T05:36:04.826Z",
   "timezone": "Asia/Bangkok",
   "status": "degraded",
   "kpi": {
-    "totalCollected": 990,
-    "afterDedup": 590,
-    "afterPrefilter": 29,
-    "published": 29,
-    "positive": 1,
-    "neutral": 27,
-    "negative": 1,
+    "totalCollected": 958,
+    "afterDedup": 537,
+    "afterPrefilter": 30,
+    "published": 30,
+    "positive": 2,
+    "neutral": 28,
+    "negative": 0,
     "highImpact": 1,
     "competitorAlerts": 0,
-    "evRelated": 9,
-    "international": 1,
-    "oemOpportunities": 0,
+    "evRelated": 7,
+    "international": 2,
+    "oemOpportunities": 1,
     "b2bOpportunities": 1,
     "b2cOpportunities": 0,
-    "o1Supporting": 1,
+    "o1Supporting": 2,
     "o2Supporting": 1,
     "socialMentions": 14,
     "demandSignals": 1
   },
   "daily": {
-    "executiveSummaryTh": "วันนี้ระบบคัดกรองข่าวที่เกี่ยวข้องกับ Air4 ได้ 29 ข่าว แบ่งเป็นเชิงบวก 1 ข่าว เป็นกลาง 27 ข่าว และเชิงลบ 1 ข่าว คะแนนผลกระทบสุทธิอยู่ที่ 4.4 ซึ่งจัดอยู่ในระดับบวกต่อธุรกิจ ข่าวเชิงบวกที่สำคัญที่สุดคือ \"อากาศร้อน: อุณหภูมิที่รู้สึกได้สูงสุดเฉลี่ย 37.2°C ใน 7 วันข้างหน้า — ปัจจัยหนุนความต้องการล้างแอร์รถยนต์\" ข่าวที่ต้องเฝ้าระวังมากที่สุดคือ \"ยักษ์สู้ศึกตลาด ‘ปิกอัพ’ ขาลง ‘ฮอนด้า’ ลงสนามชน ‘โตโยต้า-อีซูซุ’\" ยังไม่พบความเคลื่อนไหวสำคัญของคู่แข่งในวันนี้ หมายเหตุ: บทวิเคราะห์นี้สร้างโดยระบบกฎอัตโนมัติเนื่องจากไม่สามารถเรียกใช้ AI ได้",
+    "executiveSummaryTh": "วันนี้ระบบคัดกรองข่าวที่เกี่ยวข้องกับ Air4 ได้ 30 ข่าว แบ่งเป็นเชิงบวก 2 ข่าว เป็นกลาง 28 ข่าว และเชิงลบ 0 ข่าว คะแนนผลกระทบสุทธิอยู่ที่ 6.5 ซึ่งจัดอยู่ในระดับบวกต่อธุรกิจ ข่าวเชิงบวกที่สำคัญที่สุดคือ \"อากาศร้อน: อุณหภูมิที่รู้สึกได้สูงสุดเฉลี่ย 36.7°C ใน 7 วันข้างหน้า — ปัจจัยหนุนความต้องการล้างแอร์รถยนต์\" ยังไม่พบความเคลื่อนไหวสำคัญของคู่แข่งในวันนี้ หมายเหตุ: บทวิเคราะห์นี้สร้างโดยระบบกฎอัตโนมัติเนื่องจากไม่สามารถเรียกใช้ AI ได้",
     "overallSentiment": "positive",
-    "netImpactScore": 4.39,
-    "urgencyLevel": "medium",
+    "netImpactScore": 6.51,
+    "urgencyLevel": "high",
     "opportunitySignals": [
       {
-        "title": "อากาศร้อน: อุณหภูมิที่รู้สึกได้สูงสุดเฉลี่ย 37.2°C ใน 7 วันข้างหน้า — ปัจจัยหนุนความต้องการล้างแอร์รถยนต์",
+        "title": "อากาศร้อน: อุณหภูมิที่รู้สึกได้สูงสุดเฉลี่ย 36.7°C ใน 7 วันข้างหน้า — ปัจจัยหนุนความต้องการล้างแอร์รถยนต์",
         "detail": "ปัญหากลิ่น/เชื้อราในรถ = ความต้องการบริการหลักของ Air4",
         "relatedNewsIds": [
           "ce0d61199427e31e"
         ]
-      }
-    ],
-    "riskSignals": [
+      },
       {
-        "title": "ยักษ์สู้ศึกตลาด ‘ปิกอัพ’ ขาลง ‘ฮอนด้า’ ลงสนามชน ‘โตโยต้า-อีซูซุ’",
-        "detail": "ตลาดหดตัว = ปริมาณรถเข้าศูนย์ลดลง",
+        "title": "Toyota ทุบสถิติยอดขายยุโรป 9 เดือนแรกปี 2026 รวม 936,042 คัน รถยนต์ไฟฟ้า BEV โต 136% วิเคราะห์ยอดขาย Hybrid และรุ่นขายดีที่สุด - รถใหม่วันนี้ ข่าวรถยนต์ EV ราคารถยนต์ไฟฟ้า รถยนต์พลังงานไฟฟ้า - CAR250",
+        "detail": "ตลาดรถยนต์เติบโต = ปริมาณรถเข้าศูนย์เพิ่ม",
         "relatedNewsIds": [
-          "6ebaae9920d51a24"
+          "8eecc6924b42a07d"
         ]
       }
     ],
-    "actionsToday": [
-      {
-        "action": "ประเมินผลกระทบจากข่าว: ยักษ์สู้ศึกตลาด ‘ปิกอัพ’ ขาลง ‘ฮอนด้า’ ลงสนามชน ‘โตโยต้า-อีซูซุ’",
-        "owner": "Business Intelligence",
-        "priority": "high",
-        "deadline": "today",
-        "reason": "ตลาดหดตัว = ปริมาณรถเข้าศูนย์ลดลง",
-        "relatedNewsIds": [
-          "6ebaae9920d51a24"
-        ]
-      }
-    ],
+    "riskSignals": [],
+    "actionsToday": [],
     "actionsWithin7Days": [
       {
-        "action": "ต่อยอดโอกาสจากข่าว: อากาศร้อน: อุณหภูมิที่รู้สึกได้สูงสุดเฉลี่ย 37.2°C ใน 7 วันข้างหน้า — ปัจจัยหนุนความต้องการล้างแอร์รถยนต์",
+        "action": "ต่อยอดโอกาสจากข่าว: อากาศร้อน: อุณหภูมิที่รู้สึกได้สูงสุดเฉลี่ย 36.7°C ใน 7 วันข้างหน้า — ปัจจัยหนุนความต้องการล้างแอร์รถยนต์",
         "owner": "B2B Sales & Marketing",
         "priority": "medium",
         "deadline": "within_7_days",
         "reason": "ปัญหากลิ่น/เชื้อราในรถ = ความต้องการบริการหลักของ Air4",
         "relatedNewsIds": [
           "ce0d61199427e31e"
+        ]
+      },
+      {
+        "action": "ต่อยอดโอกาสจากข่าว: Toyota ทุบสถิติยอดขายยุโรป 9 เดือนแรกปี 2026 รวม 936,042 คัน รถยนต์ไฟฟ้า BEV โต 136% วิเคราะห์ยอดขาย Hybrid และรุ่นขายดีที่สุด - รถใหม่วันนี้ ข่าวรถยนต์ EV ราคารถยนต์ไฟฟ้า รถยนต์พลังงานไฟฟ้า - CAR250",
+        "owner": "B2B Sales & Marketing",
+        "priority": "medium",
+        "deadline": "within_7_days",
+        "reason": "ตลาดรถยนต์เติบโต = ปริมาณรถเข้าศูนย์เพิ่ม",
+        "relatedNewsIds": [
+          "8eecc6924b42a07d"
         ]
       }
     ],
@@ -75,11 +73,10 @@
       "O1": "สัญญาณวันนี้สนับสนุนเป้าหมายรายได้รวม +15% YoY",
       "O2": "ข่าวที่เกี่ยวกับช่องทางนอก Toyota OEM มี 1 รายการ",
       "benefitingChannels": [
-        "B2B"
-      ],
-      "atRiskChannels": [
+        "B2B",
         "OEM"
       ],
+      "atRiskChannels": [],
       "prioritisationNote": "ควรตรวจสอบด้วย AI Analysis เพื่อความแม่นยำ"
     },
     "ceoQuestions": [
@@ -89,10 +86,10 @@
   },
   "items": [
     {
-      "title": "อากาศร้อน: อุณหภูมิที่รู้สึกได้สูงสุดเฉลี่ย 37.2°C ใน 7 วันข้างหน้า — ปัจจัยหนุนความต้องการล้างแอร์รถยนต์",
+      "title": "อากาศร้อน: อุณหภูมิที่รู้สึกได้สูงสุดเฉลี่ย 36.7°C ใน 7 วันข้างหน้า — ปัจจัยหนุนความต้องการล้างแอร์รถยนต์",
       "link": "https://open-meteo.com/",
-      "snippet": "ข้อมูลพยากรณ์: อุณหภูมิที่รู้สึกได้สูงสุดรายเมือง กรุงเทพฯ 40.1°C · นครราชสีมา 39.8°C · ขอนแก่น 39.6°C · ชลบุรี 39.3°C. ค่าเฉลี่ยถ่วงน้ำหนักตามความหนาแน่นของศูนย์บริการอยู่ที่ 37.2°C จุดสูงสุดอยู่ที่ กรุงเทพฯ 40.1°C. [การตีความของระบบ] อากาศร้อนทำให้ผู้ใช้รถเปิดแอร์หนักและนานขึ้น คอยล์เย็นสะสมความชื้นและสิ่งสกปรกเร็วขึ้น มักตามมาด้วยอาการแอร์ไม่เย็นและกลิ่นอับ ซึ่งเป็นช่วงที่ความต้องการบริการล้างแอร์รถยนต์สูงขึ้นตามฤดูกาล",
-      "publishedAt": "2026-10-24T05:19:13.874Z",
+      "snippet": "ข้อมูลพยากรณ์: อุณหภูมิที่รู้สึกได้สูงสุดรายเมือง ขอนแก่น 40.1°C · ชลบุรี 39.8°C · กรุงเทพฯ 39.2°C · นครราชสีมา 37.9°C. ค่าเฉลี่ยถ่วงน้ำหนักตามความหนาแน่นของศูนย์บริการอยู่ที่ 36.7°C จุดสูงสุดอยู่ที่ ขอนแก่น 40.1°C. [การตีความของระบบ] อากาศร้อนทำให้ผู้ใช้รถเปิดแอร์หนักและนานขึ้น คอยล์เย็นสะสมความชื้นและสิ่งสกปรกเร็วขึ้น มักตามมาด้วยอาการแอร์ไม่เย็นและกลิ่นอับ ซึ่งเป็นช่วงที่ความต้องการบริการล้างแอร์รถยนต์สูงขึ้นตามฤดูกาล",
+      "publishedAt": "2026-10-25T05:35:54.382Z",
       "sourceId": "weather-signal",
       "sourceName": "Open-Meteo (พยากรณ์อากาศ)",
       "sourceTier": 1,
@@ -102,8 +99,8 @@
       "itemKind": "signal",
       "id": "ce0d61199427e31e",
       "canonicalUrl": "https://open-meteo.com",
-      "contentHash": "295e0e0196eed059b07a189b",
-      "collectedAt": "2026-10-24T05:19:13.875Z",
+      "contentHash": "15ea4447fa89b8d6ab39de4e",
+      "collectedAt": "2026-10-25T05:35:54.382Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 39,
@@ -114,8 +111,8 @@
       "matchedBrands": [],
       "hasAutomotiveContext": true,
       "relatedCoverage": [],
-      "titleTh": "อากาศร้อน: อุณหภูมิที่รู้สึกได้สูงสุดเฉลี่ย 37.2°C ใน 7 วันข้างหน้า — ปัจจัยหนุนความต้องการล้างแอร์รถยนต์",
-      "shortSummaryTh": "ข้อมูลพยากรณ์: อุณหภูมิที่รู้สึกได้สูงสุดรายเมือง กรุงเทพฯ 40.1°C · นครราชสีมา 39.8°C · ขอนแก่น 39.6°C · ชลบุรี 39.3°C. ค่าเฉลี่ยถ่วงน้ำหนักตามความหนาแน่นของศูนย์บริการอยู่ที่ 37.2°C จุดสูงสุดอยู่ที่ กรุงเทพฯ 40.1°C. [การตีความของระบบ] อากาศร้อนทำให้ผู้ใช้รถเปิดแอร์หนักและนานขึ้น คอยล์เย็นสะสมความช…",
+      "titleTh": "อากาศร้อน: อุณหภูมิที่รู้สึกได้สูงสุดเฉลี่ย 36.7°C ใน 7 วันข้างหน้า — ปัจจัยหนุนความต้องการล้างแอร์รถยนต์",
+      "shortSummaryTh": "ข้อมูลพยากรณ์: อุณหภูมิที่รู้สึกได้สูงสุดรายเมือง ขอนแก่น 40.1°C · ชลบุรี 39.8°C · กรุงเทพฯ 39.2°C · นครราชสีมา 37.9°C. ค่าเฉลี่ยถ่วงน้ำหนักตามความหนาแน่นของศูนย์บริการอยู่ที่ 36.7°C จุดสูงสุดอยู่ที่ ขอนแก่น 40.1°C. [การตีความของระบบ] อากาศร้อนทำให้ผู้ใช้รถเปิดแอร์หนักและนานขึ้น คอยล์เย็นสะสมความชื…",
       "classification": "positive",
       "impactScore": 5,
       "confidence": 68,
@@ -155,54 +152,44 @@
       "timeHorizon": "1-3 months",
       "analyzedBy": "fallback",
       "sourceUrl": "https://open-meteo.com",
-      "titleOriginal": "อากาศร้อน: อุณหภูมิที่รู้สึกได้สูงสุดเฉลี่ย 37.2°C ใน 7 วันข้างหน้า — ปัจจัยหนุนความต้องการล้างแอร์รถยนต์",
-      "originalSnippet": "ข้อมูลพยากรณ์: อุณหภูมิที่รู้สึกได้สูงสุดรายเมือง กรุงเทพฯ 40.1°C · นครราชสีมา 39.8°C · ขอนแก่น 39.6°C · ชลบุรี 39.3°C. ค่าเฉลี่ยถ่วงน้ำหนักตามความหนาแน่นของศูนย์บริการอยู่ที่ 37.2°C จุดสูงสุดอยู่ที่ กรุงเทพฯ 40.1°C. [การตีความของระบบ] อากาศร้อนทำให้ผู้ใช้รถเปิดแอร์หนักและนานขึ้น คอยล์เย็นสะสมความชื้นและสิ่งสกปรกเร็วขึ้น มักตามมาด้วยอาการแอร์ไม่เย็นและกลิ่นอับ ซึ่งเป็นช่วงที่ความต้องการบริการล้างแอร์รถยนต์สูงขึ้นตามฤดูกาล"
+      "titleOriginal": "อากาศร้อน: อุณหภูมิที่รู้สึกได้สูงสุดเฉลี่ย 36.7°C ใน 7 วันข้างหน้า — ปัจจัยหนุนความต้องการล้างแอร์รถยนต์",
+      "originalSnippet": "ข้อมูลพยากรณ์: อุณหภูมิที่รู้สึกได้สูงสุดรายเมือง ขอนแก่น 40.1°C · ชลบุรี 39.8°C · กรุงเทพฯ 39.2°C · นครราชสีมา 37.9°C. ค่าเฉลี่ยถ่วงน้ำหนักตามความหนาแน่นของศูนย์บริการอยู่ที่ 36.7°C จุดสูงสุดอยู่ที่ ขอนแก่น 40.1°C. [การตีความของระบบ] อากาศร้อนทำให้ผู้ใช้รถเปิดแอร์หนักและนานขึ้น คอยล์เย็นสะสมความชื้นและสิ่งสกปรกเร็วขึ้น มักตามมาด้วยอาการแอร์ไม่เย็นและกลิ่นอับ ซึ่งเป็นช่วงที่ความต้องการบริการล้างแอร์รถยนต์สูงขึ้นตามฤดูกาล"
     },
     {
-      "title": "ยักษ์สู้ศึกตลาด ‘ปิกอัพ’ ขาลง ‘ฮอนด้า’ ลงสนามชน ‘โตโยต้า-อีซูซุ’",
-      "link": "https://www.prachachat.net/automotive/news-2085374",
-      "snippet": "ตลาดปิกอัพร่วงหนัก เปิดข้อมูล 3 ปีหดตัวกว่า 62% ปี’69 ทำสถิติต่ำสุดเหลือแค่ 1.4 แสนคัน ผลกระทบกำลังซื้อหด ราคาพลังงานพุ่ง พฤติกรรมลูกค้าเปลี่ยน เจอ EV แย่งตลาด “อีซูซุ-โตโยต้า-ฟอร์ด” สู้ไม่ถอยส่งรุ่นใหม่ขยายกลุ่มลูกค้า หวังต้านตลาดขาลง ขณะที่ค่ายรถยั … อ่านข่าวต้นฉบับ: ยักษ์สู้ศึกตลาด ‘ปิกอัพ’ ขาลง ‘ฮอนด้า’ ลงสนามชน ‘โตโยต้า-อีซูซุ’",
-      "publishedAt": "2026-10-24T00:31:00.000Z",
-      "sourceId": "prachachat",
-      "sourceName": "ประชาชาติธุรกิจ",
+      "title": "Toyota ทุบสถิติยอดขายยุโรป 9 เดือนแรกปี 2026 รวม 936,042 คัน รถยนต์ไฟฟ้า BEV โต 136% วิเคราะห์ยอดขาย Hybrid และรุ่นขายดีที่สุด - รถใหม่วันนี้ ข่าวรถยนต์ EV ราคารถยนต์ไฟฟ้า รถยนต์พลังงานไฟฟ้า - CAR250",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB5cU5tSTlFbEZ2TUlWRTAxZmwwdDdXT2NvT1lFTTVUZ0pacmlsRFpmTzR2ZWktc0cyMXJYWEdHazZaZjF0M1hpazh6VHY5TXhieUpxTkZWUnhKOEVCaXIyT1BYOA?oc=5",
+      "snippet": "Toyota ทุบสถิติยอดขายยุโรป 9 เดือนแรกปี 2026 รวม 936,042 คัน รถยนต์ไฟฟ้า BEV โต 136% วิเคราะห์ยอดขาย Hybrid และรุ่นขายดีที่สุด - รถใหม่วันนี้ ข่าวรถยนต์ EV ราคารถยนต์ไฟฟ้า รถยนต์พลังงานไฟฟ้า CAR250",
+      "publishedAt": "2026-10-24T09:06:44.000Z",
+      "sourceId": "google-news:th-TH",
+      "sourceName": "CAR250",
       "sourceTier": 2,
       "sourceCountry": "TH",
       "language": "th",
       "unverified": false,
       "itemKind": "news",
-      "id": "6ebaae9920d51a24",
-      "canonicalUrl": "https://prachachat.net/automotive/news-2085374",
-      "contentHash": "afdf4708b0f33680d96534f9",
-      "collectedAt": "2026-10-24T05:19:13.875Z",
+      "id": "8eecc6924b42a07d",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB5cU5tSTlFbEZ2TUlWRTAxZmwwdDdXT2NvT1lFTTVUZ0pacmlsRFpmTzR2ZWktc0cyMXJYWEdHazZaZjF0M1hpazh6VHY5TXhieUpxTkZWUnhKOEVCaXIyT1BYOA",
+      "contentHash": "731c9a011fad2bdf3395aa14",
+      "collectedAt": "2026-10-25T05:35:54.382Z",
       "isPressRelease": false,
       "isSponsored": false,
-      "prefilterScore": 22,
+      "prefilterScore": 11,
       "matchedCategories": [
-        "AUTO_MARKET",
+        "EV",
         "OEM_BRANDS"
       ],
       "matchedCompetitors": [],
       "matchedBrands": [
-        "Toyota",
-        "Isuzu",
-        "Honda",
-        "Ford"
+        "Toyota"
       ],
       "hasAutomotiveContext": true,
-      "duplicateGroupId": "6ebaae9920d51a24",
-      "relatedCoverage": [
-        {
-          "sourceName": "Head Topics",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBiUmJnMjF3QUkwcjYzMElWMlNYS0NTWlhpMkFyN0lxWXZVV2ZGSGdfNEZIRElvV2piRjFVVWtPSGM1QlBtMngySTlJSFBueHUtSk4wWUZMZFIxN2xNbDU3MG15RWoydVp2UkNPUjN3",
-          "tier": 2
-        }
-      ],
-      "titleTh": "ยักษ์สู้ศึกตลาด ‘ปิกอัพ’ ขาลง ‘ฮอนด้า’ ลงสนามชน ‘โตโยต้า-อีซูซุ’",
-      "shortSummaryTh": "ตลาดปิกอัพร่วงหนัก เปิดข้อมูล 3 ปีหดตัวกว่า 62% ปี’69 ทำสถิติต่ำสุดเหลือแค่ 1.4 แสนคัน ผลกระทบกำลังซื้อหด ราคาพลังงานพุ่ง พฤติกรรมลูกค้าเปลี่ยน เจอ EV แย่งตลาด “อีซูซุ-โตโยต้า-ฟอร์ด” สู้ไม่ถอยส่งรุ่นใหม่ขยายกลุ่มลูกค้า หวังต้านตลาดขาลง ขณะที่ค่ายรถยั … อ่านข่าวต้นฉบับ: ยักษ์สู้ศึกตลาด ‘ปิกอัพ’ ขาลง…",
-      "classification": "negative",
-      "impactScore": -2,
+      "relatedCoverage": [],
+      "titleTh": "Toyota ทุบสถิติยอดขายยุโรป 9 เดือนแรกปี 2026 รวม 936,042 คัน รถยนต์ไฟฟ้า BEV โต 136% วิเคราะห์ยอดขาย Hybrid และรุ่นขายดีที่สุด - รถใหม่วันนี้ ข่าวรถยนต์ EV ราคารถยนต์ไฟฟ้า รถยนต์พลังงานไฟฟ้า - CAR250",
+      "shortSummaryTh": "Toyota ทุบสถิติยอดขายยุโรป 9 เดือนแรกปี 2026 รวม 936,042 คัน รถยนต์ไฟฟ้า BEV โต 136% วิเคราะห์ยอดขาย Hybrid และรุ่นขายดีที่สุด - รถใหม่วันนี้ ข่าวรถยนต์ EV ราคารถยนต์ไฟฟ้า รถยนต์พลังงานไฟฟ้า CAR250",
+      "classification": "positive",
+      "impactScore": 2,
       "confidence": 53,
-      "relevanceScore": 80,
+      "relevanceScore": 46,
       "newsCategory": "EV",
       "affectedChannels": [
         "OEM"
@@ -213,14 +200,14 @@
       ],
       "affectedCompetitors": [],
       "okrImpact": {
-        "O1": "negative",
+        "O1": "positive",
         "O2": "neutral"
       },
       "positiveImpacts": [
+        "ตลาดรถยนต์เติบโต = ปริมาณรถเข้าศูนย์เพิ่ม",
         "รถ EV ยังต้องล้างแอร์ และเจ้าของ EV ใส่ใจคุณภาพอากาศในห้องโดยสารสูง"
       ],
       "negativeImpacts": [
-        "ตลาดหดตัว = ปริมาณรถเข้าศูนย์ลดลง",
         "EV ไม่มีหัวฉีดน้ำมัน = ความต้องการ Power Flow ลดลงในระยะยาว"
       ],
       "reasoningSummary": [
@@ -237,15 +224,15 @@
       ],
       "timeHorizon": "long-term",
       "analyzedBy": "fallback",
-      "sourceUrl": "https://prachachat.net/automotive/news-2085374",
-      "titleOriginal": "ยักษ์สู้ศึกตลาด ‘ปิกอัพ’ ขาลง ‘ฮอนด้า’ ลงสนามชน ‘โตโยต้า-อีซูซุ’",
-      "originalSnippet": "ตลาดปิกอัพร่วงหนัก เปิดข้อมูล 3 ปีหดตัวกว่า 62% ปี’69 ทำสถิติต่ำสุดเหลือแค่ 1.4 แสนคัน ผลกระทบกำลังซื้อหด ราคาพลังงานพุ่ง พฤติกรรมลูกค้าเปลี่ยน เจอ EV แย่งตลาด “อีซูซุ-โตโยต้า-ฟอร์ด” สู้ไม่ถอยส่งรุ่นใหม่ขยายกลุ่มลูกค้า หวังต้านตลาดขาลง ขณะที่ค่ายรถยั … อ่านข่าวต้นฉบับ: ยักษ์สู้ศึกตลาด ‘ปิกอัพ’ ขาลง ‘ฮอนด้า’ ลงสนามชน ‘โตโยต้า-อีซูซุ’"
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB5cU5tSTlFbEZ2TUlWRTAxZmwwdDdXT2NvT1lFTTVUZ0pacmlsRFpmTzR2ZWktc0cyMXJYWEdHazZaZjF0M1hpazh6VHY5TXhieUpxTkZWUnhKOEVCaXIyT1BYOA",
+      "titleOriginal": "Toyota ทุบสถิติยอดขายยุโรป 9 เดือนแรกปี 2026 รวม 936,042 คัน รถยนต์ไฟฟ้า BEV โต 136% วิเคราะห์ยอดขาย Hybrid และรุ่นขายดีที่สุด - รถใหม่วันนี้ ข่าวรถยนต์ EV ราคารถยนต์ไฟฟ้า รถยนต์พลังงานไฟฟ้า - CAR250",
+      "originalSnippet": "Toyota ทุบสถิติยอดขายยุโรป 9 เดือนแรกปี 2026 รวม 936,042 คัน รถยนต์ไฟฟ้า BEV โต 136% วิเคราะห์ยอดขาย Hybrid และรุ่นขายดีที่สุด - รถใหม่วันนี้ ข่าวรถยนต์ EV ราคารถยนต์ไฟฟ้า รถยนต์พลังงานไฟฟ้า CAR250"
     },
     {
-      "title": "ล้างแอร์รถยนต์เต็มระบบ Mazda 3#airpro #ล้างแอร์รถยนต์ไม่ถอดตู้ #ล้างแอร์รถยนต์ #automobile",
-      "link": "https://www.youtube.com/watch?v=GuIpHJ_-kEo",
-      "snippet": "(ช่อง: Airpro) · ยอดวิว 430 ครั้ง",
-      "publishedAt": "2026-10-23T09:01:14.000Z",
+      "title": "ล้างแอร์รถยนต์สะอาดลึกทุกมุม #airpro #ล้างแอร์รถยนต์ไม่ถอดตู้ #ล้างแอร์รถยนต์ #automobile",
+      "link": "https://www.youtube.com/watch?v=bs-m1xjGOD0",
+      "snippet": "(ช่อง: Airpro) · ยอดวิว 252 ครั้ง",
+      "publishedAt": "2026-10-24T05:15:23.000Z",
       "sourceId": "youtube",
       "sourceName": "YouTube · Airpro",
       "sourceTier": 3,
@@ -253,34 +240,29 @@
       "language": "th",
       "unverified": true,
       "itemKind": "social",
-      "id": "1a664c5d0f218f9b",
-      "canonicalUrl": "https://youtube.com/watch?v=GuIpHJ_-kEo",
-      "contentHash": "c429b67f370b2454e48545d1",
-      "collectedAt": "2026-10-24T05:19:13.875Z",
+      "id": "1555a7b1e83ba9a3",
+      "canonicalUrl": "https://youtube.com/watch?v=bs-m1xjGOD0",
+      "contentHash": "e04d84b2d611aadc1a8f291c",
+      "collectedAt": "2026-10-25T05:35:54.382Z",
       "isPressRelease": false,
       "isSponsored": false,
-      "prefilterScore": 28,
+      "prefilterScore": 25,
       "matchedCategories": [
-        "AC_CLEANING",
-        "OEM_BRANDS"
+        "AC_CLEANING"
       ],
       "matchedCompetitors": [],
-      "matchedBrands": [
-        "Mazda"
-      ],
+      "matchedBrands": [],
       "hasAutomotiveContext": true,
       "duplicateGroupId": "1555a7b1e83ba9a3",
       "relatedCoverage": [],
-      "titleTh": "ล้างแอร์รถยนต์เต็มระบบ Mazda 3#airpro #ล้างแอร์รถยนต์ไม่ถอดตู้ #ล้างแอร์รถยนต์ #automobile",
-      "shortSummaryTh": "(ช่อง: Airpro) · ยอดวิว 430 ครั้ง",
+      "titleTh": "ล้างแอร์รถยนต์สะอาดลึกทุกมุม #airpro #ล้างแอร์รถยนต์ไม่ถอดตู้ #ล้างแอร์รถยนต์ #automobile",
+      "shortSummaryTh": "(ช่อง: Airpro) · ยอดวิว 252 ครั้ง",
       "classification": "neutral",
       "impactScore": 1,
       "confidence": 41,
-      "relevanceScore": 99,
+      "relevanceScore": 90,
       "newsCategory": "AC_CLEANING",
-      "affectedChannels": [
-        "OEM"
-      ],
+      "affectedChannels": [],
       "affectedProducts": [
         "AC_CLEANING"
       ],
@@ -310,9 +292,9 @@
       ],
       "timeHorizon": "1-3 months",
       "analyzedBy": "fallback",
-      "sourceUrl": "https://youtube.com/watch?v=GuIpHJ_-kEo",
-      "titleOriginal": "ล้างแอร์รถยนต์เต็มระบบ Mazda 3#airpro #ล้างแอร์รถยนต์ไม่ถอดตู้ #ล้างแอร์รถยนต์ #automobile",
-      "originalSnippet": "(ช่อง: Airpro) · ยอดวิว 430 ครั้ง"
+      "sourceUrl": "https://youtube.com/watch?v=bs-m1xjGOD0",
+      "titleOriginal": "ล้างแอร์รถยนต์สะอาดลึกทุกมุม #airpro #ล้างแอร์รถยนต์ไม่ถอดตู้ #ล้างแอร์รถยนต์ #automobile",
+      "originalSnippet": "(ช่อง: Airpro) · ยอดวิว 252 ครั้ง"
     },
     {
       "title": "เครื่องล้างแอร์รถยนต์อัตโนมัติ ￼k-1premium",
@@ -329,7 +311,7 @@
       "id": "5199f881f92eccaa",
       "canonicalUrl": "https://youtube.com/watch?v=z2pFmJLn6H8",
       "contentHash": "8c60895bd294cce3241f00a1",
-      "collectedAt": "2026-10-24T05:19:13.875Z",
+      "collectedAt": "2026-10-25T05:35:54.382Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 25,
@@ -385,7 +367,7 @@
     {
       "title": "#LIBITU #สเปรย์ล้างแอร์รถยนต์ #น้ำยาทำความสะอาดแอร์ #ดูแลรถยนต์ #อุปกรณ์รถยนต์",
       "link": "https://www.youtube.com/watch?v=DN3Jbou4lvQ",
-      "snippet": "(ช่อง: ตรอตั้น IT) · ยอดวิว 713 ครั้ง",
+      "snippet": "(ช่อง: ตรอตั้น IT) · ยอดวิว 719 ครั้ง",
       "publishedAt": "2026-10-21T07:36:55.000Z",
       "sourceId": "youtube",
       "sourceName": "YouTube · ตรอตั้น IT",
@@ -396,8 +378,8 @@
       "itemKind": "social",
       "id": "3d4ad956f4dd8453",
       "canonicalUrl": "https://youtube.com/watch?v=DN3Jbou4lvQ",
-      "contentHash": "63148e39e809fa306d0737b3",
-      "collectedAt": "2026-10-24T05:19:13.875Z",
+      "contentHash": "7f8b5685f1c40e3139b5d40f",
+      "collectedAt": "2026-10-25T05:35:54.382Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 25,
@@ -409,7 +391,7 @@
       "hasAutomotiveContext": true,
       "relatedCoverage": [],
       "titleTh": "#LIBITU #สเปรย์ล้างแอร์รถยนต์ #น้ำยาทำความสะอาดแอร์ #ดูแลรถยนต์ #อุปกรณ์รถยนต์",
-      "shortSummaryTh": "(ช่อง: ตรอตั้น IT) · ยอดวิว 713 ครั้ง",
+      "shortSummaryTh": "(ช่อง: ตรอตั้น IT) · ยอดวิว 719 ครั้ง",
       "classification": "neutral",
       "impactScore": 1,
       "confidence": 41,
@@ -448,12 +430,12 @@
       "analyzedBy": "fallback",
       "sourceUrl": "https://youtube.com/watch?v=DN3Jbou4lvQ",
       "titleOriginal": "#LIBITU #สเปรย์ล้างแอร์รถยนต์ #น้ำยาทำความสะอาดแอร์ #ดูแลรถยนต์ #อุปกรณ์รถยนต์",
-      "originalSnippet": "(ช่อง: ตรอตั้น IT) · ยอดวิว 713 ครั้ง"
+      "originalSnippet": "(ช่อง: ตรอตั้น IT) · ยอดวิว 719 ครั้ง"
     },
     {
       "title": "📌ฟลัชชิ่งแอร์รถตู้📌ล้างแอร์ไม่ถอดตู้ Pajero Sport",
       "link": "https://www.youtube.com/watch?v=uSXEmsSnQys",
-      "snippet": "(ช่อง: แต่งรถน้าแด่มเพชรบูรณ์) · ยอดวิว 1,006 ครั้ง",
+      "snippet": "(ช่อง: แต่งรถน้าแด่มเพชรบูรณ์) · ยอดวิว 1,012 ครั้ง",
       "publishedAt": "2026-10-20T04:04:13.000Z",
       "sourceId": "youtube",
       "sourceName": "YouTube · แต่งรถน้าแด่มเพชรบูรณ์",
@@ -464,8 +446,8 @@
       "itemKind": "social",
       "id": "14e6f620dfc13ceb",
       "canonicalUrl": "https://youtube.com/watch?v=uSXEmsSnQys",
-      "contentHash": "90e94db989fa24a09b2fd48b",
-      "collectedAt": "2026-10-24T05:19:13.875Z",
+      "contentHash": "e3dcbf50f3238a6110990e01",
+      "collectedAt": "2026-10-25T05:35:54.382Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 18,
@@ -477,7 +459,7 @@
       "hasAutomotiveContext": true,
       "relatedCoverage": [],
       "titleTh": "📌ฟลัชชิ่งแอร์รถตู้📌ล้างแอร์ไม่ถอดตู้ Pajero Sport",
-      "shortSummaryTh": "(ช่อง: แต่งรถน้าแด่มเพชรบูรณ์) · ยอดวิว 1,006 ครั้ง",
+      "shortSummaryTh": "(ช่อง: แต่งรถน้าแด่มเพชรบูรณ์) · ยอดวิว 1,012 ครั้ง",
       "classification": "neutral",
       "impactScore": 1,
       "confidence": 41,
@@ -515,12 +497,12 @@
       "analyzedBy": "fallback",
       "sourceUrl": "https://youtube.com/watch?v=uSXEmsSnQys",
       "titleOriginal": "📌ฟลัชชิ่งแอร์รถตู้📌ล้างแอร์ไม่ถอดตู้ Pajero Sport",
-      "originalSnippet": "(ช่อง: แต่งรถน้าแด่มเพชรบูรณ์) · ยอดวิว 1,006 ครั้ง"
+      "originalSnippet": "(ช่อง: แต่งรถน้าแด่มเพชรบูรณ์) · ยอดวิว 1,012 ครั้ง"
     },
     {
       "title": "แนะนำวิธีการถอดล้างแอร์โฟร์เซ็นเซอร์รถยนต์",
       "link": "https://www.youtube.com/watch?v=rNHb7CTdadw",
-      "snippet": "(ช่อง: รีวิว กันหน่อย) · ยอดวิว 1,059 ครั้ง",
+      "snippet": "(ช่อง: รีวิว กันหน่อย) · ยอดวิว 1,393 ครั้ง",
       "publishedAt": "2026-10-22T08:16:00.000Z",
       "sourceId": "youtube",
       "sourceName": "YouTube · รีวิว กันหน่อย",
@@ -531,8 +513,8 @@
       "itemKind": "social",
       "id": "76db95ba039d434b",
       "canonicalUrl": "https://youtube.com/watch?v=rNHb7CTdadw",
-      "contentHash": "1713761720fdc8501bb1a216",
-      "collectedAt": "2026-10-24T05:19:13.875Z",
+      "contentHash": "cfa3c5d7cca7a0c3baffea53",
+      "collectedAt": "2026-10-25T05:35:54.382Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 11,
@@ -544,7 +526,7 @@
       "hasAutomotiveContext": true,
       "relatedCoverage": [],
       "titleTh": "แนะนำวิธีการถอดล้างแอร์โฟร์เซ็นเซอร์รถยนต์",
-      "shortSummaryTh": "(ช่อง: รีวิว กันหน่อย) · ยอดวิว 1,059 ครั้ง",
+      "shortSummaryTh": "(ช่อง: รีวิว กันหน่อย) · ยอดวิว 1,393 ครั้ง",
       "classification": "neutral",
       "impactScore": 1,
       "confidence": 41,
@@ -582,43 +564,55 @@
       "analyzedBy": "fallback",
       "sourceUrl": "https://youtube.com/watch?v=rNHb7CTdadw",
       "titleOriginal": "แนะนำวิธีการถอดล้างแอร์โฟร์เซ็นเซอร์รถยนต์",
-      "originalSnippet": "(ช่อง: รีวิว กันหน่อย) · ยอดวิว 1,059 ครั้ง"
+      "originalSnippet": "(ช่อง: รีวิว กันหน่อย) · ยอดวิว 1,393 ครั้ง"
     },
     {
-      "title": "คุณควรทำความสะอาดไส้กรองอากาศของรถยนต์ หรือควรเปลี่ยนไส้กรองอากาศทุกครั้ง? - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOclk3a3QzOWVPRW5Mbmx3VElBWFN0aTdSTHFfQ1gyZ2dhUndvaFNKNFdZTGVCOWxBU1cxcjhTRklWUXQ4X2FxTm1KZXB0UHFUTVZUcmVTc1libUg1cXIweXB5MjRMdmtBZFlFRHh6ZkMzUlp4YWVaT3llVGcybDRGRmdR?oc=5",
-      "snippet": "คุณควรทำความสะอาดไส้กรองอากาศของรถยนต์ หรือควรเปลี่ยนไส้กรองอากาศทุกครั้ง? Vietnam.vn",
-      "publishedAt": "2026-10-24T00:24:27.000Z",
+      "title": "ยักษ์สู้ศึกตลาด ‘ปิกอัพ’ ขาลง ‘ฮอนด้า’ ลงสนามชน ‘โตโยต้า-อีซูซุ’ - ประชาชาติธุรกิจ",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5Nc3l2cVhCUkVCRElPejJUcDZXZm52MVF5SlFCYklOclI1X08tbkNCRmVHcnV6OHJRYjRoSjNOMTZySS1MNkpIWTFwM0tPRy1rYmVfYzBpQ0xldjAtM1BF?oc=5",
+      "snippet": "ยักษ์สู้ศึกตลาด ‘ปิกอัพ’ ขาลง ‘ฮอนด้า’ ลงสนามชน ‘โตโยต้า-อีซูซุ’ ประชาชาติธุรกิจ",
+      "publishedAt": "2026-10-24T00:31:00.000Z",
       "sourceId": "google-news:th-TH",
-      "sourceName": "Vietnam.vn",
+      "sourceName": "ประชาชาติธุรกิจ",
       "sourceTier": 2,
       "sourceCountry": "TH",
       "language": "th",
       "unverified": false,
       "itemKind": "news",
-      "id": "4aede28e2b8b31e2",
-      "canonicalUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOclk3a3QzOWVPRW5Mbmx3VElBWFN0aTdSTHFfQ1gyZ2dhUndvaFNKNFdZTGVCOWxBU1cxcjhTRklWUXQ4X2FxTm1KZXB0UHFUTVZUcmVTc1libUg1cXIweXB5MjRMdmtBZFlFRHh6ZkMzUlp4YWVaT3llVGcybDRGRmdR",
-      "contentHash": "a874c6511e6c44e042df18cc",
-      "collectedAt": "2026-10-24T05:19:13.875Z",
+      "id": "121d8ae3375cf81e",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5Nc3l2cVhCUkVCRElPejJUcDZXZm52MVF5SlFCYklOclI1X08tbkNCRmVHcnV6OHJRYjRoSjNOMTZySS1MNkpIWTFwM0tPRy1rYmVfYzBpQ0xldjAtM1BF",
+      "contentHash": "1172762d648b47eda3dee6f4",
+      "collectedAt": "2026-10-25T05:35:54.382Z",
       "isPressRelease": false,
       "isSponsored": false,
-      "prefilterScore": 18,
+      "prefilterScore": 13,
       "matchedCategories": [
-        "AC_CLEANING",
-        "INTERNATIONAL"
+        "OEM_BRANDS"
       ],
       "matchedCompetitors": [],
-      "matchedBrands": [],
+      "matchedBrands": [
+        "Toyota",
+        "Isuzu",
+        "Honda"
+      ],
       "hasAutomotiveContext": true,
-      "relatedCoverage": [],
-      "titleTh": "คุณควรทำความสะอาดไส้กรองอากาศของรถยนต์ หรือควรเปลี่ยนไส้กรองอากาศทุกครั้ง? - Vietnam.vn",
-      "shortSummaryTh": "คุณควรทำความสะอาดไส้กรองอากาศของรถยนต์ หรือควรเปลี่ยนไส้กรองอากาศทุกครั้ง? Vietnam.vn",
+      "duplicateGroupId": "121d8ae3375cf81e",
+      "relatedCoverage": [
+        {
+          "sourceName": "Head Topics",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBiUmJnMjF3QUkwcjYzMElWMlNYS0NTWlhpMkFyN0lxWXZVV2ZGSGdfNEZIRElvV2piRjFVVWtPSGM1QlBtMngySTlJSFBueHUtSk4wWUZMZFIxN2xNbDU3MG15RWoydVp2UkNPUjN3",
+          "tier": 2
+        }
+      ],
+      "titleTh": "ยักษ์สู้ศึกตลาด ‘ปิกอัพ’ ขาลง ‘ฮอนด้า’ ลงสนามชน ‘โตโยต้า-อีซูซุ’ - ประชาชาติธุรกิจ",
+      "shortSummaryTh": "ยักษ์สู้ศึกตลาด ‘ปิกอัพ’ ขาลง ‘ฮอนด้า’ ลงสนามชน ‘โตโยต้า-อีซูซุ’ ประชาชาติธุรกิจ",
       "classification": "neutral",
       "impactScore": 0,
       "confidence": 53,
-      "relevanceScore": 68,
-      "newsCategory": "AC_CLEANING",
-      "affectedChannels": [],
+      "relevanceScore": 52,
+      "newsCategory": "OEM_BRANDS",
+      "affectedChannels": [
+        "OEM"
+      ],
       "affectedProducts": [],
       "affectedCountries": [
         "TH"
@@ -644,14 +638,153 @@
       ],
       "timeHorizon": "1-3 months",
       "analyzedBy": "fallback",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOclk3a3QzOWVPRW5Mbmx3VElBWFN0aTdSTHFfQ1gyZ2dhUndvaFNKNFdZTGVCOWxBU1cxcjhTRklWUXQ4X2FxTm1KZXB0UHFUTVZUcmVTc1libUg1cXIweXB5MjRMdmtBZFlFRHh6ZkMzUlp4YWVaT3llVGcybDRGRmdR",
-      "titleOriginal": "คุณควรทำความสะอาดไส้กรองอากาศของรถยนต์ หรือควรเปลี่ยนไส้กรองอากาศทุกครั้ง? - Vietnam.vn",
-      "originalSnippet": "คุณควรทำความสะอาดไส้กรองอากาศของรถยนต์ หรือควรเปลี่ยนไส้กรองอากาศทุกครั้ง? Vietnam.vn"
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5Nc3l2cVhCUkVCRElPejJUcDZXZm52MVF5SlFCYklOclI1X08tbkNCRmVHcnV6OHJRYjRoSjNOMTZySS1MNkpIWTFwM0tPRy1rYmVfYzBpQ0xldjAtM1BF",
+      "titleOriginal": "ยักษ์สู้ศึกตลาด ‘ปิกอัพ’ ขาลง ‘ฮอนด้า’ ลงสนามชน ‘โตโยต้า-อีซูซุ’ - ประชาชาติธุรกิจ",
+      "originalSnippet": "ยักษ์สู้ศึกตลาด ‘ปิกอัพ’ ขาลง ‘ฮอนด้า’ ลงสนามชน ‘โตโยต้า-อีซูซุ’ ประชาชาติธุรกิจ"
+    },
+    {
+      "title": "ฮอนด้าจับมือมิตซูบิชิ พัฒนารถกระบะ บุกตลาดอาเซียนปี 2571 | การเงินธนาคาร - LINE TODAY",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1helR3UWR2RUhqLVlVdDlnckJHcV9zdE9iY282UU94OFBsUlRVNUd4VTgwX0ZwYXF0eVdDb3ZCa2VUd2NHdHZiMUZrdkxqSFYya2wtTk5B?oc=5",
+      "snippet": "ฮอนด้าจับมือมิตซูบิชิ พัฒนารถกระบะ บุกตลาดอาเซียนปี 2571 | การเงินธนาคาร LINE TODAY",
+      "publishedAt": "2026-10-24T11:07:54.000Z",
+      "sourceId": "google-news:th-TH",
+      "sourceName": "LINE TODAY",
+      "sourceTier": 2,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "453d9493367deddf",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1helR3UWR2RUhqLVlVdDlnckJHcV9zdE9iY282UU94OFBsUlRVNUd4VTgwX0ZwYXF0eVdDb3ZCa2VUd2NHdHZiMUZrdkxqSFYya2wtTk5B",
+      "contentHash": "9a793314c569cf91ded537cd",
+      "collectedAt": "2026-10-25T05:35:54.382Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 12,
+      "matchedCategories": [
+        "AUTO_MARKET",
+        "OEM_BRANDS"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [
+        "Honda",
+        "Mitsubishi"
+      ],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "ฮอนด้าจับมือมิตซูบิชิ พัฒนารถกระบะ บุกตลาดอาเซียนปี 2571 | การเงินธนาคาร - LINE TODAY",
+      "shortSummaryTh": "ฮอนด้าจับมือมิตซูบิชิ พัฒนารถกระบะ บุกตลาดอาเซียนปี 2571 | การเงินธนาคาร LINE TODAY",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 53,
+      "relevanceScore": 49,
+      "newsCategory": "OEM_BRANDS",
+      "affectedChannels": [
+        "OEM"
+      ],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "วิเคราะห์ด้วยกฎอัตโนมัติ (ไม่ได้ใช้ AI)"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1helR3UWR2RUhqLVlVdDlnckJHcV9zdE9iY282UU94OFBsUlRVNUd4VTgwX0ZwYXF0eVdDb3ZCa2VUd2NHdHZiMUZrdkxqSFYya2wtTk5B",
+      "titleOriginal": "ฮอนด้าจับมือมิตซูบิชิ พัฒนารถกระบะ บุกตลาดอาเซียนปี 2571 | การเงินธนาคาร - LINE TODAY",
+      "originalSnippet": "ฮอนด้าจับมือมิตซูบิชิ พัฒนารถกระบะ บุกตลาดอาเซียนปี 2571 | การเงินธนาคาร LINE TODAY"
+    },
+    {
+      "title": "ล้างหัวฉีด Honda แล้วประหยัดน้ำมันจริงหรือ? เผยกลไกที่คนใช้รถควรรู้! #automobile #fwd441",
+      "link": "https://www.youtube.com/watch?v=EpJdaZbWCLg",
+      "snippet": "(ช่อง: กลไก เครื่องยนต์) · ยอดวิว 1,035 ครั้ง",
+      "publishedAt": "2026-10-23T23:00:23.000Z",
+      "sourceId": "youtube",
+      "sourceName": "YouTube · กลไก เครื่องยนต์",
+      "sourceTier": 3,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": true,
+      "itemKind": "social",
+      "id": "3d97e146e39a0fea",
+      "canonicalUrl": "https://youtube.com/watch?v=EpJdaZbWCLg",
+      "contentHash": "0673275609d7cdd362ef8430",
+      "collectedAt": "2026-10-25T05:35:54.382Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 12,
+      "matchedCategories": [
+        "INJECTOR",
+        "OEM_BRANDS"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [
+        "Honda"
+      ],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "ล้างหัวฉีด Honda แล้วประหยัดน้ำมันจริงหรือ? เผยกลไกที่คนใช้รถควรรู้! #automobile #fwd441",
+      "shortSummaryTh": "(ช่อง: กลไก เครื่องยนต์) · ยอดวิว 1,035 ครั้ง",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 41,
+      "relevanceScore": 49,
+      "newsCategory": "INJECTOR",
+      "affectedChannels": [
+        "OEM"
+      ],
+      "affectedProducts": [
+        "POWER_FLOW"
+      ],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "แหล่งข่าว Tier 3 — ข้อมูลยังต้องตรวจสอบ"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://youtube.com/watch?v=EpJdaZbWCLg",
+      "titleOriginal": "ล้างหัวฉีด Honda แล้วประหยัดน้ำมันจริงหรือ? เผยกลไกที่คนใช้รถควรรู้! #automobile #fwd441",
+      "originalSnippet": "(ช่อง: กลไก เครื่องยนต์) · ยอดวิว 1,035 ครั้ง"
     },
     {
       "title": "Honda jazz GK ล้างหัวฉีด ตั้งวาล์ว และบำรุงรักษารถ",
       "link": "https://www.youtube.com/watch?v=_c4Wt9vX-Fg",
-      "snippet": "เปลี่ยน สายพาน ,ลูกรอก ,สายเบรค ,ล้างหัวฉีด. (ช่อง: รุ่งศักดิ์ ระลึกมี PRP engine service) · ยอดวิว 42 ครั้ง",
+      "snippet": "เปลี่ยน สายพาน ,ลูกรอก ,สายเบรค ,ล้างหัวฉีด. (ช่อง: รุ่งศักดิ์ ระลึกมี PRP engine service) · ยอดวิว 55 ครั้ง",
       "publishedAt": "2026-10-22T00:00:09.000Z",
       "sourceId": "youtube",
       "sourceName": "YouTube · รุ่งศักดิ์ ระลึกมี PRP engine service",
@@ -662,8 +795,8 @@
       "itemKind": "social",
       "id": "cf5a4f5d6888bf6b",
       "canonicalUrl": "https://youtube.com/watch?v=_c4Wt9vX-Fg",
-      "contentHash": "9e911abdb0cf98c8c59b579f",
-      "collectedAt": "2026-10-24T05:19:13.875Z",
+      "contentHash": "4afcaf62ca5201dcceb9e2eb",
+      "collectedAt": "2026-10-25T05:35:54.382Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 12,
@@ -678,7 +811,7 @@
       "hasAutomotiveContext": true,
       "relatedCoverage": [],
       "titleTh": "Honda jazz GK ล้างหัวฉีด ตั้งวาล์ว และบำรุงรักษารถ",
-      "shortSummaryTh": "เปลี่ยน สายพาน ,ลูกรอก ,สายเบรค ,ล้างหัวฉีด. (ช่อง: รุ่งศักดิ์ ระลึกมี PRP engine service) · ยอดวิว 42 ครั้ง",
+      "shortSummaryTh": "เปลี่ยน สายพาน ,ลูกรอก ,สายเบรค ,ล้างหัวฉีด. (ช่อง: รุ่งศักดิ์ ระลึกมี PRP engine service) · ยอดวิว 55 ครั้ง",
       "classification": "neutral",
       "impactScore": 0,
       "confidence": 41,
@@ -716,76 +849,7 @@
       "analyzedBy": "fallback",
       "sourceUrl": "https://youtube.com/watch?v=_c4Wt9vX-Fg",
       "titleOriginal": "Honda jazz GK ล้างหัวฉีด ตั้งวาล์ว และบำรุงรักษารถ",
-      "originalSnippet": "เปลี่ยน สายพาน ,ลูกรอก ,สายเบรค ,ล้างหัวฉีด. (ช่อง: รุ่งศักดิ์ ระลึกมี PRP engine service) · ยอดวิว 42 ครั้ง"
-    },
-    {
-      "title": "ยืนยันแล้ว ! Honda จับมือ Mitsubishi สร้างกระบะพื้นฐาน Triton ผลิตไทย เปิดตัวปี 2028",
-      "link": "https://www.headlightmag.com/360037-2/",
-      "snippet": "Honda Motor และ Mitsubishi Motors ประกาศลงนามบันทึกความ […] The post ยืนยันแล้ว ! Honda จับมือ Mitsubishi สร้างกระบะพื้นฐาน Triton ผลิตไทย เปิดตัวปี 2028 appeared first on HeadLight Magazine .",
-      "publishedAt": "2026-10-22T18:16:08.000Z",
-      "sourceId": "headlightmag",
-      "sourceName": "HeadLightMag",
-      "sourceTier": 2,
-      "sourceCountry": "TH",
-      "language": "th",
-      "unverified": false,
-      "itemKind": "news",
-      "id": "7bfcaa1ae6a92ca4",
-      "canonicalUrl": "https://headlightmag.com/360037-2",
-      "contentHash": "6ab3f386d0244b3a49ec2fdc",
-      "collectedAt": "2026-10-24T05:19:13.875Z",
-      "isPressRelease": false,
-      "isSponsored": false,
-      "prefilterScore": 10,
-      "matchedCategories": [
-        "OEM_BRANDS",
-        "INTERNATIONAL"
-      ],
-      "matchedCompetitors": [],
-      "matchedBrands": [
-        "Honda",
-        "Mitsubishi"
-      ],
-      "hasAutomotiveContext": true,
-      "relatedCoverage": [],
-      "titleTh": "ยืนยันแล้ว ! Honda จับมือ Mitsubishi สร้างกระบะพื้นฐาน Triton ผลิตไทย เปิดตัวปี 2028",
-      "shortSummaryTh": "Honda Motor และ Mitsubishi Motors ประกาศลงนามบันทึกความ […] The post ยืนยันแล้ว ! Honda จับมือ Mitsubishi สร้างกระบะพื้นฐาน Triton ผลิตไทย เปิดตัวปี 2028 appeared first on HeadLight Magazine .",
-      "classification": "neutral",
-      "impactScore": 0,
-      "confidence": 58,
-      "relevanceScore": 43,
-      "newsCategory": "OEM_BRANDS",
-      "affectedChannels": [
-        "OEM"
-      ],
-      "affectedProducts": [],
-      "affectedCountries": [
-        "TH"
-      ],
-      "affectedCompetitors": [],
-      "okrImpact": {
-        "O1": "neutral",
-        "O2": "neutral"
-      },
-      "positiveImpacts": [],
-      "negativeImpacts": [],
-      "reasoningSummary": [
-        "วิเคราะห์ด้วยกฎอัตโนมัติ (ไม่ได้ใช้ AI)"
-      ],
-      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
-      "recommendedActions": [
-        {
-          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
-          "owner": "Business Intelligence",
-          "priority": "medium",
-          "deadline": "monitor"
-        }
-      ],
-      "timeHorizon": "1-3 months",
-      "analyzedBy": "fallback",
-      "sourceUrl": "https://headlightmag.com/360037-2",
-      "titleOriginal": "ยืนยันแล้ว ! Honda จับมือ Mitsubishi สร้างกระบะพื้นฐาน Triton ผลิตไทย เปิดตัวปี 2028",
-      "originalSnippet": "Honda Motor และ Mitsubishi Motors ประกาศลงนามบันทึกความ […] The post ยืนยันแล้ว ! Honda จับมือ Mitsubishi สร้างกระบะพื้นฐาน Triton ผลิตไทย เปิดตัวปี 2028 appeared first on HeadLight Magazine ."
+      "originalSnippet": "เปลี่ยน สายพาน ,ลูกรอก ,สายเบรค ,ล้างหัวฉีด. (ช่อง: รุ่งศักดิ์ ระลึกมี PRP engine service) · ยอดวิว 55 ครั้ง"
     },
     {
       "title": "ในยุโรป รถยนต์ไฟฟ้ากำลังแซงหน้ารถยนต์ที่ใช้น้ำมันเบนซินในส่วนแบ่งการตลาด - Vietnam.vn",
@@ -802,7 +866,7 @@
       "id": "a295a49f4b23eb0a",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1jaEVDQXVHemhocFFkbTFlTUxwRHZ1LWIzVm11a0FRRWxVeW9iMHJwc2czM1MwZzVWbF81dVY5dnphRHJMbEh0a3paQXJhMVZEbGFzYl83WHRZQ3VfblhyazJTLTlDVGlhT09GRERGUVlkZ0FBMjVMMmlB",
       "contentHash": "5d0a60448230866b67e59b93",
-      "collectedAt": "2026-10-24T05:19:13.875Z",
+      "collectedAt": "2026-10-25T05:35:54.382Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 10,
@@ -856,6 +920,143 @@
       "originalSnippet": "ในยุโรป รถยนต์ไฟฟ้ากำลังแซงหน้ารถยนต์ที่ใช้น้ำมันเบนซินในส่วนแบ่งการตลาด Vietnam.vn"
     },
     {
+      "title": "รถยนต์ไฟฟ้ากำลังครองตลาดเวียดนามหรือไม่? - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1xT245cG4teDAwWWQ3eVhFc0tZMmVOZF9aMVJXaE9BTjU2N2RPa0N5NFk4TGh6Z2NzejEwMzZSdWRfMk01YVlzdlZ2Q1JQVmZQaWFaTUREaTNBeDZpdXkwQ3hYZW1KNFQ3TVFnM0w1YWsxVkE?oc=5",
+      "snippet": "รถยนต์ไฟฟ้ากำลังครองตลาดเวียดนามหรือไม่? Vietnam.vn",
+      "publishedAt": "2026-10-24T03:36:35.000Z",
+      "sourceId": "google-news:th-TH",
+      "sourceName": "Vietnam.vn",
+      "sourceTier": 2,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "d6e764de8a3e8707",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1xT245cG4teDAwWWQ3eVhFc0tZMmVOZF9aMVJXaE9BTjU2N2RPa0N5NFk4TGh6Z2NzejEwMzZSdWRfMk01YVlzdlZ2Q1JQVmZQaWFaTUREaTNBeDZpdXkwQ3hYZW1KNFQ3TVFnM0w1YWsxVkE",
+      "contentHash": "1d32d4f0236dc25de523c63a",
+      "collectedAt": "2026-10-25T05:35:54.382Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 10,
+      "matchedCategories": [
+        "EV",
+        "INTERNATIONAL"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "รถยนต์ไฟฟ้ากำลังครองตลาดเวียดนามหรือไม่? - Vietnam.vn",
+      "shortSummaryTh": "รถยนต์ไฟฟ้ากำลังครองตลาดเวียดนามหรือไม่? Vietnam.vn",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 48,
+      "relevanceScore": 43,
+      "newsCategory": "EV",
+      "affectedChannels": [],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [
+        "รถ EV ยังต้องล้างแอร์ และเจ้าของ EV ใส่ใจคุณภาพอากาศในห้องโดยสารสูง"
+      ],
+      "negativeImpacts": [
+        "EV ไม่มีหัวฉีดน้ำมัน = ความต้องการ Power Flow ลดลงในระยะยาว"
+      ],
+      "reasoningSummary": [
+        "ข่าว EV: ผลบวกต่อ AC_CLEANING หักลบผลลบต่อ POWER_FLOW → ประเมินผลสุทธิ"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "long-term",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1xT245cG4teDAwWWQ3eVhFc0tZMmVOZF9aMVJXaE9BTjU2N2RPa0N5NFk4TGh6Z2NzejEwMzZSdWRfMk01YVlzdlZ2Q1JQVmZQaWFaTUREaTNBeDZpdXkwQ3hYZW1KNFQ3TVFnM0w1YWsxVkE",
+      "titleOriginal": "รถยนต์ไฟฟ้ากำลังครองตลาดเวียดนามหรือไม่? - Vietnam.vn",
+      "originalSnippet": "รถยนต์ไฟฟ้ากำลังครองตลาดเวียดนามหรือไม่? Vietnam.vn"
+    },
+    {
+      "title": "รถ SUV ไฮบริด 5 ที่นั่ง ราคา 463 ล้านดองเวียดนาม มีขนาดกะทัดรัดกว่า Mazda CX-5 ประหยัดน้ำมันกว่า และราคาถูกกว่า Honda CR-V - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNMXBYdEtVQUVIVjUtcTl4R21KOUZUNFFLY1FrNExuQVJFNDcyQXlGc1BXWU1HcXlBeGVBbXFFZmg5cjZKZlEzZVFmbGtMclB4bzdROWhtdERXcGhueHdWOW44c2xOaFRab0xmRHhCNGdTVnhQNi1wUFVRMF80TFkzTTAyZHFVRHRTaldqRHJhSXAyUWllZGpJRTVvczgyTXRZeFBhZjlCVUc3Qm4xazhKdHFPT3JSSENvMWt4VU9VNXRHUS1LcElNcGlQaw?oc=5",
+      "snippet": "รถ SUV ไฮบริด 5 ที่นั่ง ราคา 463 ล้านดองเวียดนาม มีขนาดกะทัดรัดกว่า Mazda CX-5 ประหยัดน้ำมันกว่า และราคาถูกกว่า Honda CR-V Vietnam.vn",
+      "publishedAt": "2026-10-23T22:37:37.000Z",
+      "sourceId": "google-news:th-TH",
+      "sourceName": "Vietnam.vn",
+      "sourceTier": 2,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "63c728e24236e77a",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNMXBYdEtVQUVIVjUtcTl4R21KOUZUNFFLY1FrNExuQVJFNDcyQXlGc1BXWU1HcXlBeGVBbXFFZmg5cjZKZlEzZVFmbGtMclB4bzdROWhtdERXcGhueHdWOW44c2xOaFRab0xmRHhCNGdTVnhQNi1wUFVRMF80TFkzTTAyZHFVRHRTaldqRHJhSXAyUWllZGpJRTVvczgyTXRZeFBhZjlCVUc3Qm4xazhKdHFPT3JSSENvMWt4VU9VNXRHUS1LcElNcGlQaw",
+      "contentHash": "d354ea1d11e86074c03825a7",
+      "collectedAt": "2026-10-25T05:35:54.382Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 10,
+      "matchedCategories": [
+        "OEM_BRANDS",
+        "INTERNATIONAL"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [
+        "Honda",
+        "Mazda"
+      ],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "รถ SUV ไฮบริด 5 ที่นั่ง ราคา 463 ล้านดองเวียดนาม มีขนาดกะทัดรัดกว่า Mazda CX-5 ประหยัดน้ำมันกว่า และราคาถูกกว่า Honda CR-V - Vietnam.vn",
+      "shortSummaryTh": "รถ SUV ไฮบริด 5 ที่นั่ง ราคา 463 ล้านดองเวียดนาม มีขนาดกะทัดรัดกว่า Mazda CX-5 ประหยัดน้ำมันกว่า และราคาถูกกว่า Honda CR-V Vietnam.vn",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 58,
+      "relevanceScore": 43,
+      "newsCategory": "OEM_BRANDS",
+      "affectedChannels": [
+        "OEM"
+      ],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "วิเคราะห์ด้วยกฎอัตโนมัติ (ไม่ได้ใช้ AI)"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNMXBYdEtVQUVIVjUtcTl4R21KOUZUNFFLY1FrNExuQVJFNDcyQXlGc1BXWU1HcXlBeGVBbXFFZmg5cjZKZlEzZVFmbGtMclB4bzdROWhtdERXcGhueHdWOW44c2xOaFRab0xmRHhCNGdTVnhQNi1wUFVRMF80TFkzTTAyZHFVRHRTaldqRHJhSXAyUWllZGpJRTVvczgyTXRZeFBhZjlCVUc3Qm4xazhKdHFPT3JSSENvMWt4VU9VNXRHUS1LcElNcGlQaw",
+      "titleOriginal": "รถ SUV ไฮบริด 5 ที่นั่ง ราคา 463 ล้านดองเวียดนาม มีขนาดกะทัดรัดกว่า Mazda CX-5 ประหยัดน้ำมันกว่า และราคาถูกกว่า Honda CR-V - Vietnam.vn",
+      "originalSnippet": "รถ SUV ไฮบริด 5 ที่นั่ง ราคา 463 ล้านดองเวียดนาม มีขนาดกะทัดรัดกว่า Mazda CX-5 ประหยัดน้ำมันกว่า และราคาถูกกว่า Honda CR-V Vietnam.vn"
+    },
+    {
       "title": "GAC Thailand ส่งแคมเปญรถยนต์ไฟฟ้า 3 รุ่นฮิต รับข้อเสนอเดียวกับ Motor Expo วันนี้ - 31 ตุลาคม 2569 พร้อมนำเสนอมาตรการช่วยผู้ประสบภัยน้ำท่วม และเตรียมเปิดตัว GAC CERTIFIED+ เร็วๆ นี้ - อมรินทร์ทีวี ช่อง 34",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFAzQlI0OUFPVjlBM2dld3ZncUxLYXRjUS00OHJsUlpuVXRoaUFTZmdRVUU0VWhNTExTc1dMMVRIVzF3bm13R1NwbVMwUGhNMUVXZnR1UGVfRTJ0QU9fb1E?oc=5",
       "snippet": "GAC Thailand ส่งแคมเปญรถยนต์ไฟฟ้า 3 รุ่นฮิต รับข้อเสนอเดียวกับ Motor Expo วันนี้ - 31 ตุลาคม 2569 พร้อมนำเสนอมาตรการช่วยผู้ประสบภัยน้ำท่วม และเตรียมเปิดตัว GAC CERTIFIED+ เร็วๆ นี้ อมรินทร์ทีวี ช่อง 34",
@@ -870,7 +1071,7 @@
       "id": "fe6e8219cf1b8b0c",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFAzQlI0OUFPVjlBM2dld3ZncUxLYXRjUS00OHJsUlpuVXRoaUFTZmdRVUU0VWhNTExTc1dMMVRIVzF3bm13R1NwbVMwUGhNMUVXZnR1UGVfRTJ0QU9fb1E",
       "contentHash": "5c0172d13d10e7c4f461f781",
-      "collectedAt": "2026-10-24T05:19:13.875Z",
+      "collectedAt": "2026-10-25T05:35:54.382Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 10,
@@ -881,7 +1082,7 @@
       "matchedCompetitors": [],
       "matchedBrands": [],
       "hasAutomotiveContext": true,
-      "duplicateGroupId": "7018d31714caa740",
+      "duplicateGroupId": "fe6e8219cf1b8b0c",
       "relatedCoverage": [
         {
           "sourceName": "Head Topics",
@@ -931,210 +1132,6 @@
       "originalSnippet": "GAC Thailand ส่งแคมเปญรถยนต์ไฟฟ้า 3 รุ่นฮิต รับข้อเสนอเดียวกับ Motor Expo วันนี้ - 31 ตุลาคม 2569 พร้อมนำเสนอมาตรการช่วยผู้ประสบภัยน้ำท่วม และเตรียมเปิดตัว GAC CERTIFIED+ เร็วๆ นี้ อมรินทร์ทีวี ช่อง 34"
     },
     {
-      "title": "หมายเหตุเกี่ยวกับการซ่อมแซมรถยนต์ไฟฟ้าหลังเกิดอุบัติเหตุ - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9uRWpSbmhsNU5vR3B3cGlJLS1Cenp2UWhlQm1GbURtZVJQcUlpLXRlRl9NTV9wcEZOMFpRX0t2eU5TU1hxYm9vTmxuSkxIOVhjSDdWZkJ2b1ZMMnhJbmROWG1Qd2hkSWFLR1ZTaVNpbUxpRC1QZEdob1ZXMA?oc=5",
-      "snippet": "หมายเหตุเกี่ยวกับการซ่อมแซมรถยนต์ไฟฟ้าหลังเกิดอุบัติเหตุ Vietnam.vn",
-      "publishedAt": "2026-10-22T06:03:26.000Z",
-      "sourceId": "google-news:th-TH",
-      "sourceName": "Vietnam.vn",
-      "sourceTier": 2,
-      "sourceCountry": "TH",
-      "language": "th",
-      "unverified": false,
-      "itemKind": "news",
-      "id": "823583db1ec4fa5e",
-      "canonicalUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9uRWpSbmhsNU5vR3B3cGlJLS1Cenp2UWhlQm1GbURtZVJQcUlpLXRlRl9NTV9wcEZOMFpRX0t2eU5TU1hxYm9vTmxuSkxIOVhjSDdWZkJ2b1ZMMnhJbmROWG1Qd2hkSWFLR1ZTaVNpbUxpRC1QZEdob1ZXMA",
-      "contentHash": "904bf67fdf4f993bac3a95b1",
-      "collectedAt": "2026-10-24T05:19:13.875Z",
-      "isPressRelease": false,
-      "isSponsored": false,
-      "prefilterScore": 10,
-      "matchedCategories": [
-        "EV",
-        "INTERNATIONAL"
-      ],
-      "matchedCompetitors": [],
-      "matchedBrands": [],
-      "hasAutomotiveContext": true,
-      "relatedCoverage": [],
-      "titleTh": "หมายเหตุเกี่ยวกับการซ่อมแซมรถยนต์ไฟฟ้าหลังเกิดอุบัติเหตุ - Vietnam.vn",
-      "shortSummaryTh": "หมายเหตุเกี่ยวกับการซ่อมแซมรถยนต์ไฟฟ้าหลังเกิดอุบัติเหตุ Vietnam.vn",
-      "classification": "neutral",
-      "impactScore": 0,
-      "confidence": 48,
-      "relevanceScore": 43,
-      "newsCategory": "EV",
-      "affectedChannels": [],
-      "affectedProducts": [],
-      "affectedCountries": [
-        "TH"
-      ],
-      "affectedCompetitors": [],
-      "okrImpact": {
-        "O1": "neutral",
-        "O2": "neutral"
-      },
-      "positiveImpacts": [
-        "รถ EV ยังต้องล้างแอร์ และเจ้าของ EV ใส่ใจคุณภาพอากาศในห้องโดยสารสูง"
-      ],
-      "negativeImpacts": [
-        "EV ไม่มีหัวฉีดน้ำมัน = ความต้องการ Power Flow ลดลงในระยะยาว"
-      ],
-      "reasoningSummary": [
-        "ข่าว EV: ผลบวกต่อ AC_CLEANING หักลบผลลบต่อ POWER_FLOW → ประเมินผลสุทธิ"
-      ],
-      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
-      "recommendedActions": [
-        {
-          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
-          "owner": "Business Intelligence",
-          "priority": "medium",
-          "deadline": "monitor"
-        }
-      ],
-      "timeHorizon": "long-term",
-      "analyzedBy": "fallback",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9uRWpSbmhsNU5vR3B3cGlJLS1Cenp2UWhlQm1GbURtZVJQcUlpLXRlRl9NTV9wcEZOMFpRX0t2eU5TU1hxYm9vTmxuSkxIOVhjSDdWZkJ2b1ZMMnhJbmROWG1Qd2hkSWFLR1ZTaVNpbUxpRC1QZEdob1ZXMA",
-      "titleOriginal": "หมายเหตุเกี่ยวกับการซ่อมแซมรถยนต์ไฟฟ้าหลังเกิดอุบัติเหตุ - Vietnam.vn",
-      "originalSnippet": "หมายเหตุเกี่ยวกับการซ่อมแซมรถยนต์ไฟฟ้าหลังเกิดอุบัติเหตุ Vietnam.vn"
-    },
-    {
-      "title": "VinFast VF 3 เป็นรถยนต์ไฟฟ้าที่ขายดีที่สุดในฟิลิปปินส์ - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQcDUwSTFoUnFWR3pXek5DWnFxN3kwUFRva3FacEFXVlFUaUFiazZYQkUyU2RBQ1VxQUlPa3lHMUtkNGJycWlNcG4zV2VPVEcyRVlHMmhLZURTVThWTk1mNFdxNmRUb2dDTkRzakdmQWRFSGllOUk3MGZWX3hxRU9Rb3RFRjV3Mmd2NVMw?oc=5",
-      "snippet": "VinFast VF 3 เป็นรถยนต์ไฟฟ้าที่ขายดีที่สุดในฟิลิปปินส์ Vietnam.vn",
-      "publishedAt": "2026-10-23T17:41:18.000Z",
-      "sourceId": "google-news:th-TH",
-      "sourceName": "Vietnam.vn",
-      "sourceTier": 2,
-      "sourceCountry": "TH",
-      "language": "th",
-      "unverified": false,
-      "itemKind": "news",
-      "id": "4bbb13e2cfe8598a",
-      "canonicalUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQcDUwSTFoUnFWR3pXek5DWnFxN3kwUFRva3FacEFXVlFUaUFiazZYQkUyU2RBQ1VxQUlPa3lHMUtkNGJycWlNcG4zV2VPVEcyRVlHMmhLZURTVThWTk1mNFdxNmRUb2dDTkRzakdmQWRFSGllOUk3MGZWX3hxRU9Rb3RFRjV3Mmd2NVMw",
-      "contentHash": "c2ce221fc09524f9b8ee6550",
-      "collectedAt": "2026-10-24T05:19:13.875Z",
-      "isPressRelease": false,
-      "isSponsored": false,
-      "prefilterScore": 10,
-      "matchedCategories": [
-        "EV",
-        "INTERNATIONAL"
-      ],
-      "matchedCompetitors": [],
-      "matchedBrands": [],
-      "hasAutomotiveContext": true,
-      "relatedCoverage": [],
-      "titleTh": "VinFast VF 3 เป็นรถยนต์ไฟฟ้าที่ขายดีที่สุดในฟิลิปปินส์ - Vietnam.vn",
-      "shortSummaryTh": "VinFast VF 3 เป็นรถยนต์ไฟฟ้าที่ขายดีที่สุดในฟิลิปปินส์ Vietnam.vn",
-      "classification": "neutral",
-      "impactScore": 0,
-      "confidence": 48,
-      "relevanceScore": 43,
-      "newsCategory": "EV",
-      "affectedChannels": [],
-      "affectedProducts": [],
-      "affectedCountries": [
-        "TH"
-      ],
-      "affectedCompetitors": [],
-      "okrImpact": {
-        "O1": "neutral",
-        "O2": "neutral"
-      },
-      "positiveImpacts": [
-        "รถ EV ยังต้องล้างแอร์ และเจ้าของ EV ใส่ใจคุณภาพอากาศในห้องโดยสารสูง"
-      ],
-      "negativeImpacts": [
-        "EV ไม่มีหัวฉีดน้ำมัน = ความต้องการ Power Flow ลดลงในระยะยาว"
-      ],
-      "reasoningSummary": [
-        "ข่าว EV: ผลบวกต่อ AC_CLEANING หักลบผลลบต่อ POWER_FLOW → ประเมินผลสุทธิ"
-      ],
-      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
-      "recommendedActions": [
-        {
-          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
-          "owner": "Business Intelligence",
-          "priority": "medium",
-          "deadline": "monitor"
-        }
-      ],
-      "timeHorizon": "long-term",
-      "analyzedBy": "fallback",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQcDUwSTFoUnFWR3pXek5DWnFxN3kwUFRva3FacEFXVlFUaUFiazZYQkUyU2RBQ1VxQUlPa3lHMUtkNGJycWlNcG4zV2VPVEcyRVlHMmhLZURTVThWTk1mNFdxNmRUb2dDTkRzakdmQWRFSGllOUk3MGZWX3hxRU9Rb3RFRjV3Mmd2NVMw",
-      "titleOriginal": "VinFast VF 3 เป็นรถยนต์ไฟฟ้าที่ขายดีที่สุดในฟิลิปปินส์ - Vietnam.vn",
-      "originalSnippet": "VinFast VF 3 เป็นรถยนต์ไฟฟ้าที่ขายดีที่สุดในฟิลิปปินส์ Vietnam.vn"
-    },
-    {
-      "title": "LEAPMOTOR Thailand เข้าพบผู้จัดงาน Motor Expo 2026 พร้อมลุยจัดแสดงรถยนต์ไฟฟ้า B03X ปลายปีนี้ - iMoD",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE10cFV2UFE4WEhRdjlqcGZrOXIxN0JvcFlRMXAxdFdfUmMyRnN1bFU0WEozU1h1cnE1TFdQMGZFZ3JSRWk1eVM3UDdaMzlnLVZodGRFQWpOd1h2NTc5dmhBVjNDLXZaT0JjcTZ4QlVRSWU4WjA?oc=5",
-      "snippet": "LEAPMOTOR Thailand เข้าพบผู้จัดงาน Motor Expo 2026 พร้อมลุยจัดแสดงรถยนต์ไฟฟ้า B03X ปลายปีนี้ iMoD",
-      "publishedAt": "2026-10-23T14:55:37.000Z",
-      "sourceId": "google-news:th-TH",
-      "sourceName": "iMoD",
-      "sourceTier": 2,
-      "sourceCountry": "TH",
-      "language": "th",
-      "unverified": false,
-      "itemKind": "news",
-      "id": "ae48dc94e9a444a0",
-      "canonicalUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE10cFV2UFE4WEhRdjlqcGZrOXIxN0JvcFlRMXAxdFdfUmMyRnN1bFU0WEozU1h1cnE1TFdQMGZFZ3JSRWk1eVM3UDdaMzlnLVZodGRFQWpOd1h2NTc5dmhBVjNDLXZaT0JjcTZ4QlVRSWU4WjA",
-      "contentHash": "3b7ca4c7ac8a394ff7b8bf81",
-      "collectedAt": "2026-10-24T05:19:13.875Z",
-      "isPressRelease": false,
-      "isSponsored": false,
-      "prefilterScore": 10,
-      "matchedCategories": [
-        "EV",
-        "INTERNATIONAL"
-      ],
-      "matchedCompetitors": [],
-      "matchedBrands": [],
-      "hasAutomotiveContext": true,
-      "relatedCoverage": [],
-      "titleTh": "LEAPMOTOR Thailand เข้าพบผู้จัดงาน Motor Expo 2026 พร้อมลุยจัดแสดงรถยนต์ไฟฟ้า B03X ปลายปีนี้ - iMoD",
-      "shortSummaryTh": "LEAPMOTOR Thailand เข้าพบผู้จัดงาน Motor Expo 2026 พร้อมลุยจัดแสดงรถยนต์ไฟฟ้า B03X ปลายปีนี้ iMoD",
-      "classification": "neutral",
-      "impactScore": 0,
-      "confidence": 48,
-      "relevanceScore": 43,
-      "newsCategory": "EV",
-      "affectedChannels": [],
-      "affectedProducts": [],
-      "affectedCountries": [
-        "TH"
-      ],
-      "affectedCompetitors": [],
-      "okrImpact": {
-        "O1": "neutral",
-        "O2": "neutral"
-      },
-      "positiveImpacts": [
-        "รถ EV ยังต้องล้างแอร์ และเจ้าของ EV ใส่ใจคุณภาพอากาศในห้องโดยสารสูง"
-      ],
-      "negativeImpacts": [
-        "EV ไม่มีหัวฉีดน้ำมัน = ความต้องการ Power Flow ลดลงในระยะยาว"
-      ],
-      "reasoningSummary": [
-        "ข่าว EV: ผลบวกต่อ AC_CLEANING หักลบผลลบต่อ POWER_FLOW → ประเมินผลสุทธิ"
-      ],
-      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
-      "recommendedActions": [
-        {
-          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
-          "owner": "Business Intelligence",
-          "priority": "medium",
-          "deadline": "monitor"
-        }
-      ],
-      "timeHorizon": "long-term",
-      "analyzedBy": "fallback",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE10cFV2UFE4WEhRdjlqcGZrOXIxN0JvcFlRMXAxdFdfUmMyRnN1bFU0WEozU1h1cnE1TFdQMGZFZ3JSRWk1eVM3UDdaMzlnLVZodGRFQWpOd1h2NTc5dmhBVjNDLXZaT0JjcTZ4QlVRSWU4WjA",
-      "titleOriginal": "LEAPMOTOR Thailand เข้าพบผู้จัดงาน Motor Expo 2026 พร้อมลุยจัดแสดงรถยนต์ไฟฟ้า B03X ปลายปีนี้ - iMoD",
-      "originalSnippet": "LEAPMOTOR Thailand เข้าพบผู้จัดงาน Motor Expo 2026 พร้อมลุยจัดแสดงรถยนต์ไฟฟ้า B03X ปลายปีนี้ iMoD"
-    },
-    {
       "title": "ชาวยุโรปกำลังมองหารถยนต์ไฟฟ้ามือสองจากจีน - Vietnam.vn",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNb1BIa05hdDkyeVp6Y2pralhCNDRtV1lVRVdaMUl1YU50ZnIzMUo0cVkwb0VLa3oyZUtQUUZHQnU3OE8tcU1BY2J1bDl5REljbmxGTldrejZMclRiS19OVzdYLTJjMy1IQzNOU2h4MmItbktZWmJBV250YU81dFFIc2R3aVdsTF85QmVIeUZjUQ?oc=5",
       "snippet": "ชาวยุโรปกำลังมองหารถยนต์ไฟฟ้ามือสองจากจีน Vietnam.vn",
@@ -1149,7 +1146,7 @@
       "id": "27e9045cb06f52e7",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNb1BIa05hdDkyeVp6Y2pralhCNDRtV1lVRVdaMUl1YU50ZnIzMUo0cVkwb0VLa3oyZUtQUUZHQnU3OE8tcU1BY2J1bDl5REljbmxGTldrejZMclRiS19OVzdYLTJjMy1IQzNOU2h4MmItbktZWmJBV250YU81dFFIc2R3aVdsTF85QmVIeUZjUQ",
       "contentHash": "f331f86d7d0e0c852e497e06",
-      "collectedAt": "2026-10-24T05:19:13.875Z",
+      "collectedAt": "2026-10-25T05:35:54.382Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 10,
@@ -1203,21 +1200,21 @@
       "originalSnippet": "ชาวยุโรปกำลังมองหารถยนต์ไฟฟ้ามือสองจากจีน Vietnam.vn"
     },
     {
-      "title": "เวียดนาม เปิดสถานีชาร์จรถยนต์ไฟฟ้าใหญ่ที่สุดในประเทศ รองรับรถกว่า 1,000 คัน - The Bangkok Insight",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9XNGtFcHZDUUFRc1FFNGFOZmg4V3dLUE4tU2lIeExER2lyMy1pVG9zZHVBYnBiQzdjWXlQcXRGdXktaXp6SE82dlc4cXRXOE9XVmpJREZMbmlPanFzRFdUeGxhcVNkejFpNUE?oc=5",
-      "snippet": "เวียดนาม เปิดสถานีชาร์จรถยนต์ไฟฟ้าใหญ่ที่สุดในประเทศ รองรับรถกว่า 1,000 คัน The Bangkok Insight",
-      "publishedAt": "2026-10-23T08:07:12.000Z",
+      "title": "LEAPMOTOR Thailand เข้าพบผู้จัดงาน Motor Expo 2026 พร้อมลุยจัดแสดงรถยนต์ไฟฟ้า B03X ปลายปีนี้ - iMoD",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE10cFV2UFE4WEhRdjlqcGZrOXIxN0JvcFlRMXAxdFdfUmMyRnN1bFU0WEozU1h1cnE1TFdQMGZFZ3JSRWk1eVM3UDdaMzlnLVZodGRFQWpOd1h2NTc5dmhBVjNDLXZaT0JjcTZ4QlVRSWU4WjA?oc=5",
+      "snippet": "LEAPMOTOR Thailand เข้าพบผู้จัดงาน Motor Expo 2026 พร้อมลุยจัดแสดงรถยนต์ไฟฟ้า B03X ปลายปีนี้ iMoD",
+      "publishedAt": "2026-10-23T14:55:37.000Z",
       "sourceId": "google-news:th-TH",
-      "sourceName": "The Bangkok Insight",
+      "sourceName": "iMoD",
       "sourceTier": 2,
       "sourceCountry": "TH",
       "language": "th",
       "unverified": false,
       "itemKind": "news",
-      "id": "cf0f1bc81d14809c",
-      "canonicalUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9XNGtFcHZDUUFRc1FFNGFOZmg4V3dLUE4tU2lIeExER2lyMy1pVG9zZHVBYnBiQzdjWXlQcXRGdXktaXp6SE82dlc4cXRXOE9XVmpJREZMbmlPanFzRFdUeGxhcVNkejFpNUE",
-      "contentHash": "2899d732696d9b681d826d11",
-      "collectedAt": "2026-10-24T05:19:13.875Z",
+      "id": "ae48dc94e9a444a0",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE10cFV2UFE4WEhRdjlqcGZrOXIxN0JvcFlRMXAxdFdfUmMyRnN1bFU0WEozU1h1cnE1TFdQMGZFZ3JSRWk1eVM3UDdaMzlnLVZodGRFQWpOd1h2NTc5dmhBVjNDLXZaT0JjcTZ4QlVRSWU4WjA",
+      "contentHash": "3b7ca4c7ac8a394ff7b8bf81",
+      "collectedAt": "2026-10-25T05:35:54.382Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 10,
@@ -1229,8 +1226,8 @@
       "matchedBrands": [],
       "hasAutomotiveContext": true,
       "relatedCoverage": [],
-      "titleTh": "เวียดนาม เปิดสถานีชาร์จรถยนต์ไฟฟ้าใหญ่ที่สุดในประเทศ รองรับรถกว่า 1,000 คัน - The Bangkok Insight",
-      "shortSummaryTh": "เวียดนาม เปิดสถานีชาร์จรถยนต์ไฟฟ้าใหญ่ที่สุดในประเทศ รองรับรถกว่า 1,000 คัน The Bangkok Insight",
+      "titleTh": "LEAPMOTOR Thailand เข้าพบผู้จัดงาน Motor Expo 2026 พร้อมลุยจัดแสดงรถยนต์ไฟฟ้า B03X ปลายปีนี้ - iMoD",
+      "shortSummaryTh": "LEAPMOTOR Thailand เข้าพบผู้จัดงาน Motor Expo 2026 พร้อมลุยจัดแสดงรถยนต์ไฟฟ้า B03X ปลายปีนี้ iMoD",
       "classification": "neutral",
       "impactScore": 0,
       "confidence": 48,
@@ -1266,45 +1263,49 @@
       ],
       "timeHorizon": "long-term",
       "analyzedBy": "fallback",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9XNGtFcHZDUUFRc1FFNGFOZmg4V3dLUE4tU2lIeExER2lyMy1pVG9zZHVBYnBiQzdjWXlQcXRGdXktaXp6SE82dlc4cXRXOE9XVmpJREZMbmlPanFzRFdUeGxhcVNkejFpNUE",
-      "titleOriginal": "เวียดนาม เปิดสถานีชาร์จรถยนต์ไฟฟ้าใหญ่ที่สุดในประเทศ รองรับรถกว่า 1,000 คัน - The Bangkok Insight",
-      "originalSnippet": "เวียดนาม เปิดสถานีชาร์จรถยนต์ไฟฟ้าใหญ่ที่สุดในประเทศ รองรับรถกว่า 1,000 คัน The Bangkok Insight"
+      "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE10cFV2UFE4WEhRdjlqcGZrOXIxN0JvcFlRMXAxdFdfUmMyRnN1bFU0WEozU1h1cnE1TFdQMGZFZ3JSRWk1eVM3UDdaMzlnLVZodGRFQWpOd1h2NTc5dmhBVjNDLXZaT0JjcTZ4QlVRSWU4WjA",
+      "titleOriginal": "LEAPMOTOR Thailand เข้าพบผู้จัดงาน Motor Expo 2026 พร้อมลุยจัดแสดงรถยนต์ไฟฟ้า B03X ปลายปีนี้ - iMoD",
+      "originalSnippet": "LEAPMOTOR Thailand เข้าพบผู้จัดงาน Motor Expo 2026 พร้อมลุยจัดแสดงรถยนต์ไฟฟ้า B03X ปลายปีนี้ iMoD"
     },
     {
-      "title": "กลุ่มธนบุรีเปิดเกมรุก! ขนทัพ smart รถยนต์ไฟฟ้าพรีเมียม 3 รุ่นบุกไทย - spacebar.th",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQaEd4WFVtMzUxTElENXBnaVlvRThSNEY3NkJVa1VQbUlXQTAtS2hPMnZQS2hxOTNoakgtUENHSUFrRXI5SlA3Ym8tQWRKTEVYZG5rUzlrYWNqWnlPSTgzUnBvMXVLZlVldzh5VmtkbFRELUQtVXllOS04X21ZLVMzbm5qNDN3OWNOV2FTakllWE5nR2dibDhvYg?oc=5",
-      "snippet": "กลุ่มธนบุรีเปิดเกมรุก! ขนทัพ smart รถยนต์ไฟฟ้าพรีเมียม 3 รุ่นบุกไทย spacebar.th",
-      "publishedAt": "2026-10-23T07:47:00.000Z",
-      "sourceId": "google-news:th-TH",
-      "sourceName": "spacebar.th",
+      "title": "อีซูซุ ส่งเครื่องยนต์ 2.2 Biturbo 204 แรงม้า เอาใจลูกค้า D-MAX และ MU-X",
+      "link": "https://www.prachachat.net/automotive/news-2085718",
+      "snippet": "อีซูซุ เอาใจกลุ่มลูกค้าชาวไทย ส่งเครื่องยนต์ขุมพลังพลังใหม่ Isuzu 2.2 Biturbo 204 แรงม้า แรงบิด 500 นิวตันเมตร ลง D-MAX และ MU-X ลั่นเดินหน้าพัฒนาเทคโนโลยี-แรงงาน และใช้ชิ้นส่วนในประเทศกว่า 90% หนุนอุตสาหกรรมยานยนต์ต่อเนื่อง นายฮิโรยาสุ ซาโต้ กร … อ่านข่าวต้นฉบับ: อีซูซุ ส่งเครื่องยนต์ 2.2 Biturbo 204 แรงม้า เอาใจลูกค้า D-MAX และ MU-X",
+      "publishedAt": "2026-10-25T04:39:40.000Z",
+      "sourceId": "prachachat",
+      "sourceName": "ประชาชาติธุรกิจ",
       "sourceTier": 2,
       "sourceCountry": "TH",
       "language": "th",
       "unverified": false,
       "itemKind": "news",
-      "id": "7df19ea71b65c43b",
-      "canonicalUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQaEd4WFVtMzUxTElENXBnaVlvRThSNEY3NkJVa1VQbUlXQTAtS2hPMnZQS2hxOTNoakgtUENHSUFrRXI5SlA3Ym8tQWRKTEVYZG5rUzlrYWNqWnlPSTgzUnBvMXVLZlVldzh5VmtkbFRELUQtVXllOS04X21ZLVMzbm5qNDN3OWNOV2FTakllWE5nR2dibDhvYg",
-      "contentHash": "18eb63575ee1dfe84807e4f2",
-      "collectedAt": "2026-10-24T05:19:13.875Z",
+      "id": "e528a8366e532675",
+      "canonicalUrl": "https://prachachat.net/automotive/news-2085718",
+      "contentHash": "5b8f4589fae9345ee7f89acd",
+      "collectedAt": "2026-10-25T05:35:54.382Z",
       "isPressRelease": false,
       "isSponsored": false,
-      "prefilterScore": 10,
+      "prefilterScore": 9,
       "matchedCategories": [
-        "EV",
+        "OEM_BRANDS",
         "INTERNATIONAL"
       ],
       "matchedCompetitors": [],
-      "matchedBrands": [],
+      "matchedBrands": [
+        "Isuzu"
+      ],
       "hasAutomotiveContext": true,
       "relatedCoverage": [],
-      "titleTh": "กลุ่มธนบุรีเปิดเกมรุก! ขนทัพ smart รถยนต์ไฟฟ้าพรีเมียม 3 รุ่นบุกไทย - spacebar.th",
-      "shortSummaryTh": "กลุ่มธนบุรีเปิดเกมรุก! ขนทัพ smart รถยนต์ไฟฟ้าพรีเมียม 3 รุ่นบุกไทย spacebar.th",
+      "titleTh": "อีซูซุ ส่งเครื่องยนต์ 2.2 Biturbo 204 แรงม้า เอาใจลูกค้า D-MAX และ MU-X",
+      "shortSummaryTh": "อีซูซุ เอาใจกลุ่มลูกค้าชาวไทย ส่งเครื่องยนต์ขุมพลังพลังใหม่ Isuzu 2.2 Biturbo 204 แรงม้า แรงบิด 500 นิวตันเมตร ลง D-MAX และ MU-X ลั่นเดินหน้าพัฒนาเทคโนโลยี-แรงงาน และใช้ชิ้นส่วนในประเทศกว่า 90% หนุนอุตสาหกรรมยานยนต์ต่อเนื่อง นายฮิโรยาสุ ซาโต้ กร … อ่านข่าวต้นฉบับ: อีซูซุ ส่งเครื่องยนต์ 2.2 Biturbo…",
       "classification": "neutral",
       "impactScore": 0,
-      "confidence": 48,
-      "relevanceScore": 43,
-      "newsCategory": "EV",
-      "affectedChannels": [],
+      "confidence": 58,
+      "relevanceScore": 40,
+      "newsCategory": "OEM_BRANDS",
+      "affectedChannels": [
+        "OEM"
+      ],
       "affectedProducts": [],
       "affectedCountries": [
         "TH"
@@ -1314,14 +1315,10 @@
         "O1": "neutral",
         "O2": "neutral"
       },
-      "positiveImpacts": [
-        "รถ EV ยังต้องล้างแอร์ และเจ้าของ EV ใส่ใจคุณภาพอากาศในห้องโดยสารสูง"
-      ],
-      "negativeImpacts": [
-        "EV ไม่มีหัวฉีดน้ำมัน = ความต้องการ Power Flow ลดลงในระยะยาว"
-      ],
+      "positiveImpacts": [],
+      "negativeImpacts": [],
       "reasoningSummary": [
-        "ข่าว EV: ผลบวกต่อ AC_CLEANING หักลบผลลบต่อ POWER_FLOW → ประเมินผลสุทธิ"
+        "วิเคราะห์ด้วยกฎอัตโนมัติ (ไม่ได้ใช้ AI)"
       ],
       "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
       "recommendedActions": [
@@ -1332,11 +1329,11 @@
           "deadline": "monitor"
         }
       ],
-      "timeHorizon": "long-term",
+      "timeHorizon": "1-3 months",
       "analyzedBy": "fallback",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQaEd4WFVtMzUxTElENXBnaVlvRThSNEY3NkJVa1VQbUlXQTAtS2hPMnZQS2hxOTNoakgtUENHSUFrRXI5SlA3Ym8tQWRKTEVYZG5rUzlrYWNqWnlPSTgzUnBvMXVLZlVldzh5VmtkbFRELUQtVXllOS04X21ZLVMzbm5qNDN3OWNOV2FTakllWE5nR2dibDhvYg",
-      "titleOriginal": "กลุ่มธนบุรีเปิดเกมรุก! ขนทัพ smart รถยนต์ไฟฟ้าพรีเมียม 3 รุ่นบุกไทย - spacebar.th",
-      "originalSnippet": "กลุ่มธนบุรีเปิดเกมรุก! ขนทัพ smart รถยนต์ไฟฟ้าพรีเมียม 3 รุ่นบุกไทย spacebar.th"
+      "sourceUrl": "https://prachachat.net/automotive/news-2085718",
+      "titleOriginal": "อีซูซุ ส่งเครื่องยนต์ 2.2 Biturbo 204 แรงม้า เอาใจลูกค้า D-MAX และ MU-X",
+      "originalSnippet": "อีซูซุ เอาใจกลุ่มลูกค้าชาวไทย ส่งเครื่องยนต์ขุมพลังพลังใหม่ Isuzu 2.2 Biturbo 204 แรงม้า แรงบิด 500 นิวตันเมตร ลง D-MAX และ MU-X ลั่นเดินหน้าพัฒนาเทคโนโลยี-แรงงาน และใช้ชิ้นส่วนในประเทศกว่า 90% หนุนอุตสาหกรรมยานยนต์ต่อเนื่อง นายฮิโรยาสุ ซาโต้ กร … อ่านข่าวต้นฉบับ: อีซูซุ ส่งเครื่องยนต์ 2.2 Biturbo 204 แรงม้า เอาใจลูกค้า D-MAX และ MU-X"
     },
     {
       "title": "First Shift: Tesla targets 5 million annual sales by 2030",
@@ -1353,7 +1350,7 @@
       "id": "cc76bc6f3b8d351c",
       "canonicalUrl": "https://autonews.com/video/first-shift-tesla-targets-5-million-annual-sales-by-2030",
       "contentHash": "282aa299d596efea8042094d",
-      "collectedAt": "2026-10-24T05:19:13.875Z",
+      "collectedAt": "2026-10-25T05:35:54.382Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 9,
@@ -1422,7 +1419,7 @@
       "id": "e1399c8ad9085f64",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQU1k3SzFDVmtUdWNiUWRLak1RWDB4UkplRHI1TmwwUEhfdU4zR1ZZUVNJVnIxSENOWG15Rk5OOVNqSnF4TWNZbVlxLS1iV3RBVjJvWTZzbmRXdmZQeW9XZHZGS1cwLUI1X2dicklKZUdHbVBUcWVwSWRncC1zTUsxcGhDYnhXR1djWG9FdXQ0cTQzaWZWRWtNSElwcGRSVmFQTkdj",
       "contentHash": "362701967d9f1b9e9f242bf8",
-      "collectedAt": "2026-10-24T05:19:13.875Z",
+      "collectedAt": "2026-10-25T05:35:54.382Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 9,
@@ -1476,21 +1473,21 @@
       "originalSnippet": "โตโยต้า ยาริส ครอส ไฮบริด และความท้าทายในการเลือกซื้อรถยนต์ที่คุ้มค่าในช่วงปลายปี Vietnam.vn"
     },
     {
-      "title": "บีโอไอไฟเขียว “โตโยต้า” ลงทุนเพิ่ม 1.4 พันล้าน ขึ้นไลน์ผลิต “รถปิกอัพไฮโดรเจน” รายแรกในไทย - Brand Buffet",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOYnV5Z2dEVHFjRFAyeDJmdVVneWZCdUFoMi1HT2plY3BldG8zaENEdGdsamF3X19vUVIwNTZtNTZnU0F1YnhIMkc3cUpaZGdtVTdFTGpFZHVJOW9XRUluRGl2SzNHX2JGN3NTcklQUnc1ZFJlSWFYWXE0MFhrdXhhcG1UTVNNSU9CbWY0?oc=5",
-      "snippet": "บีโอไอไฟเขียว “โตโยต้า” ลงทุนเพิ่ม 1.4 พันล้าน ขึ้นไลน์ผลิต “รถปิกอัพไฮโดรเจน” รายแรกในไทย Brand Buffet",
-      "publishedAt": "2026-10-22T08:28:52.000Z",
+      "title": "รายแรกในไทย! โตโยต้า อัด 1.4 พันล้าน ขึ้นไลน์ผลิต ‘รถปิกอัปไฮโดรเจน’ - thestandard.co",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0zUnRaMld4Z0p2TnhnY2lFQUdHb2pNWVJiQWtwMkFQMzF3clpjQnFnay1uMS1JclBhTjhNVkx0cWVyaEhYb2pjNkpfbWtfTE5BLUJYTm9haXVpMDhMYkRhMk1hZF9xNS1JWDZ5NDNwOUg1SGZGa2ZadW9NODk?oc=5",
+      "snippet": "รายแรกในไทย! โตโยต้า อัด 1.4 พันล้าน ขึ้นไลน์ผลิต ‘รถปิกอัปไฮโดรเจน’ thestandard.co",
+      "publishedAt": "2026-10-24T23:45:33.000Z",
       "sourceId": "google-news:th-TH",
-      "sourceName": "Brand Buffet",
+      "sourceName": "thestandard.co",
       "sourceTier": 2,
       "sourceCountry": "TH",
       "language": "th",
       "unverified": false,
       "itemKind": "news",
-      "id": "7200e2d4a648a5e2",
-      "canonicalUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOYnV5Z2dEVHFjRFAyeDJmdVVneWZCdUFoMi1HT2plY3BldG8zaENEdGdsamF3X19vUVIwNTZtNTZnU0F1YnhIMkc3cUpaZGdtVTdFTGpFZHVJOW9XRUluRGl2SzNHX2JGN3NTcklQUnc1ZFJlSWFYWXE0MFhrdXhhcG1UTVNNSU9CbWY0",
-      "contentHash": "56ba398cb48199e39cb1d1f0",
-      "collectedAt": "2026-10-24T05:19:13.875Z",
+      "id": "7f4dbde9f118e226",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0zUnRaMld4Z0p2TnhnY2lFQUdHb2pNWVJiQWtwMkFQMzF3clpjQnFnay1uMS1JclBhTjhNVkx0cWVyaEhYb2pjNkpfbWtfTE5BLUJYTm9haXVpMDhMYkRhMk1hZF9xNS1JWDZ5NDNwOUg1SGZGa2ZadW9NODk",
+      "contentHash": "60d58e00f452899713c9e339",
+      "collectedAt": "2026-10-25T05:35:54.382Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 9,
@@ -1503,21 +1500,9 @@
         "Toyota"
       ],
       "hasAutomotiveContext": true,
-      "duplicateGroupId": "7f4dbde9f118e226",
-      "relatedCoverage": [
-        {
-          "sourceName": "thestandard.co",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0zUnRaMld4Z0p2TnhnY2lFQUdHb2pNWVJiQWtwMkFQMzF3clpjQnFnay1uMS1JclBhTjhNVkx0cWVyaEhYb2pjNkpfbWtfTE5BLUJYTm9haXVpMDhMYkRhMk1hZF9xNS1JWDZ5NDNwOUg1SGZGa2ZadW9NODk",
-          "tier": 2
-        },
-        {
-          "sourceName": "Pantip (แท็ก Toyota)",
-          "url": "https://pantip.com/topic/44262443",
-          "tier": 3
-        }
-      ],
-      "titleTh": "บีโอไอไฟเขียว “โตโยต้า” ลงทุนเพิ่ม 1.4 พันล้าน ขึ้นไลน์ผลิต “รถปิกอัพไฮโดรเจน” รายแรกในไทย - Brand Buffet",
-      "shortSummaryTh": "บีโอไอไฟเขียว “โตโยต้า” ลงทุนเพิ่ม 1.4 พันล้าน ขึ้นไลน์ผลิต “รถปิกอัพไฮโดรเจน” รายแรกในไทย Brand Buffet",
+      "relatedCoverage": [],
+      "titleTh": "รายแรกในไทย! โตโยต้า อัด 1.4 พันล้าน ขึ้นไลน์ผลิต ‘รถปิกอัปไฮโดรเจน’ - thestandard.co",
+      "shortSummaryTh": "รายแรกในไทย! โตโยต้า อัด 1.4 พันล้าน ขึ้นไลน์ผลิต ‘รถปิกอัปไฮโดรเจน’ thestandard.co",
       "classification": "neutral",
       "impactScore": 0,
       "confidence": 53,
@@ -1551,9 +1536,145 @@
       ],
       "timeHorizon": "1-3 months",
       "analyzedBy": "fallback",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOYnV5Z2dEVHFjRFAyeDJmdVVneWZCdUFoMi1HT2plY3BldG8zaENEdGdsamF3X19vUVIwNTZtNTZnU0F1YnhIMkc3cUpaZGdtVTdFTGpFZHVJOW9XRUluRGl2SzNHX2JGN3NTcklQUnc1ZFJlSWFYWXE0MFhrdXhhcG1UTVNNSU9CbWY0",
-      "titleOriginal": "บีโอไอไฟเขียว “โตโยต้า” ลงทุนเพิ่ม 1.4 พันล้าน ขึ้นไลน์ผลิต “รถปิกอัพไฮโดรเจน” รายแรกในไทย - Brand Buffet",
-      "originalSnippet": "บีโอไอไฟเขียว “โตโยต้า” ลงทุนเพิ่ม 1.4 พันล้าน ขึ้นไลน์ผลิต “รถปิกอัพไฮโดรเจน” รายแรกในไทย Brand Buffet"
+      "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0zUnRaMld4Z0p2TnhnY2lFQUdHb2pNWVJiQWtwMkFQMzF3clpjQnFnay1uMS1JclBhTjhNVkx0cWVyaEhYb2pjNkpfbWtfTE5BLUJYTm9haXVpMDhMYkRhMk1hZF9xNS1JWDZ5NDNwOUg1SGZGa2ZadW9NODk",
+      "titleOriginal": "รายแรกในไทย! โตโยต้า อัด 1.4 พันล้าน ขึ้นไลน์ผลิต ‘รถปิกอัปไฮโดรเจน’ - thestandard.co",
+      "originalSnippet": "รายแรกในไทย! โตโยต้า อัด 1.4 พันล้าน ขึ้นไลน์ผลิต ‘รถปิกอัปไฮโดรเจน’ thestandard.co"
+    },
+    {
+      "title": "พระราม 3 กรุ๊ป Honda จัดกิจกรรม ลองขับรถยนต์ไฟฟ้า e:N2 Media Test Drive - Thairath.co.th",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBQU0E4eEJkM2l2akZDakhKd0ZDeGZRZWJiNXJUcGEyVzkwRDVPM1FvdVRiRDR2TzJILW8xWXNnQ1BnVl9LaENfNWhjNkhiWHpVWmlfd3Q0TUpHUmNIWFBz?oc=5",
+      "snippet": "พระราม 3 กรุ๊ป Honda จัดกิจกรรม ลองขับรถยนต์ไฟฟ้า e:N2 Media Test Drive Thairath.co.th",
+      "publishedAt": "2026-10-25T02:00:00.000Z",
+      "sourceId": "google-news:th-TH",
+      "sourceName": "Thairath.co.th",
+      "sourceTier": 2,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "4c82e218717cb64d",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBQU0E4eEJkM2l2akZDakhKd0ZDeGZRZWJiNXJUcGEyVzkwRDVPM1FvdVRiRDR2TzJILW8xWXNnQ1BnVl9LaENfNWhjNkhiWHpVWmlfd3Q0TUpHUmNIWFBz",
+      "contentHash": "d6a3121eef31ff6185071209",
+      "collectedAt": "2026-10-25T05:35:54.382Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 9,
+      "matchedCategories": [
+        "EV",
+        "OEM_BRANDS"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [
+        "Honda"
+      ],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "พระราม 3 กรุ๊ป Honda จัดกิจกรรม ลองขับรถยนต์ไฟฟ้า e:N2 Media Test Drive - Thairath.co.th",
+      "shortSummaryTh": "พระราม 3 กรุ๊ป Honda จัดกิจกรรม ลองขับรถยนต์ไฟฟ้า e:N2 Media Test Drive Thairath.co.th",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 48,
+      "relevanceScore": 40,
+      "newsCategory": "EV",
+      "affectedChannels": [
+        "OEM"
+      ],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [
+        "รถ EV ยังต้องล้างแอร์ และเจ้าของ EV ใส่ใจคุณภาพอากาศในห้องโดยสารสูง"
+      ],
+      "negativeImpacts": [
+        "EV ไม่มีหัวฉีดน้ำมัน = ความต้องการ Power Flow ลดลงในระยะยาว"
+      ],
+      "reasoningSummary": [
+        "ข่าว EV: ผลบวกต่อ AC_CLEANING หักลบผลลบต่อ POWER_FLOW → ประเมินผลสุทธิ"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "long-term",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBQU0E4eEJkM2l2akZDakhKd0ZDeGZRZWJiNXJUcGEyVzkwRDVPM1FvdVRiRDR2TzJILW8xWXNnQ1BnVl9LaENfNWhjNkhiWHpVWmlfd3Q0TUpHUmNIWFBz",
+      "titleOriginal": "พระราม 3 กรุ๊ป Honda จัดกิจกรรม ลองขับรถยนต์ไฟฟ้า e:N2 Media Test Drive - Thairath.co.th",
+      "originalSnippet": "พระราม 3 กรุ๊ป Honda จัดกิจกรรม ลองขับรถยนต์ไฟฟ้า e:N2 Media Test Drive Thairath.co.th"
+    },
+    {
+      "title": "Automotive Machinist qualification marks major milestone for South Africa’s automotive aftermarket - Novus Press Bulletin",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQNlMzMDVxSHVLUjN2cDZpY1RBN0F0cUFSejRacUdQLUkzblZFUENCREFFdzBUM2xjQTR0VFhHamJVTFhwWHdpdG1uMUQxZE5tbjkzSzNXSFd0dkNNRjhDWnlsaUQ1dUZCSUU3dWI3UEFyLVk3M0VjQ0FKQ05oeU42Y0ZQaElyZHVLcm5pZGtqX3M4NXgtZzlaOTA0T2Z5WTM1RGdNeVZQdVJVYk14Ynd6VWRFWUJEVjlaemFrSUhOTjFXV0dTNVBINjRSU3Fxb196R3c?oc=5",
+      "snippet": "Automotive Machinist qualification marks major milestone for South Africa’s automotive aftermarket Novus Press Bulletin",
+      "publishedAt": "2026-10-23T08:20:42.000Z",
+      "sourceId": "google-news:en-SG",
+      "sourceName": "Novus Press Bulletin",
+      "sourceTier": 2,
+      "sourceCountry": "SG",
+      "language": "en",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "678dbac22c36a542",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQNlMzMDVxSHVLUjN2cDZpY1RBN0F0cUFSejRacUdQLUkzblZFUENCREFFdzBUM2xjQTR0VFhHamJVTFhwWHdpdG1uMUQxZE5tbjkzSzNXSFd0dkNNRjhDWnlsaUQ1dUZCSUU3dWI3UEFyLVk3M0VjQ0FKQ05oeU42Y0ZQaElyZHVLcm5pZGtqX3M4NXgtZzlaOTA0T2Z5WTM1RGdNeVZQdVJVYk14Ynd6VWRFWUJEVjlaemFrSUhOTjFXV0dTNVBINjRSU3Fxb196R3c",
+      "contentHash": "041f6c6f01baafca26c654c2",
+      "collectedAt": "2026-10-25T05:35:54.382Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 9,
+      "matchedCategories": [
+        "AUTO_MARKET",
+        "INTERNATIONAL"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "[EN] Automotive Machinist qualification marks major milestone for South Africa’s automotive aftermarket - Novus Press Bulletin",
+      "shortSummaryTh": "Automotive Machinist qualification marks major milestone for South Africa’s automotive aftermarket Novus Press Bulletin",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 53,
+      "relevanceScore": 40,
+      "newsCategory": "AUTO_MARKET",
+      "affectedChannels": [],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "SG"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "วิเคราะห์ด้วยกฎอัตโนมัติ (ไม่ได้ใช้ AI)"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQNlMzMDVxSHVLUjN2cDZpY1RBN0F0cUFSejRacUdQLUkzblZFUENCREFFdzBUM2xjQTR0VFhHamJVTFhwWHdpdG1uMUQxZE5tbjkzSzNXSFd0dkNNRjhDWnlsaUQ1dUZCSUU3dWI3UEFyLVk3M0VjQ0FKQ05oeU42Y0ZQaElyZHVLcm5pZGtqX3M4NXgtZzlaOTA0T2Z5WTM1RGdNeVZQdVJVYk14Ynd6VWRFWUJEVjlaemFrSUhOTjFXV0dTNVBINjRSU3Fxb196R3c",
+      "titleOriginal": "Automotive Machinist qualification marks major milestone for South Africa’s automotive aftermarket - Novus Press Bulletin",
+      "originalSnippet": "Automotive Machinist qualification marks major milestone for South Africa’s automotive aftermarket Novus Press Bulletin"
     },
     {
       "title": "โตโยต้าทุ่ม 1,490 ล้าน ผลิต Hilux ไฮโดรเจนในไทย 3,000 คันต่อปี ปักฐานส่งออกโลก VS Tesla รถบินได้",
@@ -1570,7 +1691,7 @@
       "id": "8d8b1ed843ce593b",
       "canonicalUrl": "https://pantip.com/topic/44262513",
       "contentHash": "e8ac3e2749df99ba33c06846",
-      "collectedAt": "2026-10-24T05:19:13.875Z",
+      "collectedAt": "2026-10-25T05:35:54.382Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 9,
@@ -1639,7 +1760,7 @@
       "id": "7c85d096a347ec98",
       "canonicalUrl": "https://pantip.com/topic/44254551",
       "contentHash": "f42ffcf322c782b9c3913822",
-      "collectedAt": "2026-10-24T05:19:13.875Z",
+      "collectedAt": "2026-10-25T05:35:54.382Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 9,
@@ -1696,7 +1817,7 @@
     {
       "title": "Libitu G20 น้ำยาล้างหัวฉีด เติมใส่มอเตอร์ไซค์ยังไง ??? #ล้างหัวฉีด #ดูแลรถยนต์",
       "link": "https://www.youtube.com/watch?v=JlzCScUhAbk",
-      "snippet": "(ช่อง: ภพ รีวิว) · ยอดวิว 588 ครั้ง",
+      "snippet": "(ช่อง: ภพ รีวิว) · ยอดวิว 866 ครั้ง",
       "publishedAt": "2026-10-23T15:48:57.000Z",
       "sourceId": "youtube",
       "sourceName": "YouTube · ภพ รีวิว",
@@ -1707,8 +1828,8 @@
       "itemKind": "social",
       "id": "c1dccefdce2e66a1",
       "canonicalUrl": "https://youtube.com/watch?v=JlzCScUhAbk",
-      "contentHash": "666542f3d5d610cccdd939d3",
-      "collectedAt": "2026-10-24T05:19:13.875Z",
+      "contentHash": "b6243c0d32f1206ada5479d4",
+      "collectedAt": "2026-10-25T05:35:54.382Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 9,
@@ -1720,7 +1841,7 @@
       "hasAutomotiveContext": true,
       "relatedCoverage": [],
       "titleTh": "Libitu G20 น้ำยาล้างหัวฉีด เติมใส่มอเตอร์ไซค์ยังไง ??? #ล้างหัวฉีด #ดูแลรถยนต์",
-      "shortSummaryTh": "(ช่อง: ภพ รีวิว) · ยอดวิว 588 ครั้ง",
+      "shortSummaryTh": "(ช่อง: ภพ รีวิว) · ยอดวิว 866 ครั้ง",
       "classification": "neutral",
       "impactScore": 0,
       "confidence": 41,
@@ -1757,12 +1878,12 @@
       "analyzedBy": "fallback",
       "sourceUrl": "https://youtube.com/watch?v=JlzCScUhAbk",
       "titleOriginal": "Libitu G20 น้ำยาล้างหัวฉีด เติมใส่มอเตอร์ไซค์ยังไง ??? #ล้างหัวฉีด #ดูแลรถยนต์",
-      "originalSnippet": "(ช่อง: ภพ รีวิว) · ยอดวิว 588 ครั้ง"
+      "originalSnippet": "(ช่อง: ภพ รีวิว) · ยอดวิว 866 ครั้ง"
     },
     {
       "title": "#Duckhams ADV Plus Booster น้ำยาล้างหัวฉีดสำหรับ #รถจักรยานยนต์ #เวฟ110i #เวฟ125 #NX500",
       "link": "https://www.youtube.com/watch?v=__7KqmdVFbs",
-      "snippet": "(ช่อง: พ่อบ้าน Station) · ยอดวิว 1,036 ครั้ง",
+      "snippet": "(ช่อง: พ่อบ้าน Station) · ยอดวิว 1,187 ครั้ง",
       "publishedAt": "2026-10-23T12:00:36.000Z",
       "sourceId": "youtube",
       "sourceName": "YouTube · พ่อบ้าน Station",
@@ -1773,8 +1894,8 @@
       "itemKind": "social",
       "id": "12d04c8ce63b80f8",
       "canonicalUrl": "https://youtube.com/watch?v=__7KqmdVFbs",
-      "contentHash": "347ac4d24ec9bd3f6dd602ed",
-      "collectedAt": "2026-10-24T05:19:13.875Z",
+      "contentHash": "15b1a37bf49c04b2c896f029",
+      "collectedAt": "2026-10-25T05:35:54.382Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 9,
@@ -1786,7 +1907,7 @@
       "hasAutomotiveContext": true,
       "relatedCoverage": [],
       "titleTh": "#Duckhams ADV Plus Booster น้ำยาล้างหัวฉีดสำหรับ #รถจักรยานยนต์ #เวฟ110i #เวฟ125 #NX500",
-      "shortSummaryTh": "(ช่อง: พ่อบ้าน Station) · ยอดวิว 1,036 ครั้ง",
+      "shortSummaryTh": "(ช่อง: พ่อบ้าน Station) · ยอดวิว 1,187 ครั้ง",
       "classification": "neutral",
       "impactScore": 0,
       "confidence": 41,
@@ -1823,12 +1944,12 @@
       "analyzedBy": "fallback",
       "sourceUrl": "https://youtube.com/watch?v=__7KqmdVFbs",
       "titleOriginal": "#Duckhams ADV Plus Booster น้ำยาล้างหัวฉีดสำหรับ #รถจักรยานยนต์ #เวฟ110i #เวฟ125 #NX500",
-      "originalSnippet": "(ช่อง: พ่อบ้าน Station) · ยอดวิว 1,036 ครั้ง"
+      "originalSnippet": "(ช่อง: พ่อบ้าน Station) · ยอดวิว 1,187 ครั้ง"
     },
     {
       "title": "ตอบกลับ @แชมป์“(แก๊งค์เรา)(ทรงลุง)🤍🕊️ ดีจริงจ้า #คนรักรถ #ล้างหัวฉีด...",
       "link": "https://www.youtube.com/watch?v=ZZCRCa-2crM",
-      "snippet": "ตอบกลับ @แชมป์“(แก๊งค์เรา)(ทรงลุง) 🕊️ ดีจริงจ้า #คนรักรถ #ล้างหัวฉีดรถยนต์ #น้ำยาล้างหัวฉีด. (ช่อง: คุณโน้ตบอกต่อของดี) · ยอดวิว 1,122 ครั้ง",
+      "snippet": "ตอบกลับ @แชมป์“(แก๊งค์เรา)(ทรงลุง) 🕊️ ดีจริงจ้า #คนรักรถ #ล้างหัวฉีดรถยนต์ #น้ำยาล้างหัวฉีด. (ช่อง: คุณโน้ตบอกต่อของดี) · ยอดวิว 1,127 ครั้ง",
       "publishedAt": "2026-10-20T17:58:36.000Z",
       "sourceId": "youtube",
       "sourceName": "YouTube · คุณโน้ตบอกต่อของดี",
@@ -1839,8 +1960,8 @@
       "itemKind": "social",
       "id": "ee48250c3e135e71",
       "canonicalUrl": "https://youtube.com/watch?v=ZZCRCa-2crM",
-      "contentHash": "16cdc8aa7d3bc8daedbb8335",
-      "collectedAt": "2026-10-24T05:19:13.875Z",
+      "contentHash": "f69ce80e416113b0e20c3304",
+      "collectedAt": "2026-10-25T05:35:54.382Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 9,
@@ -1852,7 +1973,7 @@
       "hasAutomotiveContext": true,
       "relatedCoverage": [],
       "titleTh": "ตอบกลับ @แชมป์“(แก๊งค์เรา)(ทรงลุง)🤍🕊️ ดีจริงจ้า #คนรักรถ #ล้างหัวฉีด...",
-      "shortSummaryTh": "ตอบกลับ @แชมป์“(แก๊งค์เรา)(ทรงลุง) 🕊️ ดีจริงจ้า #คนรักรถ #ล้างหัวฉีดรถยนต์ #น้ำยาล้างหัวฉีด. (ช่อง: คุณโน้ตบอกต่อของดี) · ยอดวิว 1,122 ครั้ง",
+      "shortSummaryTh": "ตอบกลับ @แชมป์“(แก๊งค์เรา)(ทรงลุง) 🕊️ ดีจริงจ้า #คนรักรถ #ล้างหัวฉีดรถยนต์ #น้ำยาล้างหัวฉีด. (ช่อง: คุณโน้ตบอกต่อของดี) · ยอดวิว 1,127 ครั้ง",
       "classification": "neutral",
       "impactScore": 0,
       "confidence": 46,
@@ -1889,7 +2010,7 @@
       "analyzedBy": "fallback",
       "sourceUrl": "https://youtube.com/watch?v=ZZCRCa-2crM",
       "titleOriginal": "ตอบกลับ @แชมป์“(แก๊งค์เรา)(ทรงลุง)🤍🕊️ ดีจริงจ้า #คนรักรถ #ล้างหัวฉีด...",
-      "originalSnippet": "ตอบกลับ @แชมป์“(แก๊งค์เรา)(ทรงลุง) 🕊️ ดีจริงจ้า #คนรักรถ #ล้างหัวฉีดรถยนต์ #น้ำยาล้างหัวฉีด. (ช่อง: คุณโน้ตบอกต่อของดี) · ยอดวิว 1,122 ครั้ง"
+      "originalSnippet": "ตอบกลับ @แชมป์“(แก๊งค์เรา)(ทรงลุง) 🕊️ ดีจริงจ้า #คนรักรถ #ล้างหัวฉีดรถยนต์ #น้ำยาล้างหัวฉีด. (ช่อง: คุณโน้ตบอกต่อของดี) · ยอดวิว 1,127 ครั้ง"
     },
     {
       "title": "รถยนต์เครื่องเบนซินมีน้ำยาล้างหัวฉีดแนะนำไหม ??? #ล้างหัวฉีด #ดูแลรถยนต์",
@@ -1906,7 +2027,7 @@
       "id": "1b5cd565b89df906",
       "canonicalUrl": "https://youtube.com/watch?v=88E-BlQPYV4",
       "contentHash": "de70017f9f4ab4adb4f4291f",
-      "collectedAt": "2026-10-24T05:19:13.875Z",
+      "collectedAt": "2026-10-25T05:35:54.382Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 9,
@@ -1960,7 +2081,7 @@
     {
       "title": "ใช้ได้ทั้งรถยนต์และมอเตอร์ไซค์ น้ำยาล้างหัวฉีด #bluetecboost #นํ้ายาล...",
       "link": "https://www.youtube.com/watch?v=FnVKc_klAVQ",
-      "snippet": "ใช้ได้ทั้งรถยนต์และมอเตอร์ไซค์ น้ำยาล้างหัวฉีด #bluetecboost #นํ้ายาล้างหัวฉีด. (ช่อง: เอาไป1โป้งงง) · ยอดวิว 1,130 ครั้ง",
+      "snippet": "ใช้ได้ทั้งรถยนต์และมอเตอร์ไซค์ น้ำยาล้างหัวฉีด #bluetecboost #นํ้ายาล้างหัวฉีด. (ช่อง: เอาไป1โป้งงง) · ยอดวิว 1,150 ครั้ง",
       "publishedAt": "2026-10-17T20:34:05.000Z",
       "sourceId": "youtube",
       "sourceName": "YouTube · เอาไป1โป้งงง",
@@ -1971,8 +2092,8 @@
       "itemKind": "social",
       "id": "2b55bb5602dfffd4",
       "canonicalUrl": "https://youtube.com/watch?v=FnVKc_klAVQ",
-      "contentHash": "129341cfc42fe76420029bef",
-      "collectedAt": "2026-10-24T05:19:13.875Z",
+      "contentHash": "97418ed1087115f08d53cb79",
+      "collectedAt": "2026-10-25T05:35:54.382Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 9,
@@ -1984,7 +2105,7 @@
       "hasAutomotiveContext": true,
       "relatedCoverage": [],
       "titleTh": "ใช้ได้ทั้งรถยนต์และมอเตอร์ไซค์ น้ำยาล้างหัวฉีด #bluetecboost #นํ้ายาล...",
-      "shortSummaryTh": "ใช้ได้ทั้งรถยนต์และมอเตอร์ไซค์ น้ำยาล้างหัวฉีด #bluetecboost #นํ้ายาล้างหัวฉีด. (ช่อง: เอาไป1โป้งงง) · ยอดวิว 1,130 ครั้ง",
+      "shortSummaryTh": "ใช้ได้ทั้งรถยนต์และมอเตอร์ไซค์ น้ำยาล้างหัวฉีด #bluetecboost #นํ้ายาล้างหัวฉีด. (ช่อง: เอาไป1โป้งงง) · ยอดวิว 1,150 ครั้ง",
       "classification": "neutral",
       "impactScore": 0,
       "confidence": 46,
@@ -2021,72 +2142,7 @@
       "analyzedBy": "fallback",
       "sourceUrl": "https://youtube.com/watch?v=FnVKc_klAVQ",
       "titleOriginal": "ใช้ได้ทั้งรถยนต์และมอเตอร์ไซค์ น้ำยาล้างหัวฉีด #bluetecboost #นํ้ายาล...",
-      "originalSnippet": "ใช้ได้ทั้งรถยนต์และมอเตอร์ไซค์ น้ำยาล้างหัวฉีด #bluetecboost #นํ้ายาล้างหัวฉีด. (ช่อง: เอาไป1โป้งงง) · ยอดวิว 1,130 ครั้ง"
-    },
-    {
-      "title": "รถกระตุก ต้องล้างหัวฉีดเลยไหม? 🚗💨 #ออโตคลิก #youtubeshorts",
-      "link": "https://www.youtube.com/watch?v=yb4B3uijhzY",
-      "snippet": "รถที่ใช้งานมานานแล้วเริ่มมีอาการกระตุก ยังไม่ควรสรุปทันทีว่าเกิดจากหัวฉีดครับ ควรตรวจหาสาเหตุก่อน ทั้งระบบไฟ เช่น หัวเทียนและคอยล์ ... (ช่อง: Autoclik FastFit) · ยอดวิว 1,290 ครั้ง",
-      "publishedAt": "2026-10-17T04:30:33.000Z",
-      "sourceId": "youtube",
-      "sourceName": "YouTube · Autoclik FastFit",
-      "sourceTier": 3,
-      "sourceCountry": "TH",
-      "language": "th",
-      "unverified": true,
-      "itemKind": "social",
-      "id": "9981962b49984a2d",
-      "canonicalUrl": "https://youtube.com/watch?v=yb4B3uijhzY",
-      "contentHash": "1774ca36a17843efe96d49c5",
-      "collectedAt": "2026-10-24T05:19:13.875Z",
-      "isPressRelease": false,
-      "isSponsored": false,
-      "prefilterScore": 9,
-      "matchedCategories": [
-        "INJECTOR"
-      ],
-      "matchedCompetitors": [],
-      "matchedBrands": [],
-      "hasAutomotiveContext": true,
-      "relatedCoverage": [],
-      "titleTh": "รถกระตุก ต้องล้างหัวฉีดเลยไหม? 🚗💨 #ออโตคลิก #youtubeshorts",
-      "shortSummaryTh": "รถที่ใช้งานมานานแล้วเริ่มมีอาการกระตุก ยังไม่ควรสรุปทันทีว่าเกิดจากหัวฉีดครับ ควรตรวจหาสาเหตุก่อน ทั้งระบบไฟ เช่น หัวเทียนและคอยล์ ... (ช่อง: Autoclik FastFit) · ยอดวิว 1,290 ครั้ง",
-      "classification": "neutral",
-      "impactScore": 0,
-      "confidence": 46,
-      "relevanceScore": 40,
-      "newsCategory": "INJECTOR",
-      "affectedChannels": [],
-      "affectedProducts": [
-        "POWER_FLOW"
-      ],
-      "affectedCountries": [
-        "TH"
-      ],
-      "affectedCompetitors": [],
-      "okrImpact": {
-        "O1": "neutral",
-        "O2": "neutral"
-      },
-      "positiveImpacts": [],
-      "negativeImpacts": [],
-      "reasoningSummary": [
-        "แหล่งข่าว Tier 3 — ข้อมูลยังต้องตรวจสอบ"
-      ],
-      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
-      "recommendedActions": [
-        {
-          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
-          "owner": "Business Intelligence",
-          "priority": "medium",
-          "deadline": "monitor"
-        }
-      ],
-      "timeHorizon": "1-3 months",
-      "analyzedBy": "fallback",
-      "sourceUrl": "https://youtube.com/watch?v=yb4B3uijhzY",
-      "titleOriginal": "รถกระตุก ต้องล้างหัวฉีดเลยไหม? 🚗💨 #ออโตคลิก #youtubeshorts",
-      "originalSnippet": "รถที่ใช้งานมานานแล้วเริ่มมีอาการกระตุก ยังไม่ควรสรุปทันทีว่าเกิดจากหัวฉีดครับ ควรตรวจหาสาเหตุก่อน ทั้งระบบไฟ เช่น หัวเทียนและคอยล์ ... (ช่อง: Autoclik FastFit) · ยอดวิว 1,290 ครั้ง"
+      "originalSnippet": "ใช้ได้ทั้งรถยนต์และมอเตอร์ไซค์ น้ำยาล้างหัวฉีด #bluetecboost #นํ้ายาล้างหัวฉีด. (ช่อง: เอาไป1โป้งงง) · ยอดวิว 1,150 ครั้ง"
     }
   ],
   "sourceHealth": [
@@ -2103,21 +2159,21 @@
       "sourceName": "ประชาชาติธุรกิจ",
       "ok": true,
       "itemCount": 20,
-      "durationMs": 2765
+      "durationMs": 2692
     },
     {
       "sourceId": "headlightmag",
       "sourceName": "HeadLightMag",
       "ok": true,
       "itemCount": 10,
-      "durationMs": 7495
+      "durationMs": 4864
     },
     {
       "sourceId": "autolifethailand",
       "sourceName": "AutoLife Thailand",
       "ok": true,
       "itemCount": 10,
-      "durationMs": 5297
+      "durationMs": 4736
     },
     {
       "sourceId": "autospinn",
@@ -2132,133 +2188,133 @@
       "sourceName": "ข่าวสด",
       "ok": true,
       "itemCount": 20,
-      "durationMs": 3492
+      "durationMs": 2206
     },
     {
       "sourceId": "matichon",
       "sourceName": "มติชน",
       "ok": true,
       "itemCount": 20,
-      "durationMs": 2197
+      "durationMs": 1741
     },
     {
       "sourceId": "bangkokpost-business",
       "sourceName": "Bangkok Post — Business",
       "ok": true,
       "itemCount": 10,
-      "durationMs": 5269
+      "durationMs": 3981
     },
     {
       "sourceId": "automotive-news",
       "sourceName": "Automotive News",
       "ok": true,
       "itemCount": 20,
-      "durationMs": 2578
+      "durationMs": 1660
     },
     {
       "sourceId": "tire-business",
       "sourceName": "Tire Business (Workshop / Aftermarket)",
       "ok": true,
       "itemCount": 20,
-      "durationMs": 2790
+      "durationMs": 1802
     },
     {
       "sourceId": "just-auto",
       "sourceName": "Just Auto",
       "ok": true,
       "itemCount": 10,
-      "durationMs": 3478
+      "durationMs": 1940
     },
     {
       "sourceId": "insideevs",
       "sourceName": "InsideEVs",
       "ok": true,
       "itemCount": 20,
-      "durationMs": 3523
+      "durationMs": 1986
     },
     {
       "sourceId": "electrek",
       "sourceName": "Electrek",
       "ok": true,
       "itemCount": 20,
-      "durationMs": 2355
+      "durationMs": 1538
     },
     {
       "sourceId": "motor1",
       "sourceName": "Motor1",
       "ok": true,
       "itemCount": 20,
-      "durationMs": 3636
+      "durationMs": 2127
     },
     {
       "sourceId": "carscoops",
       "sourceName": "Carscoops",
       "ok": true,
       "itemCount": 20,
-      "durationMs": 3626
+      "durationMs": 2182
     },
     {
       "sourceId": "paultan",
       "sourceName": "Paul Tan's Automotive News (MY/ASEAN)",
       "ok": true,
       "itemCount": 20,
-      "durationMs": 3160
+      "durationMs": 2310
     },
     {
       "sourceId": "vnexpress-intl",
       "sourceName": "VnExpress International",
       "ok": true,
       "itemCount": 20,
-      "durationMs": 4502
+      "durationMs": 3208
     },
     {
       "sourceId": "nikkei-asia",
       "sourceName": "Nikkei Asia",
       "ok": true,
       "itemCount": 20,
-      "durationMs": 3572
+      "durationMs": 2130
     },
     {
       "sourceId": "google-news:th-TH",
       "sourceName": "Google News (th-TH)",
       "ok": true,
-      "itemCount": 144,
-      "durationMs": 15959
+      "itemCount": 141,
+      "durationMs": 15947
     },
     {
       "sourceId": "google-news:en-TH",
       "sourceName": "Google News (en-TH)",
       "ok": true,
-      "itemCount": 84,
-      "durationMs": 16725
+      "itemCount": 77,
+      "durationMs": 16702
     },
     {
       "sourceId": "google-news:en-SG",
       "sourceName": "Google News (en-SG)",
       "ok": true,
-      "itemCount": 83,
-      "durationMs": 16721
+      "itemCount": 77,
+      "durationMs": 16774
     },
     {
       "sourceId": "google-news:en-PH",
       "sourceName": "Google News (en-PH)",
       "ok": true,
-      "itemCount": 84,
-      "durationMs": 16821
+      "itemCount": 77,
+      "durationMs": 16824
     },
     {
       "sourceId": "google-news:en-US",
       "sourceName": "Google News (en-US)",
       "ok": true,
-      "itemCount": 86,
-      "durationMs": 16797
+      "itemCount": 78,
+      "durationMs": 16807
     },
     {
       "sourceId": "pantip",
       "sourceName": "Pantip (ห้องรถยนต์)",
       "ok": true,
       "itemCount": 195,
-      "durationMs": 17190
+      "durationMs": 18053
     },
     {
       "sourceId": "facebook-owned",
@@ -2282,8 +2338,8 @@
       "sourceId": "youtube",
       "sourceName": "YouTube (คำค้นที่ติดตาม)",
       "ok": true,
-      "itemCount": 33,
-      "durationMs": 6120,
+      "itemCount": 32,
+      "durationMs": 6109,
       "configured": true
     },
     {
@@ -2291,43 +2347,39 @@
       "sourceName": "Open-Meteo (พยากรณ์อากาศ / คุณภาพอากาศ)",
       "ok": true,
       "itemCount": 1,
-      "durationMs": 3540
+      "durationMs": 3183
     }
   ],
   "errors": [
     "[feed:pcd-air4thai] fetch failed",
     "[feed:autospinn] HTTP 403 Forbidden",
-    "[ai:classify:ce0d61199427e31e] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgLVqdzkJeXG5PdPz6ZZ8\"}",
-    "[ai:classify:1a664c5d0f218f9b] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgLVqfhC4cADAv9X5q6pr\"}",
-    "[ai:classify:3d4ad956f4dd8453] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgLVqhdGco65s1UEyfj7R\"}",
-    "[ai:classify:6ebaae9920d51a24] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgLVqjMCVjdA6mQyaWCa9\"}",
-    "[ai:classify:4aede28e2b8b31e2] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgLVqm1R99sCUCy7a4scZ\"}",
-    "[ai:classify:14e6f620dfc13ceb] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgLVqnhN2q7pHn7ZfQx7L\"}",
-    "[ai:classify:cf5a4f5d6888bf6b] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgLVqptqX98ifasj4ravu\"}",
-    "[ai:classify:76db95ba039d434b] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgLVqraYFUZjFQuqMVRgJ\"}",
-    "[ai:classify:a295a49f4b23eb0a] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgLVqtD1rPHbAkFWjHVyv\"}",
-    "[ai:classify:fe6e8219cf1b8b0c] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgLVqutTkrs4RZfqwVnid\"}",
-    "[ai:classify:823583db1ec4fa5e] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgLVqwXC1dx3Uv73Ba75y\"}",
-    "[ai:classify:4bbb13e2cfe8598a] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgLVqy7BeYubpRXRaaEEA\"}",
-    "[ai:classify:ae48dc94e9a444a0] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgLVqzkuQ4wzwKxthRSZM\"}",
-    "[ai:classify:27e9045cb06f52e7] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgLVr2LfYVAvgmvWtpfhs\"}",
-    "[ai:classify:cf0f1bc81d14809c] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgLVr3zsMd2kZWeNHhK3R\"}",
-    "[ai:classify:7df19ea71b65c43b] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgLVr5g5VkW4ZiYnu7ZUy\"}",
-    "[ai:classify:cc76bc6f3b8d351c] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgLVr7N2PrQSSYjJaLYmR\"}",
-    "[ai:classify:e1399c8ad9085f64] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgLVr8w3SBmvtn5JkfvR8\"}",
-    "[ai:classify:c1dccefdce2e66a1] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgLVrAZG9oEe6DPUCA3Ho\"}",
-    "[ai:classify:12d04c8ce63b80f8] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgLVrCHCGjvQXBvqpXJPm\"}",
-    "[ai:classify:ee48250c3e135e71] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgLVrDvuoddJ7fCyneXjB\"}",
-    "[ai:classify:1b5cd565b89df906] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgLVrFWRqxo2nALszk4mJ\"}",
-    "[ai:classify:2b55bb5602dfffd4] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgLVrH99d5n7g7dRtbtvM\"}",
-    "[ai:classify:9981962b49984a2d] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgLVrJnrvtVotyDcen8WA\"}",
-    "[ai:daily] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"adaptive thinking is not supported on this model\"},\"request_id\":\"req_011CgLVrLNccUSRbi6CHorv2\"}"
+    "[ai:classify:ce0d61199427e31e] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgNQv4CoxVKMSJMJtzicC\"}",
+    "[ai:classify:1555a7b1e83ba9a3] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgNQv5b9rSqr7ZHJa5Tg9\"}",
+    "[ai:classify:3d4ad956f4dd8453] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgNQv6yzQchxKYaVv4mnP\"}",
+    "[ai:classify:14e6f620dfc13ceb] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgNQv8L7BcDTL72D4yvay\"}",
+    "[ai:classify:121d8ae3375cf81e] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgNQv9gU4H7bKYvdya9Kp\"}",
+    "[ai:classify:453d9493367deddf] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgNQvB352sSS7ya4GCadi\"}",
+    "[ai:classify:3d97e146e39a0fea] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgNQvCQS6nPAJaUxZHT8H\"}",
+    "[ai:classify:cf5a4f5d6888bf6b] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgNQvDk3YyDJwh2QjHWnn\"}",
+    "[ai:classify:8eecc6924b42a07d] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgNQvF8duBpS6MAEbQwhP\"}",
+    "[ai:classify:76db95ba039d434b] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgNQvGWjoYjGjsXarjqY4\"}",
+    "[ai:classify:d6e764de8a3e8707] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgNQvHq736HF68tHLpmMT\"}",
+    "[ai:classify:63c728e24236e77a] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgNQvKULPcidYoDz1P5ym\"}",
+    "[ai:classify:e528a8366e532675] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgNQvLueaHVPH4Rd21hS7\"}",
+    "[ai:classify:7f4dbde9f118e226] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgNQvNJV7fcVbDxWZGznZ\"}",
+    "[ai:classify:4c82e218717cb64d] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgNQvPpXHd8ExXpHjUSSc\"}",
+    "[ai:classify:678dbac22c36a542] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgNQvRAswG5gbVTrQNkNk\"}",
+    "[ai:classify:c1dccefdce2e66a1] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgNQvSWzbKGYAJrrfMD8F\"}",
+    "[ai:classify:12d04c8ce63b80f8] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgNQvTrrYfXZsVfWRRmEt\"}",
+    "[ai:classify:ee48250c3e135e71] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgNQvVEiGqoUsou6WwVAf\"}",
+    "[ai:classify:2b55bb5602dfffd4] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgNQvWXqsLqGehTyLy5QG\"}",
+    "[ai:daily] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"adaptive thinking is not supported on this model\"},\"request_id\":\"req_011CgNQvXrUCgYmXEngtDFWW\"}"
   ],
   "ai": {
     "enabled": true,
     "model": "claude-haiku-4-5-20251001",
     "itemsAnalyzedByAi": 0,
-    "itemsAnalyzedByFallback": 29,
+    "itemsAnalyzedByFallback": 30,
     "inputTokens": 0,
     "outputTokens": 0,
     "estimatedCostUsd": 0
