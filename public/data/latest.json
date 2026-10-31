@@ -1,20 +1,20 @@
 {
-  "date": "2026-10-30",
-  "generatedAt": "2026-10-30T06:43:51.401Z",
+  "date": "2026-10-31",
+  "generatedAt": "2026-10-31T06:34:28.560Z",
   "timezone": "Asia/Bangkok",
   "status": "degraded",
   "kpi": {
-    "totalCollected": 994,
-    "afterDedup": 599,
-    "afterPrefilter": 22,
-    "published": 22,
+    "totalCollected": 1012,
+    "afterDedup": 610,
+    "afterPrefilter": 35,
+    "published": 30,
     "positive": 1,
-    "neutral": 18,
-    "negative": 3,
+    "neutral": 28,
+    "negative": 1,
     "highImpact": 1,
     "competitorAlerts": 0,
-    "evRelated": 7,
-    "international": 1,
+    "evRelated": 8,
+    "international": 5,
     "oemOpportunities": 0,
     "b2bOpportunities": 1,
     "b2cOpportunities": 0,
@@ -24,13 +24,13 @@
     "demandSignals": 1
   },
   "daily": {
-    "executiveSummaryTh": "วันนี้ระบบคัดกรองข่าวที่เกี่ยวข้องกับ Air4 ได้ 22 ข่าว แบ่งเป็นเชิงบวก 1 ข่าว เป็นกลาง 18 ข่าว และเชิงลบ 3 ข่าว คะแนนผลกระทบสุทธิอยู่ที่ 1.4 ซึ่งจัดอยู่ในระดับเป็นกลางต่อธุรกิจ ข่าวเชิงบวกที่สำคัญที่สุดคือ \"อากาศร้อน: อุณหภูมิที่รู้สึกได้สูงสุดเฉลี่ย 37.1°C ใน 7 วันข้างหน้า — ปัจจัยหนุนความต้องการล้างแอร์รถยนต์\" ข่าวที่ต้องเฝ้าระวังมากที่สุดคือ \"GAC Group ทุ่ม 250 ล้านบาท ตั้งโรงงานประกอบแบตเตอรี่รถยนต์ไฟฟ้าในไทย\" ยังไม่พบความเคลื่อนไหวสำคัญของคู่แข่งในวันนี้ หมายเหตุ: บทวิเคราะห์นี้สร้างโดยระบบกฎอัตโนมัติเนื่องจากไม่สามารถเรียกใช้ AI ได้",
-    "overallSentiment": "neutral",
-    "netImpactScore": 1.45,
-    "urgencyLevel": "low",
+    "executiveSummaryTh": "วันนี้ระบบคัดกรองข่าวที่เกี่ยวข้องกับ Air4 ได้ 30 ข่าว แบ่งเป็นเชิงบวก 1 ข่าว เป็นกลาง 28 ข่าว และเชิงลบ 1 ข่าว คะแนนผลกระทบสุทธิอยู่ที่ 3.6 ซึ่งจัดอยู่ในระดับบวกต่อธุรกิจ ข่าวเชิงบวกที่สำคัญที่สุดคือ \"อากาศร้อน: อุณหภูมิที่รู้สึกได้สูงสุดเฉลี่ย 37.2°C ใน 7 วันข้างหน้า — ปัจจัยหนุนความต้องการล้างแอร์รถยนต์\" ข่าวที่ต้องเฝ้าระวังมากที่สุดคือ \"GAC Group ทุ่ม 250 ล้านบาท ตั้งโรงงานประกอบแบตเตอรี่รถยนต์ไฟฟ้าในไทย\" ยังไม่พบความเคลื่อนไหวสำคัญของคู่แข่งในวันนี้ หมายเหตุ: บทวิเคราะห์นี้สร้างโดยระบบกฎอัตโนมัติเนื่องจากไม่สามารถเรียกใช้ AI ได้",
+    "overallSentiment": "positive",
+    "netImpactScore": 3.62,
+    "urgencyLevel": "medium",
     "opportunitySignals": [
       {
-        "title": "อากาศร้อน: อุณหภูมิที่รู้สึกได้สูงสุดเฉลี่ย 37.1°C ใน 7 วันข้างหน้า — ปัจจัยหนุนความต้องการล้างแอร์รถยนต์",
+        "title": "อากาศร้อน: อุณหภูมิที่รู้สึกได้สูงสุดเฉลี่ย 37.2°C ใน 7 วันข้างหน้า — ปัจจัยหนุนความต้องการล้างแอร์รถยนต์",
         "detail": "ปัญหากลิ่น/เชื้อราในรถ = ความต้องการบริการหลักของ Air4",
         "relatedNewsIds": [
           "ce0d61199427e31e"
@@ -44,20 +44,6 @@
         "relatedNewsIds": [
           "3c968674e1895f88"
         ]
-      },
-      {
-        "title": "ส.อ.ท. เผยผลิตรถยนต์ ก.ย. ลด 6.08% สวนทางยอดขาย–ส่งออกโต รถกระบะยังซบเซา - สภาอุตสาหกรรมแห่งประเทศไทย",
-        "detail": "ตลาดหดตัว = ปริมาณรถเข้าศูนย์ลดลง",
-        "relatedNewsIds": [
-          "ad860211e1d205c7"
-        ]
-      },
-      {
-        "title": "GAC INPOW เปิดโรงงานแบตเตอรี่ EV ในไทย ลงทุนกว่า 250 ล้านบาท! แต่เป็นการผลิตเซลล์แบตเตอรี่เอง หรือเพียงประกอบแพ็กแบตเตอรี่? - รถใหม่วันนี้ ข่าวรถยนต์ EV ราคารถยนต์ไฟฟ้า รถยนต์พลังงานไฟฟ้า - CAR250",
-        "detail": "การปิดตัว = ฐานลูกค้าลดลง",
-        "relatedNewsIds": [
-          "08d94b5399aa6899"
-        ]
       }
     ],
     "actionsToday": [
@@ -70,21 +56,11 @@
         "relatedNewsIds": [
           "3c968674e1895f88"
         ]
-      },
-      {
-        "action": "ประเมินผลกระทบจากข่าว: ส.อ.ท. เผยผลิตรถยนต์ ก.ย. ลด 6.08% สวนทางยอดขาย–ส่งออกโต รถกระบะยังซบเซา - สภาอุตสาหกรรมแห่งประเทศไทย",
-        "owner": "Business Intelligence",
-        "priority": "high",
-        "deadline": "today",
-        "reason": "ตลาดหดตัว = ปริมาณรถเข้าศูนย์ลดลง",
-        "relatedNewsIds": [
-          "ad860211e1d205c7"
-        ]
       }
     ],
     "actionsWithin7Days": [
       {
-        "action": "ต่อยอดโอกาสจากข่าว: อากาศร้อน: อุณหภูมิที่รู้สึกได้สูงสุดเฉลี่ย 37.1°C ใน 7 วันข้างหน้า — ปัจจัยหนุนความต้องการล้างแอร์รถยนต์",
+        "action": "ต่อยอดโอกาสจากข่าว: อากาศร้อน: อุณหภูมิที่รู้สึกได้สูงสุดเฉลี่ย 37.2°C ใน 7 วันข้างหน้า — ปัจจัยหนุนความต้องการล้างแอร์รถยนต์",
         "owner": "B2B Sales & Marketing",
         "priority": "medium",
         "deadline": "within_7_days",
@@ -96,8 +72,8 @@
     ],
     "actionsToMonitor": [],
     "okrAssessment": {
-      "O1": "สัญญาณวันนี้ยังไม่ชี้ชัดต่อเป้าหมายรายได้รวม +15% YoY",
-      "O2": "ข่าวที่เกี่ยวกับช่องทางนอก Toyota OEM มี 1 รายการ",
+      "O1": "สัญญาณวันนี้สนับสนุนเป้าหมายรายได้รวม +15% YoY",
+      "O2": "ข่าวที่เกี่ยวกับช่องทางนอก Toyota OEM มี 2 รายการ",
       "benefitingChannels": [
         "B2B"
       ],
@@ -111,10 +87,10 @@
   },
   "items": [
     {
-      "title": "อากาศร้อน: อุณหภูมิที่รู้สึกได้สูงสุดเฉลี่ย 37.1°C ใน 7 วันข้างหน้า — ปัจจัยหนุนความต้องการล้างแอร์รถยนต์",
+      "title": "อากาศร้อน: อุณหภูมิที่รู้สึกได้สูงสุดเฉลี่ย 37.2°C ใน 7 วันข้างหน้า — ปัจจัยหนุนความต้องการล้างแอร์รถยนต์",
       "link": "https://open-meteo.com/",
-      "snippet": "ข้อมูลพยากรณ์: อุณหภูมิที่รู้สึกได้สูงสุดรายเมือง กรุงเทพฯ 40.7°C · หาดใหญ่ 39.1°C · ขอนแก่น 38.6°C · ชลบุรี 38.5°C. ค่าเฉลี่ยถ่วงน้ำหนักตามความหนาแน่นของศูนย์บริการอยู่ที่ 37.1°C จุดสูงสุดอยู่ที่ กรุงเทพฯ 40.7°C. [การตีความของระบบ] อากาศร้อนทำให้ผู้ใช้รถเปิดแอร์หนักและนานขึ้น คอยล์เย็นสะสมความชื้นและสิ่งสกปรกเร็วขึ้น มักตามมาด้วยอาการแอร์ไม่เย็นและกลิ่นอับ ซึ่งเป็นช่วงที่ความต้องการบริการล้างแอร์รถยนต์สูงขึ้นตามฤดูกาล",
-      "publishedAt": "2026-10-30T06:43:39.204Z",
+      "snippet": "ข้อมูลพยากรณ์: อุณหภูมิที่รู้สึกได้สูงสุดรายเมือง กรุงเทพฯ 40.3°C · ชลบุรี 39.6°C · ขอนแก่น 38.8°C · นครราชสีมา 38.8°C. ค่าเฉลี่ยถ่วงน้ำหนักตามความหนาแน่นของศูนย์บริการอยู่ที่ 37.2°C จุดสูงสุดอยู่ที่ กรุงเทพฯ 40.3°C. [การตีความของระบบ] อากาศร้อนทำให้ผู้ใช้รถเปิดแอร์หนักและนานขึ้น คอยล์เย็นสะสมความชื้นและสิ่งสกปรกเร็วขึ้น มักตามมาด้วยอาการแอร์ไม่เย็นและกลิ่นอับ ซึ่งเป็นช่วงที่ความต้องการบริการล้างแอร์รถยนต์สูงขึ้นตามฤดูกาล",
+      "publishedAt": "2026-10-31T06:34:09.739Z",
       "sourceId": "weather-signal",
       "sourceName": "Open-Meteo (พยากรณ์อากาศ)",
       "sourceTier": 1,
@@ -124,8 +100,8 @@
       "itemKind": "signal",
       "id": "ce0d61199427e31e",
       "canonicalUrl": "https://open-meteo.com",
-      "contentHash": "62f05de3d87d40cd5b810288",
-      "collectedAt": "2026-10-30T06:43:39.204Z",
+      "contentHash": "130ba936d8b47199a6b4e596",
+      "collectedAt": "2026-10-31T06:34:09.739Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 39,
@@ -136,8 +112,8 @@
       "matchedBrands": [],
       "hasAutomotiveContext": true,
       "relatedCoverage": [],
-      "titleTh": "อากาศร้อน: อุณหภูมิที่รู้สึกได้สูงสุดเฉลี่ย 37.1°C ใน 7 วันข้างหน้า — ปัจจัยหนุนความต้องการล้างแอร์รถยนต์",
-      "shortSummaryTh": "ข้อมูลพยากรณ์: อุณหภูมิที่รู้สึกได้สูงสุดรายเมือง กรุงเทพฯ 40.7°C · หาดใหญ่ 39.1°C · ขอนแก่น 38.6°C · ชลบุรี 38.5°C. ค่าเฉลี่ยถ่วงน้ำหนักตามความหนาแน่นของศูนย์บริการอยู่ที่ 37.1°C จุดสูงสุดอยู่ที่ กรุงเทพฯ 40.7°C. [การตีความของระบบ] อากาศร้อนทำให้ผู้ใช้รถเปิดแอร์หนักและนานขึ้น คอยล์เย็นสะสมความชื้น…",
+      "titleTh": "อากาศร้อน: อุณหภูมิที่รู้สึกได้สูงสุดเฉลี่ย 37.2°C ใน 7 วันข้างหน้า — ปัจจัยหนุนความต้องการล้างแอร์รถยนต์",
+      "shortSummaryTh": "ข้อมูลพยากรณ์: อุณหภูมิที่รู้สึกได้สูงสุดรายเมือง กรุงเทพฯ 40.3°C · ชลบุรี 39.6°C · ขอนแก่น 38.8°C · นครราชสีมา 38.8°C. ค่าเฉลี่ยถ่วงน้ำหนักตามความหนาแน่นของศูนย์บริการอยู่ที่ 37.2°C จุดสูงสุดอยู่ที่ กรุงเทพฯ 40.3°C. [การตีความของระบบ] อากาศร้อนทำให้ผู้ใช้รถเปิดแอร์หนักและนานขึ้น คอยล์เย็นสะสมความช…",
       "classification": "positive",
       "impactScore": 5,
       "confidence": 68,
@@ -177,8 +153,8 @@
       "timeHorizon": "1-3 months",
       "analyzedBy": "fallback",
       "sourceUrl": "https://open-meteo.com",
-      "titleOriginal": "อากาศร้อน: อุณหภูมิที่รู้สึกได้สูงสุดเฉลี่ย 37.1°C ใน 7 วันข้างหน้า — ปัจจัยหนุนความต้องการล้างแอร์รถยนต์",
-      "originalSnippet": "ข้อมูลพยากรณ์: อุณหภูมิที่รู้สึกได้สูงสุดรายเมือง กรุงเทพฯ 40.7°C · หาดใหญ่ 39.1°C · ขอนแก่น 38.6°C · ชลบุรี 38.5°C. ค่าเฉลี่ยถ่วงน้ำหนักตามความหนาแน่นของศูนย์บริการอยู่ที่ 37.1°C จุดสูงสุดอยู่ที่ กรุงเทพฯ 40.7°C. [การตีความของระบบ] อากาศร้อนทำให้ผู้ใช้รถเปิดแอร์หนักและนานขึ้น คอยล์เย็นสะสมความชื้นและสิ่งสกปรกเร็วขึ้น มักตามมาด้วยอาการแอร์ไม่เย็นและกลิ่นอับ ซึ่งเป็นช่วงที่ความต้องการบริการล้างแอร์รถยนต์สูงขึ้นตามฤดูกาล"
+      "titleOriginal": "อากาศร้อน: อุณหภูมิที่รู้สึกได้สูงสุดเฉลี่ย 37.2°C ใน 7 วันข้างหน้า — ปัจจัยหนุนความต้องการล้างแอร์รถยนต์",
+      "originalSnippet": "ข้อมูลพยากรณ์: อุณหภูมิที่รู้สึกได้สูงสุดรายเมือง กรุงเทพฯ 40.3°C · ชลบุรี 39.6°C · ขอนแก่น 38.8°C · นครราชสีมา 38.8°C. ค่าเฉลี่ยถ่วงน้ำหนักตามความหนาแน่นของศูนย์บริการอยู่ที่ 37.2°C จุดสูงสุดอยู่ที่ กรุงเทพฯ 40.3°C. [การตีความของระบบ] อากาศร้อนทำให้ผู้ใช้รถเปิดแอร์หนักและนานขึ้น คอยล์เย็นสะสมความชื้นและสิ่งสกปรกเร็วขึ้น มักตามมาด้วยอาการแอร์ไม่เย็นและกลิ่นอับ ซึ่งเป็นช่วงที่ความต้องการบริการล้างแอร์รถยนต์สูงขึ้นตามฤดูกาล"
     },
     {
       "title": "GAC Group ทุ่ม 250 ล้านบาท ตั้งโรงงานประกอบแบตเตอรี่รถยนต์ไฟฟ้าในไทย",
@@ -195,7 +171,7 @@
       "id": "3c968674e1895f88",
       "canonicalUrl": "https://autolifethailand.tv/gac-opens-first-overseas-battery-plant-thailand",
       "contentHash": "2b904f7b8d6a22f38d86cfdd",
-      "collectedAt": "2026-10-30T06:43:39.204Z",
+      "collectedAt": "2026-10-31T06:34:09.739Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 10,
@@ -257,56 +233,57 @@
       "originalSnippet": "ถือเป็นครั้งแรกนอกประเทศจีนของ GAC Group ที่ได้เปิดโรงงานประกอบแบตเตอรี่ GAC INPOW อย่างเป็นทางการในประเทศไทย ที่ อ.ศรีราชา จ.ชลบุรี โดยโรงงานดังกล่าวเป็นโรงงานผลิตแพ็กแบตเตอรี่ (Battery Pack) แห่งแรกในต่างประเทศของกลุ่มบริษัท สวี่ จวิ้นไห่ (Mr. Xu Junhai) ผู้จัดการทั่วไป GAC INPOW กล่าวว่า โรงงานประกอบแบตเตอรี่ PACK ของ GAC INPOW ในประเทศไทย ถือเป็นโรงงานแบตเตอรี่ PACK ที่ GAC Group ลงทุนและดำเนินการเองในต่างประเทศแห่งแรก โรงงานแห่งนี้สะท้อนถึงการขับเคลื่อนกลยุทธ์ ‘ONE GAC 2.0’ และ ‘Thailand Action 2.0’ อย่างเป็นรูปธรรม โดยมีบทบาทสำคัญในการผลักดันการผลิตในท้องถิ่น การพัฒนาเครือข่ายพลังงาน แล…"
     },
     {
-      "title": "ส.อ.ท. เผยผลิตรถยนต์ ก.ย. ลด 6.08% สวนทางยอดขาย–ส่งออกโต รถกระบะยังซบเซา - สภาอุตสาหกรรมแห่งประเทศไทย",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNWUNsd0J0U2RKenNXdklqdnU0UlNNbXJsc0dJTlhyY0dYOVJKRi12NHdyWXliaFJCU2hVeWxMTzdRMEFBX2pvQVVDdUFxbE84SWhnUlQ3dUlWYlRMNGgzRmJHaE01Vm5BQklyLVNucW5kcW5FdG9jejdhZnVtMnJYVlJMS2c5OGE4?oc=5",
-      "snippet": "ส.อ.ท. เผยผลิตรถยนต์ ก.ย. ลด 6.08% สวนทางยอดขาย–ส่งออกโต รถกระบะยังซบเซา สภาอุตสาหกรรมแห่งประเทศไทย",
-      "publishedAt": "2026-10-28T07:23:53.000Z",
-      "sourceId": "google-news:th-TH",
-      "sourceName": "สภาอุตสาหกรรมแห่งประเทศไทย",
-      "sourceTier": 2,
+      "title": "#สเปรย์ล้างแอร์รถยนต์ #โฟมล้างแอร์ #น้ำยาล้างแอร์ #ดูแลรถยนต์ #ของใช้ในรถยนต์ #shorts",
+      "link": "https://www.youtube.com/watch?v=5wqDvAjdutY",
+      "snippet": "สเปรย์โฟมล้างแอร์รถยนต์ ขนาด 450 ML ทำความสะอาดและลดกลิ่นไม่พึงประสงค์ สเปรย์โฟมล้างแอร์รถยนต์ ... (ช่อง: Mechanic023) · ยอดวิว 265 ครั้ง",
+      "publishedAt": "2026-10-30T13:00:25.000Z",
+      "sourceId": "youtube",
+      "sourceName": "YouTube · Mechanic023",
+      "sourceTier": 3,
       "sourceCountry": "TH",
       "language": "th",
-      "unverified": false,
-      "itemKind": "news",
-      "id": "ad860211e1d205c7",
-      "canonicalUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNWUNsd0J0U2RKenNXdklqdnU0UlNNbXJsc0dJTlhyY0dYOVJKRi12NHdyWXliaFJCU2hVeWxMTzdRMEFBX2pvQVVDdUFxbE84SWhnUlQ3dUlWYlRMNGgzRmJHaE01Vm5BQklyLVNucW5kcW5FdG9jejdhZnVtMnJYVlJMS2c5OGE4",
-      "contentHash": "d8fca37cf355cac84bcfe30d",
-      "collectedAt": "2026-10-30T06:43:39.204Z",
+      "unverified": true,
+      "itemKind": "social",
+      "id": "1e7e5ddf58315d77",
+      "canonicalUrl": "https://youtube.com/watch?v=5wqDvAjdutY",
+      "contentHash": "f8b9c259f856fba01df48377",
+      "collectedAt": "2026-10-31T06:34:09.739Z",
       "isPressRelease": false,
       "isSponsored": false,
-      "prefilterScore": 10,
+      "prefilterScore": 25,
       "matchedCategories": [
-        "AUTO_MARKET",
-        "INTERNATIONAL"
+        "AC_CLEANING"
       ],
       "matchedCompetitors": [],
       "matchedBrands": [],
       "hasAutomotiveContext": true,
-      "duplicateGroupId": "ad860211e1d205c7",
       "relatedCoverage": [],
-      "titleTh": "ส.อ.ท. เผยผลิตรถยนต์ ก.ย. ลด 6.08% สวนทางยอดขาย–ส่งออกโต รถกระบะยังซบเซา - สภาอุตสาหกรรมแห่งประเทศไทย",
-      "shortSummaryTh": "ส.อ.ท. เผยผลิตรถยนต์ ก.ย. ลด 6.08% สวนทางยอดขาย–ส่งออกโต รถกระบะยังซบเซา สภาอุตสาหกรรมแห่งประเทศไทย",
-      "classification": "negative",
-      "impactScore": -2,
-      "confidence": 53,
-      "relevanceScore": 43,
-      "newsCategory": "AUTO_MARKET",
+      "titleTh": "#สเปรย์ล้างแอร์รถยนต์ #โฟมล้างแอร์ #น้ำยาล้างแอร์ #ดูแลรถยนต์ #ของใช้ในรถยนต์ #shorts",
+      "shortSummaryTh": "สเปรย์โฟมล้างแอร์รถยนต์ ขนาด 450 ML ทำความสะอาดและลดกลิ่นไม่พึงประสงค์ สเปรย์โฟมล้างแอร์รถยนต์ ... (ช่อง: Mechanic023) · ยอดวิว 265 ครั้ง",
+      "classification": "neutral",
+      "impactScore": 1,
+      "confidence": 46,
+      "relevanceScore": 90,
+      "newsCategory": "AC_CLEANING",
       "affectedChannels": [],
-      "affectedProducts": [],
+      "affectedProducts": [
+        "AC_CLEANING",
+        "TRADING"
+      ],
       "affectedCountries": [
         "TH"
       ],
       "affectedCompetitors": [],
       "okrImpact": {
-        "O1": "negative",
+        "O1": "neutral",
         "O2": "neutral"
       },
-      "positiveImpacts": [],
-      "negativeImpacts": [
-        "ตลาดหดตัว = ปริมาณรถเข้าศูนย์ลดลง"
+      "positiveImpacts": [
+        "เกี่ยวข้องกับบริการหลักโดยตรง"
       ],
+      "negativeImpacts": [],
       "reasoningSummary": [
-        "วิเคราะห์ด้วยกฎอัตโนมัติ (ไม่ได้ใช้ AI)"
+        "แหล่งข่าว Tier 3 — ข้อมูลยังต้องตรวจสอบ"
       ],
       "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
       "recommendedActions": [
@@ -319,78 +296,9 @@
       ],
       "timeHorizon": "1-3 months",
       "analyzedBy": "fallback",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNWUNsd0J0U2RKenNXdklqdnU0UlNNbXJsc0dJTlhyY0dYOVJKRi12NHdyWXliaFJCU2hVeWxMTzdRMEFBX2pvQVVDdUFxbE84SWhnUlQ3dUlWYlRMNGgzRmJHaE01Vm5BQklyLVNucW5kcW5FdG9jejdhZnVtMnJYVlJMS2c5OGE4",
-      "titleOriginal": "ส.อ.ท. เผยผลิตรถยนต์ ก.ย. ลด 6.08% สวนทางยอดขาย–ส่งออกโต รถกระบะยังซบเซา - สภาอุตสาหกรรมแห่งประเทศไทย",
-      "originalSnippet": "ส.อ.ท. เผยผลิตรถยนต์ ก.ย. ลด 6.08% สวนทางยอดขาย–ส่งออกโต รถกระบะยังซบเซา สภาอุตสาหกรรมแห่งประเทศไทย"
-    },
-    {
-      "title": "GAC INPOW เปิดโรงงานแบตเตอรี่ EV ในไทย ลงทุนกว่า 250 ล้านบาท! แต่เป็นการผลิตเซลล์แบตเตอรี่เอง หรือเพียงประกอบแพ็กแบตเตอรี่? - รถใหม่วันนี้ ข่าวรถยนต์ EV ราคารถยนต์ไฟฟ้า รถยนต์พลังงานไฟฟ้า - CAR250",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1ZeXR1TWJuZDVRUTRlM2JYelFvVF9HS3Z4MTQ1Q3hObzBCUTRSLU9RdWRESUh2Y1REcklLVm5pYzdIdjl0ekNreGV0WThsdw?oc=5",
-      "snippet": "GAC INPOW เปิดโรงงานแบตเตอรี่ EV ในไทย ลงทุนกว่า 250 ล้านบาท! แต่เป็นการผลิตเซลล์แบตเตอรี่เอง หรือเพียงประกอบแพ็กแบตเตอรี่? - รถใหม่วันนี้ ข่าวรถยนต์ EV ราคารถยนต์ไฟฟ้า รถยนต์พลังงานไฟฟ้า CAR250",
-      "publishedAt": "2026-10-30T01:27:57.000Z",
-      "sourceId": "google-news:th-TH",
-      "sourceName": "CAR250",
-      "sourceTier": 2,
-      "sourceCountry": "TH",
-      "language": "th",
-      "unverified": false,
-      "itemKind": "news",
-      "id": "08d94b5399aa6899",
-      "canonicalUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1ZeXR1TWJuZDVRUTRlM2JYelFvVF9HS3Z4MTQ1Q3hObzBCUTRSLU9RdWRESUh2Y1REcklLVm5pYzdIdjl0ekNreGV0WThsdw",
-      "contentHash": "dac5fe99ccc3997ed7caf249",
-      "collectedAt": "2026-10-30T06:43:39.204Z",
-      "isPressRelease": false,
-      "isSponsored": false,
-      "prefilterScore": 10,
-      "matchedCategories": [
-        "EV",
-        "INTERNATIONAL"
-      ],
-      "matchedCompetitors": [],
-      "matchedBrands": [],
-      "hasAutomotiveContext": true,
-      "relatedCoverage": [],
-      "titleTh": "GAC INPOW เปิดโรงงานแบตเตอรี่ EV ในไทย ลงทุนกว่า 250 ล้านบาท! แต่เป็นการผลิตเซลล์แบตเตอรี่เอง หรือเพียงประกอบแพ็กแบตเตอรี่? - รถใหม่วันนี้ ข่าวรถยนต์ EV ราคารถยนต์ไฟฟ้า รถยนต์พลังงานไฟฟ้า - CAR250",
-      "shortSummaryTh": "GAC INPOW เปิดโรงงานแบตเตอรี่ EV ในไทย ลงทุนกว่า 250 ล้านบาท! แต่เป็นการผลิตเซลล์แบตเตอรี่เอง หรือเพียงประกอบแพ็กแบตเตอรี่? - รถใหม่วันนี้ ข่าวรถยนต์ EV ราคารถยนต์ไฟฟ้า รถยนต์พลังงานไฟฟ้า CAR250",
-      "classification": "negative",
-      "impactScore": -2,
-      "confidence": 53,
-      "relevanceScore": 43,
-      "newsCategory": "EV",
-      "affectedChannels": [],
-      "affectedProducts": [],
-      "affectedCountries": [
-        "TH"
-      ],
-      "affectedCompetitors": [],
-      "okrImpact": {
-        "O1": "negative",
-        "O2": "neutral"
-      },
-      "positiveImpacts": [
-        "รถ EV ยังต้องล้างแอร์ และเจ้าของ EV ใส่ใจคุณภาพอากาศในห้องโดยสารสูง"
-      ],
-      "negativeImpacts": [
-        "การปิดตัว = ฐานลูกค้าลดลง",
-        "EV ไม่มีหัวฉีดน้ำมัน = ความต้องการ Power Flow ลดลงในระยะยาว"
-      ],
-      "reasoningSummary": [
-        "ข่าว EV: ผลบวกต่อ AC_CLEANING หักลบผลลบต่อ POWER_FLOW → ประเมินผลสุทธิ"
-      ],
-      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
-      "recommendedActions": [
-        {
-          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
-          "owner": "Business Intelligence",
-          "priority": "medium",
-          "deadline": "monitor"
-        }
-      ],
-      "timeHorizon": "long-term",
-      "analyzedBy": "fallback",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1ZeXR1TWJuZDVRUTRlM2JYelFvVF9HS3Z4MTQ1Q3hObzBCUTRSLU9RdWRESUh2Y1REcklLVm5pYzdIdjl0ekNreGV0WThsdw",
-      "titleOriginal": "GAC INPOW เปิดโรงงานแบตเตอรี่ EV ในไทย ลงทุนกว่า 250 ล้านบาท! แต่เป็นการผลิตเซลล์แบตเตอรี่เอง หรือเพียงประกอบแพ็กแบตเตอรี่? - รถใหม่วันนี้ ข่าวรถยนต์ EV ราคารถยนต์ไฟฟ้า รถยนต์พลังงานไฟฟ้า - CAR250",
-      "originalSnippet": "GAC INPOW เปิดโรงงานแบตเตอรี่ EV ในไทย ลงทุนกว่า 250 ล้านบาท! แต่เป็นการผลิตเซลล์แบตเตอรี่เอง หรือเพียงประกอบแพ็กแบตเตอรี่? - รถใหม่วันนี้ ข่าวรถยนต์ EV ราคารถยนต์ไฟฟ้า รถยนต์พลังงานไฟฟ้า CAR250"
+      "sourceUrl": "https://youtube.com/watch?v=5wqDvAjdutY",
+      "titleOriginal": "#สเปรย์ล้างแอร์รถยนต์ #โฟมล้างแอร์ #น้ำยาล้างแอร์ #ดูแลรถยนต์ #ของใช้ในรถยนต์ #shorts",
+      "originalSnippet": "สเปรย์โฟมล้างแอร์รถยนต์ ขนาด 450 ML ทำความสะอาดและลดกลิ่นไม่พึงประสงค์ สเปรย์โฟมล้างแอร์รถยนต์ ... (ช่อง: Mechanic023) · ยอดวิว 265 ครั้ง"
     },
     {
       "title": "เครื่องล้างแอร์รถยนต์อัตโนมัติ k-1premium",
@@ -407,7 +315,7 @@
       "id": "167857c58a4cb0de",
       "canonicalUrl": "https://youtube.com/watch?v=M_sIZyL2QOI",
       "contentHash": "1e662800c2a214cb5a26d0e4",
-      "collectedAt": "2026-10-30T06:43:39.204Z",
+      "collectedAt": "2026-10-31T06:34:09.739Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 25,
@@ -475,7 +383,7 @@
       "id": "1555a7b1e83ba9a3",
       "canonicalUrl": "https://youtube.com/watch?v=bs-m1xjGOD0",
       "contentHash": "0a9140d96d146652e8146569",
-      "collectedAt": "2026-10-30T06:43:39.204Z",
+      "collectedAt": "2026-10-31T06:34:09.739Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 25,
@@ -529,42 +437,48 @@
       "originalSnippet": "(ช่อง: Airpro) · ยอดวิว 254 ครั้ง"
     },
     {
-      "title": "แนะนำวิธีการถอดล้างแอร์โฟร์เซ็นเซอร์รถยนต์",
-      "link": "https://www.youtube.com/watch?v=rNHb7CTdadw",
-      "snippet": "(ช่อง: รีวิว กันหน่อย) · ยอดวิว 1,539 ครั้ง",
-      "publishedAt": "2026-10-22T08:16:00.000Z",
-      "sourceId": "youtube",
-      "sourceName": "YouTube · รีวิว กันหน่อย",
-      "sourceTier": 3,
+      "title": "4 ค่ายรถญี่ปุ่นทรุดหนักในจีน ยอดผลิต ‘ต่ำสุดในรอบ 18 ปี’ รถน้ำมันเสื่อมความนิยม ถูก EV จีนแย่งตลาด . “อุตสาหกรรมยานยนต์ญี่ปุ่น” กำลังเผชิญความท้าทายครั้งใหญ่ในตลาดจีน หลังยอดผลิตรถยนต์ของ 4 ค่ายยักษ์ใหญ่ ได้แก่ โตโยต้า ฮอนด้า นิสสัน และมาสด้า ร่วงลงสู่ “ระดับต่ำสุดในรอบ 18 - Facebook",
+      "link": "https://news.google.com/rss/articles/CBMixwdBVV95cUxPN0c0VlhkdWNGa2s0U2oxTXhXa1VfQ3Jndl9HZzQwVFVoTmlOVWhLNS1xVEVBMDdJUEx3U3RGOUFkWVo1UUo3SHY1ajA0NUtkQjhScnZCMHlaNFBvb0tWU25zQ2E1SXBPOGx5ZE5Vb0pDOUZwUktsWFVpaU1icDZiV1hrek1ZS1o5LUp3RmZIWWtCc3YzWDEtVEFIclhmM0szNHFPQ3lqUjM4Q3RvbFlJeXdoMzIybzFjZWU0N1B3aU5GbUhaUS01LXI1REgtQnNtM2tKdENxRGxWZHJ5MDhtaFprbXgteXgtb1pxbGhYenY5QnRwNVBkenU2Y3pXV1VjeUtBWGRmNmFDY2haYzd4ZUxoYmVjOG9pSFdhVjdYQ24tUUVWUzZCT0lGcGhTX2k5SWZIYTZBN1paZVdUd29falZOYWJVUHJKdWsxRmVJYWxIekliWjhseEFTNUJBRzFmOFpfTHpxSkZKNTQ3SWhVWEpVZ1h0SWFtbHNHb1hnbXBadjQ0bHgyeGtfcFQxOFN6YmJsX0puNm1RanVtdF9hOFRKTnVkUW50emJlSnZEbkgzOEpaTEczQ0s3bUYzNEx4Y1FURDVGVko1MS0yVFFBalIwMk8wZXNVemd3N0V5UmZ1a3Q3cl9zS3lxdWRZTnRhWWY5RmtRWGRjRHdqQjd6OVB6Ym1XNnZKRm94QUVMc004MDcwb0syTGZnQkFNRHEyTDE5Mm1iOFl5RktYS1JFSXN4TUQ3Wm5CcDdJWktiWlBMZzJUXzg4dTRpT05ZQWgtSVhkamhGSXRvaVVYd2JtQms3aExSV1BCeGFtT0pfOEFjNjdyRFZXZlk0aUduS0ROWXd0N1o1LWhSWUtRajQ1bFJnamVrSko0M3J3dEZIWmpMVks1QXl1WEJKa1JDSjJFMDBKdlRvNmZ2SmlYb2VNdmRUN1dVei1pTl9RV3Y1QlYzMVpUSk9jRVVvcmRQVlF1Nkd0dlhCOXl4N3VHeWZoNVV4V2RCaHJpTFlIVUV0QVB4ZFFFS0F2YkhhNlFQWG45T3dsNjhSSmhBazBUVjRWeUNGVkhOTFdaakl3TF9OZkNzcWNraVFOMEw0Y09CanhNcURGZlc5dTQyYTlrX2pRRE4yVjJPMUh6N0tOaUpDWThOaWdHVXdfWHpacUpUNHpWWWhOZ1BCZk0zb0dTQTBYOUsxX29JSHM5VXI1N1ZWWDFJcm9OQUY0WXJjZWZVYncxUW5RWTBNcEFZNW9zMEJFTlpKcU1jUFFGeVBLNC05OXVEanlBOV9N?oc=5",
+      "snippet": "4 ค่ายรถญี่ปุ่นทรุดหนักในจีน ยอดผลิต ‘ต่ำสุดในรอบ 18 ปี’ รถน้ำมันเสื่อมความนิยม ถูก EV จีนแย่งตลาด . “อุตสาหกรรมยานยนต์ญี่ปุ่น” กำลังเผชิญความท้าทายครั้งใหญ่ในตลาดจีน หลังยอดผลิตรถยนต์ของ 4 ค่ายยักษ์ใหญ่ ได้แก่ โตโยต้า ฮอนด้า นิสสัน และมาสด้า ร่วงลงสู่ “ระดับต่ำสุดในรอบ 18 Facebook",
+      "publishedAt": "2026-10-30T08:30:05.000Z",
+      "sourceId": "google-news:th-TH",
+      "sourceName": "Facebook",
+      "sourceTier": 2,
       "sourceCountry": "TH",
       "language": "th",
-      "unverified": true,
-      "itemKind": "social",
-      "id": "76db95ba039d434b",
-      "canonicalUrl": "https://youtube.com/watch?v=rNHb7CTdadw",
-      "contentHash": "034bfbc8d5ef7842fd9b7fd9",
-      "collectedAt": "2026-10-30T06:43:39.204Z",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "090b27bd0a9dadd3",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMixwdBVV95cUxPN0c0VlhkdWNGa2s0U2oxTXhXa1VfQ3Jndl9HZzQwVFVoTmlOVWhLNS1xVEVBMDdJUEx3U3RGOUFkWVo1UUo3SHY1ajA0NUtkQjhScnZCMHlaNFBvb0tWU25zQ2E1SXBPOGx5ZE5Vb0pDOUZwUktsWFVpaU1icDZiV1hrek1ZS1o5LUp3RmZIWWtCc3YzWDEtVEFIclhmM0szNHFPQ3lqUjM4Q3RvbFlJeXdoMzIybzFjZWU0N1B3aU5GbUhaUS01LXI1REgtQnNtM2tKdENxRGxWZHJ5MDhtaFprbXgteXgtb1pxbGhYenY5QnRwNVBkenU2Y3pXV1VjeUtBWGRmNmFDY2haYzd4ZUxoYmVjOG9pSFdhVjdYQ24tUUVWUzZCT0lGcGhTX2k5SWZIYTZBN1paZVdUd29falZOYWJVUHJKdWsxRmVJYWxIekliWjhseEFTNUJBRzFmOFpfTHpxSkZKNTQ3SWhVWEpVZ1h0SWFtbHNHb1hnbXBadjQ0bHgyeGtfcFQxOFN6YmJsX0puNm1RanVtdF9hOFRKTnVkUW50emJlSnZEbkgzOEpaTEczQ0s3bUYzNEx4Y1FURDVGVko1MS0yVFFBalIwMk8wZXNVemd3N0V5UmZ1a3Q3cl9zS3lxdWRZTnRhWWY5RmtRWGRjRHdqQjd6OVB6Ym1XNnZKRm94QUVMc004MDcwb0syTGZnQkFNRHEyTDE5Mm1iOFl5RktYS1JFSXN4TUQ3Wm5CcDdJWktiWlBMZzJUXzg4dTRpT05ZQWgtSVhkamhGSXRvaVVYd2JtQms3aExSV1BCeGFtT0pfOEFjNjdyRFZXZlk0aUduS0ROWXd0N1o1LWhSWUtRajQ1bFJnamVrSko0M3J3dEZIWmpMVks1QXl1WEJKa1JDSjJFMDBKdlRvNmZ2SmlYb2VNdmRUN1dVei1pTl9RV3Y1QlYzMVpUSk9jRVVvcmRQVlF1Nkd0dlhCOXl4N3VHeWZoNVV4V2RCaHJpTFlIVUV0QVB4ZFFFS0F2YkhhNlFQWG45T3dsNjhSSmhBazBUVjRWeUNGVkhOTFdaakl3TF9OZkNzcWNraVFOMEw0Y09CanhNcURGZlc5dTQyYTlrX2pRRE4yVjJPMUh6N0tOaUpDWThOaWdHVXdfWHpacUpUNHpWWWhOZ1BCZk0zb0dTQTBYOUsxX29JSHM5VXI1N1ZWWDFJcm9OQUY0WXJjZWZVYncxUW5RWTBNcEFZNW9zMEJFTlpKcU1jUFFGeVBLNC05OXVEanlBOV9N",
+      "contentHash": "c22057fd240c36beb0a27152",
+      "collectedAt": "2026-10-31T06:34:09.739Z",
       "isPressRelease": false,
       "isSponsored": false,
-      "prefilterScore": 11,
+      "prefilterScore": 20,
       "matchedCategories": [
-        "AC_CLEANING"
+        "AUTO_MARKET",
+        "OEM_BRANDS"
       ],
       "matchedCompetitors": [],
-      "matchedBrands": [],
+      "matchedBrands": [
+        "Toyota",
+        "Honda",
+        "Nissan",
+        "Mazda"
+      ],
       "hasAutomotiveContext": true,
       "relatedCoverage": [],
-      "titleTh": "แนะนำวิธีการถอดล้างแอร์โฟร์เซ็นเซอร์รถยนต์",
-      "shortSummaryTh": "(ช่อง: รีวิว กันหน่อย) · ยอดวิว 1,539 ครั้ง",
+      "titleTh": "4 ค่ายรถญี่ปุ่นทรุดหนักในจีน ยอดผลิต ‘ต่ำสุดในรอบ 18 ปี’ รถน้ำมันเสื่อมความนิยม ถูก EV จีนแย่งตลาด . “อุตสาหกรรมยานยนต์ญี่ปุ่น” กำลังเผชิญความท้าทายครั้งใหญ่ในตลาดจีน หลังยอดผลิตรถยนต์ของ 4 ค่ายยักษ์ใหญ่ ได้แก่ โตโยต้า ฮอนด้า นิสสัน และมาสด้า ร่วงลงสู่ “ระดับต่ำสุดในรอบ 18 - Facebook",
+      "shortSummaryTh": "4 ค่ายรถญี่ปุ่นทรุดหนักในจีน ยอดผลิต ‘ต่ำสุดในรอบ 18 ปี’ รถน้ำมันเสื่อมความนิยม ถูก EV จีนแย่งตลาด . “อุตสาหกรรมยานยนต์ญี่ปุ่น” กำลังเผชิญความท้าทายครั้งใหญ่ในตลาดจีน หลังยอดผลิตรถยนต์ของ 4 ค่ายยักษ์ใหญ่ ได้แก่ โตโยต้า ฮอนด้า นิสสัน และมาสด้า ร่วงลงสู่ “ระดับต่ำสุดในรอบ 18 Facebook",
       "classification": "neutral",
-      "impactScore": 1,
-      "confidence": 41,
-      "relevanceScore": 46,
-      "newsCategory": "AC_CLEANING",
-      "affectedChannels": [],
-      "affectedProducts": [
-        "AC_CLEANING"
+      "impactScore": 0,
+      "confidence": 53,
+      "relevanceScore": 74,
+      "newsCategory": "EV",
+      "affectedChannels": [
+        "OEM"
       ],
+      "affectedProducts": [],
       "affectedCountries": [
         "TH"
       ],
@@ -574,11 +488,13 @@
         "O2": "neutral"
       },
       "positiveImpacts": [
-        "เกี่ยวข้องกับบริการหลักโดยตรง"
+        "รถ EV ยังต้องล้างแอร์ และเจ้าของ EV ใส่ใจคุณภาพอากาศในห้องโดยสารสูง"
       ],
-      "negativeImpacts": [],
+      "negativeImpacts": [
+        "EV ไม่มีหัวฉีดน้ำมัน = ความต้องการ Power Flow ลดลงในระยะยาว"
+      ],
       "reasoningSummary": [
-        "แหล่งข่าว Tier 3 — ข้อมูลยังต้องตรวจสอบ"
+        "ข่าว EV: ผลบวกต่อ AC_CLEANING หักลบผลลบต่อ POWER_FLOW → ประเมินผลสุทธิ"
       ],
       "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
       "recommendedActions": [
@@ -589,11 +505,86 @@
           "deadline": "monitor"
         }
       ],
-      "timeHorizon": "1-3 months",
+      "timeHorizon": "long-term",
       "analyzedBy": "fallback",
-      "sourceUrl": "https://youtube.com/watch?v=rNHb7CTdadw",
-      "titleOriginal": "แนะนำวิธีการถอดล้างแอร์โฟร์เซ็นเซอร์รถยนต์",
-      "originalSnippet": "(ช่อง: รีวิว กันหน่อย) · ยอดวิว 1,539 ครั้ง"
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixwdBVV95cUxPN0c0VlhkdWNGa2s0U2oxTXhXa1VfQ3Jndl9HZzQwVFVoTmlOVWhLNS1xVEVBMDdJUEx3U3RGOUFkWVo1UUo3SHY1ajA0NUtkQjhScnZCMHlaNFBvb0tWU25zQ2E1SXBPOGx5ZE5Vb0pDOUZwUktsWFVpaU1icDZiV1hrek1ZS1o5LUp3RmZIWWtCc3YzWDEtVEFIclhmM0szNHFPQ3lqUjM4Q3RvbFlJeXdoMzIybzFjZWU0N1B3aU5GbUhaUS01LXI1REgtQnNtM2tKdENxRGxWZHJ5MDhtaFprbXgteXgtb1pxbGhYenY5QnRwNVBkenU2Y3pXV1VjeUtBWGRmNmFDY2haYzd4ZUxoYmVjOG9pSFdhVjdYQ24tUUVWUzZCT0lGcGhTX2k5SWZIYTZBN1paZVdUd29falZOYWJVUHJKdWsxRmVJYWxIekliWjhseEFTNUJBRzFmOFpfTHpxSkZKNTQ3SWhVWEpVZ1h0SWFtbHNHb1hnbXBadjQ0bHgyeGtfcFQxOFN6YmJsX0puNm1RanVtdF9hOFRKTnVkUW50emJlSnZEbkgzOEpaTEczQ0s3bUYzNEx4Y1FURDVGVko1MS0yVFFBalIwMk8wZXNVemd3N0V5UmZ1a3Q3cl9zS3lxdWRZTnRhWWY5RmtRWGRjRHdqQjd6OVB6Ym1XNnZKRm94QUVMc004MDcwb0syTGZnQkFNRHEyTDE5Mm1iOFl5RktYS1JFSXN4TUQ3Wm5CcDdJWktiWlBMZzJUXzg4dTRpT05ZQWgtSVhkamhGSXRvaVVYd2JtQms3aExSV1BCeGFtT0pfOEFjNjdyRFZXZlk0aUduS0ROWXd0N1o1LWhSWUtRajQ1bFJnamVrSko0M3J3dEZIWmpMVks1QXl1WEJKa1JDSjJFMDBKdlRvNmZ2SmlYb2VNdmRUN1dVei1pTl9RV3Y1QlYzMVpUSk9jRVVvcmRQVlF1Nkd0dlhCOXl4N3VHeWZoNVV4V2RCaHJpTFlIVUV0QVB4ZFFFS0F2YkhhNlFQWG45T3dsNjhSSmhBazBUVjRWeUNGVkhOTFdaakl3TF9OZkNzcWNraVFOMEw0Y09CanhNcURGZlc5dTQyYTlrX2pRRE4yVjJPMUh6N0tOaUpDWThOaWdHVXdfWHpacUpUNHpWWWhOZ1BCZk0zb0dTQTBYOUsxX29JSHM5VXI1N1ZWWDFJcm9OQUY0WXJjZWZVYncxUW5RWTBNcEFZNW9zMEJFTlpKcU1jUFFGeVBLNC05OXVEanlBOV9N",
+      "titleOriginal": "4 ค่ายรถญี่ปุ่นทรุดหนักในจีน ยอดผลิต ‘ต่ำสุดในรอบ 18 ปี’ รถน้ำมันเสื่อมความนิยม ถูก EV จีนแย่งตลาด . “อุตสาหกรรมยานยนต์ญี่ปุ่น” กำลังเผชิญความท้าทายครั้งใหญ่ในตลาดจีน หลังยอดผลิตรถยนต์ของ 4 ค่ายยักษ์ใหญ่ ได้แก่ โตโยต้า ฮอนด้า นิสสัน และมาสด้า ร่วงลงสู่ “ระดับต่ำสุดในรอบ 18 - Facebook",
+      "originalSnippet": "4 ค่ายรถญี่ปุ่นทรุดหนักในจีน ยอดผลิต ‘ต่ำสุดในรอบ 18 ปี’ รถน้ำมันเสื่อมความนิยม ถูก EV จีนแย่งตลาด . “อุตสาหกรรมยานยนต์ญี่ปุ่น” กำลังเผชิญความท้าทายครั้งใหญ่ในตลาดจีน หลังยอดผลิตรถยนต์ของ 4 ค่ายยักษ์ใหญ่ ได้แก่ โตโยต้า ฮอนด้า นิสสัน และมาสด้า ร่วงลงสู่ “ระดับต่ำสุดในรอบ 18 Facebook"
+    },
+    {
+      "title": "รถยนต์ไฟฟ้า ราคา 1.5 พันล้านดอง: คุณควรเลือก Mercedes-Benz CLA 200, BYD Seal หรือ Hyundai IONIQ 5 ดี? - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcy1UYVo1ejQxczRBUm1GME5nWG1rdXh0YmlnbUJHam41YU1uNlFNd3BDRHlxZ2dTOWMxMWNSN0RIcDg4bWpnN2llYjJIM0NNaU5vSG9heWhYLXNSdV9FRl80bXJibTJ4eFRDdlpWazkxbUtUb3JfR05ERmJUdWdnYWkxX3h6M2dQREk5b2FKMFA3eV9ub0taZmJmOUhENUtsUkE?oc=5",
+      "snippet": "รถยนต์ไฟฟ้า ราคา 1.5 พันล้านดอง: คุณควรเลือก Mercedes-Benz CLA 200, BYD Seal หรือ Hyundai IONIQ 5 ดี? Vietnam.vn",
+      "publishedAt": "2026-10-31T01:10:25.000Z",
+      "sourceId": "google-news:th-TH",
+      "sourceName": "Vietnam.vn",
+      "sourceTier": 2,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "361ece60b6ac9002",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcy1UYVo1ejQxczRBUm1GME5nWG1rdXh0YmlnbUJHam41YU1uNlFNd3BDRHlxZ2dTOWMxMWNSN0RIcDg4bWpnN2llYjJIM0NNaU5vSG9heWhYLXNSdV9FRl80bXJibTJ4eFRDdlpWazkxbUtUb3JfR05ERmJUdWdnYWkxX3h6M2dQREk5b2FKMFA3eV9ub0taZmJmOUhENUtsUkE",
+      "contentHash": "80244b289867a6b9b6d368c2",
+      "collectedAt": "2026-10-31T06:34:09.739Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 19,
+      "matchedCategories": [
+        "EV",
+        "OEM_BRANDS",
+        "INTERNATIONAL"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [
+        "BYD",
+        "Mercedes-Benz",
+        "Hyundai"
+      ],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "รถยนต์ไฟฟ้า ราคา 1.5 พันล้านดอง: คุณควรเลือก Mercedes-Benz CLA 200, BYD Seal หรือ Hyundai IONIQ 5 ดี? - Vietnam.vn",
+      "shortSummaryTh": "รถยนต์ไฟฟ้า ราคา 1.5 พันล้านดอง: คุณควรเลือก Mercedes-Benz CLA 200, BYD Seal หรือ Hyundai IONIQ 5 ดี? Vietnam.vn",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 48,
+      "relevanceScore": 71,
+      "newsCategory": "EV",
+      "affectedChannels": [
+        "OEM"
+      ],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [
+        "รถ EV ยังต้องล้างแอร์ และเจ้าของ EV ใส่ใจคุณภาพอากาศในห้องโดยสารสูง"
+      ],
+      "negativeImpacts": [
+        "EV ไม่มีหัวฉีดน้ำมัน = ความต้องการ Power Flow ลดลงในระยะยาว"
+      ],
+      "reasoningSummary": [
+        "ข่าว EV: ผลบวกต่อ AC_CLEANING หักลบผลลบต่อ POWER_FLOW → ประเมินผลสุทธิ"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "long-term",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcy1UYVo1ejQxczRBUm1GME5nWG1rdXh0YmlnbUJHam41YU1uNlFNd3BDRHlxZ2dTOWMxMWNSN0RIcDg4bWpnN2llYjJIM0NNaU5vSG9heWhYLXNSdV9FRl80bXJibTJ4eFRDdlpWazkxbUtUb3JfR05ERmJUdWdnYWkxX3h6M2dQREk5b2FKMFA3eV9ub0taZmJmOUhENUtsUkE",
+      "titleOriginal": "รถยนต์ไฟฟ้า ราคา 1.5 พันล้านดอง: คุณควรเลือก Mercedes-Benz CLA 200, BYD Seal หรือ Hyundai IONIQ 5 ดี? - Vietnam.vn",
+      "originalSnippet": "รถยนต์ไฟฟ้า ราคา 1.5 พันล้านดอง: คุณควรเลือก Mercedes-Benz CLA 200, BYD Seal หรือ Hyundai IONIQ 5 ดี? Vietnam.vn"
     },
     {
       "title": "ซูซูกิ แซง ฮอนด้า ขึ้นอันดับ 2 ยอดขายรถยนต์ทั่วโลก - ผู้จัดการออนไลน์",
@@ -610,7 +601,7 @@
       "id": "e0ca3eec7d94caac",
       "canonicalUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBJbnJzOU9UOTBwM2JwYWJWSmkzZi03RDVsMjFZTzRqX21TY3U4WW9hQ0MwUVhtaTk1WG1qVmh2M3JoX3dPWEtQSDdMRDk0VE5zaGtjNTRpYjV3SWNRalE",
       "contentHash": "f6de86df37e98e9aac2611da",
-      "collectedAt": "2026-10-30T06:43:39.204Z",
+      "collectedAt": "2026-10-31T06:34:09.739Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 15,
@@ -665,50 +656,49 @@
       "originalSnippet": "ซูซูกิ แซง ฮอนด้า ขึ้นอันดับ 2 ยอดขายรถยนต์ทั่วโลก ผู้จัดการออนไลน์"
     },
     {
-      "title": "BYD now has 1.02 million workers, more than Toyota, GM, Ford, and Tesla combined",
-      "link": "https://electrek.co/2026/10/28/byd-1-million-employees-more-than-toyota-gm-ford-tesla/",
-      "snippet": "BYD now has more than 1.02 million employees, according to chairman Wang Chuanfu. That’s more people than Toyota, GM, Ford, and Tesla employ combined. And it’s a big jump from the start of the year. BYD reported about 869,600 employees at the end of 2025, which means the Chinese automaker has added roughly 150,000 people in 10 months while its vehicle sales are down. more…",
-      "publishedAt": "2026-10-29T00:41:17.000Z",
-      "sourceId": "electrek",
-      "sourceName": "Electrek",
+      "title": "BYD ผงาดอันดับ 4 ยอดขายรถนำเข้าในเกาหลีเดือนกันยายน ขณะที่ส่วนแบ่งการตลาดฮุนไดและเกียในจีนเหลือเพียง 0.6% - 재경일보",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE0yUjN2bTduNHp6QUF0T1Rub1pyTEl1cmJLNC1Md19Zc3R6WTc2SDJNMDFscGJ0SFoydkVjQVF3d3FsU2kwS3pQZVpMNWJCMk43akppZmJ5dUJCWkFoTnc?oc=5",
+      "snippet": "BYD ผงาดอันดับ 4 ยอดขายรถนำเข้าในเกาหลีเดือนกันยายน ขณะที่ส่วนแบ่งการตลาดฮุนไดและเกียในจีนเหลือเพียง 0.6% 재경일보",
+      "publishedAt": "2026-10-31T02:25:42.000Z",
+      "sourceId": "google-news:th-TH",
+      "sourceName": "재경일보",
       "sourceTier": 2,
-      "sourceCountry": "GLOBAL",
-      "language": "en",
+      "sourceCountry": "TH",
+      "language": "th",
       "unverified": false,
       "itemKind": "news",
-      "id": "eccfe6620dfa2355",
-      "canonicalUrl": "https://electrek.co/2026/10/28/byd-1-million-employees-more-than-toyota-gm-ford-tesla",
-      "contentHash": "ad0906f1e59309c57511e604",
-      "collectedAt": "2026-10-30T06:43:39.204Z",
+      "id": "dca92dc5e9b7ab61",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE0yUjN2bTduNHp6QUF0T1Rub1pyTEl1cmJLNC1Md19Zc3R6WTc2SDJNMDFscGJ0SFoydkVjQVF3d3FsU2kwS3pQZVpMNWJCMk43akppZmJ5dUJCWkFoTnc",
+      "contentHash": "923a84e07c5b329b31451bf6",
+      "collectedAt": "2026-10-31T06:34:09.739Z",
       "isPressRelease": false,
       "isSponsored": false,
-      "prefilterScore": 14,
+      "prefilterScore": 15,
       "matchedCategories": [
+        "AUTO_MARKET",
         "OEM_BRANDS"
       ],
       "matchedCompetitors": [],
       "matchedBrands": [
-        "Toyota",
         "BYD",
-        "Tesla",
-        "Ford"
+        "Hyundai",
+        "Kia"
       ],
       "hasAutomotiveContext": true,
-      "duplicateGroupId": "eccfe6620dfa2355",
       "relatedCoverage": [],
-      "titleTh": "[EN] BYD now has 1.02 million workers, more than Toyota, GM, Ford, and Tesla combined",
-      "shortSummaryTh": "BYD now has more than 1.02 million employees, according to chairman Wang Chuanfu. That’s more people than Toyota, GM, Ford, and Tesla employ combined. And it’s a big jump from the start of the year. BYD reported about 869,600 employees at the end of 2025, which means the Chinese automaker has added…",
+      "titleTh": "BYD ผงาดอันดับ 4 ยอดขายรถนำเข้าในเกาหลีเดือนกันยายน ขณะที่ส่วนแบ่งการตลาดฮุนไดและเกียในจีนเหลือเพียง 0.6% - 재경일보",
+      "shortSummaryTh": "BYD ผงาดอันดับ 4 ยอดขายรถนำเข้าในเกาหลีเดือนกันยายน ขณะที่ส่วนแบ่งการตลาดฮุนไดและเกียในจีนเหลือเพียง 0.6% 재경일보",
       "classification": "neutral",
       "impactScore": 0,
-      "confidence": 58,
-      "relevanceScore": 55,
+      "confidence": 53,
+      "relevanceScore": 59,
       "newsCategory": "OEM_BRANDS",
       "affectedChannels": [
         "OEM"
       ],
       "affectedProducts": [],
       "affectedCountries": [
-        "Global"
+        "TH"
       ],
       "affectedCompetitors": [],
       "okrImpact": {
@@ -731,15 +721,15 @@
       ],
       "timeHorizon": "1-3 months",
       "analyzedBy": "fallback",
-      "sourceUrl": "https://electrek.co/2026/10/28/byd-1-million-employees-more-than-toyota-gm-ford-tesla",
-      "titleOriginal": "BYD now has 1.02 million workers, more than Toyota, GM, Ford, and Tesla combined",
-      "originalSnippet": "BYD now has more than 1.02 million employees, according to chairman Wang Chuanfu. That’s more people than Toyota, GM, Ford, and Tesla employ combined. And it’s a big jump from the start of the year. BYD reported about 869,600 employees at the end of 2025, which means the Chinese automaker has added roughly 150,000 people in 10 months while its vehicle sales are down. more…"
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE0yUjN2bTduNHp6QUF0T1Rub1pyTEl1cmJLNC1Md19Zc3R6WTc2SDJNMDFscGJ0SFoydkVjQVF3d3FsU2kwS3pQZVpMNWJCMk43akppZmJ5dUJCWkFoTnc",
+      "titleOriginal": "BYD ผงาดอันดับ 4 ยอดขายรถนำเข้าในเกาหลีเดือนกันยายน ขณะที่ส่วนแบ่งการตลาดฮุนไดและเกียในจีนเหลือเพียง 0.6% - 재경일보",
+      "originalSnippet": "BYD ผงาดอันดับ 4 ยอดขายรถนำเข้าในเกาหลีเดือนกันยายน ขณะที่ส่วนแบ่งการตลาดฮุนไดและเกียในจีนเหลือเพียง 0.6% 재경일보"
     },
     {
-      "title": "รถยนต์ไฟฟ้าเมอร์เซเดส-เบนซ์ CLA 200 มีราคา 1.59 พันล้านดอง และสามารถวิ่งได้ไกลเกือบ 550 กิโลเมตรต่อการชาร์จหนึ่งครั้ง - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQemw4b2lJUXFPRlhvRVB3Sllvcjk2VDliUVFqRE1iZXBEVVM4VFRIR00zQzNRMUJLSUZfbFN4Ui1LUnNuVDFqb2ZkSWM5MUtJSXkwM21Hei0zcXFoVkE1d1cyUGlMdlJaUG9VbjBNZVlrYkR3cGg2bTlYUVdLdkZUeEFkVU9VRjFmM3ZvS1Qtc281bURvelRiVXZ1aEc?oc=5",
-      "snippet": "รถยนต์ไฟฟ้าเมอร์เซเดส-เบนซ์ CLA 200 มีราคา 1.59 พันล้านดอง และสามารถวิ่งได้ไกลเกือบ 550 กิโลเมตรต่อการชาร์จหนึ่งครั้ง Vietnam.vn",
-      "publishedAt": "2026-10-29T23:40:17.000Z",
+      "title": "ยอดขายรถยนต์จีนแซงหน้ารถยนต์ญี่ปุ่นในยุโรป - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQWC14TXp0Y0YwTl82bzV5bVRHSkFaRTJlY0IwbVVVUGpVOFo2SFNrNjg5TlhaYVM1NkxsLXd6THNPNFl0RVVrWE5KTVhSSEhYd3U4Q2dGWkJocXJaNFRLdlpZZ1ktellFdUFDQkNLczNwMzlTZFJONDBUWlNvZ0RzZUdQUUw2UQ?oc=5",
+      "snippet": "ยอดขายรถยนต์จีนแซงหน้ารถยนต์ญี่ปุ่นในยุโรป Vietnam.vn",
+      "publishedAt": "2026-10-30T04:17:13.000Z",
       "sourceId": "google-news:th-TH",
       "sourceName": "Vietnam.vn",
       "sourceTier": 2,
@@ -747,31 +737,95 @@
       "language": "th",
       "unverified": false,
       "itemKind": "news",
-      "id": "4d4f38c6b3d8946f",
-      "canonicalUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQemw4b2lJUXFPRlhvRVB3Sllvcjk2VDliUVFqRE1iZXBEVVM4VFRIR00zQzNRMUJLSUZfbFN4Ui1LUnNuVDFqb2ZkSWM5MUtJSXkwM21Hei0zcXFoVkE1d1cyUGlMdlJaUG9VbjBNZVlrYkR3cGg2bTlYUVdLdkZUeEFkVU9VRjFmM3ZvS1Qtc281bURvelRiVXZ1aEc",
-      "contentHash": "7462a33994104adf3dbc2c14",
-      "collectedAt": "2026-10-30T06:43:39.204Z",
+      "id": "a7cf6749df631053",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQWC14TXp0Y0YwTl82bzV5bVRHSkFaRTJlY0IwbVVVUGpVOFo2SFNrNjg5TlhaYVM1NkxsLXd6THNPNFl0RVVrWE5KTVhSSEhYd3U4Q2dGWkJocXJaNFRLdlpZZ1ktellFdUFDQkNLczNwMzlTZFJONDBUWlNvZ0RzZUdQUUw2UQ",
+      "contentHash": "eb64a73e6743ba4bda4c1c53",
+      "collectedAt": "2026-10-31T06:34:09.739Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 13,
       "matchedCategories": [
-        "EV",
-        "OEM_BRANDS",
+        "AUTO_MARKET",
         "INTERNATIONAL"
       ],
       "matchedCompetitors": [],
-      "matchedBrands": [
-        "Mercedes-Benz"
-      ],
+      "matchedBrands": [],
       "hasAutomotiveContext": true,
       "relatedCoverage": [],
-      "titleTh": "รถยนต์ไฟฟ้าเมอร์เซเดส-เบนซ์ CLA 200 มีราคา 1.59 พันล้านดอง และสามารถวิ่งได้ไกลเกือบ 550 กิโลเมตรต่อการชาร์จหนึ่งครั้ง - Vietnam.vn",
-      "shortSummaryTh": "รถยนต์ไฟฟ้าเมอร์เซเดส-เบนซ์ CLA 200 มีราคา 1.59 พันล้านดอง และสามารถวิ่งได้ไกลเกือบ 550 กิโลเมตรต่อการชาร์จหนึ่งครั้ง Vietnam.vn",
+      "titleTh": "ยอดขายรถยนต์จีนแซงหน้ารถยนต์ญี่ปุ่นในยุโรป - Vietnam.vn",
+      "shortSummaryTh": "ยอดขายรถยนต์จีนแซงหน้ารถยนต์ญี่ปุ่นในยุโรป Vietnam.vn",
       "classification": "neutral",
       "impactScore": 0,
       "confidence": 53,
       "relevanceScore": 52,
-      "newsCategory": "EV",
+      "newsCategory": "AUTO_MARKET",
+      "affectedChannels": [],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "วิเคราะห์ด้วยกฎอัตโนมัติ (ไม่ได้ใช้ AI)"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQWC14TXp0Y0YwTl82bzV5bVRHSkFaRTJlY0IwbVVVUGpVOFo2SFNrNjg5TlhaYVM1NkxsLXd6THNPNFl0RVVrWE5KTVhSSEhYd3U4Q2dGWkJocXJaNFRLdlpZZ1ktellFdUFDQkNLczNwMzlTZFJONDBUWlNvZ0RzZUdQUUw2UQ",
+      "titleOriginal": "ยอดขายรถยนต์จีนแซงหน้ารถยนต์ญี่ปุ่นในยุโรป - Vietnam.vn",
+      "originalSnippet": "ยอดขายรถยนต์จีนแซงหน้ารถยนต์ญี่ปุ่นในยุโรป Vietnam.vn"
+    },
+    {
+      "title": "Suzuki แซง Honda คว้ารองแชมป์ยอดขายรถญี่ปุ่นทั่วโลก ด้วยพลังความสำเร็จที่อินเดีย - Marketeer Online",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAxYUtJWUtiaHJkeW13eWQ0UDl3Tl85Y2k2NUNJUVk1UTVJWV8tOWlFRUxRUmh2S091ZE1La0ZvU2F6aDVRSjZZMVpNMWhuYk1YNGR0dA?oc=5",
+      "snippet": "Suzuki แซง Honda คว้ารองแชมป์ยอดขายรถญี่ปุ่นทั่วโลก ด้วยพลังความสำเร็จที่อินเดีย Marketeer Online",
+      "publishedAt": "2026-10-30T08:29:24.000Z",
+      "sourceId": "google-news:th-TH",
+      "sourceName": "Marketeer Online",
+      "sourceTier": 2,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "c6c9c36e9ad92322",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAxYUtJWUtiaHJkeW13eWQ0UDl3Tl85Y2k2NUNJUVk1UTVJWV8tOWlFRUxRUmh2S091ZE1La0ZvU2F6aDVRSjZZMVpNMWhuYk1YNGR0dA",
+      "contentHash": "16e2d403cb80a73fb91ca5da",
+      "collectedAt": "2026-10-31T06:34:09.739Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 12,
+      "matchedCategories": [
+        "AUTO_MARKET",
+        "OEM_BRANDS"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [
+        "Honda",
+        "Suzuki"
+      ],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "Suzuki แซง Honda คว้ารองแชมป์ยอดขายรถญี่ปุ่นทั่วโลก ด้วยพลังความสำเร็จที่อินเดีย - Marketeer Online",
+      "shortSummaryTh": "Suzuki แซง Honda คว้ารองแชมป์ยอดขายรถญี่ปุ่นทั่วโลก ด้วยพลังความสำเร็จที่อินเดีย Marketeer Online",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 53,
+      "relevanceScore": 49,
+      "newsCategory": "OEM_BRANDS",
       "affectedChannels": [
         "OEM"
       ],
@@ -784,14 +838,10 @@
         "O1": "neutral",
         "O2": "neutral"
       },
-      "positiveImpacts": [
-        "รถ EV ยังต้องล้างแอร์ และเจ้าของ EV ใส่ใจคุณภาพอากาศในห้องโดยสารสูง"
-      ],
-      "negativeImpacts": [
-        "EV ไม่มีหัวฉีดน้ำมัน = ความต้องการ Power Flow ลดลงในระยะยาว"
-      ],
+      "positiveImpacts": [],
+      "negativeImpacts": [],
       "reasoningSummary": [
-        "ข่าว EV: ผลบวกต่อ AC_CLEANING หักลบผลลบต่อ POWER_FLOW → ประเมินผลสุทธิ"
+        "วิเคราะห์ด้วยกฎอัตโนมัติ (ไม่ได้ใช้ AI)"
       ],
       "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
       "recommendedActions": [
@@ -802,16 +852,155 @@
           "deadline": "monitor"
         }
       ],
-      "timeHorizon": "long-term",
+      "timeHorizon": "1-3 months",
       "analyzedBy": "fallback",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQemw4b2lJUXFPRlhvRVB3Sllvcjk2VDliUVFqRE1iZXBEVVM4VFRIR00zQzNRMUJLSUZfbFN4Ui1LUnNuVDFqb2ZkSWM5MUtJSXkwM21Hei0zcXFoVkE1d1cyUGlMdlJaUG9VbjBNZVlrYkR3cGg2bTlYUVdLdkZUeEFkVU9VRjFmM3ZvS1Qtc281bURvelRiVXZ1aEc",
-      "titleOriginal": "รถยนต์ไฟฟ้าเมอร์เซเดส-เบนซ์ CLA 200 มีราคา 1.59 พันล้านดอง และสามารถวิ่งได้ไกลเกือบ 550 กิโลเมตรต่อการชาร์จหนึ่งครั้ง - Vietnam.vn",
-      "originalSnippet": "รถยนต์ไฟฟ้าเมอร์เซเดส-เบนซ์ CLA 200 มีราคา 1.59 พันล้านดอง และสามารถวิ่งได้ไกลเกือบ 550 กิโลเมตรต่อการชาร์จหนึ่งครั้ง Vietnam.vn"
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAxYUtJWUtiaHJkeW13eWQ0UDl3Tl85Y2k2NUNJUVk1UTVJWV8tOWlFRUxRUmh2S091ZE1La0ZvU2F6aDVRSjZZMVpNMWhuYk1YNGR0dA",
+      "titleOriginal": "Suzuki แซง Honda คว้ารองแชมป์ยอดขายรถญี่ปุ่นทั่วโลก ด้วยพลังความสำเร็จที่อินเดีย - Marketeer Online",
+      "originalSnippet": "Suzuki แซง Honda คว้ารองแชมป์ยอดขายรถญี่ปุ่นทั่วโลก ด้วยพลังความสำเร็จที่อินเดีย Marketeer Online"
+    },
+    {
+      "title": "Ford Mustang Shelby GT500 Heritage Searching for a Deep-Pocketed Enthusiast on the Used Car Market - autoevolution",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQeWozdl92Q3ZSRVExS3dyRHFuYWxZMGRDQVp2bjhjOUZuc0d6QzR5LVZxX2RCXzJtYUxkTi1RV3R0LVRSNG1XVmlGbnVYMnFsVnppVkZmVjNpd1FDdnJ6aWNLQU51MXRFdVk2QUV1V0htRWpPNmlPSlBZWFlWTlJnTnFKN181cFUzdjZvelNIZnVlcXROejJ2WEdGLVZsWHpWcTBDWG1qZDdHb0xwVE84N1NmN0x0Q29nQ2ZUTWc5aEgwa2hDSGVxLUpMdlNYamxIN1RJV0VmREdWVlNlQWc?oc=5",
+      "snippet": "Ford Mustang Shelby GT500 Heritage Searching for a Deep-Pocketed Enthusiast on the Used Car Market autoevolution",
+      "publishedAt": "2026-10-31T04:20:02.000Z",
+      "sourceId": "google-news:en-SG",
+      "sourceName": "autoevolution",
+      "sourceTier": 2,
+      "sourceCountry": "SG",
+      "language": "en",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "feed5d03563e5d22",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQeWozdl92Q3ZSRVExS3dyRHFuYWxZMGRDQVp2bjhjOUZuc0d6QzR5LVZxX2RCXzJtYUxkTi1RV3R0LVRSNG1XVmlGbnVYMnFsVnppVkZmVjNpd1FDdnJ6aWNLQU51MXRFdVk2QUV1V0htRWpPNmlPSlBZWFlWTlJnTnFKN181cFUzdjZvelNIZnVlcXROejJ2WEdGLVZsWHpWcTBDWG1qZDdHb0xwVE84N1NmN0x0Q29nQ2ZUTWc5aEgwa2hDSGVxLUpMdlNYamxIN1RJV0VmREdWVlNlQWc",
+      "contentHash": "7731ad7680f8a7f4d303e48e",
+      "collectedAt": "2026-10-31T06:34:09.739Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 12,
+      "matchedCategories": [
+        "AUTO_MARKET",
+        "OEM_BRANDS",
+        "INTERNATIONAL"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [
+        "Ford"
+      ],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "[EN] Ford Mustang Shelby GT500 Heritage Searching for a Deep-Pocketed Enthusiast on the Used Car Market - autoevolution",
+      "shortSummaryTh": "Ford Mustang Shelby GT500 Heritage Searching for a Deep-Pocketed Enthusiast on the Used Car Market autoevolution",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 53,
+      "relevanceScore": 49,
+      "newsCategory": "OEM_BRANDS",
+      "affectedChannels": [
+        "OEM"
+      ],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "SG"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "วิเคราะห์ด้วยกฎอัตโนมัติ (ไม่ได้ใช้ AI)"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQeWozdl92Q3ZSRVExS3dyRHFuYWxZMGRDQVp2bjhjOUZuc0d6QzR5LVZxX2RCXzJtYUxkTi1RV3R0LVRSNG1XVmlGbnVYMnFsVnppVkZmVjNpd1FDdnJ6aWNLQU51MXRFdVk2QUV1V0htRWpPNmlPSlBZWFlWTlJnTnFKN181cFUzdjZvelNIZnVlcXROejJ2WEdGLVZsWHpWcTBDWG1qZDdHb0xwVE84N1NmN0x0Q29nQ2ZUTWc5aEgwa2hDSGVxLUpMdlNYamxIN1RJV0VmREdWVlNlQWc",
+      "titleOriginal": "Ford Mustang Shelby GT500 Heritage Searching for a Deep-Pocketed Enthusiast on the Used Car Market - autoevolution",
+      "originalSnippet": "Ford Mustang Shelby GT500 Heritage Searching for a Deep-Pocketed Enthusiast on the Used Car Market autoevolution"
+    },
+    {
+      "title": "รถอืดๆ",
+      "link": "https://www.youtube.com/watch?v=-YX_SPhRS28",
+      "snippet": "รถอืดๆ #ล้างdpf #หัวฉีดรั่ว #หัวฉีดแตกปลาย #ล้างหัวฉีดbmw #ล้างdp #ล้างdpf #ล้างท่อไอดี #ดีพีเอฟ #ล้างท่อไอเสีย #ล้างแคทตาไลติก ... (ช่อง: หัวฉีดBKK) · ยอดวิว 431 ครั้ง",
+      "publishedAt": "2026-10-29T04:24:09.000Z",
+      "sourceId": "youtube",
+      "sourceName": "YouTube · หัวฉีดBKK",
+      "sourceTier": 3,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": true,
+      "itemKind": "social",
+      "id": "87de79d7ac5e4709",
+      "canonicalUrl": "https://youtube.com/watch?v=-YX_SPhRS28",
+      "contentHash": "a18b6d3b6485e149b127b338",
+      "collectedAt": "2026-10-31T06:34:09.739Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 12,
+      "matchedCategories": [
+        "INJECTOR",
+        "OEM_BRANDS"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [
+        "BMW"
+      ],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "รถอืดๆ",
+      "shortSummaryTh": "รถอืดๆ #ล้างdpf #หัวฉีดรั่ว #หัวฉีดแตกปลาย #ล้างหัวฉีดbmw #ล้างdp #ล้างdpf #ล้างท่อไอดี #ดีพีเอฟ #ล้างท่อไอเสีย #ล้างแคทตาไลติก ... (ช่อง: หัวฉีดBKK) · ยอดวิว 431 ครั้ง",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 46,
+      "relevanceScore": 49,
+      "newsCategory": "INJECTOR",
+      "affectedChannels": [
+        "OEM"
+      ],
+      "affectedProducts": [
+        "POWER_FLOW"
+      ],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "แหล่งข่าว Tier 3 — ข้อมูลยังต้องตรวจสอบ"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://youtube.com/watch?v=-YX_SPhRS28",
+      "titleOriginal": "รถอืดๆ",
+      "originalSnippet": "รถอืดๆ #ล้างdpf #หัวฉีดรั่ว #หัวฉีดแตกปลาย #ล้างหัวฉีดbmw #ล้างdp #ล้างdpf #ล้างท่อไอดี #ดีพีเอฟ #ล้างท่อไอเสีย #ล้างแคทตาไลติก ... (ช่อง: หัวฉีดBKK) · ยอดวิว 431 ครั้ง"
     },
     {
       "title": "น้ํายาล้างหัวฉีด เบนซินน้ํายาล้างหัวฉีดน้ํายาล้างหัวฉีดมอเตอร์ไซค์น้ํายาล้างหัวฉีด ดีเซล",
       "link": "https://www.youtube.com/watch?v=lgQzZdjEhl4",
-      "snippet": "น้ํายาล้างหัวฉีด เบนซิน น้ํายาล้างหัวฉีด น้ํายาล้างหัวฉีดมอเตอร์ไซค์ น้ํายาล้างหัวฉีด ดีเซล น้ํายาล้างหัวฉีด honda น้ํายาล้างหัวฉีดรถยนต์เบนซิน ... (ช่อง: รีวิวไปเรื่อย) · ยอดวิว 30 ครั้ง",
+      "snippet": "น้ํายาล้างหัวฉีด เบนซิน น้ํายาล้างหัวฉีด น้ํายาล้างหัวฉีดมอเตอร์ไซค์ น้ํายาล้างหัวฉีด ดีเซล น้ํายาล้างหัวฉีด honda น้ํายาล้างหัวฉีดรถยนต์เบนซิน ... (ช่อง: รีวิวไปเรื่อย) · ยอดวิว 42 ครั้ง",
       "publishedAt": "2026-10-28T23:39:20.000Z",
       "sourceId": "youtube",
       "sourceName": "YouTube · รีวิวไปเรื่อย",
@@ -822,8 +1011,8 @@
       "itemKind": "social",
       "id": "42b78a6ce13aa6cd",
       "canonicalUrl": "https://youtube.com/watch?v=lgQzZdjEhl4",
-      "contentHash": "5de06453022f251341322f18",
-      "collectedAt": "2026-10-30T06:43:39.204Z",
+      "contentHash": "723708a5a484c35b4d9585de",
+      "collectedAt": "2026-10-31T06:34:09.739Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 12,
@@ -838,7 +1027,7 @@
       "hasAutomotiveContext": true,
       "relatedCoverage": [],
       "titleTh": "น้ํายาล้างหัวฉีด เบนซินน้ํายาล้างหัวฉีดน้ํายาล้างหัวฉีดมอเตอร์ไซค์น้ํายาล้างหัวฉีด ดีเซล",
-      "shortSummaryTh": "น้ํายาล้างหัวฉีด เบนซิน น้ํายาล้างหัวฉีด น้ํายาล้างหัวฉีดมอเตอร์ไซค์ น้ํายาล้างหัวฉีด ดีเซล น้ํายาล้างหัวฉีด honda น้ํายาล้างหัวฉีดรถยนต์เบนซิน ... (ช่อง: รีวิวไปเรื่อย) · ยอดวิว 30 ครั้ง",
+      "shortSummaryTh": "น้ํายาล้างหัวฉีด เบนซิน น้ํายาล้างหัวฉีด น้ํายาล้างหัวฉีดมอเตอร์ไซค์ น้ํายาล้างหัวฉีด ดีเซล น้ํายาล้างหัวฉีด honda น้ํายาล้างหัวฉีดรถยนต์เบนซิน ... (ช่อง: รีวิวไปเรื่อย) · ยอดวิว 42 ครั้ง",
       "classification": "neutral",
       "impactScore": 0,
       "confidence": 46,
@@ -876,50 +1065,48 @@
       "analyzedBy": "fallback",
       "sourceUrl": "https://youtube.com/watch?v=lgQzZdjEhl4",
       "titleOriginal": "น้ํายาล้างหัวฉีด เบนซินน้ํายาล้างหัวฉีดน้ํายาล้างหัวฉีดมอเตอร์ไซค์น้ํายาล้างหัวฉีด ดีเซล",
-      "originalSnippet": "น้ํายาล้างหัวฉีด เบนซิน น้ํายาล้างหัวฉีด น้ํายาล้างหัวฉีดมอเตอร์ไซค์ น้ํายาล้างหัวฉีด ดีเซล น้ํายาล้างหัวฉีด honda น้ํายาล้างหัวฉีดรถยนต์เบนซิน ... (ช่อง: รีวิวไปเรื่อย) · ยอดวิว 30 ครั้ง"
+      "originalSnippet": "น้ํายาล้างหัวฉีด เบนซิน น้ํายาล้างหัวฉีด น้ํายาล้างหัวฉีดมอเตอร์ไซค์ น้ํายาล้างหัวฉีด ดีเซล น้ํายาล้างหัวฉีด honda น้ํายาล้างหัวฉีดรถยนต์เบนซิน ... (ช่อง: รีวิวไปเรื่อย) · ยอดวิว 42 ครั้ง"
     },
     {
-      "title": "ล้างหัวฉีด Honda แล้วประหยัดน้ำมันจริงหรือ? เผยกลไกที่คนใช้รถควรรู้! #automobile #fwd441",
-      "link": "https://www.youtube.com/watch?v=EpJdaZbWCLg",
-      "snippet": "(ช่อง: กลไก เครื่องยนต์) · ยอดวิว 1,382 ครั้ง",
-      "publishedAt": "2026-10-23T23:00:23.000Z",
-      "sourceId": "youtube",
-      "sourceName": "YouTube · กลไก เครื่องยนต์",
-      "sourceTier": 3,
+      "title": "Double-Nostriled Dodge Hellcat Challenges the Used Car Market, Costs New Toyota Highlander Money - autoevolution",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOYjIzS2RNV0NxS3drWFc2R2YzUGE4TmpNVXFLcDJCdGZBSDI1VzY1LU1RLTd6YzNiQWNsLVd4cXRhVnNoVHJRYjF1VGFxZ2pZWU9yZkpmMnlMSEhwTHE5THVCRVJrbmp0RjlYbGhQS0tYWGZJNmNDT05OZFBjTDRidU1vcjZ5czRNamdwdVdUN0VCZ2RwV0x5N0hCaG5ZMGtpNU02dXk2cm5DNnE4eTRiT0k2RHVLR1N2bGVWc25BbGdSU1JmNnBXRlQ4TVBNdl9uanJUZ2NoTy1sQQ?oc=5",
+      "snippet": "Double-Nostriled Dodge Hellcat Challenges the Used Car Market, Costs New Toyota Highlander Money autoevolution",
+      "publishedAt": "2026-10-31T06:00:01.000Z",
+      "sourceId": "google-news:en-TH",
+      "sourceName": "autoevolution",
+      "sourceTier": 2,
       "sourceCountry": "TH",
-      "language": "th",
-      "unverified": true,
-      "itemKind": "social",
-      "id": "3d97e146e39a0fea",
-      "canonicalUrl": "https://youtube.com/watch?v=EpJdaZbWCLg",
-      "contentHash": "e273d18eb17e61fab02dffcd",
-      "collectedAt": "2026-10-30T06:43:39.204Z",
+      "language": "en",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "49fa49385e1345c9",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOYjIzS2RNV0NxS3drWFc2R2YzUGE4TmpNVXFLcDJCdGZBSDI1VzY1LU1RLTd6YzNiQWNsLVd4cXRhVnNoVHJRYjF1VGFxZ2pZWU9yZkpmMnlMSEhwTHE5THVCRVJrbmp0RjlYbGhQS0tYWGZJNmNDT05OZFBjTDRidU1vcjZ5czRNamdwdVdUN0VCZ2RwV0x5N0hCaG5ZMGtpNU02dXk2cm5DNnE4eTRiT0k2RHVLR1N2bGVWc25BbGdSU1JmNnBXRlQ4TVBNdl9uanJUZ2NoTy1sQQ",
+      "contentHash": "d0b2b88647a61ac30664dff8",
+      "collectedAt": "2026-10-31T06:34:09.739Z",
       "isPressRelease": false,
       "isSponsored": false,
-      "prefilterScore": 12,
+      "prefilterScore": 11,
       "matchedCategories": [
-        "INJECTOR",
+        "AUTO_MARKET",
         "OEM_BRANDS"
       ],
       "matchedCompetitors": [],
       "matchedBrands": [
-        "Honda"
+        "Toyota"
       ],
       "hasAutomotiveContext": true,
       "relatedCoverage": [],
-      "titleTh": "ล้างหัวฉีด Honda แล้วประหยัดน้ำมันจริงหรือ? เผยกลไกที่คนใช้รถควรรู้! #automobile #fwd441",
-      "shortSummaryTh": "(ช่อง: กลไก เครื่องยนต์) · ยอดวิว 1,382 ครั้ง",
+      "titleTh": "[EN] Double-Nostriled Dodge Hellcat Challenges the Used Car Market, Costs New Toyota Highlander Money - autoevolution",
+      "shortSummaryTh": "Double-Nostriled Dodge Hellcat Challenges the Used Car Market, Costs New Toyota Highlander Money autoevolution",
       "classification": "neutral",
       "impactScore": 0,
-      "confidence": 41,
-      "relevanceScore": 49,
-      "newsCategory": "INJECTOR",
+      "confidence": 53,
+      "relevanceScore": 46,
+      "newsCategory": "OEM_BRANDS",
       "affectedChannels": [
         "OEM"
       ],
-      "affectedProducts": [
-        "POWER_FLOW"
-      ],
+      "affectedProducts": [],
       "affectedCountries": [
         "TH"
       ],
@@ -931,7 +1118,7 @@
       "positiveImpacts": [],
       "negativeImpacts": [],
       "reasoningSummary": [
-        "แหล่งข่าว Tier 3 — ข้อมูลยังต้องตรวจสอบ"
+        "วิเคราะห์ด้วยกฎอัตโนมัติ (ไม่ได้ใช้ AI)"
       ],
       "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
       "recommendedActions": [
@@ -944,9 +1131,9 @@
       ],
       "timeHorizon": "1-3 months",
       "analyzedBy": "fallback",
-      "sourceUrl": "https://youtube.com/watch?v=EpJdaZbWCLg",
-      "titleOriginal": "ล้างหัวฉีด Honda แล้วประหยัดน้ำมันจริงหรือ? เผยกลไกที่คนใช้รถควรรู้! #automobile #fwd441",
-      "originalSnippet": "(ช่อง: กลไก เครื่องยนต์) · ยอดวิว 1,382 ครั้ง"
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOYjIzS2RNV0NxS3drWFc2R2YzUGE4TmpNVXFLcDJCdGZBSDI1VzY1LU1RLTd6YzNiQWNsLVd4cXRhVnNoVHJRYjF1VGFxZ2pZWU9yZkpmMnlMSEhwTHE5THVCRVJrbmp0RjlYbGhQS0tYWGZJNmNDT05OZFBjTDRidU1vcjZ5czRNamdwdVdUN0VCZ2RwV0x5N0hCaG5ZMGtpNU02dXk2cm5DNnE4eTRiT0k2RHVLR1N2bGVWc25BbGdSU1JmNnBXRlQ4TVBNdl9uanJUZ2NoTy1sQQ",
+      "titleOriginal": "Double-Nostriled Dodge Hellcat Challenges the Used Car Market, Costs New Toyota Highlander Money - autoevolution",
+      "originalSnippet": "Double-Nostriled Dodge Hellcat Challenges the Used Car Market, Costs New Toyota Highlander Money autoevolution"
     },
     {
       "title": "รีวิวใช้บริการ FIT Auto ล้างแผงคอยล์ร้อนรถ EV ฟรี แถมคูปองชาร์จไฟ 40 บาท",
@@ -963,7 +1150,7 @@
       "id": "603cfa3d93bbda52",
       "canonicalUrl": "https://pantip.com/topic/44268364",
       "contentHash": "9c47ecb8168519bbd4f0a2cc",
-      "collectedAt": "2026-10-30T06:43:39.204Z",
+      "collectedAt": "2026-10-31T06:34:09.739Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 11,
@@ -1023,10 +1210,10 @@
       "originalSnippet": ""
     },
     {
-      "title": "บริษัทผลิตรถยนต์ไฟฟ้าของอดีตซีอีโอของ Green SM เพิ่งระดมทุนได้อีกครั้ง - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNcHl2YWVlamYwWjV5dnQ5ekR1WllQWVdhR0x0d3hrdlRaenRiOGFTNkxJQ2lFRHM4UlltVTJtd3NmU1NxQUlxaHByZDFBZHRRZkhNeTJ4RHl2UG9aeTlFVTUzeFYzUzFuSHh1X1VWbHFMV0FQcUoyQTNfVjNLOC1yS1Nn?oc=5",
-      "snippet": "บริษัทผลิตรถยนต์ไฟฟ้าของอดีตซีอีโอของ Green SM เพิ่งระดมทุนได้อีกครั้ง Vietnam.vn",
-      "publishedAt": "2026-10-28T17:47:53.000Z",
+      "title": "รถยนต์ไฟฟ้าจากจีนมียอดขายเพิ่มขึ้นในเกาหลีใต้ แต่กลับเผชิญอุปสรรคในญี่ปุ่น - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRDZLdDBHZTB3M3FuR1lsb3IwaHJIcUx6M0k4T01XSGgwTlBhV2hJcWZjT2s3VHRmYUJIX1lUVW4xdzhqb1ZUTDNXRHI0MnFqT0E0MUI3S2FHd3JRZWJzYXpVeWp4NEdjMWd2bExWdHMtQ3UwcWIydW11czZxRWZDUUZUdTEtc1AxdTFxWTMzaHBuMmVOZnU0dmtMaw?oc=5",
+      "snippet": "รถยนต์ไฟฟ้าจากจีนมียอดขายเพิ่มขึ้นในเกาหลีใต้ แต่กลับเผชิญอุปสรรคในญี่ปุ่น Vietnam.vn",
+      "publishedAt": "2026-10-30T14:41:09.000Z",
       "sourceId": "google-news:th-TH",
       "sourceName": "Vietnam.vn",
       "sourceTier": 2,
@@ -1034,10 +1221,10 @@
       "language": "th",
       "unverified": false,
       "itemKind": "news",
-      "id": "f902c80521b542de",
-      "canonicalUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNcHl2YWVlamYwWjV5dnQ5ekR1WllQWVdhR0x0d3hrdlRaenRiOGFTNkxJQ2lFRHM4UlltVTJtd3NmU1NxQUlxaHByZDFBZHRRZkhNeTJ4RHl2UG9aeTlFVTUzeFYzUzFuSHh1X1VWbHFMV0FQcUoyQTNfVjNLOC1yS1Nn",
-      "contentHash": "7730694d7eab3c822301667e",
-      "collectedAt": "2026-10-30T06:43:39.204Z",
+      "id": "9d886229b6a68919",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRDZLdDBHZTB3M3FuR1lsb3IwaHJIcUx6M0k4T01XSGgwTlBhV2hJcWZjT2s3VHRmYUJIX1lUVW4xdzhqb1ZUTDNXRHI0MnFqT0E0MUI3S2FHd3JRZWJzYXpVeWp4NEdjMWd2bExWdHMtQ3UwcWIydW11czZxRWZDUUZUdTEtc1AxdTFxWTMzaHBuMmVOZnU0dmtMaw",
+      "contentHash": "e0c81935177af8f6cf5bffe3",
+      "collectedAt": "2026-10-31T06:34:09.739Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 10,
@@ -1049,8 +1236,8 @@
       "matchedBrands": [],
       "hasAutomotiveContext": true,
       "relatedCoverage": [],
-      "titleTh": "บริษัทผลิตรถยนต์ไฟฟ้าของอดีตซีอีโอของ Green SM เพิ่งระดมทุนได้อีกครั้ง - Vietnam.vn",
-      "shortSummaryTh": "บริษัทผลิตรถยนต์ไฟฟ้าของอดีตซีอีโอของ Green SM เพิ่งระดมทุนได้อีกครั้ง Vietnam.vn",
+      "titleTh": "รถยนต์ไฟฟ้าจากจีนมียอดขายเพิ่มขึ้นในเกาหลีใต้ แต่กลับเผชิญอุปสรรคในญี่ปุ่น - Vietnam.vn",
+      "shortSummaryTh": "รถยนต์ไฟฟ้าจากจีนมียอดขายเพิ่มขึ้นในเกาหลีใต้ แต่กลับเผชิญอุปสรรคในญี่ปุ่น Vietnam.vn",
       "classification": "neutral",
       "impactScore": 0,
       "confidence": 48,
@@ -1086,15 +1273,15 @@
       ],
       "timeHorizon": "long-term",
       "analyzedBy": "fallback",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNcHl2YWVlamYwWjV5dnQ5ekR1WllQWVdhR0x0d3hrdlRaenRiOGFTNkxJQ2lFRHM4UlltVTJtd3NmU1NxQUlxaHByZDFBZHRRZkhNeTJ4RHl2UG9aeTlFVTUzeFYzUzFuSHh1X1VWbHFMV0FQcUoyQTNfVjNLOC1yS1Nn",
-      "titleOriginal": "บริษัทผลิตรถยนต์ไฟฟ้าของอดีตซีอีโอของ Green SM เพิ่งระดมทุนได้อีกครั้ง - Vietnam.vn",
-      "originalSnippet": "บริษัทผลิตรถยนต์ไฟฟ้าของอดีตซีอีโอของ Green SM เพิ่งระดมทุนได้อีกครั้ง Vietnam.vn"
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRDZLdDBHZTB3M3FuR1lsb3IwaHJIcUx6M0k4T01XSGgwTlBhV2hJcWZjT2s3VHRmYUJIX1lUVW4xdzhqb1ZUTDNXRHI0MnFqT0E0MUI3S2FHd3JRZWJzYXpVeWp4NEdjMWd2bExWdHMtQ3UwcWIydW11czZxRWZDUUZUdTEtc1AxdTFxWTMzaHBuMmVOZnU0dmtMaw",
+      "titleOriginal": "รถยนต์ไฟฟ้าจากจีนมียอดขายเพิ่มขึ้นในเกาหลีใต้ แต่กลับเผชิญอุปสรรคในญี่ปุ่น - Vietnam.vn",
+      "originalSnippet": "รถยนต์ไฟฟ้าจากจีนมียอดขายเพิ่มขึ้นในเกาหลีใต้ แต่กลับเผชิญอุปสรรคในญี่ปุ่น Vietnam.vn"
     },
     {
-      "title": "เหตุใดล้อรถยนต์ไฟฟ้าจึงสึกหรอเร็วกว่า? - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9TWVpGUXhDaEs2Z3Q5dGt0Zmx1bkdCWU5HMkl4LTFFY24yTFUyV0M3MVdDNzI2S0dzb2ZMamtHODdfME5mbUM1TkFjUUR6TzZ2T0tTMzFaY25oc0wxVWNUQnFaS1cwc2hoYmc?oc=5",
-      "snippet": "เหตุใดล้อรถยนต์ไฟฟ้าจึงสึกหรอเร็วกว่า? Vietnam.vn",
-      "publishedAt": "2026-10-30T03:15:01.000Z",
+      "title": "ผู้ผลิตรถยนต์หรูในเวียดนามกำลังเร่งพัฒนาเทคโนโลยีรถยนต์ไฟฟ้า - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQeVZBcUNVT1RnOXFrQkV4aWlfTG5aMWJRcVBhNzJ0VUYwc19aYjN1YkZlZHNpbmFoeUxEVWlkT3ctM01fZERrZnB3Qjhac3EyR3BNa3F3alV0bXhRZHlyTk44eWxsOTVZazMyOFh3MzJleEJHUnhGLWpQM3ZoSWtjRGJQQkJkeWNUc2c?oc=5",
+      "snippet": "ผู้ผลิตรถยนต์หรูในเวียดนามกำลังเร่งพัฒนาเทคโนโลยีรถยนต์ไฟฟ้า Vietnam.vn",
+      "publishedAt": "2026-10-29T15:13:48.000Z",
       "sourceId": "google-news:th-TH",
       "sourceName": "Vietnam.vn",
       "sourceTier": 2,
@@ -1102,10 +1289,10 @@
       "language": "th",
       "unverified": false,
       "itemKind": "news",
-      "id": "ec5521eb06262744",
-      "canonicalUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9TWVpGUXhDaEs2Z3Q5dGt0Zmx1bkdCWU5HMkl4LTFFY24yTFUyV0M3MVdDNzI2S0dzb2ZMamtHODdfME5mbUM1TkFjUUR6TzZ2T0tTMzFaY25oc0wxVWNUQnFaS1cwc2hoYmc",
-      "contentHash": "b35e80b8071cfc620ad19b6a",
-      "collectedAt": "2026-10-30T06:43:39.204Z",
+      "id": "956898cc67ea059e",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQeVZBcUNVT1RnOXFrQkV4aWlfTG5aMWJRcVBhNzJ0VUYwc19aYjN1YkZlZHNpbmFoeUxEVWlkT3ctM01fZERrZnB3Qjhac3EyR3BNa3F3alV0bXhRZHlyTk44eWxsOTVZazMyOFh3MzJleEJHUnhGLWpQM3ZoSWtjRGJQQkJkeWNUc2c",
+      "contentHash": "9f28945652590bf4b8b02013",
+      "collectedAt": "2026-10-31T06:34:09.739Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 10,
@@ -1117,14 +1304,16 @@
       "matchedBrands": [],
       "hasAutomotiveContext": true,
       "relatedCoverage": [],
-      "titleTh": "เหตุใดล้อรถยนต์ไฟฟ้าจึงสึกหรอเร็วกว่า? - Vietnam.vn",
-      "shortSummaryTh": "เหตุใดล้อรถยนต์ไฟฟ้าจึงสึกหรอเร็วกว่า? Vietnam.vn",
+      "titleTh": "ผู้ผลิตรถยนต์หรูในเวียดนามกำลังเร่งพัฒนาเทคโนโลยีรถยนต์ไฟฟ้า - Vietnam.vn",
+      "shortSummaryTh": "ผู้ผลิตรถยนต์หรูในเวียดนามกำลังเร่งพัฒนาเทคโนโลยีรถยนต์ไฟฟ้า Vietnam.vn",
       "classification": "neutral",
       "impactScore": 0,
       "confidence": 48,
       "relevanceScore": 43,
       "newsCategory": "EV",
-      "affectedChannels": [],
+      "affectedChannels": [
+        "OEM"
+      ],
       "affectedProducts": [],
       "affectedCountries": [
         "TH"
@@ -1154,9 +1343,9 @@
       ],
       "timeHorizon": "long-term",
       "analyzedBy": "fallback",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9TWVpGUXhDaEs2Z3Q5dGt0Zmx1bkdCWU5HMkl4LTFFY24yTFUyV0M3MVdDNzI2S0dzb2ZMamtHODdfME5mbUM1TkFjUUR6TzZ2T0tTMzFaY25oc0wxVWNUQnFaS1cwc2hoYmc",
-      "titleOriginal": "เหตุใดล้อรถยนต์ไฟฟ้าจึงสึกหรอเร็วกว่า? - Vietnam.vn",
-      "originalSnippet": "เหตุใดล้อรถยนต์ไฟฟ้าจึงสึกหรอเร็วกว่า? Vietnam.vn"
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQeVZBcUNVT1RnOXFrQkV4aWlfTG5aMWJRcVBhNzJ0VUYwc19aYjN1YkZlZHNpbmFoeUxEVWlkT3ctM01fZERrZnB3Qjhac3EyR3BNa3F3alV0bXhRZHlyTk44eWxsOTVZazMyOFh3MzJleEJHUnhGLWpQM3ZoSWtjRGJQQkJkeWNUc2c",
+      "titleOriginal": "ผู้ผลิตรถยนต์หรูในเวียดนามกำลังเร่งพัฒนาเทคโนโลยีรถยนต์ไฟฟ้า - Vietnam.vn",
+      "originalSnippet": "ผู้ผลิตรถยนต์หรูในเวียดนามกำลังเร่งพัฒนาเทคโนโลยีรถยนต์ไฟฟ้า Vietnam.vn"
     },
     {
       "title": "ในวันที่ Honda จะทำรถกระบะขายคนทั่วโลกและไทย คิดว่า Honda ควรพัฒนารถไปในทิศทางไหนครับ (โดยพื้นฐาน Triton)",
@@ -1173,7 +1362,7 @@
       "id": "34f5cf5734b320e8",
       "canonicalUrl": "https://pantip.com/topic/44270068",
       "contentHash": "6e8fe78a85efb277020bdfdc",
-      "collectedAt": "2026-10-30T06:43:39.204Z",
+      "collectedAt": "2026-10-31T06:34:09.739Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 10,
@@ -1228,21 +1417,21 @@
       "originalSnippet": ""
     },
     {
-      "title": "เผยภาพสิทธิบัตร Emta รถยนต์ไฟฟ้า K-car จาก Chery เตรียมบุกญี่ปุ่นปี 2027 ท้าชน BYD Racco! - iMoD",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBXa29UYnRFbmJHbU1paE5uVkQyTnBwei0wZ3NYbS1GQ0ktN1hsUGhOejctenRta1JqWlJDSVFaMktiZjdJQlpqaHh2Y1BIVHNlWUhfOGFFeThzZlRqcTZCN2VWUGV1eUVLNnhRV0t0UlU?oc=5",
-      "snippet": "เผยภาพสิทธิบัตร Emta รถยนต์ไฟฟ้า K-car จาก Chery เตรียมบุกญี่ปุ่นปี 2027 ท้าชน BYD Racco! iMoD",
-      "publishedAt": "2026-10-29T03:03:01.000Z",
+      "title": "Changan Benben E-Star รถยนต์ไฟฟ้า แฮตช์แบ็ก 5 ประตู ราคาไม่ถึง 3 แสนบาท รูปที่ 13 - kapook.com",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB6NFcxalY0el9MYVFmY0p4UVRWcU9WRE1FTmZqaE5FX2JZWnVpRFZGOHBEX0s5QkdCMTdCZ1FaUFBQcmJvbURKdlBEd3dqNTEyTE5wRG1HUQ?oc=5",
+      "snippet": "Changan Benben E-Star รถยนต์ไฟฟ้า แฮตช์แบ็ก 5 ประตู ราคาไม่ถึง 3 แสนบาท รูปที่ 13 kapook.com",
+      "publishedAt": "2026-10-31T01:28:25.000Z",
       "sourceId": "google-news:th-TH",
-      "sourceName": "iMoD",
+      "sourceName": "kapook.com",
       "sourceTier": 2,
       "sourceCountry": "TH",
       "language": "th",
       "unverified": false,
       "itemKind": "news",
-      "id": "1242f8a5ea959d50",
-      "canonicalUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBXa29UYnRFbmJHbU1paE5uVkQyTnBwei0wZ3NYbS1GQ0ktN1hsUGhOejctenRta1JqWlJDSVFaMktiZjdJQlpqaHh2Y1BIVHNlWUhfOGFFeThzZlRqcTZCN2VWUGV1eUVLNnhRV0t0UlU",
-      "contentHash": "cd74de20777a529cb4691856",
-      "collectedAt": "2026-10-30T06:43:39.204Z",
+      "id": "8d2f61890f938c15",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB6NFcxalY0el9MYVFmY0p4UVRWcU9WRE1FTmZqaE5FX2JZWnVpRFZGOHBEX0s5QkdCMTdCZ1FaUFBQcmJvbURKdlBEd3dqNTEyTE5wRG1HUQ",
+      "contentHash": "3e09a4b6a75847c82c1b6f1a",
+      "collectedAt": "2026-10-31T06:34:09.739Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 9,
@@ -1252,12 +1441,12 @@
       ],
       "matchedCompetitors": [],
       "matchedBrands": [
-        "BYD"
+        "Changan"
       ],
       "hasAutomotiveContext": true,
       "relatedCoverage": [],
-      "titleTh": "เผยภาพสิทธิบัตร Emta รถยนต์ไฟฟ้า K-car จาก Chery เตรียมบุกญี่ปุ่นปี 2027 ท้าชน BYD Racco! - iMoD",
-      "shortSummaryTh": "เผยภาพสิทธิบัตร Emta รถยนต์ไฟฟ้า K-car จาก Chery เตรียมบุกญี่ปุ่นปี 2027 ท้าชน BYD Racco! iMoD",
+      "titleTh": "Changan Benben E-Star รถยนต์ไฟฟ้า แฮตช์แบ็ก 5 ประตู ราคาไม่ถึง 3 แสนบาท รูปที่ 13 - kapook.com",
+      "shortSummaryTh": "Changan Benben E-Star รถยนต์ไฟฟ้า แฮตช์แบ็ก 5 ประตู ราคาไม่ถึง 3 แสนบาท รูปที่ 13 kapook.com",
       "classification": "neutral",
       "impactScore": 0,
       "confidence": 48,
@@ -1295,9 +1484,339 @@
       ],
       "timeHorizon": "long-term",
       "analyzedBy": "fallback",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBXa29UYnRFbmJHbU1paE5uVkQyTnBwei0wZ3NYbS1GQ0ktN1hsUGhOejctenRta1JqWlJDSVFaMktiZjdJQlpqaHh2Y1BIVHNlWUhfOGFFeThzZlRqcTZCN2VWUGV1eUVLNnhRV0t0UlU",
-      "titleOriginal": "เผยภาพสิทธิบัตร Emta รถยนต์ไฟฟ้า K-car จาก Chery เตรียมบุกญี่ปุ่นปี 2027 ท้าชน BYD Racco! - iMoD",
-      "originalSnippet": "เผยภาพสิทธิบัตร Emta รถยนต์ไฟฟ้า K-car จาก Chery เตรียมบุกญี่ปุ่นปี 2027 ท้าชน BYD Racco! iMoD"
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB6NFcxalY0el9MYVFmY0p4UVRWcU9WRE1FTmZqaE5FX2JZWnVpRFZGOHBEX0s5QkdCMTdCZ1FaUFBQcmJvbURKdlBEd3dqNTEyTE5wRG1HUQ",
+      "titleOriginal": "Changan Benben E-Star รถยนต์ไฟฟ้า แฮตช์แบ็ก 5 ประตู ราคาไม่ถึง 3 แสนบาท รูปที่ 13 - kapook.com",
+      "originalSnippet": "Changan Benben E-Star รถยนต์ไฟฟ้า แฮตช์แบ็ก 5 ประตู ราคาไม่ถึง 3 แสนบาท รูปที่ 13 kapook.com"
+    },
+    {
+      "title": "MG EP Plus รถยนต์ไฟฟ้าสำหรับครอบครัว ราคา 771,000 บาท รูปที่ 8 - kapook.com",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1aVkpTSFhkVXoxM3U3LURHbHBfcEF2dHhUdUpWX3FSdHJpWTM1QmFDZnZfQkhtZVFDbE0xanAtSnNremhFS3pwaHYwMFNucUJZXzAtdWFsMA?oc=5",
+      "snippet": "MG EP Plus รถยนต์ไฟฟ้าสำหรับครอบครัว ราคา 771,000 บาท รูปที่ 8 kapook.com",
+      "publishedAt": "2026-10-30T23:01:43.000Z",
+      "sourceId": "google-news:th-TH",
+      "sourceName": "kapook.com",
+      "sourceTier": 2,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "df6e3a5649fa97d6",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1aVkpTSFhkVXoxM3U3LURHbHBfcEF2dHhUdUpWX3FSdHJpWTM1QmFDZnZfQkhtZVFDbE0xanAtSnNremhFS3pwaHYwMFNucUJZXzAtdWFsMA",
+      "contentHash": "a656162c9d4d6e9c86a4619d",
+      "collectedAt": "2026-10-31T06:34:09.739Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 9,
+      "matchedCategories": [
+        "EV",
+        "OEM_BRANDS"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [
+        "MG"
+      ],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "MG EP Plus รถยนต์ไฟฟ้าสำหรับครอบครัว ราคา 771,000 บาท รูปที่ 8 - kapook.com",
+      "shortSummaryTh": "MG EP Plus รถยนต์ไฟฟ้าสำหรับครอบครัว ราคา 771,000 บาท รูปที่ 8 kapook.com",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 48,
+      "relevanceScore": 40,
+      "newsCategory": "EV",
+      "affectedChannels": [
+        "OEM"
+      ],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [
+        "รถ EV ยังต้องล้างแอร์ และเจ้าของ EV ใส่ใจคุณภาพอากาศในห้องโดยสารสูง"
+      ],
+      "negativeImpacts": [
+        "EV ไม่มีหัวฉีดน้ำมัน = ความต้องการ Power Flow ลดลงในระยะยาว"
+      ],
+      "reasoningSummary": [
+        "ข่าว EV: ผลบวกต่อ AC_CLEANING หักลบผลลบต่อ POWER_FLOW → ประเมินผลสุทธิ"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "long-term",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1aVkpTSFhkVXoxM3U3LURHbHBfcEF2dHhUdUpWX3FSdHJpWTM1QmFDZnZfQkhtZVFDbE0xanAtSnNremhFS3pwaHYwMFNucUJZXzAtdWFsMA",
+      "titleOriginal": "MG EP Plus รถยนต์ไฟฟ้าสำหรับครอบครัว ราคา 771,000 บาท รูปที่ 8 - kapook.com",
+      "originalSnippet": "MG EP Plus รถยนต์ไฟฟ้าสำหรับครอบครัว ราคา 771,000 บาท รูปที่ 8 kapook.com"
+    },
+    {
+      "title": "ZF Aftermarket to showcase digital workshop solutions at AAG Expo - Autotrade.ie",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOX2FNQmZTRldIdzFFcUlLNTRsMFVYRElQWVpvLTVMSllWWjk0SndpcVhtTWY1Nk9oNmg1NFZyNWx6NjNTc0Vxc2I2ajZxRjI0anluNWpKTXoyQlBWNzUzVUdSeFdvOHJCdGNlUno4NHFINU50ZmpwWkYwb1NCTmZXdTBpRWRWSE9ITmVjUWIxSGxrandCWlMyVEc5cXFrN3dZZU5Ba0J1ZHJLUQ?oc=5",
+      "snippet": "ZF Aftermarket to showcase digital workshop solutions at AAG Expo Autotrade.ie",
+      "publishedAt": "2026-10-30T17:30:57.000Z",
+      "sourceId": "google-news:en-SG",
+      "sourceName": "Autotrade.ie",
+      "sourceTier": 2,
+      "sourceCountry": "SG",
+      "language": "en",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "f57218795a708dd5",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOX2FNQmZTRldIdzFFcUlLNTRsMFVYRElQWVpvLTVMSllWWjk0SndpcVhtTWY1Nk9oNmg1NFZyNWx6NjNTc0Vxc2I2ajZxRjI0anluNWpKTXoyQlBWNzUzVUdSeFdvOHJCdGNlUno4NHFINU50ZmpwWkYwb1NCTmZXdTBpRWRWSE9ITmVjUWIxSGxrandCWlMyVEc5cXFrN3dZZU5Ba0J1ZHJLUQ",
+      "contentHash": "0bff16b2416e17d07be6af90",
+      "collectedAt": "2026-10-31T06:34:09.739Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 9,
+      "matchedCategories": [
+        "AUTO_MARKET",
+        "INTERNATIONAL"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "[EN] ZF Aftermarket to showcase digital workshop solutions at AAG Expo - Autotrade.ie",
+      "shortSummaryTh": "ZF Aftermarket to showcase digital workshop solutions at AAG Expo Autotrade.ie",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 53,
+      "relevanceScore": 40,
+      "newsCategory": "AUTO_MARKET",
+      "affectedChannels": [
+        "B2B"
+      ],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "SG"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "วิเคราะห์ด้วยกฎอัตโนมัติ (ไม่ได้ใช้ AI)"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOX2FNQmZTRldIdzFFcUlLNTRsMFVYRElQWVpvLTVMSllWWjk0SndpcVhtTWY1Nk9oNmg1NFZyNWx6NjNTc0Vxc2I2ajZxRjI0anluNWpKTXoyQlBWNzUzVUdSeFdvOHJCdGNlUno4NHFINU50ZmpwWkYwb1NCTmZXdTBpRWRWSE9ITmVjUWIxSGxrandCWlMyVEc5cXFrN3dZZU5Ba0J1ZHJLUQ",
+      "titleOriginal": "ZF Aftermarket to showcase digital workshop solutions at AAG Expo - Autotrade.ie",
+      "originalSnippet": "ZF Aftermarket to showcase digital workshop solutions at AAG Expo Autotrade.ie"
+    },
+    {
+      "title": "Why small cars still rule the used car market - Drive",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0wR1R2c2RHQ3NoTlk5eE5wRUpVTWNRcEU4ZWpDaE1MVjMxOTFUdm5DWFJoVmNwZzJHVTNkSVFBYkZDVHB2NnRxWVBkSWZ5dE15YU5nMnR0OW5aYlJqMzNGQ1NBUEpaZWktWTlSVUlXSTR1QWpnbWVvUmRCRUxWNW8?oc=5",
+      "snippet": "Why small cars still rule the used car market Drive",
+      "publishedAt": "2026-10-30T18:25:32.000Z",
+      "sourceId": "google-news:en-SG",
+      "sourceName": "Drive",
+      "sourceTier": 2,
+      "sourceCountry": "SG",
+      "language": "en",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "0ccdc6e9ee9426b2",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0wR1R2c2RHQ3NoTlk5eE5wRUpVTWNRcEU4ZWpDaE1MVjMxOTFUdm5DWFJoVmNwZzJHVTNkSVFBYkZDVHB2NnRxWVBkSWZ5dE15YU5nMnR0OW5aYlJqMzNGQ1NBUEpaZWktWTlSVUlXSTR1QWpnbWVvUmRCRUxWNW8",
+      "contentHash": "eb1d0186bd5ad57e32fa7f27",
+      "collectedAt": "2026-10-31T06:34:09.739Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 9,
+      "matchedCategories": [
+        "AUTO_MARKET",
+        "INTERNATIONAL"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "[EN] Why small cars still rule the used car market - Drive",
+      "shortSummaryTh": "Why small cars still rule the used car market Drive",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 53,
+      "relevanceScore": 40,
+      "newsCategory": "AUTO_MARKET",
+      "affectedChannels": [],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "SG"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "วิเคราะห์ด้วยกฎอัตโนมัติ (ไม่ได้ใช้ AI)"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0wR1R2c2RHQ3NoTlk5eE5wRUpVTWNRcEU4ZWpDaE1MVjMxOTFUdm5DWFJoVmNwZzJHVTNkSVFBYkZDVHB2NnRxWVBkSWZ5dE15YU5nMnR0OW5aYlJqMzNGQ1NBUEpaZWktWTlSVUlXSTR1QWpnbWVvUmRCRUxWNW8",
+      "titleOriginal": "Why small cars still rule the used car market - Drive",
+      "originalSnippet": "Why small cars still rule the used car market Drive"
+    },
+    {
+      "title": "Used car market volatility impacts Ayvens profits - Fleet News",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQSy1vVkJUMEpZcGViR1p6cVgyNUF4UDJ0TUQ5dXZ0Nl9CczNxREJJSGFNQlZXRFVTd2plTDdkaGJUYTRqUXVHSVlUbG1YTnFLSEtHX18yendTSmNHWUZGRGZmMmUybnNJODdhYmJDRE9RLXh3d0gtQll5b1ZrTkJRMlN1TzlpTFpULWc?oc=5",
+      "snippet": "Used car market volatility impacts Ayvens profits Fleet News",
+      "publishedAt": "2026-10-30T11:08:53.000Z",
+      "sourceId": "google-news:en-SG",
+      "sourceName": "Fleet News",
+      "sourceTier": 2,
+      "sourceCountry": "SG",
+      "language": "en",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "1e3e316c2cdc24be",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQSy1vVkJUMEpZcGViR1p6cVgyNUF4UDJ0TUQ5dXZ0Nl9CczNxREJJSGFNQlZXRFVTd2plTDdkaGJUYTRqUXVHSVlUbG1YTnFLSEtHX18yendTSmNHWUZGRGZmMmUybnNJODdhYmJDRE9RLXh3d0gtQll5b1ZrTkJRMlN1TzlpTFpULWc",
+      "contentHash": "15feb7ed5815fb98450c44c9",
+      "collectedAt": "2026-10-31T06:34:09.739Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 9,
+      "matchedCategories": [
+        "AUTO_MARKET",
+        "INTERNATIONAL"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "[EN] Used car market volatility impacts Ayvens profits - Fleet News",
+      "shortSummaryTh": "Used car market volatility impacts Ayvens profits Fleet News",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 53,
+      "relevanceScore": 40,
+      "newsCategory": "AUTO_MARKET",
+      "affectedChannels": [],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "SG"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "วิเคราะห์ด้วยกฎอัตโนมัติ (ไม่ได้ใช้ AI)"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQSy1vVkJUMEpZcGViR1p6cVgyNUF4UDJ0TUQ5dXZ0Nl9CczNxREJJSGFNQlZXRFVTd2plTDdkaGJUYTRqUXVHSVlUbG1YTnFLSEtHX18yendTSmNHWUZGRGZmMmUybnNJODdhYmJDRE9RLXh3d0gtQll5b1ZrTkJRMlN1TzlpTFpULWc",
+      "titleOriginal": "Used car market volatility impacts Ayvens profits - Fleet News",
+      "originalSnippet": "Used car market volatility impacts Ayvens profits Fleet News"
+    },
+    {
+      "title": "How OneClickDrive Is Bringing More Transparency to Casablanca’s Used Car Market - Business Matters",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZWVUUXVTOFhUUTFrWVBzVE5MdHplTjVHYWVtMlcwUUluQk5BTzVUai1KbjQxbGpjSlZkUlBMcXp4RERyN0Vzc2ppQ1dZT1o2OU0zZmxmbmhJMEFNdnJoQmZWai1IVkVxR3hyaXEwYmptNEZiWlV0b2RmRUQ0aHJlenFQaEpEQzhEYlRzR0dIUm5DZnB3MXNOdVBvNjNsQTFZOWVlaHJ5cVdabDdRLXp6NkhWcw?oc=5",
+      "snippet": "How OneClickDrive Is Bringing More Transparency to Casablanca’s Used Car Market Business Matters",
+      "publishedAt": "2026-10-30T13:53:47.000Z",
+      "sourceId": "google-news:en-PH",
+      "sourceName": "Business Matters",
+      "sourceTier": 2,
+      "sourceCountry": "PH",
+      "language": "en",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "4b07ac689f1dabc8",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZWVUUXVTOFhUUTFrWVBzVE5MdHplTjVHYWVtMlcwUUluQk5BTzVUai1KbjQxbGpjSlZkUlBMcXp4RERyN0Vzc2ppQ1dZT1o2OU0zZmxmbmhJMEFNdnJoQmZWai1IVkVxR3hyaXEwYmptNEZiWlV0b2RmRUQ0aHJlenFQaEpEQzhEYlRzR0dIUm5DZnB3MXNOdVBvNjNsQTFZOWVlaHJ5cVdabDdRLXp6NkhWcw",
+      "contentHash": "c63102f93a7a787225c05537",
+      "collectedAt": "2026-10-31T06:34:09.739Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 9,
+      "matchedCategories": [
+        "AUTO_MARKET",
+        "INTERNATIONAL"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "[EN] How OneClickDrive Is Bringing More Transparency to Casablanca’s Used Car Market - Business Matters",
+      "shortSummaryTh": "How OneClickDrive Is Bringing More Transparency to Casablanca’s Used Car Market Business Matters",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 53,
+      "relevanceScore": 40,
+      "newsCategory": "AUTO_MARKET",
+      "affectedChannels": [],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "PH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "วิเคราะห์ด้วยกฎอัตโนมัติ (ไม่ได้ใช้ AI)"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZWVUUXVTOFhUUTFrWVBzVE5MdHplTjVHYWVtMlcwUUluQk5BTzVUai1KbjQxbGpjSlZkUlBMcXp4RERyN0Vzc2ppQ1dZT1o2OU0zZmxmbmhJMEFNdnJoQmZWai1IVkVxR3hyaXEwYmptNEZiWlV0b2RmRUQ0aHJlenFQaEpEQzhEYlRzR0dIUm5DZnB3MXNOdVBvNjNsQTFZOWVlaHJ5cVdabDdRLXp6NkhWcw",
+      "titleOriginal": "How OneClickDrive Is Bringing More Transparency to Casablanca’s Used Car Market - Business Matters",
+      "originalSnippet": "How OneClickDrive Is Bringing More Transparency to Casablanca’s Used Car Market Business Matters"
     },
     {
       "title": "โตโยต้าทุ่ม 1,490 ล้าน ผลิต Hilux ไฮโดรเจนในไทย 3,000 คันต่อปี ปักฐานส่งออกโลก VS Tesla รถบินได้",
@@ -1314,7 +1833,7 @@
       "id": "8d8b1ed843ce593b",
       "canonicalUrl": "https://pantip.com/topic/44262513",
       "contentHash": "e8ac3e2749df99ba33c06846",
-      "collectedAt": "2026-10-30T06:43:39.204Z",
+      "collectedAt": "2026-10-31T06:34:09.739Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 9,
@@ -1383,7 +1902,7 @@
       "id": "7c85d096a347ec98",
       "canonicalUrl": "https://pantip.com/topic/44254551",
       "contentHash": "f42ffcf322c782b9c3913822",
-      "collectedAt": "2026-10-30T06:43:39.204Z",
+      "collectedAt": "2026-10-31T06:34:09.739Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 9,
@@ -1440,7 +1959,7 @@
     {
       "title": "น้ำยาล้างหัวฉีดสามารถเติมใส่ในถังได้เลย",
       "link": "https://www.youtube.com/watch?v=lNSPLJthasY",
-      "snippet": "(ช่อง: โอ๊ต บรรลัยยนต์) · ยอดวิว 1,330 ครั้ง",
+      "snippet": "(ช่อง: โอ๊ต บรรลัยยนต์) · ยอดวิว 1,411 ครั้ง",
       "publishedAt": "2026-10-28T10:59:29.000Z",
       "sourceId": "youtube",
       "sourceName": "YouTube · โอ๊ต บรรลัยยนต์",
@@ -1451,8 +1970,8 @@
       "itemKind": "social",
       "id": "a45928b8537a72ca",
       "canonicalUrl": "https://youtube.com/watch?v=lNSPLJthasY",
-      "contentHash": "61516e6e1ecdfc8e078ca549",
-      "collectedAt": "2026-10-30T06:43:39.204Z",
+      "contentHash": "a1038aa7e9e5ca0d5a9c6785",
+      "collectedAt": "2026-10-31T06:34:09.739Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 9,
@@ -1471,7 +1990,7 @@
         }
       ],
       "titleTh": "น้ำยาล้างหัวฉีดสามารถเติมใส่ในถังได้เลย",
-      "shortSummaryTh": "(ช่อง: โอ๊ต บรรลัยยนต์) · ยอดวิว 1,330 ครั้ง",
+      "shortSummaryTh": "(ช่อง: โอ๊ต บรรลัยยนต์) · ยอดวิว 1,411 ครั้ง",
       "classification": "neutral",
       "impactScore": 0,
       "confidence": 41,
@@ -1508,12 +2027,12 @@
       "analyzedBy": "fallback",
       "sourceUrl": "https://youtube.com/watch?v=lNSPLJthasY",
       "titleOriginal": "น้ำยาล้างหัวฉีดสามารถเติมใส่ในถังได้เลย",
-      "originalSnippet": "(ช่อง: โอ๊ต บรรลัยยนต์) · ยอดวิว 1,330 ครั้ง"
+      "originalSnippet": "(ช่อง: โอ๊ต บรรลัยยนต์) · ยอดวิว 1,411 ครั้ง"
     },
     {
       "title": "น้ำยาล้างหัวฉีด #Duckhams ADV+ Booster สำหรับ #รถจักรยานยนต์ #NX500 #เวฟ110i #Finn",
       "link": "https://www.youtube.com/watch?v=XKf6CcWxcok",
-      "snippet": "(ช่อง: พ่อบ้าน Station) · ยอดวิว 1,320 ครั้ง",
+      "snippet": "(ช่อง: พ่อบ้าน Station) · ยอดวิว 1,507 ครั้ง",
       "publishedAt": "2026-10-28T05:05:05.000Z",
       "sourceId": "youtube",
       "sourceName": "YouTube · พ่อบ้าน Station",
@@ -1524,8 +2043,8 @@
       "itemKind": "social",
       "id": "47d740a403eda76a",
       "canonicalUrl": "https://youtube.com/watch?v=XKf6CcWxcok",
-      "contentHash": "5c6748966afd63c398083f25",
-      "collectedAt": "2026-10-30T06:43:39.204Z",
+      "contentHash": "c53cad88c3c54de5e944f7ce",
+      "collectedAt": "2026-10-31T06:34:09.739Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 9,
@@ -1537,7 +2056,7 @@
       "hasAutomotiveContext": true,
       "relatedCoverage": [],
       "titleTh": "น้ำยาล้างหัวฉีด #Duckhams ADV+ Booster สำหรับ #รถจักรยานยนต์ #NX500 #เวฟ110i #Finn",
-      "shortSummaryTh": "(ช่อง: พ่อบ้าน Station) · ยอดวิว 1,320 ครั้ง",
+      "shortSummaryTh": "(ช่อง: พ่อบ้าน Station) · ยอดวิว 1,507 ครั้ง",
       "classification": "neutral",
       "impactScore": 0,
       "confidence": 41,
@@ -1574,12 +2093,12 @@
       "analyzedBy": "fallback",
       "sourceUrl": "https://youtube.com/watch?v=XKf6CcWxcok",
       "titleOriginal": "น้ำยาล้างหัวฉีด #Duckhams ADV+ Booster สำหรับ #รถจักรยานยนต์ #NX500 #เวฟ110i #Finn",
-      "originalSnippet": "(ช่อง: พ่อบ้าน Station) · ยอดวิว 1,320 ครั้ง"
+      "originalSnippet": "(ช่อง: พ่อบ้าน Station) · ยอดวิว 1,507 ครั้ง"
     },
     {
       "title": "Libitu G20 เติมรถฟีโน่ยังไง #น้ำยาล้างหัวฉีด #ล้างหัวฉีด",
       "link": "https://www.youtube.com/watch?v=Qg47BOuXSn0",
-      "snippet": "(ช่อง: ภพ รีวิว) · ยอดวิว 176 ครั้ง",
+      "snippet": "(ช่อง: ภพ รีวิว) · ยอดวิว 177 ครั้ง",
       "publishedAt": "2026-10-25T15:44:15.000Z",
       "sourceId": "youtube",
       "sourceName": "YouTube · ภพ รีวิว",
@@ -1590,8 +2109,8 @@
       "itemKind": "social",
       "id": "8f8463d52e1f5461",
       "canonicalUrl": "https://youtube.com/watch?v=Qg47BOuXSn0",
-      "contentHash": "bd0521551e6922358ba4a8f6",
-      "collectedAt": "2026-10-30T06:43:39.204Z",
+      "contentHash": "8aa09111925ff47e06103bd5",
+      "collectedAt": "2026-10-31T06:34:09.739Z",
       "isPressRelease": false,
       "isSponsored": false,
       "prefilterScore": 9,
@@ -1601,10 +2120,9 @@
       "matchedCompetitors": [],
       "matchedBrands": [],
       "hasAutomotiveContext": true,
-      "duplicateGroupId": "8f8463d52e1f5461",
       "relatedCoverage": [],
       "titleTh": "Libitu G20 เติมรถฟีโน่ยังไง #น้ำยาล้างหัวฉีด #ล้างหัวฉีด",
-      "shortSummaryTh": "(ช่อง: ภพ รีวิว) · ยอดวิว 176 ครั้ง",
+      "shortSummaryTh": "(ช่อง: ภพ รีวิว) · ยอดวิว 177 ครั้ง",
       "classification": "neutral",
       "impactScore": 0,
       "confidence": 41,
@@ -1641,7 +2159,7 @@
       "analyzedBy": "fallback",
       "sourceUrl": "https://youtube.com/watch?v=Qg47BOuXSn0",
       "titleOriginal": "Libitu G20 เติมรถฟีโน่ยังไง #น้ำยาล้างหัวฉีด #ล้างหัวฉีด",
-      "originalSnippet": "(ช่อง: ภพ รีวิว) · ยอดวิว 176 ครั้ง"
+      "originalSnippet": "(ช่อง: ภพ รีวิว) · ยอดวิว 177 ครั้ง"
     }
   ],
   "sourceHealth": [
@@ -1658,21 +2176,21 @@
       "sourceName": "ประชาชาติธุรกิจ",
       "ok": true,
       "itemCount": 20,
-      "durationMs": 2526
+      "durationMs": 2797
     },
     {
       "sourceId": "headlightmag",
       "sourceName": "HeadLightMag",
       "ok": true,
       "itemCount": 10,
-      "durationMs": 3885
+      "durationMs": 19985
     },
     {
       "sourceId": "autolifethailand",
       "sourceName": "AutoLife Thailand",
       "ok": true,
       "itemCount": 10,
-      "durationMs": 4755
+      "durationMs": 4294
     },
     {
       "sourceId": "autospinn",
@@ -1687,134 +2205,133 @@
       "sourceName": "ข่าวสด",
       "ok": true,
       "itemCount": 20,
-      "durationMs": 1916
+      "durationMs": 2362
     },
     {
       "sourceId": "matichon",
       "sourceName": "มติชน",
       "ok": true,
       "itemCount": 20,
-      "durationMs": 1509
+      "durationMs": 1916
     },
     {
       "sourceId": "bangkokpost-business",
       "sourceName": "Bangkok Post — Business",
-      "ok": false,
-      "itemCount": 0,
-      "durationMs": 0,
-      "error": "HTTP 503 Service Temporarily Unavailable"
+      "ok": true,
+      "itemCount": 10,
+      "durationMs": 4450
     },
     {
       "sourceId": "automotive-news",
       "sourceName": "Automotive News",
       "ok": true,
       "itemCount": 20,
-      "durationMs": 1557
+      "durationMs": 1661
     },
     {
       "sourceId": "tire-business",
       "sourceName": "Tire Business (Workshop / Aftermarket)",
       "ok": true,
       "itemCount": 20,
-      "durationMs": 1989
+      "durationMs": 2448
     },
     {
       "sourceId": "just-auto",
       "sourceName": "Just Auto",
       "ok": true,
       "itemCount": 10,
-      "durationMs": 1893
+      "durationMs": 2413
     },
     {
       "sourceId": "insideevs",
       "sourceName": "InsideEVs",
       "ok": true,
       "itemCount": 20,
-      "durationMs": 1937
+      "durationMs": 2426
     },
     {
       "sourceId": "electrek",
       "sourceName": "Electrek",
       "ok": true,
       "itemCount": 20,
-      "durationMs": 1622
+      "durationMs": 1879
     },
     {
       "sourceId": "motor1",
       "sourceName": "Motor1",
       "ok": true,
       "itemCount": 20,
-      "durationMs": 2033
+      "durationMs": 2471
     },
     {
       "sourceId": "carscoops",
       "sourceName": "Carscoops",
       "ok": true,
       "itemCount": 20,
-      "durationMs": 2059
+      "durationMs": 2620
     },
     {
       "sourceId": "paultan",
       "sourceName": "Paul Tan's Automotive News (MY/ASEAN)",
       "ok": true,
       "itemCount": 20,
-      "durationMs": 1889
+      "durationMs": 2238
     },
     {
       "sourceId": "vnexpress-intl",
       "sourceName": "VnExpress International",
       "ok": true,
       "itemCount": 20,
-      "durationMs": 3996
+      "durationMs": 3398
     },
     {
       "sourceId": "nikkei-asia",
       "sourceName": "Nikkei Asia",
       "ok": true,
       "itemCount": 20,
-      "durationMs": 2043
+      "durationMs": 2527
     },
     {
       "sourceId": "google-news:th-TH",
       "sourceName": "Google News (th-TH)",
       "ok": true,
-      "itemCount": 149,
-      "durationMs": 15921
+      "itemCount": 145,
+      "durationMs": 15919
     },
     {
       "sourceId": "google-news:en-TH",
       "sourceName": "Google News (en-TH)",
       "ok": true,
-      "itemCount": 87,
-      "durationMs": 16695
+      "itemCount": 88,
+      "durationMs": 16736
     },
     {
       "sourceId": "google-news:en-SG",
       "sourceName": "Google News (en-SG)",
       "ok": true,
-      "itemCount": 85,
-      "durationMs": 16812
+      "itemCount": 92,
+      "durationMs": 16757
     },
     {
       "sourceId": "google-news:en-PH",
       "sourceName": "Google News (en-PH)",
       "ok": true,
-      "itemCount": 89,
-      "durationMs": 16789
+      "itemCount": 88,
+      "durationMs": 16817
     },
     {
       "sourceId": "google-news:en-US",
       "sourceName": "Google News (en-US)",
       "ok": true,
-      "itemCount": 86,
-      "durationMs": 16811
+      "itemCount": 91,
+      "durationMs": 16817
     },
     {
       "sourceId": "pantip",
       "sourceName": "Pantip (ห้องรถยนต์)",
       "ok": true,
       "itemCount": 195,
-      "durationMs": 17514
+      "durationMs": 17502
     },
     {
       "sourceId": "facebook-owned",
@@ -1839,7 +2356,7 @@
       "sourceName": "YouTube (คำค้นที่ติดตาม)",
       "ok": true,
       "itemCount": 32,
-      "durationMs": 6135,
+      "durationMs": 6109,
       "configured": true
     },
     {
@@ -1847,31 +2364,46 @@
       "sourceName": "Open-Meteo (พยากรณ์อากาศ / คุณภาพอากาศ)",
       "ok": true,
       "itemCount": 1,
-      "durationMs": 2134
+      "durationMs": 3217
     }
   ],
   "errors": [
     "[feed:pcd-air4thai] fetch failed",
     "[feed:autospinn] HTTP 403 Forbidden",
-    "[feed:bangkokpost-business] HTTP 503 Service Temporarily Unavailable",
-    "[ai:classify:ce0d61199427e31e] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgXy8ZFtnRcpH9fTjZGq7\"}",
-    "[ai:classify:e0ca3eec7d94caac] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgXy8av7M8YM2wXRZ8q38\"}",
-    "[ai:classify:4d4f38c6b3d8946f] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgXy8cZ5TMo5p2k3FKzVf\"}",
-    "[ai:classify:42b78a6ce13aa6cd] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgXy8eBKBcJSxicjFWPYX\"}",
-    "[ai:classify:3d97e146e39a0fea] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgXy8fq37XWxAsdMyEJtC\"}",
-    "[ai:classify:76db95ba039d434b] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgXy8hUkaY78dLf9SUXJf\"}",
-    "[ai:classify:3c968674e1895f88] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgXy8jJ8krnavRusQBvo6\"}",
-    "[ai:classify:ec5521eb06262744] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgXy8m1L8Sfj4w93ovyt8\"}",
-    "[ai:classify:08d94b5399aa6899] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgXy8ndZApJJA1FS9b47u\"}",
-    "[ai:classify:a45928b8537a72ca] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgXy8pHn8XMWmRTKJV83G\"}",
-    "[ai:classify:47d740a403eda76a] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgXy8r7ABjRnQkfo7bnJ7\"}",
-    "[ai:daily] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"adaptive thinking is not supported on this model\"},\"request_id\":\"req_011CgXy8sgB7jAZVhDJzZ2Ws\"}"
+    "[ai:classify:ce0d61199427e31e] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgZrDXAy5xtdWobBm6gP1\"}",
+    "[ai:classify:1e7e5ddf58315d77] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgZrDYpBqUargY6MpYXoU\"}",
+    "[ai:classify:090b27bd0a9dadd3] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgZrDaRgSz3KBBMbF4hK8\"}",
+    "[ai:classify:361ece60b6ac9002] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgZrDc5e7z7Vve55aoS5z\"}",
+    "[ai:classify:dca92dc5e9b7ab61] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgZrDdnLFmJ8fCNcXmqEt\"}",
+    "[ai:classify:a7cf6749df631053] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgZrDfLrHDL9vcPFzvGye\"}",
+    "[ai:classify:c6c9c36e9ad92322] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgZrDh1ob8FzsWHwFzmGM\"}",
+    "[ai:classify:feed5d03563e5d22] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgZrDiXqbvHP95e2ajRGv\"}",
+    "[ai:classify:87de79d7ac5e4709] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgZrDkKV4uRff5nLCREbv\"}",
+    "[ai:classify:42b78a6ce13aa6cd] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgZrDmwUEB6GWA7kgFhgg\"}",
+    "[ai:classify:49fa49385e1345c9] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgZrDoVVLJPeTzGCGZ1D8\"}",
+    "[ai:classify:9d886229b6a68919] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgZrDq7iid4KubdEpBmt9\"}",
+    "[ai:classify:956898cc67ea059e] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgZrDrd1YfGCdqAESwcG1\"}",
+    "[ai:classify:8d2f61890f938c15] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgZrDtDjxXMwJHMihkmBF\"}",
+    "[ai:classify:df6e3a5649fa97d6] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgZrDuo1RFKcTQNNEQtd5\"}",
+    "[ai:classify:f57218795a708dd5] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgZrDwQzKV9xxKLodxzwx\"}",
+    "[ai:classify:0ccdc6e9ee9426b2] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgZrDyDsjDW18Ri6szeNr\"}",
+    "[ai:classify:1e3e316c2cdc24be] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgZrE1Fv4Z7s5Vy2ngdr5\"}",
+    "[ai:classify:4b07ac689f1dabc8] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgZrE3SdkDhtS36JxA9xX\"}",
+    "[ai:classify:a45928b8537a72ca] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgZrE5VQewBffqQA3zLg9\"}",
+    "[ai:classify:47d740a403eda76a] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgZrE75QM6NoJ6FsMte7g\"}",
+    "[ai:classify:8f8463d52e1f5461] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgZrE8fueYXNTwZQZA2hx\"}",
+    "[ai:classify:8dbcde534ed565d0] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgZrEAK8TfmJDyLqbP8Bv\"}",
+    "[ai:classify:130c4281db5a776f] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgZrEC15SddonyvSCLk8q\"}",
+    "[ai:classify:ac7b843b52ef4bca] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgZrEDaadVn8YNpNor8Lo\"}",
+    "[ai:classify:ac0560023a6c5fed] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgZrEFFnKYbzMzXGxXtKc\"}",
+    "[ai:classify:afe9892da03d5e14] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"This model does not support the effort parameter.\"},\"request_id\":\"req_011CgZrEGoJhPMb2JPkW144u\"}",
+    "[ai:daily] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"adaptive thinking is not supported on this model\"},\"request_id\":\"req_011CgZrEJRHWUy7mudzJZhYZ\"}"
   ],
   "ai": {
     "enabled": true,
     "model": "claude-haiku-4-5-20251001",
     "itemsAnalyzedByAi": 0,
-    "itemsAnalyzedByFallback": 22,
+    "itemsAnalyzedByFallback": 35,
     "inputTokens": 0,
     "outputTokens": 0,
     "estimatedCostUsd": 0
