@@ -1,0 +1,2827 @@
+{
+  "date": "2026-11-04",
+  "generatedAt": "2026-11-04T07:11:05.628Z",
+  "timezone": "Asia/Bangkok",
+  "status": "degraded",
+  "kpi": {
+    "totalCollected": 1066,
+    "afterDedup": 624,
+    "afterPrefilter": 36,
+    "published": 35,
+    "positive": 4,
+    "neutral": 29,
+    "negative": 2,
+    "highImpact": 2,
+    "competitorAlerts": 1,
+    "evRelated": 11,
+    "international": 5,
+    "oemOpportunities": 1,
+    "b2bOpportunities": 0,
+    "b2cOpportunities": 0,
+    "o1Supporting": 4,
+    "o2Supporting": 0,
+    "socialMentions": 14,
+    "demandSignals": 0
+  },
+  "daily": {
+    "executiveSummaryTh": "วันนี้ระบบคัดกรองข่าวที่เกี่ยวข้องกับ Air4 ได้ 35 ข่าว แบ่งเป็นเชิงบวก 4 ข่าว เป็นกลาง 29 ข่าว และเชิงลบ 2 ข่าว คะแนนผลกระทบสุทธิอยู่ที่ 3.5 ซึ่งจัดอยู่ในระดับบวกต่อธุรกิจ ข่าวเชิงบวกที่สำคัญที่สุดคือ \"แอร์รถยนต์มีกลิ่นอับ? ลองดูโฟมล้างแอร์ตัวนี้!#ตีตี้รีวิว #VISBELLA #โฟมล้างแอร์ #น้ำยาล้างแอร์รถยนต์\" ข่าวที่ต้องเฝ้าระวังมากที่สุดคือ \"[EN] Hyundai Motor Resists EV Price War, Betting on Financing and Service Against Tesla and Chinese Rivals - 인사이트코리아\" พบความเคลื่อนไหวของคู่แข่ง 1 รายการ ควรติดตามใกล้ชิด หมายเหตุ: บทวิเคราะห์นี้สร้างโดยระบบกฎอัตโนมัติเนื่องจากไม่สามารถเรียกใช้ AI ได้",
+    "overallSentiment": "positive",
+    "netImpactScore": 3.49,
+    "urgencyLevel": "medium",
+    "opportunitySignals": [
+      {
+        "title": "แอร์รถยนต์มีกลิ่นอับ? ลองดูโฟมล้างแอร์ตัวนี้!#ตีตี้รีวิว #VISBELLA #โฟมล้างแอร์ #น้ำยาล้างแอร์รถยนต์",
+        "detail": "ปัญหากลิ่น/เชื้อราในรถ = ความต้องการบริการหลักของ Air4",
+        "relatedNewsIds": [
+          "caf0641846bc20fd"
+        ]
+      },
+      {
+        "title": "[EN] Toyota, Honda, Hyundai, Kia ride hybrids, retail demand to October gains",
+        "detail": "ตลาดรถยนต์เติบโต = ปริมาณรถเข้าศูนย์เพิ่ม",
+        "relatedNewsIds": [
+          "1a1c00ee30ef0a67"
+        ]
+      },
+      {
+        "title": "SCB EIC ชี้ตลาดยานยนต์ไทยปี 2570 ฟื้นตัวแบบ K-Shaped โดยยอดขายรวมคาดโต 6.6% แตะ 7.3 แสนคัน นำโดยกลุ่ม xEV ที่กวาดส่วนแบ่งตลาดถึง 64% สวนทางกับรถกระบะและสันดาปที่ซบเซาหนัก ขณะที่ยอดผลิตรวมจะแตะ 1.5 ล้านคันสูงสุดในรอบ 4 ปี ขณะเดียวกัน SCB EIC เตือนผู้ป - Facebook",
+        "detail": "ตลาดรถยนต์เติบโต = ปริมาณรถเข้าศูนย์เพิ่ม",
+        "relatedNewsIds": [
+          "da73283e4236be54"
+        ]
+      }
+    ],
+    "riskSignals": [
+      {
+        "title": "[EN] Hyundai Motor Resists EV Price War, Betting on Financing and Service Against Tesla and Chinese Rivals - 인사이트코리아",
+        "detail": "แรงกดดันด้านราคา กระทบมาร์จิ้น",
+        "relatedNewsIds": [
+          "629d022173acbcb9"
+        ]
+      },
+      {
+        "title": "THE STANDARD WEALTH. . ยอดผลิตรถหดตัว 1 ล้านคันจากปีก่อน เก็บภาษีนำเข้า EV อาจเอาไม่อยู่ | Morning Wealth 3 พ.ย. 69 . ทำไม ttb analytics มองการเก็บภาษีนำเข้ารถยนต์ไฟฟ้า 30% ‘ยังไม่เพียงพอ’ หลังยอดผลิตรถในไทยร่วงหนักจากปีละ 2.5 เหลือ 1.5 ล้านคัน . เจาะเงื่อนไขโ - Facebook",
+        "detail": "ตลาดหดตัว = ปริมาณรถเข้าศูนย์ลดลง",
+        "relatedNewsIds": [
+          "281c4415e138a79d"
+        ]
+      }
+    ],
+    "actionsToday": [
+      {
+        "action": "ประเมินผลกระทบจากข่าว: [EN] Hyundai Motor Resists EV Price War, Betting on Financing and Service Against Tesla and Chinese Rivals - 인사이트코리아",
+        "owner": "Business Intelligence",
+        "priority": "high",
+        "deadline": "today",
+        "reason": "แรงกดดันด้านราคา กระทบมาร์จิ้น",
+        "relatedNewsIds": [
+          "629d022173acbcb9"
+        ]
+      },
+      {
+        "action": "ประเมินผลกระทบจากข่าว: THE STANDARD WEALTH. . ยอดผลิตรถหดตัว 1 ล้านคันจากปีก่อน เก็บภาษีนำเข้า EV อาจเอาไม่อยู่ | Morning Wealth 3 พ.ย. 69 . ทำไม ttb analytics มองการเก็บภาษีนำเข้ารถยนต์ไฟฟ้า 30% ‘ยังไม่เพียงพอ’ หลังยอดผลิตรถในไทยร่วงหนักจากปีละ 2.5 เหลือ 1.5 ล้านคัน . เจาะเงื่อนไขโ - Facebook",
+        "owner": "Business Intelligence",
+        "priority": "high",
+        "deadline": "today",
+        "reason": "ตลาดหดตัว = ปริมาณรถเข้าศูนย์ลดลง",
+        "relatedNewsIds": [
+          "281c4415e138a79d"
+        ]
+      }
+    ],
+    "actionsWithin7Days": [
+      {
+        "action": "ต่อยอดโอกาสจากข่าว: แอร์รถยนต์มีกลิ่นอับ? ลองดูโฟมล้างแอร์ตัวนี้!#ตีตี้รีวิว #VISBELLA #โฟมล้างแอร์ #น้ำยาล้างแอร์รถยนต์",
+        "owner": "B2B Sales & Marketing",
+        "priority": "medium",
+        "deadline": "within_7_days",
+        "reason": "ปัญหากลิ่น/เชื้อราในรถ = ความต้องการบริการหลักของ Air4",
+        "relatedNewsIds": [
+          "caf0641846bc20fd"
+        ]
+      },
+      {
+        "action": "ต่อยอดโอกาสจากข่าว: [EN] Toyota, Honda, Hyundai, Kia ride hybrids, retail demand to October gains",
+        "owner": "B2B Sales & Marketing",
+        "priority": "medium",
+        "deadline": "within_7_days",
+        "reason": "ตลาดรถยนต์เติบโต = ปริมาณรถเข้าศูนย์เพิ่ม",
+        "relatedNewsIds": [
+          "1a1c00ee30ef0a67"
+        ]
+      }
+    ],
+    "actionsToMonitor": [
+      {
+        "action": "ติดตามความเคลื่อนไหวของ Air Klean",
+        "owner": "Business Development",
+        "priority": "medium",
+        "deadline": "monitor",
+        "reason": "ความเคลื่อนไหวของคู่แข่งอาจกระทบส่วนแบ่งตลาด",
+        "relatedNewsIds": [
+          "142e2dd64e103c2a"
+        ]
+      }
+    ],
+    "okrAssessment": {
+      "O1": "สัญญาณวันนี้สนับสนุนเป้าหมายรายได้รวม +15% YoY",
+      "O2": "ข่าวที่เกี่ยวกับช่องทางนอก Toyota OEM มี 2 รายการ",
+      "benefitingChannels": [
+        "OEM"
+      ],
+      "atRiskChannels": [
+        "OEM"
+      ],
+      "prioritisationNote": "ควรตรวจสอบด้วย AI Analysis เพื่อความแม่นยำ"
+    },
+    "ceoQuestions": [
+      "ข่าววันนี้มีรายการใดที่ควรเปลี่ยนลำดับความสำคัญของแผนการขายหรือไม่",
+      "มีลูกค้ารายใดที่ควรเข้าไปติดต่อทันทีจากสัญญาณที่พบ"
+    ]
+  },
+  "items": [
+    {
+      "title": "แอร์รถยนต์มีกลิ่นอับ? ลองดูโฟมล้างแอร์ตัวนี้!#ตีตี้รีวิว #VISBELLA #โฟมล้างแอร์ #น้ำยาล้างแอร์รถยนต์",
+      "link": "https://www.youtube.com/watch?v=1sX_vsXa0D4",
+      "snippet": "แอร์รถยนต์มีกลิ่นอับ? ลองดูโฟมล้างแอร์ตัวนี้! VISBELLA Auto Air Conditioner Cleaner 450ml ... (ช่อง: ตีตี้_รีวิว) · ยอดวิว 160 ครั้ง",
+      "publishedAt": "2026-11-02T02:00:34.000Z",
+      "sourceId": "youtube",
+      "sourceName": "YouTube · ตีตี้_รีวิว",
+      "sourceTier": 3,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": true,
+      "itemKind": "social",
+      "id": "caf0641846bc20fd",
+      "canonicalUrl": "https://youtube.com/watch?v=1sX_vsXa0D4",
+      "contentHash": "adabd9f8647c8d82d96de33e",
+      "collectedAt": "2026-11-04T07:10:48.078Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 25,
+      "matchedCategories": [
+        "AC_CLEANING"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "แอร์รถยนต์มีกลิ่นอับ? ลองดูโฟมล้างแอร์ตัวนี้!#ตีตี้รีวิว #VISBELLA #โฟมล้างแอร์ #น้ำยาล้างแอร์รถยนต์",
+      "shortSummaryTh": "แอร์รถยนต์มีกลิ่นอับ? ลองดูโฟมล้างแอร์ตัวนี้! VISBELLA Auto Air Conditioner Cleaner 450ml ... (ช่อง: ตีตี้_รีวิว) · ยอดวิว 160 ครั้ง",
+      "classification": "positive",
+      "impactScore": 3,
+      "confidence": 46,
+      "relevanceScore": 90,
+      "newsCategory": "AC_CLEANING",
+      "affectedChannels": [],
+      "affectedProducts": [
+        "AC_CLEANING",
+        "TRADING"
+      ],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "positive",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [
+        "ปัญหากลิ่น/เชื้อราในรถ = ความต้องการบริการหลักของ Air4",
+        "เกี่ยวข้องกับบริการหลักโดยตรง"
+      ],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "แหล่งข่าว Tier 3 — ข้อมูลยังต้องตรวจสอบ"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "high",
+          "deadline": "today"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://youtube.com/watch?v=1sX_vsXa0D4",
+      "titleOriginal": "แอร์รถยนต์มีกลิ่นอับ? ลองดูโฟมล้างแอร์ตัวนี้!#ตีตี้รีวิว #VISBELLA #โฟมล้างแอร์ #น้ำยาล้างแอร์รถยนต์",
+      "originalSnippet": "แอร์รถยนต์มีกลิ่นอับ? ลองดูโฟมล้างแอร์ตัวนี้! VISBELLA Auto Air Conditioner Cleaner 450ml ... (ช่อง: ตีตี้_รีวิว) · ยอดวิว 160 ครั้ง"
+    },
+    {
+      "title": "Hyundai Motor Resists EV Price War, Betting on Financing and Service Against Tesla and Chinese Rivals - 인사이트코리아",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5uNnZhc044TzBycUw5STlmYmVWWGFCVEV2c1RGTm0teFJiXzBVNjc3Y29BbUpCdVNGNGR2TWN2aG1ic3hQY2czSzF1amNJeWFrdXg0Y0t5RHhPeVYzd2dTenFhZXBJQ19xNjdQeDhHM1A3LVZST0ow0gF3QVVfeXFMTm42dmFzTjhPMHJxTDlJOWZiZVZYYUJURXZzVEZObS14UmJfMFU2Nzdjb0FtSkJ1U0Y0ZHZNY3ZobWJzeFBjZzNLMXVqY0l5YWt1eDRjS3lEeE95VjN3Z1N6cWFlcElDX3E2N1B4OEczUDctVlJPSjA?oc=5",
+      "snippet": "Hyundai Motor Resists EV Price War, Betting on Financing and Service Against Tesla and Chinese Rivals 인사이트코리아",
+      "publishedAt": "2026-11-02T07:19:57.000Z",
+      "sourceId": "google-news:en-SG",
+      "sourceName": "인사이트코리아",
+      "sourceTier": 2,
+      "sourceCountry": "SG",
+      "language": "en",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "629d022173acbcb9",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5uNnZhc044TzBycUw5STlmYmVWWGFCVEV2c1RGTm0teFJiXzBVNjc3Y29BbUpCdVNGNGR2TWN2aG1ic3hQY2czSzF1amNJeWFrdXg0Y0t5RHhPeVYzd2dTenFhZXBJQ19xNjdQeDhHM1A3LVZST0ow0gF3QVVfeXFMTm42dmFzTjhPMHJxTDlJOWZiZVZYYUJURXZzVEZObS14UmJfMFU2Nzdjb0FtSkJ1U0Y0ZHZNY3ZobWJzeFBjZzNLMXVqY0l5YWt1eDRjS3lEeE95VjN3Z1N6cWFlcElDX3E2N1B4OEczUDctVlJPSjA",
+      "contentHash": "52c78e6b0853961035a108f5",
+      "collectedAt": "2026-11-04T07:10:48.078Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 9,
+      "matchedCategories": [
+        "OEM_BRANDS",
+        "INTERNATIONAL"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [
+        "Tesla",
+        "Hyundai"
+      ],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "[EN] Hyundai Motor Resists EV Price War, Betting on Financing and Service Against Tesla and Chinese Rivals - 인사이트코리아",
+      "shortSummaryTh": "Hyundai Motor Resists EV Price War, Betting on Financing and Service Against Tesla and Chinese Rivals 인사이트코리아",
+      "classification": "negative",
+      "impactScore": -3,
+      "confidence": 48,
+      "relevanceScore": 40,
+      "newsCategory": "EV",
+      "affectedChannels": [
+        "OEM"
+      ],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "SG"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "negative",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [
+        "รถ EV ยังต้องล้างแอร์ และเจ้าของ EV ใส่ใจคุณภาพอากาศในห้องโดยสารสูง"
+      ],
+      "negativeImpacts": [
+        "แรงกดดันด้านราคา กระทบมาร์จิ้น",
+        "EV ไม่มีหัวฉีดน้ำมัน = ความต้องการ Power Flow ลดลงในระยะยาว"
+      ],
+      "reasoningSummary": [
+        "ข่าว EV: ผลบวกต่อ AC_CLEANING หักลบผลลบต่อ POWER_FLOW → ประเมินผลสุทธิ"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "high",
+          "deadline": "today"
+        }
+      ],
+      "timeHorizon": "long-term",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5uNnZhc044TzBycUw5STlmYmVWWGFCVEV2c1RGTm0teFJiXzBVNjc3Y29BbUpCdVNGNGR2TWN2aG1ic3hQY2czSzF1amNJeWFrdXg0Y0t5RHhPeVYzd2dTenFhZXBJQ19xNjdQeDhHM1A3LVZST0ow0gF3QVVfeXFMTm42dmFzTjhPMHJxTDlJOWZiZVZYYUJURXZzVEZObS14UmJfMFU2Nzdjb0FtSkJ1U0Y0ZHZNY3ZobWJzeFBjZzNLMXVqY0l5YWt1eDRjS3lEeE95VjN3Z1N6cWFlcElDX3E2N1B4OEczUDctVlJPSjA",
+      "titleOriginal": "Hyundai Motor Resists EV Price War, Betting on Financing and Service Against Tesla and Chinese Rivals - 인사이트코리아",
+      "originalSnippet": "Hyundai Motor Resists EV Price War, Betting on Financing and Service Against Tesla and Chinese Rivals 인사이트코리아"
+    },
+    {
+      "title": "Toyota, Honda, Hyundai, Kia ride hybrids, retail demand to October gains",
+      "link": "https://www.autonews.com/retail/sales/an-october-us-auto-sales-2026-1103/",
+      "snippet": "The U.S. new-vehicle market is expected to rise 3.9 to 7.2 percent, helped by an extra selling day and a favorable comparison with October 2025.",
+      "publishedAt": "2026-11-03T15:55:18.000Z",
+      "sourceId": "automotive-news",
+      "sourceName": "Automotive News",
+      "sourceTier": 2,
+      "sourceCountry": "GLOBAL",
+      "language": "en",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "1a1c00ee30ef0a67",
+      "canonicalUrl": "https://autonews.com/retail/sales/an-october-us-auto-sales-2026-1103",
+      "contentHash": "7bc84b51df07f9b3647f9f54",
+      "collectedAt": "2026-11-04T07:10:48.078Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 14,
+      "matchedCategories": [
+        "OEM_BRANDS"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [
+        "Toyota",
+        "Honda",
+        "Hyundai",
+        "Kia"
+      ],
+      "hasAutomotiveContext": true,
+      "duplicateGroupId": "d6ee48d06ac9c3cb",
+      "relatedCoverage": [],
+      "titleTh": "[EN] Toyota, Honda, Hyundai, Kia ride hybrids, retail demand to October gains",
+      "shortSummaryTh": "The U.S. new-vehicle market is expected to rise 3.9 to 7.2 percent, helped by an extra selling day and a favorable comparison with October 2025.",
+      "classification": "positive",
+      "impactScore": 2,
+      "confidence": 58,
+      "relevanceScore": 55,
+      "newsCategory": "OEM_BRANDS",
+      "affectedChannels": [
+        "OEM"
+      ],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "Global"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "positive",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [
+        "ตลาดรถยนต์เติบโต = ปริมาณรถเข้าศูนย์เพิ่ม"
+      ],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "วิเคราะห์ด้วยกฎอัตโนมัติ (ไม่ได้ใช้ AI)"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://autonews.com/retail/sales/an-october-us-auto-sales-2026-1103",
+      "titleOriginal": "Toyota, Honda, Hyundai, Kia ride hybrids, retail demand to October gains",
+      "originalSnippet": "The U.S. new-vehicle market is expected to rise 3.9 to 7.2 percent, helped by an extra selling day and a favorable comparison with October 2025."
+    },
+    {
+      "title": "THE STANDARD WEALTH. . ยอดผลิตรถหดตัว 1 ล้านคันจากปีก่อน เก็บภาษีนำเข้า EV อาจเอาไม่อยู่ | Morning Wealth 3 พ.ย. 69 . ทำไม ttb analytics มองการเก็บภาษีนำเข้ารถยนต์ไฟฟ้า 30% ‘ยังไม่เพียงพอ’ หลังยอดผลิตรถในไทยร่วงหนักจากปีละ 2.5 เหลือ 1.5 ล้านคัน . เจาะเงื่อนไขโ - Facebook",
+      "link": "https://news.google.com/rss/articles/CBMizAZBVV95cUxOMVBsei1fMUViSDV5RGF6S2txdS1iVnhmQUx2c3g3NVBYVkhTUlBIWlBwNjVSODIwRWp1eDhQUTlVVFAwbk5CTUg5WUQwd3E0dGViWnc4ZXJWVG00NkVhdUFucnhUSTlzN21pRjNRZ1BYN1FiLVhEZXhTNGFQdlhGRHUtblh6MlkwQlFtUVB1Yi1vMll1dlVpcmJYdkp0SUFXdjRFSG5PbUU0OXRBcC1ucDEyX2tyZ0s3Q3BlMHdOUWNjcWcyZnFocmZBbVIzRTh2RjFRT3NiQ3pHcEprd2t5ZFYyRnVhb3VmdlE1V3FxQnlXNEJlWnpUQkJXMVVPZWp6R1RldExlenpmOFdFajlNM2lYR3Y1b0hlczN1WGtJWUFKakllMVA3M3M5TUQxVTMwSENQNEs5akZSbVZudUZScU9MODM4eUZScEQ4c3ZpSUZ1TU9teWxMTmcyYXJBTzFiTVBCS3gtUkN1cVdsTDZDLV9CcTBkaTlUTTdLeEtjMzhwZjdwVGIyNWV0Vzk0cjNYQ0VLS1hZZHZBT01vYVVNTTJCUFg3al9hWW1JdThiWVFHZEJCTGdna3VJZk5VcTlNSkx6S05lN2Q2Z04weUFpMlZQNlRXZlJfQ095RU44X0NTU04xR1lTTTl2QXI2dzhLNVpaQzZMYnRveUxfcDRDLXlTdkV0RmY2dXI0QllhYTZxWXlCWTF2ZTE2blZYUDBkUXg3REN1MnpKcW54UzBuZDZnd0lnbUhyMlB5TXozWkVxOGlRSUdJVkhaLXJnRXVUWFdrUGZiUmlwU2s5WnpzU2VSVHVsXzQ2OUdYLURWdUNLbTJQTzJVQjdSb1JQWEotSDNHMUF4NGxRWjN2Slp1X1BwbEVRZk45TDV1cTZqNUtPdkRyZU1jSVV6dEZXN3B6dkdZU3FQUHRDcHl2NVpHOEtJUGtJYVlPN0lXcVRfT3J6SXpla0Frdjk3OTIteEdpS0pWYVRfUGdOV2ZoQUZfalB1RHZYWFRsRTFVN0hmcjJsMFEzWHhaVjE4Wl94M205X1pTUWh5ZV9YeExibTNTR3ZSZGs5bkpVMnRkVGQ1TmVSSVp4eE0tbXBrRHZZSEx0dEV4Ym1OYllCSDRo?oc=5",
+      "snippet": "THE STANDARD WEALTH. . ยอดผลิตรถหดตัว 1 ล้านคันจากปีก่อน เก็บภาษีนำเข้า EV อาจเอาไม่อยู่ | Morning Wealth 3 พ.ย. 69 . ทำไม ttb analytics มองการเก็บภาษีนำเข้ารถยนต์ไฟฟ้า 30% ‘ยังไม่เพียงพอ’ หลังยอดผลิตรถในไทยร่วงหนักจากปีละ 2.5 เหลือ 1.5 ล้านคัน . เจาะเงื่อนไขโ Facebook",
+      "publishedAt": "2026-11-03T00:01:07.000Z",
+      "sourceId": "google-news:th-TH",
+      "sourceName": "Facebook",
+      "sourceTier": 2,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "281c4415e138a79d",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMizAZBVV95cUxOMVBsei1fMUViSDV5RGF6S2txdS1iVnhmQUx2c3g3NVBYVkhTUlBIWlBwNjVSODIwRWp1eDhQUTlVVFAwbk5CTUg5WUQwd3E0dGViWnc4ZXJWVG00NkVhdUFucnhUSTlzN21pRjNRZ1BYN1FiLVhEZXhTNGFQdlhGRHUtblh6MlkwQlFtUVB1Yi1vMll1dlVpcmJYdkp0SUFXdjRFSG5PbUU0OXRBcC1ucDEyX2tyZ0s3Q3BlMHdOUWNjcWcyZnFocmZBbVIzRTh2RjFRT3NiQ3pHcEprd2t5ZFYyRnVhb3VmdlE1V3FxQnlXNEJlWnpUQkJXMVVPZWp6R1RldExlenpmOFdFajlNM2lYR3Y1b0hlczN1WGtJWUFKakllMVA3M3M5TUQxVTMwSENQNEs5akZSbVZudUZScU9MODM4eUZScEQ4c3ZpSUZ1TU9teWxMTmcyYXJBTzFiTVBCS3gtUkN1cVdsTDZDLV9CcTBkaTlUTTdLeEtjMzhwZjdwVGIyNWV0Vzk0cjNYQ0VLS1hZZHZBT01vYVVNTTJCUFg3al9hWW1JdThiWVFHZEJCTGdna3VJZk5VcTlNSkx6S05lN2Q2Z04weUFpMlZQNlRXZlJfQ095RU44X0NTU04xR1lTTTl2QXI2dzhLNVpaQzZMYnRveUxfcDRDLXlTdkV0RmY2dXI0QllhYTZxWXlCWTF2ZTE2blZYUDBkUXg3REN1MnpKcW54UzBuZDZnd0lnbUhyMlB5TXozWkVxOGlRSUdJVkhaLXJnRXVUWFdrUGZiUmlwU2s5WnpzU2VSVHVsXzQ2OUdYLURWdUNLbTJQTzJVQjdSb1JQWEotSDNHMUF4NGxRWjN2Slp1X1BwbEVRZk45TDV1cTZqNUtPdkRyZU1jSVV6dEZXN3B6dkdZU3FQUHRDcHl2NVpHOEtJUGtJYVlPN0lXcVRfT3J6SXpla0Frdjk3OTIteEdpS0pWYVRfUGdOV2ZoQUZfalB1RHZYWFRsRTFVN0hmcjJsMFEzWHhaVjE4Wl94M205X1pTUWh5ZV9YeExibTNTR3ZSZGs5bkpVMnRkVGQ1TmVSSVp4eE0tbXBrRHZZSEx0dEV4Ym1OYllCSDRo",
+      "contentHash": "edac59d0de4d9914bf2321d5",
+      "collectedAt": "2026-11-04T07:10:48.078Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 16,
+      "matchedCategories": [
+        "AUTO_MARKET",
+        "EV",
+        "INTERNATIONAL"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [],
+      "hasAutomotiveContext": true,
+      "duplicateGroupId": "281c4415e138a79d",
+      "relatedCoverage": [],
+      "titleTh": "THE STANDARD WEALTH. . ยอดผลิตรถหดตัว 1 ล้านคันจากปีก่อน เก็บภาษีนำเข้า EV อาจเอาไม่อยู่ | Morning Wealth 3 พ.ย. 69 . ทำไม ttb analytics มองการเก็บภาษีนำเข้ารถยนต์ไฟฟ้า 30% ‘ยังไม่เพียงพอ’ หลังยอดผลิตรถในไทยร่วงหนักจากปีละ 2.5 เหลือ 1.5 ล้านคัน . เจาะเงื่อนไขโ - Facebook",
+      "shortSummaryTh": "THE STANDARD WEALTH. . ยอดผลิตรถหดตัว 1 ล้านคันจากปีก่อน เก็บภาษีนำเข้า EV อาจเอาไม่อยู่ | Morning Wealth 3 พ.ย. 69 . ทำไม ttb analytics มองการเก็บภาษีนำเข้ารถยนต์ไฟฟ้า 30% ‘ยังไม่เพียงพอ’ หลังยอดผลิตรถในไทยร่วงหนักจากปีละ 2.5 เหลือ 1.5 ล้านคัน . เจาะเงื่อนไขโ Facebook",
+      "classification": "negative",
+      "impactScore": -2,
+      "confidence": 53,
+      "relevanceScore": 62,
+      "newsCategory": "EV",
+      "affectedChannels": [],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "negative",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [
+        "รถ EV ยังต้องล้างแอร์ และเจ้าของ EV ใส่ใจคุณภาพอากาศในห้องโดยสารสูง"
+      ],
+      "negativeImpacts": [
+        "ตลาดหดตัว = ปริมาณรถเข้าศูนย์ลดลง",
+        "EV ไม่มีหัวฉีดน้ำมัน = ความต้องการ Power Flow ลดลงในระยะยาว"
+      ],
+      "reasoningSummary": [
+        "ข่าว EV: ผลบวกต่อ AC_CLEANING หักลบผลลบต่อ POWER_FLOW → ประเมินผลสุทธิ"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "long-term",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizAZBVV95cUxOMVBsei1fMUViSDV5RGF6S2txdS1iVnhmQUx2c3g3NVBYVkhTUlBIWlBwNjVSODIwRWp1eDhQUTlVVFAwbk5CTUg5WUQwd3E0dGViWnc4ZXJWVG00NkVhdUFucnhUSTlzN21pRjNRZ1BYN1FiLVhEZXhTNGFQdlhGRHUtblh6MlkwQlFtUVB1Yi1vMll1dlVpcmJYdkp0SUFXdjRFSG5PbUU0OXRBcC1ucDEyX2tyZ0s3Q3BlMHdOUWNjcWcyZnFocmZBbVIzRTh2RjFRT3NiQ3pHcEprd2t5ZFYyRnVhb3VmdlE1V3FxQnlXNEJlWnpUQkJXMVVPZWp6R1RldExlenpmOFdFajlNM2lYR3Y1b0hlczN1WGtJWUFKakllMVA3M3M5TUQxVTMwSENQNEs5akZSbVZudUZScU9MODM4eUZScEQ4c3ZpSUZ1TU9teWxMTmcyYXJBTzFiTVBCS3gtUkN1cVdsTDZDLV9CcTBkaTlUTTdLeEtjMzhwZjdwVGIyNWV0Vzk0cjNYQ0VLS1hZZHZBT01vYVVNTTJCUFg3al9hWW1JdThiWVFHZEJCTGdna3VJZk5VcTlNSkx6S05lN2Q2Z04weUFpMlZQNlRXZlJfQ095RU44X0NTU04xR1lTTTl2QXI2dzhLNVpaQzZMYnRveUxfcDRDLXlTdkV0RmY2dXI0QllhYTZxWXlCWTF2ZTE2blZYUDBkUXg3REN1MnpKcW54UzBuZDZnd0lnbUhyMlB5TXozWkVxOGlRSUdJVkhaLXJnRXVUWFdrUGZiUmlwU2s5WnpzU2VSVHVsXzQ2OUdYLURWdUNLbTJQTzJVQjdSb1JQWEotSDNHMUF4NGxRWjN2Slp1X1BwbEVRZk45TDV1cTZqNUtPdkRyZU1jSVV6dEZXN3B6dkdZU3FQUHRDcHl2NVpHOEtJUGtJYVlPN0lXcVRfT3J6SXpla0Frdjk3OTIteEdpS0pWYVRfUGdOV2ZoQUZfalB1RHZYWFRsRTFVN0hmcjJsMFEzWHhaVjE4Wl94M205X1pTUWh5ZV9YeExibTNTR3ZSZGs5bkpVMnRkVGQ1TmVSSVp4eE0tbXBrRHZZSEx0dEV4Ym1OYllCSDRo",
+      "titleOriginal": "THE STANDARD WEALTH. . ยอดผลิตรถหดตัว 1 ล้านคันจากปีก่อน เก็บภาษีนำเข้า EV อาจเอาไม่อยู่ | Morning Wealth 3 พ.ย. 69 . ทำไม ttb analytics มองการเก็บภาษีนำเข้ารถยนต์ไฟฟ้า 30% ‘ยังไม่เพียงพอ’ หลังยอดผลิตรถในไทยร่วงหนักจากปีละ 2.5 เหลือ 1.5 ล้านคัน . เจาะเงื่อนไขโ - Facebook",
+      "originalSnippet": "THE STANDARD WEALTH. . ยอดผลิตรถหดตัว 1 ล้านคันจากปีก่อน เก็บภาษีนำเข้า EV อาจเอาไม่อยู่ | Morning Wealth 3 พ.ย. 69 . ทำไม ttb analytics มองการเก็บภาษีนำเข้ารถยนต์ไฟฟ้า 30% ‘ยังไม่เพียงพอ’ หลังยอดผลิตรถในไทยร่วงหนักจากปีละ 2.5 เหลือ 1.5 ล้านคัน . เจาะเงื่อนไขโ Facebook"
+    },
+    {
+      "title": "SCB EIC ชี้ตลาดยานยนต์ไทยปี 2570 ฟื้นตัวแบบ K-Shaped โดยยอดขายรวมคาดโต 6.6% แตะ 7.3 แสนคัน นำโดยกลุ่ม xEV ที่กวาดส่วนแบ่งตลาดถึง 64% สวนทางกับรถกระบะและสันดาปที่ซบเซาหนัก ขณะที่ยอดผลิตรวมจะแตะ 1.5 ล้านคันสูงสุดในรอบ 4 ปี ขณะเดียวกัน SCB EIC เตือนผู้ป - Facebook",
+      "link": "https://news.google.com/rss/articles/CBMi6wVBVV95cUxQREtFWG42VmdZN0VMcjEtXzRHMmsyeWo3UFdsM3VYNEVwUzFoak16QmcyZDNFT0QzM1ZWdGJiU2g2RDBBTlEwV3pzTTdnTzlybUJIejFkOE5GN0tSbUI0MDlrSi1aZnU3SnB1YzRIaGxnSkFQMGRhVkNGd0Y5SXhRTVY4aGFNZlFTQ2g2Rmk4RVRnQWFlVk5GeU5VblZhWUZ3bVFFYlhUNzhWdkFkaVFpX3VGRFFpZ080dnVUNWVxTWhHX1Ztdmh4VHNQaVlMVjNoQXY4UTlQQ0ZnMnRKXzRWZWFvMmw3TEZzNnJHT1hNQVZLVER6amppU3VOdHplalpWR1dSUGVLZGlCNHphOVdNUldFNnBxZ0w0V29JVlNOVXJzMUJJNHJHNmhTMU1EdjI4WlBsZU0zMGNsQlAxZkhDZWg3ODY0Y1UxbUhYZW9pbDdzTkpLSDFQNDdIVFVvSS1pTFYwYWR5dW5OZ19LbWVkNkNyWkJoRUFhZFB5X0J6UWtQWHJPLXNiSTZqT2FXY3hFVWFvcHRMV0JVcmNsQkItZW1CM2szM1hyMXpEbm5NRkVpZm5XT0dUWXVZa0dkUzl1aEpwaFc1V1liQVo0Z0d0SmJrMmNvSVlqUmk3NzB0Z1k5Z0FTcHk5UlBEQ18xYnFIYnVETUd1SHd2VmRZSDA4S2ZUOGxPeFZsZENQUlM4dU42TzJ3NHVuRzZBOFU3NnhQLXNoRm9SN3lRWDVfUFhNUUpYQ1JpbkkwaEFQUVpHRU12dlg5MkVSMVZrX29sSlBrRjByV1RNX0VwaDh1SUdyOHVER2tZODRHNE0yS2hqUkNyZk5JT1JLbGVacjRoMW9SZVR3V0dqVUwyUjBoTzlyZUxlRDJrLURkclNyZ2RVYk1VUHFxQjJVT3RKLUtlbFJGZUp1dm1mRzZTOS1WU1F2VUpqemEyUkxuZUpSRHE2VWVrdXVxTlRpNmJYN0V3S3hRV1pVdHJwR3BEN0U?oc=5",
+      "snippet": "SCB EIC ชี้ตลาดยานยนต์ไทยปี 2570 ฟื้นตัวแบบ K-Shaped โดยยอดขายรวมคาดโต 6.6% แตะ 7.3 แสนคัน นำโดยกลุ่ม xEV ที่กวาดส่วนแบ่งตลาดถึง 64% สวนทางกับรถกระบะและสันดาปที่ซบเซาหนัก ขณะที่ยอดผลิตรวมจะแตะ 1.5 ล้านคันสูงสุดในรอบ 4 ปี ขณะเดียวกัน SCB EIC เตือนผู้ป Facebook",
+      "publishedAt": "2026-11-02T07:41:26.000Z",
+      "sourceId": "google-news:th-TH",
+      "sourceName": "Facebook",
+      "sourceTier": 2,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "da73283e4236be54",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMi6wVBVV95cUxQREtFWG42VmdZN0VMcjEtXzRHMmsyeWo3UFdsM3VYNEVwUzFoak16QmcyZDNFT0QzM1ZWdGJiU2g2RDBBTlEwV3pzTTdnTzlybUJIejFkOE5GN0tSbUI0MDlrSi1aZnU3SnB1YzRIaGxnSkFQMGRhVkNGd0Y5SXhRTVY4aGFNZlFTQ2g2Rmk4RVRnQWFlVk5GeU5VblZhWUZ3bVFFYlhUNzhWdkFkaVFpX3VGRFFpZ080dnVUNWVxTWhHX1Ztdmh4VHNQaVlMVjNoQXY4UTlQQ0ZnMnRKXzRWZWFvMmw3TEZzNnJHT1hNQVZLVER6amppU3VOdHplalpWR1dSUGVLZGlCNHphOVdNUldFNnBxZ0w0V29JVlNOVXJzMUJJNHJHNmhTMU1EdjI4WlBsZU0zMGNsQlAxZkhDZWg3ODY0Y1UxbUhYZW9pbDdzTkpLSDFQNDdIVFVvSS1pTFYwYWR5dW5OZ19LbWVkNkNyWkJoRUFhZFB5X0J6UWtQWHJPLXNiSTZqT2FXY3hFVWFvcHRMV0JVcmNsQkItZW1CM2szM1hyMXpEbm5NRkVpZm5XT0dUWXVZa0dkUzl1aEpwaFc1V1liQVo0Z0d0SmJrMmNvSVlqUmk3NzB0Z1k5Z0FTcHk5UlBEQ18xYnFIYnVETUd1SHd2VmRZSDA4S2ZUOGxPeFZsZENQUlM4dU42TzJ3NHVuRzZBOFU3NnhQLXNoRm9SN3lRWDVfUFhNUUpYQ1JpbkkwaEFQUVpHRU12dlg5MkVSMVZrX29sSlBrRjByV1RNX0VwaDh1SUdyOHVER2tZODRHNE0yS2hqUkNyZk5JT1JLbGVacjRoMW9SZVR3V0dqVUwyUjBoTzlyZUxlRDJrLURkclNyZ2RVYk1VUHFxQjJVT3RKLUtlbFJGZUp1dm1mRzZTOS1WU1F2VUpqemEyUkxuZUpSRHE2VWVrdXVxTlRpNmJYN0V3S3hRV1pVdHJwR3BEN0U",
+      "contentHash": "224ffeeb5a2762507f71455c",
+      "collectedAt": "2026-11-04T07:10:48.078Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 10,
+      "matchedCategories": [
+        "AUTO_MARKET",
+        "INTERNATIONAL"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "SCB EIC ชี้ตลาดยานยนต์ไทยปี 2570 ฟื้นตัวแบบ K-Shaped โดยยอดขายรวมคาดโต 6.6% แตะ 7.3 แสนคัน นำโดยกลุ่ม xEV ที่กวาดส่วนแบ่งตลาดถึง 64% สวนทางกับรถกระบะและสันดาปที่ซบเซาหนัก ขณะที่ยอดผลิตรวมจะแตะ 1.5 ล้านคันสูงสุดในรอบ 4 ปี ขณะเดียวกัน SCB EIC เตือนผู้ป - Facebook",
+      "shortSummaryTh": "SCB EIC ชี้ตลาดยานยนต์ไทยปี 2570 ฟื้นตัวแบบ K-Shaped โดยยอดขายรวมคาดโต 6.6% แตะ 7.3 แสนคัน นำโดยกลุ่ม xEV ที่กวาดส่วนแบ่งตลาดถึง 64% สวนทางกับรถกระบะและสันดาปที่ซบเซาหนัก ขณะที่ยอดผลิตรวมจะแตะ 1.5 ล้านคันสูงสุดในรอบ 4 ปี ขณะเดียวกัน SCB EIC เตือนผู้ป Facebook",
+      "classification": "positive",
+      "impactScore": 2,
+      "confidence": 58,
+      "relevanceScore": 43,
+      "newsCategory": "AUTO_MARKET",
+      "affectedChannels": [],
+      "affectedProducts": [
+        "POWER_FLOW"
+      ],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "positive",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [
+        "ตลาดรถยนต์เติบโต = ปริมาณรถเข้าศูนย์เพิ่ม"
+      ],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "วิเคราะห์ด้วยกฎอัตโนมัติ (ไม่ได้ใช้ AI)"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi6wVBVV95cUxQREtFWG42VmdZN0VMcjEtXzRHMmsyeWo3UFdsM3VYNEVwUzFoak16QmcyZDNFT0QzM1ZWdGJiU2g2RDBBTlEwV3pzTTdnTzlybUJIejFkOE5GN0tSbUI0MDlrSi1aZnU3SnB1YzRIaGxnSkFQMGRhVkNGd0Y5SXhRTVY4aGFNZlFTQ2g2Rmk4RVRnQWFlVk5GeU5VblZhWUZ3bVFFYlhUNzhWdkFkaVFpX3VGRFFpZ080dnVUNWVxTWhHX1Ztdmh4VHNQaVlMVjNoQXY4UTlQQ0ZnMnRKXzRWZWFvMmw3TEZzNnJHT1hNQVZLVER6amppU3VOdHplalpWR1dSUGVLZGlCNHphOVdNUldFNnBxZ0w0V29JVlNOVXJzMUJJNHJHNmhTMU1EdjI4WlBsZU0zMGNsQlAxZkhDZWg3ODY0Y1UxbUhYZW9pbDdzTkpLSDFQNDdIVFVvSS1pTFYwYWR5dW5OZ19LbWVkNkNyWkJoRUFhZFB5X0J6UWtQWHJPLXNiSTZqT2FXY3hFVWFvcHRMV0JVcmNsQkItZW1CM2szM1hyMXpEbm5NRkVpZm5XT0dUWXVZa0dkUzl1aEpwaFc1V1liQVo0Z0d0SmJrMmNvSVlqUmk3NzB0Z1k5Z0FTcHk5UlBEQ18xYnFIYnVETUd1SHd2VmRZSDA4S2ZUOGxPeFZsZENQUlM4dU42TzJ3NHVuRzZBOFU3NnhQLXNoRm9SN3lRWDVfUFhNUUpYQ1JpbkkwaEFQUVpHRU12dlg5MkVSMVZrX29sSlBrRjByV1RNX0VwaDh1SUdyOHVER2tZODRHNE0yS2hqUkNyZk5JT1JLbGVacjRoMW9SZVR3V0dqVUwyUjBoTzlyZUxlRDJrLURkclNyZ2RVYk1VUHFxQjJVT3RKLUtlbFJGZUp1dm1mRzZTOS1WU1F2VUpqemEyUkxuZUpSRHE2VWVrdXVxTlRpNmJYN0V3S3hRV1pVdHJwR3BEN0U",
+      "titleOriginal": "SCB EIC ชี้ตลาดยานยนต์ไทยปี 2570 ฟื้นตัวแบบ K-Shaped โดยยอดขายรวมคาดโต 6.6% แตะ 7.3 แสนคัน นำโดยกลุ่ม xEV ที่กวาดส่วนแบ่งตลาดถึง 64% สวนทางกับรถกระบะและสันดาปที่ซบเซาหนัก ขณะที่ยอดผลิตรวมจะแตะ 1.5 ล้านคันสูงสุดในรอบ 4 ปี ขณะเดียวกัน SCB EIC เตือนผู้ป - Facebook",
+      "originalSnippet": "SCB EIC ชี้ตลาดยานยนต์ไทยปี 2570 ฟื้นตัวแบบ K-Shaped โดยยอดขายรวมคาดโต 6.6% แตะ 7.3 แสนคัน นำโดยกลุ่ม xEV ที่กวาดส่วนแบ่งตลาดถึง 64% สวนทางกับรถกระบะและสันดาปที่ซบเซาหนัก ขณะที่ยอดผลิตรวมจะแตะ 1.5 ล้านคันสูงสุดในรอบ 4 ปี ขณะเดียวกัน SCB EIC เตือนผู้ป Facebook"
+    },
+    {
+      "title": "วิทีถอดล้างออยเย็นฮุนไดh1#WT #ล้างแอร์รถยนต์ #ล้างคอยล์เย็น #HyundaiH1 #แอร์รถยนต์ลมเบา",
+      "link": "https://www.youtube.com/watch?v=VJNxfwUCaHM",
+      "snippet": "เนื้อหาภายในคลิป ✓ สาเหตุที่ทำให้แอร์รถยนต์ลมเบา ✓ วิธีตรวจสอบกรองแอร์และมอเตอร์โบลเวอร์ ... (ช่อง: Wt.) · ยอดวิว 2 ครั้ง",
+      "publishedAt": "2026-11-04T01:53:18.000Z",
+      "sourceId": "youtube",
+      "sourceName": "YouTube · Wt.",
+      "sourceTier": 3,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": true,
+      "itemKind": "social",
+      "id": "4fd0639083eefd7b",
+      "canonicalUrl": "https://youtube.com/watch?v=VJNxfwUCaHM",
+      "contentHash": "898e5d860152a8c05e470145",
+      "collectedAt": "2026-11-04T07:10:48.078Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 35,
+      "matchedCategories": [
+        "AC_CLEANING",
+        "OEM_BRANDS"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [
+        "Hyundai"
+      ],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "วิทีถอดล้างออยเย็นฮุนไดh1#WT #ล้างแอร์รถยนต์ #ล้างคอยล์เย็น #HyundaiH1 #แอร์รถยนต์ลมเบา",
+      "shortSummaryTh": "เนื้อหาภายในคลิป ✓ สาเหตุที่ทำให้แอร์รถยนต์ลมเบา ✓ วิธีตรวจสอบกรองแอร์และมอเตอร์โบลเวอร์ ... (ช่อง: Wt.) · ยอดวิว 2 ครั้ง",
+      "classification": "neutral",
+      "impactScore": 1,
+      "confidence": 46,
+      "relevanceScore": 100,
+      "newsCategory": "AC_CLEANING",
+      "affectedChannels": [
+        "OEM"
+      ],
+      "affectedProducts": [
+        "AC_CLEANING"
+      ],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [
+        "เกี่ยวข้องกับบริการหลักโดยตรง"
+      ],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "แหล่งข่าว Tier 3 — ข้อมูลยังต้องตรวจสอบ"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://youtube.com/watch?v=VJNxfwUCaHM",
+      "titleOriginal": "วิทีถอดล้างออยเย็นฮุนไดh1#WT #ล้างแอร์รถยนต์ #ล้างคอยล์เย็น #HyundaiH1 #แอร์รถยนต์ลมเบา",
+      "originalSnippet": "เนื้อหาภายในคลิป ✓ สาเหตุที่ทำให้แอร์รถยนต์ลมเบา ✓ วิธีตรวจสอบกรองแอร์และมอเตอร์โบลเวอร์ ... (ช่อง: Wt.) · ยอดวิว 2 ครั้ง"
+    },
+    {
+      "title": "ส.อ.ท.มั่นใจขึ้นภาษี EV นำเข้า 35% ดันยอดผลิตรถยนต์ไทยโต 7% - Thansettakij",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1PSmpSTFNpaWFQT1JDY0JvN3ZaVDc4dm82TTBGWE9NMFJiUnBXYnlyb0hnOFNKRWtRM1BWeXltWGhrdGZNVV9PTWlFODBJRndMZzR0Y3JB?oc=5",
+      "snippet": "ส.อ.ท.มั่นใจขึ้นภาษี EV นำเข้า 35% ดันยอดผลิตรถยนต์ไทยโต 7% Thansettakij",
+      "publishedAt": "2026-11-04T04:30:00.000Z",
+      "sourceId": "google-news:th-TH",
+      "sourceName": "Thansettakij",
+      "sourceTier": 2,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "47dad9e578fd2845",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1PSmpSTFNpaWFQT1JDY0JvN3ZaVDc4dm82TTBGWE9NMFJiUnBXYnlyb0hnOFNKRWtRM1BWeXltWGhrdGZNVV9PTWlFODBJRndMZzR0Y3JB",
+      "contentHash": "8856d452fcc2c5469361abe4",
+      "collectedAt": "2026-11-04T07:10:48.078Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 10,
+      "matchedCategories": [
+        "AUTO_MARKET",
+        "INTERNATIONAL"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [],
+      "hasAutomotiveContext": true,
+      "duplicateGroupId": "47dad9e578fd2845",
+      "relatedCoverage": [
+        {
+          "sourceName": "Head Topics",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5WdHlqS2tIcW52MEw5RHVRbzJmRmhVYmNhRGVZaTVfRlhhNGlPVndYZ18yUkkxa0JiWjRsVnZCdk9rYl9zWXhlVEhfRlpXTXhpRjBJRXFZU3M4V2tRbjVTb055Q0JZSUhfMWdab1FR",
+          "tier": 2
+        }
+      ],
+      "titleTh": "ส.อ.ท.มั่นใจขึ้นภาษี EV นำเข้า 35% ดันยอดผลิตรถยนต์ไทยโต 7% - Thansettakij",
+      "shortSummaryTh": "ส.อ.ท.มั่นใจขึ้นภาษี EV นำเข้า 35% ดันยอดผลิตรถยนต์ไทยโต 7% Thansettakij",
+      "classification": "positive",
+      "impactScore": 2,
+      "confidence": 48,
+      "relevanceScore": 43,
+      "newsCategory": "EV",
+      "affectedChannels": [],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "positive",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [
+        "ตลาดรถยนต์เติบโต = ปริมาณรถเข้าศูนย์เพิ่ม",
+        "รถ EV ยังต้องล้างแอร์ และเจ้าของ EV ใส่ใจคุณภาพอากาศในห้องโดยสารสูง"
+      ],
+      "negativeImpacts": [
+        "EV ไม่มีหัวฉีดน้ำมัน = ความต้องการ Power Flow ลดลงในระยะยาว"
+      ],
+      "reasoningSummary": [
+        "ข่าว EV: ผลบวกต่อ AC_CLEANING หักลบผลลบต่อ POWER_FLOW → ประเมินผลสุทธิ"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "long-term",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1PSmpSTFNpaWFQT1JDY0JvN3ZaVDc4dm82TTBGWE9NMFJiUnBXYnlyb0hnOFNKRWtRM1BWeXltWGhrdGZNVV9PTWlFODBJRndMZzR0Y3JB",
+      "titleOriginal": "ส.อ.ท.มั่นใจขึ้นภาษี EV นำเข้า 35% ดันยอดผลิตรถยนต์ไทยโต 7% - Thansettakij",
+      "originalSnippet": "ส.อ.ท.มั่นใจขึ้นภาษี EV นำเข้า 35% ดันยอดผลิตรถยนต์ไทยโต 7% Thansettakij"
+    },
+    {
+      "title": "#สเปรย์ล้างแอร์รถยนต์ #โฟมล้างแอร์ #น้ำยาล้างแอร์ #ดูแลรถยนต์ #ของใช้ในรถยนต์ #shorts",
+      "link": "https://www.youtube.com/watch?v=5wqDvAjdutY",
+      "snippet": "สเปรย์โฟมล้างแอร์รถยนต์ ขนาด 450 ML ทำความสะอาดและลดกลิ่นไม่พึงประสงค์ สเปรย์โฟมล้างแอร์รถยนต์ ... (ช่อง: Mechanic023) · ยอดวิว 318 ครั้ง",
+      "publishedAt": "2026-10-30T13:00:25.000Z",
+      "sourceId": "youtube",
+      "sourceName": "YouTube · Mechanic023",
+      "sourceTier": 3,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": true,
+      "itemKind": "social",
+      "id": "1e7e5ddf58315d77",
+      "canonicalUrl": "https://youtube.com/watch?v=5wqDvAjdutY",
+      "contentHash": "873b77f0ac5000e175915a73",
+      "collectedAt": "2026-11-04T07:10:48.078Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 25,
+      "matchedCategories": [
+        "AC_CLEANING"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "#สเปรย์ล้างแอร์รถยนต์ #โฟมล้างแอร์ #น้ำยาล้างแอร์ #ดูแลรถยนต์ #ของใช้ในรถยนต์ #shorts",
+      "shortSummaryTh": "สเปรย์โฟมล้างแอร์รถยนต์ ขนาด 450 ML ทำความสะอาดและลดกลิ่นไม่พึงประสงค์ สเปรย์โฟมล้างแอร์รถยนต์ ... (ช่อง: Mechanic023) · ยอดวิว 318 ครั้ง",
+      "classification": "neutral",
+      "impactScore": 1,
+      "confidence": 46,
+      "relevanceScore": 90,
+      "newsCategory": "AC_CLEANING",
+      "affectedChannels": [],
+      "affectedProducts": [
+        "AC_CLEANING",
+        "TRADING"
+      ],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [
+        "เกี่ยวข้องกับบริการหลักโดยตรง"
+      ],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "แหล่งข่าว Tier 3 — ข้อมูลยังต้องตรวจสอบ"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://youtube.com/watch?v=5wqDvAjdutY",
+      "titleOriginal": "#สเปรย์ล้างแอร์รถยนต์ #โฟมล้างแอร์ #น้ำยาล้างแอร์ #ดูแลรถยนต์ #ของใช้ในรถยนต์ #shorts",
+      "originalSnippet": "สเปรย์โฟมล้างแอร์รถยนต์ ขนาด 450 ML ทำความสะอาดและลดกลิ่นไม่พึงประสงค์ สเปรย์โฟมล้างแอร์รถยนต์ ... (ช่อง: Mechanic023) · ยอดวิว 318 ครั้ง"
+    },
+    {
+      "title": "เครื่องล้างแอร์รถยนต์อัตโนมัติ ￼k-1premium",
+      "link": "https://www.youtube.com/watch?v=rERQgskj1Ls",
+      "snippet": "(ช่อง: เครื่องล้างแอร์รถยนต์ K-1PREMIUM) · ยอดวิว 381 ครั้ง",
+      "publishedAt": "2026-11-03T23:20:56.000Z",
+      "sourceId": "youtube",
+      "sourceName": "YouTube · เครื่องล้างแอร์รถยนต์ K-1PREMIUM",
+      "sourceTier": 3,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": true,
+      "itemKind": "social",
+      "id": "95a972e2785bc408",
+      "canonicalUrl": "https://youtube.com/watch?v=rERQgskj1Ls",
+      "contentHash": "9815aed323a89e34bbfc8dcd",
+      "collectedAt": "2026-11-04T07:10:48.078Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 25,
+      "matchedCategories": [
+        "AC_CLEANING"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [],
+      "hasAutomotiveContext": true,
+      "duplicateGroupId": "b0ff79c8bedc614b",
+      "relatedCoverage": [],
+      "titleTh": "เครื่องล้างแอร์รถยนต์อัตโนมัติ ￼k-1premium",
+      "shortSummaryTh": "(ช่อง: เครื่องล้างแอร์รถยนต์ K-1PREMIUM) · ยอดวิว 381 ครั้ง",
+      "classification": "neutral",
+      "impactScore": 1,
+      "confidence": 41,
+      "relevanceScore": 90,
+      "newsCategory": "AC_CLEANING",
+      "affectedChannels": [],
+      "affectedProducts": [
+        "AC_CLEANING"
+      ],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [
+        "เกี่ยวข้องกับบริการหลักโดยตรง"
+      ],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "แหล่งข่าว Tier 3 — ข้อมูลยังต้องตรวจสอบ"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://youtube.com/watch?v=rERQgskj1Ls",
+      "titleOriginal": "เครื่องล้างแอร์รถยนต์อัตโนมัติ ￼k-1premium",
+      "originalSnippet": "(ช่อง: เครื่องล้างแอร์รถยนต์ K-1PREMIUM) · ยอดวิว 381 ครั้ง"
+    },
+    {
+      "title": "สเปรย์โฟม ทำความสะอาดแอร์ด้วยงบแสนประหยัด #แอร์คลีนนิ่ง #ล้างแอร์ #ล้างแอร์บ้าน #ล้างแอร์รถยนต์",
+      "link": "https://www.youtube.com/watch?v=QOTKpL_mjJE",
+      "snippet": "ล้างแอร์ #ล้างแอร์รถยนต์ #ล้างแอร์บ้าน #แอร์คลีนนิ่ง #สเปรย์โฟมล้างแอร์. (ช่อง: ธัมมบัญชี Dhamma. Just do it. By Accountant) · ยอดวิว 166 ครั้ง",
+      "publishedAt": "2026-11-01T12:41:20.000Z",
+      "sourceId": "youtube",
+      "sourceName": "YouTube · ธัมมบัญชี Dhamma. Just do it. By Accountant",
+      "sourceTier": 3,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": true,
+      "itemKind": "social",
+      "id": "142e2dd64e103c2a",
+      "canonicalUrl": "https://youtube.com/watch?v=QOTKpL_mjJE",
+      "contentHash": "adb2c3846997bf230055b2b6",
+      "collectedAt": "2026-11-04T07:10:48.078Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 37,
+      "matchedCategories": [
+        "AC_CLEANING",
+        "COMPETITOR"
+      ],
+      "matchedCompetitors": [
+        "Air Klean"
+      ],
+      "matchedBrands": [],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "สเปรย์โฟม ทำความสะอาดแอร์ด้วยงบแสนประหยัด #แอร์คลีนนิ่ง #ล้างแอร์ #ล้างแอร์บ้าน #ล้างแอร์รถยนต์",
+      "shortSummaryTh": "ล้างแอร์ #ล้างแอร์รถยนต์ #ล้างแอร์บ้าน #แอร์คลีนนิ่ง #สเปรย์โฟมล้างแอร์. (ช่อง: ธัมมบัญชี Dhamma. Just do it. By Accountant) · ยอดวิว 166 ครั้ง",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 46,
+      "relevanceScore": 100,
+      "newsCategory": "COMPETITOR",
+      "affectedChannels": [],
+      "affectedProducts": [
+        "AC_CLEANING"
+      ],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [
+        "Air Klean"
+      ],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [
+        "เกี่ยวข้องกับบริการหลักโดยตรง"
+      ],
+      "negativeImpacts": [
+        "คู่แข่ง (Air Klean) เคลื่อนไหวในตลาด"
+      ],
+      "reasoningSummary": [
+        "ตรวจพบคู่แข่ง: Air Klean",
+        "แหล่งข่าว Tier 3 — ข้อมูลยังต้องตรวจสอบ"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "immediate",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://youtube.com/watch?v=QOTKpL_mjJE",
+      "titleOriginal": "สเปรย์โฟม ทำความสะอาดแอร์ด้วยงบแสนประหยัด #แอร์คลีนนิ่ง #ล้างแอร์ #ล้างแอร์บ้าน #ล้างแอร์รถยนต์",
+      "originalSnippet": "ล้างแอร์ #ล้างแอร์รถยนต์ #ล้างแอร์บ้าน #แอร์คลีนนิ่ง #สเปรย์โฟมล้างแอร์. (ช่อง: ธัมมบัญชี Dhamma. Just do it. By Accountant) · ยอดวิว 166 ครั้ง"
+    },
+    {
+      "title": "แผนผังบูธ Motor Expo 2026 แบรนด์รถยนต์ ยี่ห้อไหน มาออกงานบ้าง พื้นที่เท่าไหร่ ใครใหญ่สุด ใครไม่มา ?!",
+      "link": "https://autolifethailand.tv/motor-expo-2026-booth-plan/",
+      "snippet": "Motor Expo 2026 มอเตอร์เอ็กซ์โป มหกรรมยานยนต์ THAILAND INTERNATIONAL MOTOR EXPO ครั้งที่ 43 ระหว่างวันที่ 2 – 13 ธันวาคม 2569 @ Challenger Hall 1-3 เมืองทองธานี รายชื่อแบรนด์รถยนต์ TOYOTA 2,150 ตารางเมตร GAC 1,806 ตารางเมตร MG 1,720 ตารางเมตร BYD 1,677 ตารางเมตร BMW 1,548 ตารางเมตร GWM 1,541 ตารางเมตร OMODA JAECOO 1,505 ตารางเมตร CHANGAN 1,462 ตารางเมตร HONGQI 1,349 ตารางเมตร MERCEDES-BENZ 1,300 ตารางเมตร HONDA […] The post แผนผังบูธ Motor Expo 2026 แบรนด์รถยนต์ ยี่ห้อไหน มาออกงานบ้าง พื้นที่เท่าไหร่ ใครใหญ่สุด ใครไม่มา ?! appeared first on Autolifethailand.tv .",
+      "publishedAt": "2026-11-02T09:06:53.000Z",
+      "sourceId": "autolifethailand",
+      "sourceName": "AutoLife Thailand",
+      "sourceTier": 2,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "67f85c3b6c45281e",
+      "canonicalUrl": "https://autolifethailand.tv/motor-expo-2026-booth-plan",
+      "contentHash": "fad24868d610c33be02f5cee",
+      "collectedAt": "2026-11-04T07:10:48.078Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 30,
+      "matchedCategories": [
+        "OEM_BRANDS",
+        "INTERNATIONAL"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [
+        "Toyota",
+        "Honda",
+        "BYD",
+        "Mercedes-Benz",
+        "BMW",
+        "MG",
+        "GWM",
+        "Changan"
+      ],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "แผนผังบูธ Motor Expo 2026 แบรนด์รถยนต์ ยี่ห้อไหน มาออกงานบ้าง พื้นที่เท่าไหร่ ใครใหญ่สุด ใครไม่มา ?!",
+      "shortSummaryTh": "Motor Expo 2026 มอเตอร์เอ็กซ์โป มหกรรมยานยนต์ THAILAND INTERNATIONAL MOTOR EXPO ครั้งที่ 43 ระหว่างวันที่ 2 – 13 ธันวาคม 2569 @ Challenger Hall 1-3 เมืองทองธานี รายชื่อแบรนด์รถยนต์ TOYOTA 2,150 ตารางเมตร GAC 1,806 ตารางเมตร MG 1,720 ตารางเมตร BYD 1,677 ตารางเมตร BMW 1,548 ตารางเมตร GWM 1,541 ตารางเ…",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 58,
+      "relevanceScore": 100,
+      "newsCategory": "OEM_BRANDS",
+      "affectedChannels": [
+        "OEM"
+      ],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "วิเคราะห์ด้วยกฎอัตโนมัติ (ไม่ได้ใช้ AI)"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://autolifethailand.tv/motor-expo-2026-booth-plan",
+      "titleOriginal": "แผนผังบูธ Motor Expo 2026 แบรนด์รถยนต์ ยี่ห้อไหน มาออกงานบ้าง พื้นที่เท่าไหร่ ใครใหญ่สุด ใครไม่มา ?!",
+      "originalSnippet": "Motor Expo 2026 มอเตอร์เอ็กซ์โป มหกรรมยานยนต์ THAILAND INTERNATIONAL MOTOR EXPO ครั้งที่ 43 ระหว่างวันที่ 2 – 13 ธันวาคม 2569 @ Challenger Hall 1-3 เมืองทองธานี รายชื่อแบรนด์รถยนต์ TOYOTA 2,150 ตารางเมตร GAC 1,806 ตารางเมตร MG 1,720 ตารางเมตร BYD 1,677 ตารางเมตร BMW 1,548 ตารางเมตร GWM 1,541 ตารางเมตร OMODA JAECOO 1,505 ตารางเมตร CHANGAN 1,462 ตารางเมตร HONGQI 1,349 ตารางเมตร MERCEDES-BENZ 1,300 ตารางเมตร HONDA […] The post แผนผังบูธ Motor Expo 2026 แบรนด์รถยนต์ ยี่ห้อไหน มาออกงานบ้าง พื้นที่เท่าไหร่ ใครใหญ่สุด ใครไม่มา ?! appeared first on Autolifethailand.tv ."
+    },
+    {
+      "title": "ขึ้นภาษีนำเข้ารถยนต์ไฟฟ้าเป็น 35% หวังปกป้องอุตสากรรมยานยนต์ไทย - Policy Watch",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1RY0FqbEtVd0c4UXJRaDRSVmwtd0hIVXdZYnZMcjhvamFyUXRGTjVIeHBZa2N6RFc0YzNGbHBaVWFJbDZLRUZIY3Z2UTIyM1RfR0RvT2lHME5XNlNXYXNNc21nMA?oc=5",
+      "snippet": "ขึ้นภาษีนำเข้ารถยนต์ไฟฟ้าเป็น 35% หวังปกป้องอุตสากรรมยานยนต์ไทย Policy Watch",
+      "publishedAt": "2026-11-03T07:53:00.000Z",
+      "sourceId": "google-news:th-TH",
+      "sourceName": "Policy Watch",
+      "sourceTier": 2,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "4c43a16b0eee7910",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1RY0FqbEtVd0c4UXJRaDRSVmwtd0hIVXdZYnZMcjhvamFyUXRGTjVIeHBZa2N6RFc0YzNGbHBaVWFJbDZLRUZIY3Z2UTIyM1RfR0RvT2lHME5XNlNXYXNNc21nMA",
+      "contentHash": "16fafc8b01142fa07922fe29",
+      "collectedAt": "2026-11-04T07:10:48.078Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 16,
+      "matchedCategories": [
+        "AUTO_MARKET",
+        "EV",
+        "INTERNATIONAL"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "ขึ้นภาษีนำเข้ารถยนต์ไฟฟ้าเป็น 35% หวังปกป้องอุตสากรรมยานยนต์ไทย - Policy Watch",
+      "shortSummaryTh": "ขึ้นภาษีนำเข้ารถยนต์ไฟฟ้าเป็น 35% หวังปกป้องอุตสากรรมยานยนต์ไทย Policy Watch",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 48,
+      "relevanceScore": 62,
+      "newsCategory": "EV",
+      "affectedChannels": [],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [
+        "รถ EV ยังต้องล้างแอร์ และเจ้าของ EV ใส่ใจคุณภาพอากาศในห้องโดยสารสูง"
+      ],
+      "negativeImpacts": [
+        "EV ไม่มีหัวฉีดน้ำมัน = ความต้องการ Power Flow ลดลงในระยะยาว"
+      ],
+      "reasoningSummary": [
+        "ข่าว EV: ผลบวกต่อ AC_CLEANING หักลบผลลบต่อ POWER_FLOW → ประเมินผลสุทธิ"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "long-term",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1RY0FqbEtVd0c4UXJRaDRSVmwtd0hIVXdZYnZMcjhvamFyUXRGTjVIeHBZa2N6RFc0YzNGbHBaVWFJbDZLRUZIY3Z2UTIyM1RfR0RvT2lHME5XNlNXYXNNc21nMA",
+      "titleOriginal": "ขึ้นภาษีนำเข้ารถยนต์ไฟฟ้าเป็น 35% หวังปกป้องอุตสากรรมยานยนต์ไทย - Policy Watch",
+      "originalSnippet": "ขึ้นภาษีนำเข้ารถยนต์ไฟฟ้าเป็น 35% หวังปกป้องอุตสากรรมยานยนต์ไทย Policy Watch"
+    },
+    {
+      "title": "น้ำยาล้างหัวฉีด Bluetec 300 ml. ขวดใหญ่ (เบนซิน ดีเซล) #เบนซิน #ดีเซล #รถกระบะ #รถยนต์ #รถยุโรป",
+      "link": "https://www.youtube.com/watch?v=ntTM5ufJC0I",
+      "snippet": "(ช่อง: The World Soldier) · ยอดวิว 10 ครั้ง",
+      "publishedAt": "2026-10-31T15:01:33.000Z",
+      "sourceId": "youtube",
+      "sourceName": "YouTube · The World Soldier",
+      "sourceTier": 3,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": true,
+      "itemKind": "social",
+      "id": "d6937101e6e51517",
+      "canonicalUrl": "https://youtube.com/watch?v=ntTM5ufJC0I",
+      "contentHash": "b908bd17bfbadfee07d6cd7a",
+      "collectedAt": "2026-11-04T07:10:48.078Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 15,
+      "matchedCategories": [
+        "AUTO_MARKET",
+        "INJECTOR"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "น้ำยาล้างหัวฉีด Bluetec 300 ml. ขวดใหญ่ (เบนซิน ดีเซล) #เบนซิน #ดีเซล #รถกระบะ #รถยนต์ #รถยุโรป",
+      "shortSummaryTh": "(ช่อง: The World Soldier) · ยอดวิว 10 ครั้ง",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 41,
+      "relevanceScore": 59,
+      "newsCategory": "INJECTOR",
+      "affectedChannels": [],
+      "affectedProducts": [
+        "POWER_FLOW",
+        "TRADING"
+      ],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "แหล่งข่าว Tier 3 — ข้อมูลยังต้องตรวจสอบ"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://youtube.com/watch?v=ntTM5ufJC0I",
+      "titleOriginal": "น้ำยาล้างหัวฉีด Bluetec 300 ml. ขวดใหญ่ (เบนซิน ดีเซล) #เบนซิน #ดีเซล #รถกระบะ #รถยนต์ #รถยุโรป",
+      "originalSnippet": "(ช่อง: The World Soldier) · ยอดวิว 10 ครั้ง"
+    },
+    {
+      "title": "โชว์รูมประชาชื่น - ซูซูกิ ขยายเวลาส่วนลด - ฟอร์ด เอเวอเรสต์ แพลทินัม ไม่ต้องจ่ายบำรุงรักษา 5 ปี - ฟิกซ์ฟิต ศูนย์บริการรถทุกยี่ห้อ เปิด 6 สาขาใหม่ - อีซูซุ จัดเต็ม โปรล็อกเป้า - จาง เจีย ผู้บริหารใหม่ เอ็มจี - Matichon Online",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE95bFZaTUJxZE90NmVhU3hQWjJNLVZONXBKYW5nbTBNeW1sM3hKMU5GR3U0UU9HVVNVbEhpTFRZZFJ5UkZfc19mYnlNUUxiTm81WWl6YTgxT2s1bExicld6Rk9B?oc=5",
+      "snippet": "โชว์รูมประชาชื่น - ซูซูกิ ขยายเวลาส่วนลด - ฟอร์ด เอเวอเรสต์ แพลทินัม ไม่ต้องจ่ายบำรุงรักษา 5 ปี - ฟิกซ์ฟิต ศูนย์บริการรถทุกยี่ห้อ เปิด 6 สาขาใหม่ - อีซูซุ จัดเต็ม โปรล็อกเป้า - จาง เจีย ผู้บริหารใหม่ เอ็มจี Matichon Online",
+      "publishedAt": "2026-11-03T08:42:59.000Z",
+      "sourceId": "google-news:th-TH",
+      "sourceName": "Matichon Online",
+      "sourceTier": 2,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "a2a1361ddd4950da",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE95bFZaTUJxZE90NmVhU3hQWjJNLVZONXBKYW5nbTBNeW1sM3hKMU5GR3U0UU9HVVNVbEhpTFRZZFJ5UkZfc19mYnlNUUxiTm81WWl6YTgxT2s1bExicld6Rk9B",
+      "contentHash": "3cab448b4f93656a7c3b9eff",
+      "collectedAt": "2026-11-04T07:10:48.078Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 14,
+      "matchedCategories": [
+        "OEM_BRANDS"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [
+        "Isuzu",
+        "Ford",
+        "Suzuki",
+        "MG"
+      ],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "โชว์รูมประชาชื่น - ซูซูกิ ขยายเวลาส่วนลด - ฟอร์ด เอเวอเรสต์ แพลทินัม ไม่ต้องจ่ายบำรุงรักษา 5 ปี - ฟิกซ์ฟิต ศูนย์บริการรถทุกยี่ห้อ เปิด 6 สาขาใหม่ - อีซูซุ จัดเต็ม โปรล็อกเป้า - จาง เจีย ผู้บริหารใหม่ เอ็มจี - Matichon Online",
+      "shortSummaryTh": "โชว์รูมประชาชื่น - ซูซูกิ ขยายเวลาส่วนลด - ฟอร์ด เอเวอเรสต์ แพลทินัม ไม่ต้องจ่ายบำรุงรักษา 5 ปี - ฟิกซ์ฟิต ศูนย์บริการรถทุกยี่ห้อ เปิด 6 สาขาใหม่ - อีซูซุ จัดเต็ม โปรล็อกเป้า - จาง เจีย ผู้บริหารใหม่ เอ็มจี Matichon Online",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 58,
+      "relevanceScore": 55,
+      "newsCategory": "OEM_BRANDS",
+      "affectedChannels": [
+        "OEM",
+        "B2B"
+      ],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "วิเคราะห์ด้วยกฎอัตโนมัติ (ไม่ได้ใช้ AI)"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE95bFZaTUJxZE90NmVhU3hQWjJNLVZONXBKYW5nbTBNeW1sM3hKMU5GR3U0UU9HVVNVbEhpTFRZZFJ5UkZfc19mYnlNUUxiTm81WWl6YTgxT2s1bExicld6Rk9B",
+      "titleOriginal": "โชว์รูมประชาชื่น - ซูซูกิ ขยายเวลาส่วนลด - ฟอร์ด เอเวอเรสต์ แพลทินัม ไม่ต้องจ่ายบำรุงรักษา 5 ปี - ฟิกซ์ฟิต ศูนย์บริการรถทุกยี่ห้อ เปิด 6 สาขาใหม่ - อีซูซุ จัดเต็ม โปรล็อกเป้า - จาง เจีย ผู้บริหารใหม่ เอ็มจี - Matichon Online",
+      "originalSnippet": "โชว์รูมประชาชื่น - ซูซูกิ ขยายเวลาส่วนลด - ฟอร์ด เอเวอเรสต์ แพลทินัม ไม่ต้องจ่ายบำรุงรักษา 5 ปี - ฟิกซ์ฟิต ศูนย์บริการรถทุกยี่ห้อ เปิด 6 สาขาใหม่ - อีซูซุ จัดเต็ม โปรล็อกเป้า - จาง เจีย ผู้บริหารใหม่ เอ็มจี Matichon Online"
+    },
+    {
+      "title": "ยอดขายรถยนต์นำเข้าเกาหลีใต้ ต.ค. พุ่ง 29.3% อานิสงส์ดีมานด์ EV แข็งแกร่ง : อินโฟเควสท์ - สำนักข่าวอินโฟเควสท์",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9BZENTbkxuQy1tS1NYSVVaR2hLaDNBWTdDUFJpamZHUndWVEFlcjhzcXp0eUpGWEFKWXNvSTE5MFc1R09fWTRSLXdwTUo0cWEt?oc=5",
+      "snippet": "ยอดขายรถยนต์นำเข้าเกาหลีใต้ ต.ค. พุ่ง 29.3% อานิสงส์ดีมานด์ EV แข็งแกร่ง : อินโฟเควสท์ สำนักข่าวอินโฟเควสท์",
+      "publishedAt": "2026-11-04T04:53:10.000Z",
+      "sourceId": "google-news:th-TH",
+      "sourceName": "สำนักข่าวอินโฟเควสท์",
+      "sourceTier": 2,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "dc670b0b55f71639",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9BZENTbkxuQy1tS1NYSVVaR2hLaDNBWTdDUFJpamZHUndWVEFlcjhzcXp0eUpGWEFKWXNvSTE5MFc1R09fWTRSLXdwTUo0cWEt",
+      "contentHash": "b67c93a3e8d34cbef29f7aed",
+      "collectedAt": "2026-11-04T07:10:48.078Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 13,
+      "matchedCategories": [
+        "AUTO_MARKET",
+        "INTERNATIONAL"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [],
+      "hasAutomotiveContext": true,
+      "duplicateGroupId": "368118bebf97f112",
+      "relatedCoverage": [
+        {
+          "sourceName": "RYT9",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5vZ0JBc3FZZDg5SzNoVE56OG5oNXJoZkNfX2pXOUJxVjhtS1FPUnJmT29PWjRJNTk3MFoyOHp6ajVEZWlLRktBUGh3",
+          "tier": 2
+        }
+      ],
+      "titleTh": "ยอดขายรถยนต์นำเข้าเกาหลีใต้ ต.ค. พุ่ง 29.3% อานิสงส์ดีมานด์ EV แข็งแกร่ง : อินโฟเควสท์ - สำนักข่าวอินโฟเควสท์",
+      "shortSummaryTh": "ยอดขายรถยนต์นำเข้าเกาหลีใต้ ต.ค. พุ่ง 29.3% อานิสงส์ดีมานด์ EV แข็งแกร่ง : อินโฟเควสท์ สำนักข่าวอินโฟเควสท์",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 48,
+      "relevanceScore": 52,
+      "newsCategory": "EV",
+      "affectedChannels": [],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [
+        "รถ EV ยังต้องล้างแอร์ และเจ้าของ EV ใส่ใจคุณภาพอากาศในห้องโดยสารสูง"
+      ],
+      "negativeImpacts": [
+        "EV ไม่มีหัวฉีดน้ำมัน = ความต้องการ Power Flow ลดลงในระยะยาว"
+      ],
+      "reasoningSummary": [
+        "ข่าว EV: ผลบวกต่อ AC_CLEANING หักลบผลลบต่อ POWER_FLOW → ประเมินผลสุทธิ"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "long-term",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9BZENTbkxuQy1tS1NYSVVaR2hLaDNBWTdDUFJpamZHUndWVEFlcjhzcXp0eUpGWEFKWXNvSTE5MFc1R09fWTRSLXdwTUo0cWEt",
+      "titleOriginal": "ยอดขายรถยนต์นำเข้าเกาหลีใต้ ต.ค. พุ่ง 29.3% อานิสงส์ดีมานด์ EV แข็งแกร่ง : อินโฟเควสท์ - สำนักข่าวอินโฟเควสท์",
+      "originalSnippet": "ยอดขายรถยนต์นำเข้าเกาหลีใต้ ต.ค. พุ่ง 29.3% อานิสงส์ดีมานด์ EV แข็งแกร่ง : อินโฟเควสท์ สำนักข่าวอินโฟเควสท์"
+    },
+    {
+      "title": "BAY ปิดจ็อบรับโอนพอร์ตสินเชื่อรถยนต์-มอเตอร์ไซค์จาก ซีไอเอ็มบี ไทย ออโต้ ครบถ้วน - TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9WNEVwQnUxcFVrVS1BMXJ6RldzUGM1ZEpITFBLVmozWXdLclZ6V1V5Q3BKUGJONHJuOUU4SnJHUEhiS0I5Z2p3cWRmSEdhc2JqNF9OOTVnbDh3bzZHdXZGNjlCaHJRR1UzRGc?oc=5",
+      "snippet": "BAY ปิดจ็อบรับโอนพอร์ตสินเชื่อรถยนต์-มอเตอร์ไซค์จาก ซีไอเอ็มบี ไทย ออโต้ ครบถ้วน TradingView",
+      "publishedAt": "2026-11-03T02:46:54.000Z",
+      "sourceId": "google-news:th-TH",
+      "sourceName": "TradingView",
+      "sourceTier": 2,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "122da7014e554d40",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9WNEVwQnUxcFVrVS1BMXJ6RldzUGM1ZEpITFBLVmozWXdLclZ6V1V5Q3BKUGJONHJuOUU4SnJHUEhiS0I5Z2p3cWRmSEdhc2JqNF9OOTVnbDh3bzZHdXZGNjlCaHJRR1UzRGc",
+      "contentHash": "c76f18e4e2eb3955284bc85f",
+      "collectedAt": "2026-11-04T07:10:48.078Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 13,
+      "matchedCategories": [
+        "AUTO_MARKET",
+        "INTERNATIONAL"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "BAY ปิดจ็อบรับโอนพอร์ตสินเชื่อรถยนต์-มอเตอร์ไซค์จาก ซีไอเอ็มบี ไทย ออโต้ ครบถ้วน - TradingView",
+      "shortSummaryTh": "BAY ปิดจ็อบรับโอนพอร์ตสินเชื่อรถยนต์-มอเตอร์ไซค์จาก ซีไอเอ็มบี ไทย ออโต้ ครบถ้วน TradingView",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 53,
+      "relevanceScore": 52,
+      "newsCategory": "AUTO_MARKET",
+      "affectedChannels": [],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "วิเคราะห์ด้วยกฎอัตโนมัติ (ไม่ได้ใช้ AI)"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE55Znh3ZDV0QzJSQUFLSWJ4cnZqZjExRmpGTEk0SUlfNVJhbzY3N2xOc0NNLWdKWVpEMHE5UXFHeW1yYnZHYXYteVh3M1FNcmpOSy1IdlNPd2FHNjVjMUQxc3NSbWp5ZjljQXMw",
+      "titleOriginal": "BAY ปิดจ็อบรับโอนพอร์ตสินเชื่อรถยนต์-มอเตอร์ไซค์จาก ซีไอเอ็มบี ไทย ออโต้ ครบถ้วน - TradingView",
+      "originalSnippet": "BAY ปิดจ็อบรับโอนพอร์ตสินเชื่อรถยนต์-มอเตอร์ไซค์จาก ซีไอเอ็มบี ไทย ออโต้ ครบถ้วน TradingView"
+    },
+    {
+      "title": "w212 รถวิ่งไม่ออกหัวฉีดตันท่อไอเสียตัน",
+      "link": "https://www.youtube.com/watch?v=idBgMDjkPvU",
+      "snippet": "W212 อาการรถวิ่งอืดเนื่องจากสาเหตุท่อไอเสียตันและหัวฉีดตันทำให้รถไม่มีแรง #ล้างdpf #หัวฉีดรั่ว #หัวฉีดแตกปลาย #ล้างหัวฉีดbmw #ล้างdp ... (ช่อง: หัวฉีดBKK) · ยอดวิว 485 ครั้ง",
+      "publishedAt": "2026-10-31T07:10:30.000Z",
+      "sourceId": "youtube",
+      "sourceName": "YouTube · หัวฉีดBKK",
+      "sourceTier": 3,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": true,
+      "itemKind": "social",
+      "id": "f3625ebd92b0dad5",
+      "canonicalUrl": "https://youtube.com/watch?v=idBgMDjkPvU",
+      "contentHash": "2135afe7a6fdb2d282fd847f",
+      "collectedAt": "2026-11-04T07:10:48.078Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 12,
+      "matchedCategories": [
+        "INJECTOR",
+        "OEM_BRANDS"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [
+        "BMW"
+      ],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "w212 รถวิ่งไม่ออกหัวฉีดตันท่อไอเสียตัน",
+      "shortSummaryTh": "W212 อาการรถวิ่งอืดเนื่องจากสาเหตุท่อไอเสียตันและหัวฉีดตันทำให้รถไม่มีแรง #ล้างdpf #หัวฉีดรั่ว #หัวฉีดแตกปลาย #ล้างหัวฉีดbmw #ล้างdp ... (ช่อง: หัวฉีดBKK) · ยอดวิว 485 ครั้ง",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 46,
+      "relevanceScore": 49,
+      "newsCategory": "INJECTOR",
+      "affectedChannels": [
+        "OEM"
+      ],
+      "affectedProducts": [
+        "POWER_FLOW"
+      ],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "แหล่งข่าว Tier 3 — ข้อมูลยังต้องตรวจสอบ"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://youtube.com/watch?v=idBgMDjkPvU",
+      "titleOriginal": "w212 รถวิ่งไม่ออกหัวฉีดตันท่อไอเสียตัน",
+      "originalSnippet": "W212 อาการรถวิ่งอืดเนื่องจากสาเหตุท่อไอเสียตันและหัวฉีดตันทำให้รถไม่มีแรง #ล้างdpf #หัวฉีดรั่ว #หัวฉีดแตกปลาย #ล้างหัวฉีดbmw #ล้างdp ... (ช่อง: หัวฉีดBKK) · ยอดวิว 485 ครั้ง"
+    },
+    {
+      "title": "รถอืดๆ",
+      "link": "https://www.youtube.com/watch?v=-YX_SPhRS28",
+      "snippet": "รถอืดๆ #ล้างdpf #หัวฉีดรั่ว #หัวฉีดแตกปลาย #ล้างหัวฉีดbmw #ล้างdp #ล้างdpf #ล้างท่อไอดี #ดีพีเอฟ #ล้างท่อไอเสีย #ล้างแคทตาไลติก ... (ช่อง: หัวฉีดBKK) · ยอดวิว 441 ครั้ง",
+      "publishedAt": "2026-10-29T04:24:09.000Z",
+      "sourceId": "youtube",
+      "sourceName": "YouTube · หัวฉีดBKK",
+      "sourceTier": 3,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": true,
+      "itemKind": "social",
+      "id": "87de79d7ac5e4709",
+      "canonicalUrl": "https://youtube.com/watch?v=-YX_SPhRS28",
+      "contentHash": "37106211eeed4b1fe08636cc",
+      "collectedAt": "2026-11-04T07:10:48.078Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 12,
+      "matchedCategories": [
+        "INJECTOR",
+        "OEM_BRANDS"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [
+        "BMW"
+      ],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "รถอืดๆ",
+      "shortSummaryTh": "รถอืดๆ #ล้างdpf #หัวฉีดรั่ว #หัวฉีดแตกปลาย #ล้างหัวฉีดbmw #ล้างdp #ล้างdpf #ล้างท่อไอดี #ดีพีเอฟ #ล้างท่อไอเสีย #ล้างแคทตาไลติก ... (ช่อง: หัวฉีดBKK) · ยอดวิว 441 ครั้ง",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 46,
+      "relevanceScore": 49,
+      "newsCategory": "INJECTOR",
+      "affectedChannels": [
+        "OEM"
+      ],
+      "affectedProducts": [
+        "POWER_FLOW"
+      ],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "แหล่งข่าว Tier 3 — ข้อมูลยังต้องตรวจสอบ"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://youtube.com/watch?v=-YX_SPhRS28",
+      "titleOriginal": "รถอืดๆ",
+      "originalSnippet": "รถอืดๆ #ล้างdpf #หัวฉีดรั่ว #หัวฉีดแตกปลาย #ล้างหัวฉีดbmw #ล้างdp #ล้างdpf #ล้างท่อไอดี #ดีพีเอฟ #ล้างท่อไอเสีย #ล้างแคทตาไลติก ... (ช่อง: หัวฉีดBKK) · ยอดวิว 441 ครั้ง"
+    },
+    {
+      "title": "น้ํายาล้างหัวฉีด เบนซินน้ํายาล้างหัวฉีดน้ํายาล้างหัวฉีดมอเตอร์ไซค์น้ํายาล้างหัวฉีด ดีเซล",
+      "link": "https://www.youtube.com/watch?v=lgQzZdjEhl4",
+      "snippet": "น้ํายาล้างหัวฉีด เบนซิน น้ํายาล้างหัวฉีด น้ํายาล้างหัวฉีดมอเตอร์ไซค์ น้ํายาล้างหัวฉีด ดีเซล น้ํายาล้างหัวฉีด honda น้ํายาล้างหัวฉีดรถยนต์เบนซิน ... (ช่อง: รีวิวไปเรื่อย) · ยอดวิว 46 ครั้ง",
+      "publishedAt": "2026-10-28T23:39:20.000Z",
+      "sourceId": "youtube",
+      "sourceName": "YouTube · รีวิวไปเรื่อย",
+      "sourceTier": 3,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": true,
+      "itemKind": "social",
+      "id": "42b78a6ce13aa6cd",
+      "canonicalUrl": "https://youtube.com/watch?v=lgQzZdjEhl4",
+      "contentHash": "13c94f0028df792aebbcfcfc",
+      "collectedAt": "2026-11-04T07:10:48.078Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 12,
+      "matchedCategories": [
+        "INJECTOR",
+        "OEM_BRANDS"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [
+        "Honda"
+      ],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "น้ํายาล้างหัวฉีด เบนซินน้ํายาล้างหัวฉีดน้ํายาล้างหัวฉีดมอเตอร์ไซค์น้ํายาล้างหัวฉีด ดีเซล",
+      "shortSummaryTh": "น้ํายาล้างหัวฉีด เบนซิน น้ํายาล้างหัวฉีด น้ํายาล้างหัวฉีดมอเตอร์ไซค์ น้ํายาล้างหัวฉีด ดีเซล น้ํายาล้างหัวฉีด honda น้ํายาล้างหัวฉีดรถยนต์เบนซิน ... (ช่อง: รีวิวไปเรื่อย) · ยอดวิว 46 ครั้ง",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 46,
+      "relevanceScore": 49,
+      "newsCategory": "INJECTOR",
+      "affectedChannels": [
+        "OEM"
+      ],
+      "affectedProducts": [
+        "POWER_FLOW"
+      ],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "แหล่งข่าว Tier 3 — ข้อมูลยังต้องตรวจสอบ"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://youtube.com/watch?v=lgQzZdjEhl4",
+      "titleOriginal": "น้ํายาล้างหัวฉีด เบนซินน้ํายาล้างหัวฉีดน้ํายาล้างหัวฉีดมอเตอร์ไซค์น้ํายาล้างหัวฉีด ดีเซล",
+      "originalSnippet": "น้ํายาล้างหัวฉีด เบนซิน น้ํายาล้างหัวฉีด น้ํายาล้างหัวฉีดมอเตอร์ไซค์ น้ํายาล้างหัวฉีด ดีเซล น้ํายาล้างหัวฉีด honda น้ํายาล้างหัวฉีดรถยนต์เบนซิน ... (ช่อง: รีวิวไปเรื่อย) · ยอดวิว 46 ครั้ง"
+    },
+    {
+      "title": "2027 Nissan Rogue Hybrid reviews: Very EV-like without the plug",
+      "link": "https://www.autonews.com/car-concepts/an-2027-nissan-rogue-hybrid-reviews-critics-corner-1103/",
+      "snippet": "Nissan’s top-selling Rogue is getting an EV-like hybrid system for 2027, giving the compact crossover greater appeal and mojo to challenge the Toyota RAV4 and Honda CR-V.",
+      "publishedAt": "2026-11-03T13:12:03.000Z",
+      "sourceId": "automotive-news",
+      "sourceName": "Automotive News",
+      "sourceTier": 2,
+      "sourceCountry": "GLOBAL",
+      "language": "en",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "3176e42b10c90667",
+      "canonicalUrl": "https://autonews.com/car-concepts/an-2027-nissan-rogue-hybrid-reviews-critics-corner-1103",
+      "contentHash": "825318f064cb70a446c9a27f",
+      "collectedAt": "2026-11-04T07:10:48.078Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 11,
+      "matchedCategories": [
+        "OEM_BRANDS"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [
+        "Toyota",
+        "Honda",
+        "Nissan"
+      ],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "[EN] 2027 Nissan Rogue Hybrid reviews: Very EV-like without the plug",
+      "shortSummaryTh": "Nissan’s top-selling Rogue is getting an EV-like hybrid system for 2027, giving the compact crossover greater appeal and mojo to challenge the Toyota RAV4 and Honda CR-V.",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 53,
+      "relevanceScore": 46,
+      "newsCategory": "EV",
+      "affectedChannels": [
+        "OEM"
+      ],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "Global"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [
+        "รถ EV ยังต้องล้างแอร์ และเจ้าของ EV ใส่ใจคุณภาพอากาศในห้องโดยสารสูง"
+      ],
+      "negativeImpacts": [
+        "EV ไม่มีหัวฉีดน้ำมัน = ความต้องการ Power Flow ลดลงในระยะยาว"
+      ],
+      "reasoningSummary": [
+        "ข่าว EV: ผลบวกต่อ AC_CLEANING หักลบผลลบต่อ POWER_FLOW → ประเมินผลสุทธิ"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "long-term",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://autonews.com/car-concepts/an-2027-nissan-rogue-hybrid-reviews-critics-corner-1103",
+      "titleOriginal": "2027 Nissan Rogue Hybrid reviews: Very EV-like without the plug",
+      "originalSnippet": "Nissan’s top-selling Rogue is getting an EV-like hybrid system for 2027, giving the compact crossover greater appeal and mojo to challenge the Toyota RAV4 and Honda CR-V."
+    },
+    {
+      "title": "ขณะนี้มีการเรียกคืนรถยนต์และรถจักรยานยนต์จำนวนมากในเวียดนาม - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBQQlYwTjZidi1mSTdlUF9zTnNHdUk3dkc5WWFPanlGS295Q2NWZ3BvdjE0MlY1cXMwZFEtdG1uWXRyUXY4SDBaMXY4NkNMS0dsaGxrR3h5NWxBNVBLV2lNQ0hRM0JOem5qeVpxZlJZa1hBUERTWGRTdndn?oc=5",
+      "snippet": "ขณะนี้มีการเรียกคืนรถยนต์และรถจักรยานยนต์จำนวนมากในเวียดนาม Vietnam.vn",
+      "publishedAt": "2026-11-03T06:01:18.000Z",
+      "sourceId": "google-news:th-TH",
+      "sourceName": "Vietnam.vn",
+      "sourceTier": 2,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "e06a888284093e9a",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBQQlYwTjZidi1mSTdlUF9zTnNHdUk3dkc5WWFPanlGS295Q2NWZ3BvdjE0MlY1cXMwZFEtdG1uWXRyUXY4SDBaMXY4NkNMS0dsaGxrR3h5NWxBNVBLV2lNQ0hRM0JOem5qeVpxZlJZa1hBUERTWGRTdndn",
+      "contentHash": "770813d871c7b0346f778705",
+      "collectedAt": "2026-11-04T07:10:48.078Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 11,
+      "matchedCategories": [
+        "OEM_BRANDS",
+        "INTERNATIONAL"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "ขณะนี้มีการเรียกคืนรถยนต์และรถจักรยานยนต์จำนวนมากในเวียดนาม - Vietnam.vn",
+      "shortSummaryTh": "ขณะนี้มีการเรียกคืนรถยนต์และรถจักรยานยนต์จำนวนมากในเวียดนาม Vietnam.vn",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 53,
+      "relevanceScore": 46,
+      "newsCategory": "OEM_BRANDS",
+      "affectedChannels": [],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "วิเคราะห์ด้วยกฎอัตโนมัติ (ไม่ได้ใช้ AI)"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBQQlYwTjZidi1mSTdlUF9zTnNHdUk3dkc5WWFPanlGS295Q2NWZ3BvdjE0MlY1cXMwZFEtdG1uWXRyUXY4SDBaMXY4NkNMS0dsaGxrR3h5NWxBNVBLV2lNQ0hRM0JOem5qeVpxZlJZa1hBUERTWGRTdndn",
+      "titleOriginal": "ขณะนี้มีการเรียกคืนรถยนต์และรถจักรยานยนต์จำนวนมากในเวียดนาม - Vietnam.vn",
+      "originalSnippet": "ขณะนี้มีการเรียกคืนรถยนต์และรถจักรยานยนต์จำนวนมากในเวียดนาม Vietnam.vn"
+    },
+    {
+      "title": "รีวิวใช้บริการ FIT Auto ล้างแผงคอยล์ร้อนรถ EV ฟรี แถมคูปองชาร์จไฟ 40 บาท",
+      "link": "https://pantip.com/topic/44268364",
+      "snippet": "",
+      "publishedAt": "2026-10-26T02:23:20.000Z",
+      "sourceId": "pantip:ศูนย์บริการรถยนต์",
+      "sourceName": "Pantip (แท็ก ศูนย์บริการรถยนต์)",
+      "sourceTier": 3,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": true,
+      "itemKind": "social",
+      "id": "603cfa3d93bbda52",
+      "canonicalUrl": "https://pantip.com/topic/44268364",
+      "contentHash": "9c47ecb8168519bbd4f0a2cc",
+      "collectedAt": "2026-11-04T07:10:48.078Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 11,
+      "matchedCategories": [
+        "AC_CLEANING"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "รีวิวใช้บริการ FIT Auto ล้างแผงคอยล์ร้อนรถ EV ฟรี แถมคูปองชาร์จไฟ 40 บาท",
+      "shortSummaryTh": "รีวิวใช้บริการ FIT Auto ล้างแผงคอยล์ร้อนรถ EV ฟรี แถมคูปองชาร์จไฟ 40 บาท",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 36,
+      "relevanceScore": 46,
+      "newsCategory": "EV",
+      "affectedChannels": [],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [
+        "รถ EV ยังต้องล้างแอร์ และเจ้าของ EV ใส่ใจคุณภาพอากาศในห้องโดยสารสูง"
+      ],
+      "negativeImpacts": [
+        "EV ไม่มีหัวฉีดน้ำมัน = ความต้องการ Power Flow ลดลงในระยะยาว"
+      ],
+      "reasoningSummary": [
+        "ข่าว EV: ผลบวกต่อ AC_CLEANING หักลบผลลบต่อ POWER_FLOW → ประเมินผลสุทธิ",
+        "แหล่งข่าว Tier 3 — ข้อมูลยังต้องตรวจสอบ"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "long-term",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://pantip.com/topic/44268364",
+      "titleOriginal": "รีวิวใช้บริการ FIT Auto ล้างแผงคอยล์ร้อนรถ EV ฟรี แถมคูปองชาร์จไฟ 40 บาท",
+      "originalSnippet": ""
+    },
+    {
+      "title": "UPDATE: ห้ามเลือดก่อนทรุด สมาคมยานยนต์ไฟฟ้าไทย หนุนครม. ขึ้นภาษี EV-REEV นำเข้า 35% จี้ลุยต่ออีก 8 มาตรการคุมเข้ม จากมติคณะรัฐมนตรี (ครม.) ที่เห็นชอบปรับโครงสร้างภาษีสรรพสามิตรถยนต์ไฟฟ้านำเข้า โดยรถยนต์ไฟฟ้าแบตเตอรี่ (BEV) ปรับอัตราภาษีจาก 10% เป็น 35% และรถ - Facebook",
+      "link": "https://news.google.com/rss/articles/CBMiywZBVV95cUxPZ19GYzFPN3BYQ25DVzdyV0hCUll5TW91dktCX2U4b1QzaFJaMHAtOVNOYm1KZmhGaDJlNFJMOXNIWnB0bmU0YlpTQXVBNGZCaURIMENHYU4tWHNyeFdLTTZHNmM0VnN5Z0pES1NuaWh2M0JSZEdmc05JcnBzS193TGZMLWlNZUZuLVdpVnlFOURTeldTSUhyWlItcE9rUlUxZzhKaDV6aEtFV1RYdlhPblU4Um5wTVB0QmZDRFNvanc2SHhSejZlbWVxQkVESGIwQ2c0REVWNHdqQjN6TGs3eFJKazY2aS1UWlhMT3RUY0NIYWVFWlJ4MVdueV9hRFRicEJnY0xrdlpLbWt4Nl9HOGVJQmI5ZVJZRnBJUS10UjViZFBud2pBdTRrNVBmNjNaRzhMeWRYZDBjMW44T1B6WEkyTGZsOUxqa3l0cDZodFVpaHVSalFDLV9QOERXaFhtRktBZGJSV0hJLVpPS19kRTd3QlN6SjRUSjZJM21lZXJxSi1FZEsyaklmRHZRNHhONVVaOTl5OXI3TXhZNnVTekp3dk1Yelk4VmZFVVAyV0hGSVB6d29pLW1aVHcwdzlfS1ZiRDkyejVNVFl4NkVIbWZfRG9EVHVXbGdxSWZZQzVhT0ZVZEMtMnhUdzVmNFlkV0NsaXNVazhqSHNjNkZIalJqQ1hLeWdEVGJ5SmdhT0hlNnNoM1lvX1Vzb1FLa0dPcmxvbWZXUUVWTkVGRnRUWlZ4cHdBX2txZ3BpT29QNTFqVmFucEp6dTdmSHJpMzlSUEZJREYwaDFueURVUVZobGxyMWo4c3JvSGJfSjBPQXhPVFF5SFZEQlNyVXdzUEpnQWdWMlJiNTdPMWM3UFhqZ1ZndTZCcEpUQi1FdWxEUFE3dE0yN2kyYTdhWmZXMHNhVWZUMDNYUXZxZ195YTlsSXQ3TU1nejlhOE1ual8zRjRMQXNNdXBVM2otQVJnNGI3MFZHQnNwT1BpNlgwalFrM1B0MFpGOVRWeFVPUE55TWd4LTFNLXlBT01UVDFkSjFlcDZXOFZiZWthZ3ZMOE8wRFVPX3Mxb2l3ZUpwLXJ6UlNIWWhLZTAyV1A2Vnh5WWJUOU43NU9tZm5OSTg?oc=5",
+      "snippet": "UPDATE: ห้ามเลือดก่อนทรุด สมาคมยานยนต์ไฟฟ้าไทย หนุนครม. ขึ้นภาษี EV-REEV นำเข้า 35% จี้ลุยต่ออีก 8 มาตรการคุมเข้ม จากมติคณะรัฐมนตรี (ครม.) ที่เห็นชอบปรับโครงสร้างภาษีสรรพสามิตรถยนต์ไฟฟ้านำเข้า โดยรถยนต์ไฟฟ้าแบตเตอรี่ (BEV) ปรับอัตราภาษีจาก 10% เป็น 35% และรถ Facebook",
+      "publishedAt": "2026-11-04T06:46:00.000Z",
+      "sourceId": "google-news:th-TH",
+      "sourceName": "Facebook",
+      "sourceTier": 2,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "ee0ba013c83f08d4",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMiywZBVV95cUxPZ19GYzFPN3BYQ25DVzdyV0hCUll5TW91dktCX2U4b1QzaFJaMHAtOVNOYm1KZmhGaDJlNFJMOXNIWnB0bmU0YlpTQXVBNGZCaURIMENHYU4tWHNyeFdLTTZHNmM0VnN5Z0pES1NuaWh2M0JSZEdmc05JcnBzS193TGZMLWlNZUZuLVdpVnlFOURTeldTSUhyWlItcE9rUlUxZzhKaDV6aEtFV1RYdlhPblU4Um5wTVB0QmZDRFNvanc2SHhSejZlbWVxQkVESGIwQ2c0REVWNHdqQjN6TGs3eFJKazY2aS1UWlhMT3RUY0NIYWVFWlJ4MVdueV9hRFRicEJnY0xrdlpLbWt4Nl9HOGVJQmI5ZVJZRnBJUS10UjViZFBud2pBdTRrNVBmNjNaRzhMeWRYZDBjMW44T1B6WEkyTGZsOUxqa3l0cDZodFVpaHVSalFDLV9QOERXaFhtRktBZGJSV0hJLVpPS19kRTd3QlN6SjRUSjZJM21lZXJxSi1FZEsyaklmRHZRNHhONVVaOTl5OXI3TXhZNnVTekp3dk1Yelk4VmZFVVAyV0hGSVB6d29pLW1aVHcwdzlfS1ZiRDkyejVNVFl4NkVIbWZfRG9EVHVXbGdxSWZZQzVhT0ZVZEMtMnhUdzVmNFlkV0NsaXNVazhqSHNjNkZIalJqQ1hLeWdEVGJ5SmdhT0hlNnNoM1lvX1Vzb1FLa0dPcmxvbWZXUUVWTkVGRnRUWlZ4cHdBX2txZ3BpT29QNTFqVmFucEp6dTdmSHJpMzlSUEZJREYwaDFueURVUVZobGxyMWo4c3JvSGJfSjBPQXhPVFF5SFZEQlNyVXdzUEpnQWdWMlJiNTdPMWM3UFhqZ1ZndTZCcEpUQi1FdWxEUFE3dE0yN2kyYTdhWmZXMHNhVWZUMDNYUXZxZ195YTlsSXQ3TU1nejlhOE1ual8zRjRMQXNNdXBVM2otQVJnNGI3MFZHQnNwT1BpNlgwalFrM1B0MFpGOVRWeFVPUE55TWd4LTFNLXlBT01UVDFkSjFlcDZXOFZiZWthZ3ZMOE8wRFVPX3Mxb2l3ZUpwLXJ6UlNIWWhLZTAyV1A2Vnh5WWJUOU43NU9tZm5OSTg",
+      "contentHash": "9223b36217512449b86d1d6c",
+      "collectedAt": "2026-11-04T07:10:48.078Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 10,
+      "matchedCategories": [
+        "EV",
+        "INTERNATIONAL"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [],
+      "hasAutomotiveContext": true,
+      "duplicateGroupId": "ee0ba013c83f08d4",
+      "relatedCoverage": [
+        {
+          "sourceName": "thestandard.co",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBPM3ptRHBVcDFQSTNiYWlPcW9wOHRpWm9DaEZkTVhtOXdTakNJNl9XV0hvR0lXT0tKSzVOeFEzeVFoRkxleGVOTUMzOEMxNWtsTkFNMERfc3NxS2d2WTdIcl9TbkkwV0g5V2xV",
+          "tier": 2
+        }
+      ],
+      "titleTh": "UPDATE: ห้ามเลือดก่อนทรุด สมาคมยานยนต์ไฟฟ้าไทย หนุนครม. ขึ้นภาษี EV-REEV นำเข้า 35% จี้ลุยต่ออีก 8 มาตรการคุมเข้ม จากมติคณะรัฐมนตรี (ครม.) ที่เห็นชอบปรับโครงสร้างภาษีสรรพสามิตรถยนต์ไฟฟ้านำเข้า โดยรถยนต์ไฟฟ้าแบตเตอรี่ (BEV) ปรับอัตราภาษีจาก 10% เป็น 35% และรถ - Facebook",
+      "shortSummaryTh": "UPDATE: ห้ามเลือดก่อนทรุด สมาคมยานยนต์ไฟฟ้าไทย หนุนครม. ขึ้นภาษี EV-REEV นำเข้า 35% จี้ลุยต่ออีก 8 มาตรการคุมเข้ม จากมติคณะรัฐมนตรี (ครม.) ที่เห็นชอบปรับโครงสร้างภาษีสรรพสามิตรถยนต์ไฟฟ้านำเข้า โดยรถยนต์ไฟฟ้าแบตเตอรี่ (BEV) ปรับอัตราภาษีจาก 10% เป็น 35% และรถ Facebook",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 53,
+      "relevanceScore": 43,
+      "newsCategory": "EV",
+      "affectedChannels": [],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [
+        "รถ EV ยังต้องล้างแอร์ และเจ้าของ EV ใส่ใจคุณภาพอากาศในห้องโดยสารสูง"
+      ],
+      "negativeImpacts": [
+        "EV ไม่มีหัวฉีดน้ำมัน = ความต้องการ Power Flow ลดลงในระยะยาว"
+      ],
+      "reasoningSummary": [
+        "ข่าว EV: ผลบวกต่อ AC_CLEANING หักลบผลลบต่อ POWER_FLOW → ประเมินผลสุทธิ"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "long-term",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiywZBVV95cUxPZ19GYzFPN3BYQ25DVzdyV0hCUll5TW91dktCX2U4b1QzaFJaMHAtOVNOYm1KZmhGaDJlNFJMOXNIWnB0bmU0YlpTQXVBNGZCaURIMENHYU4tWHNyeFdLTTZHNmM0VnN5Z0pES1NuaWh2M0JSZEdmc05JcnBzS193TGZMLWlNZUZuLVdpVnlFOURTeldTSUhyWlItcE9rUlUxZzhKaDV6aEtFV1RYdlhPblU4Um5wTVB0QmZDRFNvanc2SHhSejZlbWVxQkVESGIwQ2c0REVWNHdqQjN6TGs3eFJKazY2aS1UWlhMT3RUY0NIYWVFWlJ4MVdueV9hRFRicEJnY0xrdlpLbWt4Nl9HOGVJQmI5ZVJZRnBJUS10UjViZFBud2pBdTRrNVBmNjNaRzhMeWRYZDBjMW44T1B6WEkyTGZsOUxqa3l0cDZodFVpaHVSalFDLV9QOERXaFhtRktBZGJSV0hJLVpPS19kRTd3QlN6SjRUSjZJM21lZXJxSi1FZEsyaklmRHZRNHhONVVaOTl5OXI3TXhZNnVTekp3dk1Yelk4VmZFVVAyV0hGSVB6d29pLW1aVHcwdzlfS1ZiRDkyejVNVFl4NkVIbWZfRG9EVHVXbGdxSWZZQzVhT0ZVZEMtMnhUdzVmNFlkV0NsaXNVazhqSHNjNkZIalJqQ1hLeWdEVGJ5SmdhT0hlNnNoM1lvX1Vzb1FLa0dPcmxvbWZXUUVWTkVGRnRUWlZ4cHdBX2txZ3BpT29QNTFqVmFucEp6dTdmSHJpMzlSUEZJREYwaDFueURVUVZobGxyMWo4c3JvSGJfSjBPQXhPVFF5SFZEQlNyVXdzUEpnQWdWMlJiNTdPMWM3UFhqZ1ZndTZCcEpUQi1FdWxEUFE3dE0yN2kyYTdhWmZXMHNhVWZUMDNYUXZxZ195YTlsSXQ3TU1nejlhOE1ual8zRjRMQXNNdXBVM2otQVJnNGI3MFZHQnNwT1BpNlgwalFrM1B0MFpGOVRWeFVPUE55TWd4LTFNLXlBT01UVDFkSjFlcDZXOFZiZWthZ3ZMOE8wRFVPX3Mxb2l3ZUpwLXJ6UlNIWWhLZTAyV1A2Vnh5WWJUOU43NU9tZm5OSTg",
+      "titleOriginal": "UPDATE: ห้ามเลือดก่อนทรุด สมาคมยานยนต์ไฟฟ้าไทย หนุนครม. ขึ้นภาษี EV-REEV นำเข้า 35% จี้ลุยต่ออีก 8 มาตรการคุมเข้ม จากมติคณะรัฐมนตรี (ครม.) ที่เห็นชอบปรับโครงสร้างภาษีสรรพสามิตรถยนต์ไฟฟ้านำเข้า โดยรถยนต์ไฟฟ้าแบตเตอรี่ (BEV) ปรับอัตราภาษีจาก 10% เป็น 35% และรถ - Facebook",
+      "originalSnippet": "UPDATE: ห้ามเลือดก่อนทรุด สมาคมยานยนต์ไฟฟ้าไทย หนุนครม. ขึ้นภาษี EV-REEV นำเข้า 35% จี้ลุยต่ออีก 8 มาตรการคุมเข้ม จากมติคณะรัฐมนตรี (ครม.) ที่เห็นชอบปรับโครงสร้างภาษีสรรพสามิตรถยนต์ไฟฟ้านำเข้า โดยรถยนต์ไฟฟ้าแบตเตอรี่ (BEV) ปรับอัตราภาษีจาก 10% เป็น 35% และรถ Facebook"
+    },
+    {
+      "title": "ผลกระทบจากการปรับขึ้นภาษีสรรพสามิตของประเทศไทยสำหรับรถยนต์ไฟฟ้าที่นำเข้า - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNLVNVcDM5dUpQN1dXOXhGNUJHVGNJTmtjLVVRMzRjNURqSllCVUdHRWZWTXN1WDFZS2JlM2Y4YnczMG5welc5Tm5qeGktck1RZ21KM0tGRWk3b1hOaWZWMER3amRGdG4wNW5kWFRraUJHeGdkRWJaU3JOWEoxa0ZrZ0Z3STQ4Skt2bk1pd0ZwRFR0SEVDLUVWakxrbGVmSEc2aE5JamJsNmxveG5KZ05jWQ?oc=5",
+      "snippet": "ผลกระทบจากการปรับขึ้นภาษีสรรพสามิตของประเทศไทยสำหรับรถยนต์ไฟฟ้าที่นำเข้า Vietnam.vn",
+      "publishedAt": "2026-11-03T13:44:28.000Z",
+      "sourceId": "google-news:th-TH",
+      "sourceName": "Vietnam.vn",
+      "sourceTier": 2,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "febdc0553ce6f3ec",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNLVNVcDM5dUpQN1dXOXhGNUJHVGNJTmtjLVVRMzRjNURqSllCVUdHRWZWTXN1WDFZS2JlM2Y4YnczMG5welc5Tm5qeGktck1RZ21KM0tGRWk3b1hOaWZWMER3amRGdG4wNW5kWFRraUJHeGdkRWJaU3JOWEoxa0ZrZ0Z3STQ4Skt2bk1pd0ZwRFR0SEVDLUVWakxrbGVmSEc2aE5JamJsNmxveG5KZ05jWQ",
+      "contentHash": "9cf8468be59cf820e3200076",
+      "collectedAt": "2026-11-04T07:10:48.078Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 10,
+      "matchedCategories": [
+        "EV",
+        "INTERNATIONAL"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "ผลกระทบจากการปรับขึ้นภาษีสรรพสามิตของประเทศไทยสำหรับรถยนต์ไฟฟ้าที่นำเข้า - Vietnam.vn",
+      "shortSummaryTh": "ผลกระทบจากการปรับขึ้นภาษีสรรพสามิตของประเทศไทยสำหรับรถยนต์ไฟฟ้าที่นำเข้า Vietnam.vn",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 48,
+      "relevanceScore": 43,
+      "newsCategory": "EV",
+      "affectedChannels": [],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [
+        "รถ EV ยังต้องล้างแอร์ และเจ้าของ EV ใส่ใจคุณภาพอากาศในห้องโดยสารสูง"
+      ],
+      "negativeImpacts": [
+        "EV ไม่มีหัวฉีดน้ำมัน = ความต้องการ Power Flow ลดลงในระยะยาว"
+      ],
+      "reasoningSummary": [
+        "ข่าว EV: ผลบวกต่อ AC_CLEANING หักลบผลลบต่อ POWER_FLOW → ประเมินผลสุทธิ"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "long-term",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNLVNVcDM5dUpQN1dXOXhGNUJHVGNJTmtjLVVRMzRjNURqSllCVUdHRWZWTXN1WDFZS2JlM2Y4YnczMG5welc5Tm5qeGktck1RZ21KM0tGRWk3b1hOaWZWMER3amRGdG4wNW5kWFRraUJHeGdkRWJaU3JOWEoxa0ZrZ0Z3STQ4Skt2bk1pd0ZwRFR0SEVDLUVWakxrbGVmSEc2aE5JamJsNmxveG5KZ05jWQ",
+      "titleOriginal": "ผลกระทบจากการปรับขึ้นภาษีสรรพสามิตของประเทศไทยสำหรับรถยนต์ไฟฟ้าที่นำเข้า - Vietnam.vn",
+      "originalSnippet": "ผลกระทบจากการปรับขึ้นภาษีสรรพสามิตของประเทศไทยสำหรับรถยนต์ไฟฟ้าที่นำเข้า Vietnam.vn"
+    },
+    {
+      "title": "ความขัดแย้งของแบตเตอรี่รถยนต์ไฟฟ้าใช้แล้ว: การนำกลับมาใช้ใหม่มีค่าใช้จ่ายสูงกว่าการซื้อแบตเตอรี่ใหม่ - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOek1zZHZUZWozaXluX21kVld3MXlDRnJpQjdmdVZmM0FJUF95UTJmcEJUM3k0SEJjMWVKeXdiajR3eExIdWdUWTl5Yk1iTjl0aUdnbjVhVGQyc3Fza3NEcHJaLVhRaHcyQWNEWWtCdmhzRWMxTEt2NEN6UVVBT3NKQ0NaNk0?oc=5",
+      "snippet": "ความขัดแย้งของแบตเตอรี่รถยนต์ไฟฟ้าใช้แล้ว: การนำกลับมาใช้ใหม่มีค่าใช้จ่ายสูงกว่าการซื้อแบตเตอรี่ใหม่ Vietnam.vn",
+      "publishedAt": "2026-11-03T10:40:01.000Z",
+      "sourceId": "google-news:th-TH",
+      "sourceName": "Vietnam.vn",
+      "sourceTier": 2,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "5045e7244f6e6705",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOek1zZHZUZWozaXluX21kVld3MXlDRnJpQjdmdVZmM0FJUF95UTJmcEJUM3k0SEJjMWVKeXdiajR3eExIdWdUWTl5Yk1iTjl0aUdnbjVhVGQyc3Fza3NEcHJaLVhRaHcyQWNEWWtCdmhzRWMxTEt2NEN6UVVBT3NKQ0NaNk0",
+      "contentHash": "7653d79e4ea414bad8b1aa35",
+      "collectedAt": "2026-11-04T07:10:48.078Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 10,
+      "matchedCategories": [
+        "EV",
+        "INTERNATIONAL"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "ความขัดแย้งของแบตเตอรี่รถยนต์ไฟฟ้าใช้แล้ว: การนำกลับมาใช้ใหม่มีค่าใช้จ่ายสูงกว่าการซื้อแบตเตอรี่ใหม่ - Vietnam.vn",
+      "shortSummaryTh": "ความขัดแย้งของแบตเตอรี่รถยนต์ไฟฟ้าใช้แล้ว: การนำกลับมาใช้ใหม่มีค่าใช้จ่ายสูงกว่าการซื้อแบตเตอรี่ใหม่ Vietnam.vn",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 48,
+      "relevanceScore": 43,
+      "newsCategory": "EV",
+      "affectedChannels": [],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [
+        "รถ EV ยังต้องล้างแอร์ และเจ้าของ EV ใส่ใจคุณภาพอากาศในห้องโดยสารสูง"
+      ],
+      "negativeImpacts": [
+        "EV ไม่มีหัวฉีดน้ำมัน = ความต้องการ Power Flow ลดลงในระยะยาว"
+      ],
+      "reasoningSummary": [
+        "ข่าว EV: ผลบวกต่อ AC_CLEANING หักลบผลลบต่อ POWER_FLOW → ประเมินผลสุทธิ"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "long-term",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOek1zZHZUZWozaXluX21kVld3MXlDRnJpQjdmdVZmM0FJUF95UTJmcEJUM3k0SEJjMWVKeXdiajR3eExIdWdUWTl5Yk1iTjl0aUdnbjVhVGQyc3Fza3NEcHJaLVhRaHcyQWNEWWtCdmhzRWMxTEt2NEN6UVVBT3NKQ0NaNk0",
+      "titleOriginal": "ความขัดแย้งของแบตเตอรี่รถยนต์ไฟฟ้าใช้แล้ว: การนำกลับมาใช้ใหม่มีค่าใช้จ่ายสูงกว่าการซื้อแบตเตอรี่ใหม่ - Vietnam.vn",
+      "originalSnippet": "ความขัดแย้งของแบตเตอรี่รถยนต์ไฟฟ้าใช้แล้ว: การนำกลับมาใช้ใหม่มีค่าใช้จ่ายสูงกว่าการซื้อแบตเตอรี่ใหม่ Vietnam.vn"
+    },
+    {
+      "title": "รถยนต์ไฟฟ้าอัปเดตซอฟต์แวร์จากระยะไกลได้อย่างไร? - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBqM1c2TmVoVDhLSENEOUtaMWtZWHgwaEVNR25LQUxSbW9SX3JJYWM2WDNGcmN5RlVGMGFVT0FoNmpZYWRTbnR2T2lWWVdibWJ5eVByZFhUZGQ0LXdrS0d6eF9aR0hWZndUUjNVWmFCVVpfbmFhZk5qRQ?oc=5",
+      "snippet": "รถยนต์ไฟฟ้าอัปเดตซอฟต์แวร์จากระยะไกลได้อย่างไร? Vietnam.vn",
+      "publishedAt": "2026-11-03T08:11:31.000Z",
+      "sourceId": "google-news:th-TH",
+      "sourceName": "Vietnam.vn",
+      "sourceTier": 2,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "63c069673038577e",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBqM1c2TmVoVDhLSENEOUtaMWtZWHgwaEVNR25LQUxSbW9SX3JJYWM2WDNGcmN5RlVGMGFVT0FoNmpZYWRTbnR2T2lWWVdibWJ5eVByZFhUZGQ0LXdrS0d6eF9aR0hWZndUUjNVWmFCVVpfbmFhZk5qRQ",
+      "contentHash": "98905793c070f0679c66396b",
+      "collectedAt": "2026-11-04T07:10:48.078Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 10,
+      "matchedCategories": [
+        "EV",
+        "INTERNATIONAL"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "รถยนต์ไฟฟ้าอัปเดตซอฟต์แวร์จากระยะไกลได้อย่างไร? - Vietnam.vn",
+      "shortSummaryTh": "รถยนต์ไฟฟ้าอัปเดตซอฟต์แวร์จากระยะไกลได้อย่างไร? Vietnam.vn",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 48,
+      "relevanceScore": 43,
+      "newsCategory": "EV",
+      "affectedChannels": [],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [
+        "รถ EV ยังต้องล้างแอร์ และเจ้าของ EV ใส่ใจคุณภาพอากาศในห้องโดยสารสูง"
+      ],
+      "negativeImpacts": [
+        "EV ไม่มีหัวฉีดน้ำมัน = ความต้องการ Power Flow ลดลงในระยะยาว"
+      ],
+      "reasoningSummary": [
+        "ข่าว EV: ผลบวกต่อ AC_CLEANING หักลบผลลบต่อ POWER_FLOW → ประเมินผลสุทธิ"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "long-term",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBqM1c2TmVoVDhLSENEOUtaMWtZWHgwaEVNR25LQUxSbW9SX3JJYWM2WDNGcmN5RlVGMGFVT0FoNmpZYWRTbnR2T2lWWVdibWJ5eVByZFhUZGQ0LXdrS0d6eF9aR0hWZndUUjNVWmFCVVpfbmFhZk5qRQ",
+      "titleOriginal": "รถยนต์ไฟฟ้าอัปเดตซอฟต์แวร์จากระยะไกลได้อย่างไร? - Vietnam.vn",
+      "originalSnippet": "รถยนต์ไฟฟ้าอัปเดตซอฟต์แวร์จากระยะไกลได้อย่างไร? Vietnam.vn"
+    },
+    {
+      "title": "ในวันที่ Honda จะทำรถกระบะขายคนทั่วโลกและไทย คิดว่า Honda ควรพัฒนารถไปในทิศทางไหนครับ (โดยพื้นฐาน Triton)",
+      "link": "https://pantip.com/topic/44270068",
+      "snippet": "",
+      "publishedAt": "2026-10-27T13:45:29.000Z",
+      "sourceId": "pantip:รถกระบะ",
+      "sourceName": "Pantip (แท็ก รถกระบะ)",
+      "sourceTier": 3,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": true,
+      "itemKind": "social",
+      "id": "34f5cf5734b320e8",
+      "canonicalUrl": "https://pantip.com/topic/44270068",
+      "contentHash": "6e8fe78a85efb277020bdfdc",
+      "collectedAt": "2026-11-04T07:10:48.078Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 10,
+      "matchedCategories": [
+        "AUTO_MARKET",
+        "OEM_BRANDS",
+        "INTERNATIONAL"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [
+        "Honda"
+      ],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "ในวันที่ Honda จะทำรถกระบะขายคนทั่วโลกและไทย คิดว่า Honda ควรพัฒนารถไปในทิศทางไหนครับ (โดยพื้นฐาน Triton)",
+      "shortSummaryTh": "ในวันที่ Honda จะทำรถกระบะขายคนทั่วโลกและไทย คิดว่า Honda ควรพัฒนารถไปในทิศทางไหนครับ (โดยพื้นฐาน Triton)",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 41,
+      "relevanceScore": 43,
+      "newsCategory": "OEM_BRANDS",
+      "affectedChannels": [
+        "OEM"
+      ],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "แหล่งข่าว Tier 3 — ข้อมูลยังต้องตรวจสอบ"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://pantip.com/topic/44270068",
+      "titleOriginal": "ในวันที่ Honda จะทำรถกระบะขายคนทั่วโลกและไทย คิดว่า Honda ควรพัฒนารถไปในทิศทางไหนครับ (โดยพื้นฐาน Triton)",
+      "originalSnippet": ""
+    },
+    {
+      "title": "Toyota Innova ZENIX (MY2026) ราคาอย่างเป็นทางการ : 1,379,000 – 1,489,000 บาท | จอใหม่ 12.3 นิ้ว แบตใหม่ Lithium-ion",
+      "link": "https://autolifethailand.tv/official-price-toyota-innova-zenix-hev-my2026/",
+      "snippet": "Toyota Innova ZENIX (MY2026) Toyota Innova Zenix (MY2026) ราคาอย่างเป็นทางการ (นำเข้าอินโดนีเซีย) 2.0 HEV Smart 1,379,000 บาท 2.0 HEV Premium 1,489,000 บาท มาพร้อมกาารับประกันคุณภาพตัวรถ โดย โตโยต้า มอเตอร์ ประเทศไทย ดังนี้ รับประกันคุณภาพตัวรถ Warranty นาน 5 ปี 150,000 km. รับประกันระบบไฮบริด นาน 5 ปี ไม่จำกัดระยะทาง รับประกันแบตเตอรี่ นาน 10 ปี ไม่จำกัดระยะทาง สิ่งที่เปลี่ยนแปลงใน Toyota Innova Zenix (MY2026) มีดังนี้ อัตราสิ้นเปลืองเชื้อเพลิง ดีขึ้น จาก 20.6 เป็น 21.3 […] The post Toyota Innova ZENIX (MY2026) ราคาอย่างเป็นทางการ : 1,379,000 – 1,489,000 บาท | จอใหม่ 12.3 นิ้ว แบตใหม่ Lithiu…",
+      "publishedAt": "2026-11-03T14:35:20.000Z",
+      "sourceId": "autolifethailand",
+      "sourceName": "AutoLife Thailand",
+      "sourceTier": 2,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "f1e434eead468d89",
+      "canonicalUrl": "https://autolifethailand.tv/official-price-toyota-innova-zenix-hev-my2026",
+      "contentHash": "5413771f19d3ec34fc06797e",
+      "collectedAt": "2026-11-04T07:10:48.078Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 9,
+      "matchedCategories": [
+        "OEM_BRANDS",
+        "INTERNATIONAL"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [
+        "Toyota"
+      ],
+      "hasAutomotiveContext": true,
+      "duplicateGroupId": "0d0473860edd542c",
+      "relatedCoverage": [
+        {
+          "sourceName": "HeadLightMag",
+          "url": "https://headlightmag.com/official-price-toyota-innova-zenix-my2026",
+          "tier": 2
+        }
+      ],
+      "titleTh": "Toyota Innova ZENIX (MY2026) ราคาอย่างเป็นทางการ : 1,379,000 – 1,489,000 บาท | จอใหม่ 12.3 นิ้ว แบตใหม่ Lithium-ion",
+      "shortSummaryTh": "Toyota Innova ZENIX (MY2026) Toyota Innova Zenix (MY2026) ราคาอย่างเป็นทางการ (นำเข้าอินโดนีเซีย) 2.0 HEV Smart 1,379,000 บาท 2.0 HEV Premium 1,489,000 บาท มาพร้อมกาารับประกันคุณภาพตัวรถ โดย โตโยต้า มอเตอร์ ประเทศไทย ดังนี้ รับประกันคุณภาพตัวรถ Warranty นาน 5 ปี 150,000 km. รับประกันระบบไฮบริด นาน…",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 58,
+      "relevanceScore": 40,
+      "newsCategory": "OEM_BRANDS",
+      "affectedChannels": [
+        "OEM"
+      ],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "วิเคราะห์ด้วยกฎอัตโนมัติ (ไม่ได้ใช้ AI)"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://autolifethailand.tv/official-price-toyota-innova-zenix-hev-my2026",
+      "titleOriginal": "Toyota Innova ZENIX (MY2026) ราคาอย่างเป็นทางการ : 1,379,000 – 1,489,000 บาท | จอใหม่ 12.3 นิ้ว แบตใหม่ Lithium-ion",
+      "originalSnippet": "Toyota Innova ZENIX (MY2026) Toyota Innova Zenix (MY2026) ราคาอย่างเป็นทางการ (นำเข้าอินโดนีเซีย) 2.0 HEV Smart 1,379,000 บาท 2.0 HEV Premium 1,489,000 บาท มาพร้อมกาารับประกันคุณภาพตัวรถ โดย โตโยต้า มอเตอร์ ประเทศไทย ดังนี้ รับประกันคุณภาพตัวรถ Warranty นาน 5 ปี 150,000 km. รับประกันระบบไฮบริด นาน 5 ปี ไม่จำกัดระยะทาง รับประกันแบตเตอรี่ นาน 10 ปี ไม่จำกัดระยะทาง สิ่งที่เปลี่ยนแปลงใน Toyota Innova Zenix (MY2026) มีดังนี้ อัตราสิ้นเปลืองเชื้อเพลิง ดีขึ้น จาก 20.6 เป็น 21.3 […] The post Toyota Innova ZENIX (MY2026) ราคาอย่างเป็นทางการ : 1,379,000 – 1,489,000 บาท | จอใหม่ 12.3 นิ้ว แบตใหม่ Lithiu…"
+    },
+    {
+      "title": "This 800-HP Ford Pickup Restomod Took 15,000 Hours To Build",
+      "link": "https://www.motor1.com/news/814286/ford-f100-restomod-800-hp-coyote-v8-restomod/",
+      "snippet": "Fat Fender Garage turned the classic pickup into a supercharged, supercar-inspired restomod.",
+      "publishedAt": "2026-11-03T19:30:05.000Z",
+      "sourceId": "motor1",
+      "sourceName": "Motor1",
+      "sourceTier": 2,
+      "sourceCountry": "GLOBAL",
+      "language": "en",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "80498b28c475e41e",
+      "canonicalUrl": "https://motor1.com/news/814286/ford-f100-restomod-800-hp-coyote-v8-restomod",
+      "contentHash": "2e5872a76ad15c9429726146",
+      "collectedAt": "2026-11-04T07:10:48.078Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 9,
+      "matchedCategories": [
+        "AUTO_MARKET",
+        "OEM_BRANDS"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [
+        "Ford"
+      ],
+      "hasAutomotiveContext": true,
+      "duplicateGroupId": "80498b28c475e41e",
+      "relatedCoverage": [
+        {
+          "sourceName": "Carscoops",
+          "url": "https://carscoops.com/2305806/fat-fender-f-150-800-hp-sema-2026",
+          "tier": 2
+        }
+      ],
+      "titleTh": "[EN] This 800-HP Ford Pickup Restomod Took 15,000 Hours To Build",
+      "shortSummaryTh": "Fat Fender Garage turned the classic pickup into a supercharged, supercar-inspired restomod.",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 53,
+      "relevanceScore": 40,
+      "newsCategory": "OEM_BRANDS",
+      "affectedChannels": [
+        "B2B"
+      ],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "Global"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "วิเคราะห์ด้วยกฎอัตโนมัติ (ไม่ได้ใช้ AI)"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://motor1.com/news/814286/ford-f100-restomod-800-hp-coyote-v8-restomod",
+      "titleOriginal": "This 800-HP Ford Pickup Restomod Took 15,000 Hours To Build",
+      "originalSnippet": "Fat Fender Garage turned the classic pickup into a supercharged, supercar-inspired restomod."
+    },
+    {
+      "title": "BAY ปิดจ๊อบรับโอนพอร์ต “สินเชื่อรถยนต์” กลุ่ม CIMBT - ข่าวหุ้นธุรกิจออนไลน์",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1Jb0V4aEFpNHktQkdxZWRIYmVFWlZ0bWQ3a0JRTVpqM1NXNDZKMUlWLUt4RlVKbTk2a2dFOGw5N0hlajdsN0NBQlR0dw?oc=5",
+      "snippet": "BAY ปิดจ๊อบรับโอนพอร์ต “สินเชื่อรถยนต์” กลุ่ม CIMBT ข่าวหุ้นธุรกิจออนไลน์",
+      "publishedAt": "2026-11-02T11:00:05.000Z",
+      "sourceId": "google-news:th-TH",
+      "sourceName": "ข่าวหุ้นธุรกิจออนไลน์",
+      "sourceTier": 2,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "fbad39729cc4c86c",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1Jb0V4aEFpNHktQkdxZWRIYmVFWlZ0bWQ3a0JRTVpqM1NXNDZKMUlWLUt4RlVKbTk2a2dFOGw5N0hlajdsN0NBQlR0dw",
+      "contentHash": "b9bda05720d08d2455ba1e44",
+      "collectedAt": "2026-11-04T07:10:48.078Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 9,
+      "matchedCategories": [
+        "AUTO_MARKET"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "BAY ปิดจ๊อบรับโอนพอร์ต “สินเชื่อรถยนต์” กลุ่ม CIMBT - ข่าวหุ้นธุรกิจออนไลน์",
+      "shortSummaryTh": "BAY ปิดจ๊อบรับโอนพอร์ต “สินเชื่อรถยนต์” กลุ่ม CIMBT ข่าวหุ้นธุรกิจออนไลน์",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 53,
+      "relevanceScore": 40,
+      "newsCategory": "AUTO_MARKET",
+      "affectedChannels": [],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "วิเคราะห์ด้วยกฎอัตโนมัติ (ไม่ได้ใช้ AI)"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1Jb0V4aEFpNHktQkdxZWRIYmVFWlZ0bWQ3a0JRTVpqM1NXNDZKMUlWLUt4RlVKbTk2a2dFOGw5N0hlajdsN0NBQlR0dw",
+      "titleOriginal": "BAY ปิดจ๊อบรับโอนพอร์ต “สินเชื่อรถยนต์” กลุ่ม CIMBT - ข่าวหุ้นธุรกิจออนไลน์",
+      "originalSnippet": "BAY ปิดจ๊อบรับโอนพอร์ต “สินเชื่อรถยนต์” กลุ่ม CIMBT ข่าวหุ้นธุรกิจออนไลน์"
+    },
+    {
+      "title": "FCA เตือนผู้ให้กู้เรื่องค่าชดเชยสินเชื่อรถยนต์ ขณะที่ Barclays เสนอข้อตกลงล่วงหน้า - Investing.com",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9rU2JqcHZmS1l4bGF2VGhJdG0xRG56NG9aYTE5Yjl4clEyZUVpeG5RMFdDVVQwN3hHbnNVU0tESXo0NktMazl3X0pLV2Naa09yZnA1cXQ1em1SZzBkdGd5TEY4M1BiMnVBZG03OUtuTXkyaXYyNFE?oc=5",
+      "snippet": "FCA เตือนผู้ให้กู้เรื่องค่าชดเชยสินเชื่อรถยนต์ ขณะที่ Barclays เสนอข้อตกลงล่วงหน้า Investing.com",
+      "publishedAt": "2026-11-02T08:00:00.000Z",
+      "sourceId": "google-news:th-TH",
+      "sourceName": "Investing.com",
+      "sourceTier": 2,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "45f89e97aa5b8bf9",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9rU2JqcHZmS1l4bGF2VGhJdG0xRG56NG9aYTE5Yjl4clEyZUVpeG5RMFdDVVQwN3hHbnNVU0tESXo0NktMazl3X0pLV2Naa09yZnA1cXQ1em1SZzBkdGd5TEY4M1BiMnVBZG03OUtuTXkyaXYyNFE",
+      "contentHash": "fd694a7183fd53ef631fbc50",
+      "collectedAt": "2026-11-04T07:10:48.078Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 9,
+      "matchedCategories": [
+        "AUTO_MARKET"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "FCA เตือนผู้ให้กู้เรื่องค่าชดเชยสินเชื่อรถยนต์ ขณะที่ Barclays เสนอข้อตกลงล่วงหน้า - Investing.com",
+      "shortSummaryTh": "FCA เตือนผู้ให้กู้เรื่องค่าชดเชยสินเชื่อรถยนต์ ขณะที่ Barclays เสนอข้อตกลงล่วงหน้า Investing.com",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 53,
+      "relevanceScore": 40,
+      "newsCategory": "AUTO_MARKET",
+      "affectedChannels": [],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "วิเคราะห์ด้วยกฎอัตโนมัติ (ไม่ได้ใช้ AI)"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9rU2JqcHZmS1l4bGF2VGhJdG0xRG56NG9aYTE5Yjl4clEyZUVpeG5RMFdDVVQwN3hHbnNVU0tESXo0NktMazl3X0pLV2Naa09yZnA1cXQ1em1SZzBkdGd5TEY4M1BiMnVBZG03OUtuTXkyaXYyNFE",
+      "titleOriginal": "FCA เตือนผู้ให้กู้เรื่องค่าชดเชยสินเชื่อรถยนต์ ขณะที่ Barclays เสนอข้อตกลงล่วงหน้า - Investing.com",
+      "originalSnippet": "FCA เตือนผู้ให้กู้เรื่องค่าชดเชยสินเชื่อรถยนต์ ขณะที่ Barclays เสนอข้อตกลงล่วงหน้า Investing.com"
+    },
+    {
+      "title": "ACMA STEER South 2026: Steering India’s Automotive Aftermarket Towards a Safer, Smarter Future - Motorindia",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZktfOW1XSVFCRXFVSng0d1kwbFBtWjFIT3RpdmN2dUNraXNDeVVHWGlzQlg1Q3VsTkx1b1QxSGgyLVFFdG5abnV1TkxMdzZPSVh0Y05YUmZnWnRGNDV0UHVEZEhRcnVaZzNuRURabDJpZzI1Z0lja0RBV3ozbEdzN1RCMFVscmdZR1ZhMmliVkFPRU4xRklINGQ0aTVpUHdOVDJWV2lXUzMzNW44Tk5LRE50alZTRUFPSHhadndJWF80Zw?oc=5",
+      "snippet": "ACMA STEER South 2026: Steering India’s Automotive Aftermarket Towards a Safer, Smarter Future Motorindia",
+      "publishedAt": "2026-11-04T05:16:09.000Z",
+      "sourceId": "google-news:en-SG",
+      "sourceName": "Motorindia",
+      "sourceTier": 2,
+      "sourceCountry": "SG",
+      "language": "en",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "89e7359b9a176263",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZktfOW1XSVFCRXFVSng0d1kwbFBtWjFIT3RpdmN2dUNraXNDeVVHWGlzQlg1Q3VsTkx1b1QxSGgyLVFFdG5abnV1TkxMdzZPSVh0Y05YUmZnWnRGNDV0UHVEZEhRcnVaZzNuRURabDJpZzI1Z0lja0RBV3ozbEdzN1RCMFVscmdZR1ZhMmliVkFPRU4xRklINGQ0aTVpUHdOVDJWV2lXUzMzNW44Tk5LRE50alZTRUFPSHhadndJWF80Zw",
+      "contentHash": "b0c372fef548b318d76dde23",
+      "collectedAt": "2026-11-04T07:10:48.078Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 9,
+      "matchedCategories": [
+        "AUTO_MARKET",
+        "INTERNATIONAL"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "[EN] ACMA STEER South 2026: Steering India’s Automotive Aftermarket Towards a Safer, Smarter Future - Motorindia",
+      "shortSummaryTh": "ACMA STEER South 2026: Steering India’s Automotive Aftermarket Towards a Safer, Smarter Future Motorindia",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 53,
+      "relevanceScore": 40,
+      "newsCategory": "AUTO_MARKET",
+      "affectedChannels": [],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "SG"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "วิเคราะห์ด้วยกฎอัตโนมัติ (ไม่ได้ใช้ AI)"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZktfOW1XSVFCRXFVSng0d1kwbFBtWjFIT3RpdmN2dUNraXNDeVVHWGlzQlg1Q3VsTkx1b1QxSGgyLVFFdG5abnV1TkxMdzZPSVh0Y05YUmZnWnRGNDV0UHVEZEhRcnVaZzNuRURabDJpZzI1Z0lja0RBV3ozbEdzN1RCMFVscmdZR1ZhMmliVkFPRU4xRklINGQ0aTVpUHdOVDJWV2lXUzMzNW44Tk5LRE50alZTRUFPSHhadndJWF80Zw",
+      "titleOriginal": "ACMA STEER South 2026: Steering India’s Automotive Aftermarket Towards a Safer, Smarter Future - Motorindia",
+      "originalSnippet": "ACMA STEER South 2026: Steering India’s Automotive Aftermarket Towards a Safer, Smarter Future Motorindia"
+    },
+    {
+      "title": "โตโยต้าทุ่ม 1,490 ล้าน ผลิต Hilux ไฮโดรเจนในไทย 3,000 คันต่อปี ปักฐานส่งออกโลก VS Tesla รถบินได้",
+      "link": "https://pantip.com/topic/44262513",
+      "snippet": "",
+      "publishedAt": "2026-10-19T22:58:26.000Z",
+      "sourceId": "pantip:Toyota",
+      "sourceName": "Pantip (แท็ก Toyota)",
+      "sourceTier": 3,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": true,
+      "itemKind": "social",
+      "id": "8d8b1ed843ce593b",
+      "canonicalUrl": "https://pantip.com/topic/44262513",
+      "contentHash": "e8ac3e2749df99ba33c06846",
+      "collectedAt": "2026-11-04T07:10:48.078Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 9,
+      "matchedCategories": [
+        "OEM_BRANDS",
+        "INTERNATIONAL"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [
+        "Toyota",
+        "Tesla"
+      ],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "โตโยต้าทุ่ม 1,490 ล้าน ผลิต Hilux ไฮโดรเจนในไทย 3,000 คันต่อปี ปักฐานส่งออกโลก VS Tesla รถบินได้",
+      "shortSummaryTh": "โตโยต้าทุ่ม 1,490 ล้าน ผลิต Hilux ไฮโดรเจนในไทย 3,000 คันต่อปี ปักฐานส่งออกโลก VS Tesla รถบินได้",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 41,
+      "relevanceScore": 40,
+      "newsCategory": "OEM_BRANDS",
+      "affectedChannels": [
+        "OEM"
+      ],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "แหล่งข่าว Tier 3 — ข้อมูลยังต้องตรวจสอบ"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://pantip.com/topic/44262513",
+      "titleOriginal": "โตโยต้าทุ่ม 1,490 ล้าน ผลิต Hilux ไฮโดรเจนในไทย 3,000 คันต่อปี ปักฐานส่งออกโลก VS Tesla รถบินได้",
+      "originalSnippet": ""
+    },
+    {
+      "title": "น้ำยาล้างหัวฉีดสามารถเติมใส่ในถังได้เลย",
+      "link": "https://www.youtube.com/watch?v=lNSPLJthasY",
+      "snippet": "(ช่อง: โอ๊ต บรรลัยยนต์) · ยอดวิว 1,516 ครั้ง",
+      "publishedAt": "2026-10-28T10:59:29.000Z",
+      "sourceId": "youtube",
+      "sourceName": "YouTube · โอ๊ต บรรลัยยนต์",
+      "sourceTier": 3,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": true,
+      "itemKind": "social",
+      "id": "a45928b8537a72ca",
+      "canonicalUrl": "https://youtube.com/watch?v=lNSPLJthasY",
+      "contentHash": "b5efc8846f45456b5b4f5a00",
+      "collectedAt": "2026-11-04T07:10:48.078Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 9,
+      "matchedCategories": [
+        "INJECTOR"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "น้ำยาล้างหัวฉีดสามารถเติมใส่ในถังได้เลย",
+      "shortSummaryTh": "(ช่อง: โอ๊ต บรรลัยยนต์) · ยอดวิว 1,516 ครั้ง",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 41,
+      "relevanceScore": 40,
+      "newsCategory": "INJECTOR",
+      "affectedChannels": [],
+      "affectedProducts": [
+        "POWER_FLOW",
+        "TRADING"
+      ],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "แหล่งข่าว Tier 3 — ข้อมูลยังต้องตรวจสอบ"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://youtube.com/watch?v=lNSPLJthasY",
+      "titleOriginal": "น้ำยาล้างหัวฉีดสามารถเติมใส่ในถังได้เลย",
+      "originalSnippet": "(ช่อง: โอ๊ต บรรลัยยนต์) · ยอดวิว 1,516 ครั้ง"
+    },
+    {
+      "title": "น้ำยาล้างหัวฉีด #Duckhams ADV+ Booster สำหรับ #รถจักรยานยนต์ #NX500 #เวฟ110i #Finn",
+      "link": "https://www.youtube.com/watch?v=XKf6CcWxcok",
+      "snippet": "(ช่อง: พ่อบ้าน Station) · ยอดวิว 1,849 ครั้ง",
+      "publishedAt": "2026-10-28T05:05:05.000Z",
+      "sourceId": "youtube",
+      "sourceName": "YouTube · พ่อบ้าน Station",
+      "sourceTier": 3,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": true,
+      "itemKind": "social",
+      "id": "47d740a403eda76a",
+      "canonicalUrl": "https://youtube.com/watch?v=XKf6CcWxcok",
+      "contentHash": "f809b427ed94c7e58bc4f5a0",
+      "collectedAt": "2026-11-04T07:10:48.078Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 9,
+      "matchedCategories": [
+        "INJECTOR"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "น้ำยาล้างหัวฉีด #Duckhams ADV+ Booster สำหรับ #รถจักรยานยนต์ #NX500 #เวฟ110i #Finn",
+      "shortSummaryTh": "(ช่อง: พ่อบ้าน Station) · ยอดวิว 1,849 ครั้ง",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 41,
+      "relevanceScore": 40,
+      "newsCategory": "INJECTOR",
+      "affectedChannels": [],
+      "affectedProducts": [
+        "POWER_FLOW",
+        "TRADING"
+      ],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "แหล่งข่าว Tier 3 — ข้อมูลยังต้องตรวจสอบ"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://youtube.com/watch?v=XKf6CcWxcok",
+      "titleOriginal": "น้ำยาล้างหัวฉีด #Duckhams ADV+ Booster สำหรับ #รถจักรยานยนต์ #NX500 #เวฟ110i #Finn",
+      "originalSnippet": "(ช่อง: พ่อบ้าน Station) · ยอดวิว 1,849 ครั้ง"
+    }
+  ],
+  "sourceHealth": [
+    {
+      "sourceId": "pcd-air4thai",
+      "sourceName": "กรมควบคุมมลพิษ (คุณภาพอากาศ)",
+      "ok": false,
+      "itemCount": 0,
+      "durationMs": 0,
+      "error": "fetch failed"
+    },
+    {
+      "sourceId": "prachachat",
+      "sourceName": "ประชาชาติธุรกิจ",
+      "ok": true,
+      "itemCount": 20,
+      "durationMs": 2565
+    },
+    {
+      "sourceId": "headlightmag",
+      "sourceName": "HeadLightMag",
+      "ok": true,
+      "itemCount": 10,
+      "durationMs": 4360
+    },
+    {
+      "sourceId": "autolifethailand",
+      "sourceName": "AutoLife Thailand",
+      "ok": true,
+      "itemCount": 10,
+      "durationMs": 5148
+    },
+    {
+      "sourceId": "autospinn",
+      "sourceName": "Autospinn",
+      "ok": false,
+      "itemCount": 0,
+      "durationMs": 0,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "sourceId": "khaosod",
+      "sourceName": "ข่าวสด",
+      "ok": true,
+      "itemCount": 20,
+      "durationMs": 2467
+    },
+    {
+      "sourceId": "matichon",
+      "sourceName": "มติชน",
+      "ok": true,
+      "itemCount": 20,
+      "durationMs": 1752
+    },
+    {
+      "sourceId": "bangkokpost-business",
+      "sourceName": "Bangkok Post — Business",
+      "ok": true,
+      "itemCount": 10,
+      "durationMs": 4928
+    },
+    {
+      "sourceId": "automotive-news",
+      "sourceName": "Automotive News",
+      "ok": true,
+      "itemCount": 20,
+      "durationMs": 1821
+    },
+    {
+      "sourceId": "tire-business",
+      "sourceName": "Tire Business (Workshop / Aftermarket)",
+      "ok": true,
+      "itemCount": 20,
+      "durationMs": 1932
+    },
+    {
+      "sourceId": "just-auto",
+      "sourceName": "Just Auto",
+      "ok": true,
+      "itemCount": 10,
+      "durationMs": 2428
+    },
+    {
+      "sourceId": "insideevs",
+      "sourceName": "InsideEVs",
+      "ok": true,
+      "itemCount": 20,
+      "durationMs": 2445
+    },
+    {
+      "sourceId": "electrek",
+      "sourceName": "Electrek",
+      "ok": true,
+      "itemCount": 20,
+      "durationMs": 1877
+    },
+    {
+      "sourceId": "motor1",
+      "sourceName": "Motor1",
+      "ok": true,
+      "itemCount": 20,
+      "durationMs": 2451
+    },
+    {
+      "sourceId": "carscoops",
+      "sourceName": "Carscoops",
+      "ok": true,
+      "itemCount": 20,
+      "durationMs": 2493
+    },
+    {
+      "sourceId": "paultan",
+      "sourceName": "Paul Tan's Automotive News (MY/ASEAN)",
+      "ok": true,
+      "itemCount": 20,
+      "durationMs": 1959
+    },
+    {
+      "sourceId": "vnexpress-intl",
+      "sourceName": "VnExpress International",
+      "ok": true,
+      "itemCount": 20,
+      "durationMs": 3858
+    },
+    {
+      "sourceId": "nikkei-asia",
+      "sourceName": "Nikkei Asia",
+      "ok": true,
+      "itemCount": 20,
+      "durationMs": 2624
+    },
+    {
+      "sourceId": "google-news:th-TH",
+      "sourceName": "Google News (th-TH)",
+      "ok": true,
+      "itemCount": 152,
+      "durationMs": 15983
+    },
+    {
+      "sourceId": "google-news:en-TH",
+      "sourceName": "Google News (en-TH)",
+      "ok": true,
+      "itemCount": 102,
+      "durationMs": 16667
+    },
+    {
+      "sourceId": "google-news:en-SG",
+      "sourceName": "Google News (en-SG)",
+      "ok": true,
+      "itemCount": 101,
+      "durationMs": 16779
+    },
+    {
+      "sourceId": "google-news:en-PH",
+      "sourceName": "Google News (en-PH)",
+      "ok": true,
+      "itemCount": 102,
+      "durationMs": 16784
+    },
+    {
+      "sourceId": "google-news:en-US",
+      "sourceName": "Google News (en-US)",
+      "ok": true,
+      "itemCount": 101,
+      "durationMs": 16816
+    },
+    {
+      "sourceId": "pantip",
+      "sourceName": "Pantip (ห้องรถยนต์)",
+      "ok": true,
+      "itemCount": 195,
+      "durationMs": 17836
+    },
+    {
+      "sourceId": "facebook-owned",
+      "sourceName": "Facebook (เพจที่บริษัทดูแล)",
+      "ok": false,
+      "itemCount": 0,
+      "durationMs": 0,
+      "error": "ยังไม่ได้ตั้งค่า FACEBOOK_PAGE_TOKEN — robots.txt ของ Facebook ห้าม crawl จึงต้องใช้ Graph API เท่านั้น (เข้าถึงได้เฉพาะเพจที่บริษัทดูแล)",
+      "configured": false
+    },
+    {
+      "sourceId": "tiktok",
+      "sourceName": "TikTok (แฮชแท็กที่ติดตาม)",
+      "ok": false,
+      "itemCount": 0,
+      "durationMs": 0,
+      "error": "ยังไม่ได้ตั้งค่า TIKTOK_ACCESS_TOKEN — เนื้อหา TikTok ถูก render ด้วย JS และ ToS จำกัดการ scrape จึงต้องใช้ Display API เท่านั้น",
+      "configured": false
+    },
+    {
+      "sourceId": "youtube",
+      "sourceName": "YouTube (คำค้นที่ติดตาม)",
+      "ok": true,
+      "itemCount": 33,
+      "durationMs": 6103,
+      "configured": true
+    },
+    {
+      "sourceId": "weather-signal",
+      "sourceName": "Open-Meteo (พยากรณ์อากาศ / คุณภาพอากาศ)",
+      "ok": true,
+      "itemCount": 0,
+      "durationMs": 2884
+    }
+  ],
+  "errors": [
+    "[feed:pcd-air4thai] fetch failed",
+    "[feed:autospinn] HTTP 403 Forbidden",
+    "[ai:classify:4fd0639083eefd7b] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CghUFFeMPEZdGKGvMCdKB\"}",
+    "[ai:classify:95a972e2785bc408] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CghUFHC76x74MbKKExmRs\"}",
+    "[ai:classify:caf0641846bc20fd] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CghUFJeAvGwgpVpn5Xz2z\"}",
+    "[ai:classify:1e7e5ddf58315d77] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CghUFLCScTDx8VhKgK7iw\"}",
+    "[ai:classify:4c43a16b0eee7910] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CghUFNRPCdbdXcNBpEb53\"}",
+    "[ai:classify:d6937101e6e51517] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CghUFQC3YHe5s2G5MvpUP\"}",
+    "[ai:classify:1a1c00ee30ef0a67] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CghUFRipMGFtR1vqyF8sS\"}",
+    "[ai:classify:a2a1361ddd4950da] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CghUFTDMf8LVwezY6bTBE\"}",
+    "[ai:classify:dc670b0b55f71639] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CghUFUns1mdnLx5uFdS9H\"}",
+    "[ai:classify:f3625ebd92b0dad5] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CghUFWMNWWLWk4KKvnqy2\"}",
+    "[ai:classify:87de79d7ac5e4709] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CghUFXnhJbhhHUpe87T2j\"}",
+    "[ai:classify:3176e42b10c90667] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CghUFZG14XUerB5iEUjxG\"}",
+    "[ai:classify:e06a888284093e9a] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CghUFao2VZ34WFQcB2zN5\"}",
+    "[ai:classify:47dad9e578fd2845] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CghUFcMnnX94zHSKD6d3f\"}",
+    "[ai:classify:ee0ba013c83f08d4] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CghUFdnbjwcsgYLb871ft\"}",
+    "[ai:classify:febdc0553ce6f3ec] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CghUFfLNReru3FFHjT4kJ\"}",
+    "[ai:classify:5045e7244f6e6705] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CghUFgrQoqov5Z3k1Vn4m\"}",
+    "[ai:classify:63c069673038577e] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CghUFiHiiqpcWpBgd8wkm\"}",
+    "[ai:classify:f1e434eead468d89] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CghUFjtiixj9CHCjYADUk\"}",
+    "[ai:classify:80498b28c475e41e] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CghUFmMmTRKGHQQPQTYVN\"}",
+    "[ai:classify:45f89e97aa5b8bf9] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CghUFnoqR5bJkqJMEvcke\"}",
+    "[ai:classify:89e7359b9a176263] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CghUFpHdXyXaD7MXxqfhZ\"}",
+    "[ai:classify:629d022173acbcb9] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CghUFqkwMJYDm393Vz6od\"}",
+    "[ai:classify:a45928b8537a72ca] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CghUFsDW2jNLkoqbeyfDo\"}",
+    "[ai:classify:47d740a403eda76a] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CghUFtm1i3MAMRVejaVXx\"}",
+    "[ai:daily] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CghUFvFZ58zxgEzxmrzcs\"}"
+  ],
+  "ai": {
+    "enabled": true,
+    "model": "claude-haiku-4-5-20251001",
+    "itemsAnalyzedByAi": 0,
+    "itemsAnalyzedByFallback": 36,
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "estimatedCostUsd": 0
+  }
+}
