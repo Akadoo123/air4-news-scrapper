@@ -1,0 +1,1724 @@
+{
+  "date": "2026-11-18",
+  "generatedAt": "2026-11-18T08:25:43.594Z",
+  "timezone": "Asia/Bangkok",
+  "status": "degraded",
+  "kpi": {
+    "totalCollected": 747,
+    "afterDedup": 571,
+    "afterPrefilter": 21,
+    "published": 19,
+    "positive": 2,
+    "neutral": 16,
+    "negative": 1,
+    "highImpact": 2,
+    "competitorAlerts": 0,
+    "evRelated": 9,
+    "international": 0,
+    "oemOpportunities": 0,
+    "b2bOpportunities": 0,
+    "b2cOpportunities": 0,
+    "o1Supporting": 2,
+    "o2Supporting": 0,
+    "socialMentions": 9,
+    "demandSignals": 0
+  },
+  "daily": {
+    "executiveSummaryTh": "วันนี้ระบบคัดกรองข่าวที่เกี่ยวข้องกับ Air4 ได้ 19 ข่าว แบ่งเป็นเชิงบวก 2 ข่าว เป็นกลาง 16 ข่าว และเชิงลบ 1 ข่าว คะแนนผลกระทบสุทธิอยู่ที่ 0.6 ซึ่งจัดอยู่ในระดับเป็นกลางต่อธุรกิจ ข่าวเชิงบวกที่สำคัญที่สุดคือ \"แอร์รถยนต์มีกลิ่นอับทำยังไงดี? #ตีตี้รีวิว#VISBELLA#โฟมล้างแอร์รถยนต์#แอร์รถเหม็นอับ#วิธีดูแลแอร์รถ\" ข่าวที่ต้องเฝ้าระวังมากที่สุดคือ \"แม้ว่าจะมีการลดราคาอย่างมากในหลายรุ่น แต่ยอดขายรถยนต์ซีดานขนาดเล็ก (B-segment) ยังคงลดลงอย่างต่อเนื่อง โดยโตโยต้า ไวออส เป็นผู้นำในเรื่องนี้ - Vietnam.vn\" ยังไม่พบความเคลื่อนไหวสำคัญของคู่แข่งในวันนี้ หมายเหตุ: บทวิเคราะห์นี้สร้างโดยระบบกฎอัตโนมัติเนื่องจากไม่สามารถเรียกใช้ AI ได้",
+    "overallSentiment": "neutral",
+    "netImpactScore": 0.62,
+    "urgencyLevel": "low",
+    "opportunitySignals": [
+      {
+        "title": "แอร์รถยนต์มีกลิ่นอับทำยังไงดี? #ตีตี้รีวิว#VISBELLA#โฟมล้างแอร์รถยนต์#แอร์รถเหม็นอับ#วิธีดูแลแอร์รถ",
+        "detail": "ปัญหากลิ่น/เชื้อราในรถ = ความต้องการบริการหลักของ Air4",
+        "relatedNewsIds": [
+          "db94a790b9c27051"
+        ]
+      },
+      {
+        "title": "SUSCO ฟอร์มแกร่ง! Q3 กำไรโต 800% ธุรกิจน้ำมัน-นอนออยล์หนุน ลุ้นยอดขายรถ EV ดันผลงานเข้าเป้า - Share2Trade",
+        "detail": "ตลาดรถยนต์เติบโต = ปริมาณรถเข้าศูนย์เพิ่ม",
+        "relatedNewsIds": [
+          "ea1647aade6e361e"
+        ]
+      }
+    ],
+    "riskSignals": [
+      {
+        "title": "แม้ว่าจะมีการลดราคาอย่างมากในหลายรุ่น แต่ยอดขายรถยนต์ซีดานขนาดเล็ก (B-segment) ยังคงลดลงอย่างต่อเนื่อง โดยโตโยต้า ไวออส เป็นผู้นำในเรื่องนี้ - Vietnam.vn",
+        "detail": "ตลาดหดตัว = ปริมาณรถเข้าศูนย์ลดลง",
+        "relatedNewsIds": [
+          "9f07a7888f06d1dc"
+        ]
+      }
+    ],
+    "actionsToday": [
+      {
+        "action": "ประเมินผลกระทบจากข่าว: แม้ว่าจะมีการลดราคาอย่างมากในหลายรุ่น แต่ยอดขายรถยนต์ซีดานขนาดเล็ก (B-segment) ยังคงลดลงอย่างต่อเนื่อง โดยโตโยต้า ไวออส เป็นผู้นำในเรื่องนี้ - Vietnam.vn",
+        "owner": "Business Intelligence",
+        "priority": "high",
+        "deadline": "today",
+        "reason": "ตลาดหดตัว = ปริมาณรถเข้าศูนย์ลดลง",
+        "relatedNewsIds": [
+          "9f07a7888f06d1dc"
+        ]
+      }
+    ],
+    "actionsWithin7Days": [
+      {
+        "action": "ต่อยอดโอกาสจากข่าว: แอร์รถยนต์มีกลิ่นอับทำยังไงดี? #ตีตี้รีวิว#VISBELLA#โฟมล้างแอร์รถยนต์#แอร์รถเหม็นอับ#วิธีดูแลแอร์รถ",
+        "owner": "B2B Sales & Marketing",
+        "priority": "medium",
+        "deadline": "within_7_days",
+        "reason": "ปัญหากลิ่น/เชื้อราในรถ = ความต้องการบริการหลักของ Air4",
+        "relatedNewsIds": [
+          "db94a790b9c27051"
+        ]
+      },
+      {
+        "action": "ต่อยอดโอกาสจากข่าว: SUSCO ฟอร์มแกร่ง! Q3 กำไรโต 800% ธุรกิจน้ำมัน-นอนออยล์หนุน ลุ้นยอดขายรถ EV ดันผลงานเข้าเป้า - Share2Trade",
+        "owner": "B2B Sales & Marketing",
+        "priority": "medium",
+        "deadline": "within_7_days",
+        "reason": "ตลาดรถยนต์เติบโต = ปริมาณรถเข้าศูนย์เพิ่ม",
+        "relatedNewsIds": [
+          "ea1647aade6e361e"
+        ]
+      }
+    ],
+    "actionsToMonitor": [],
+    "okrAssessment": {
+      "O1": "สัญญาณวันนี้ยังไม่ชี้ชัดต่อเป้าหมายรายได้รวม +15% YoY",
+      "O2": "ข่าวที่เกี่ยวกับช่องทางนอก Toyota OEM มี 0 รายการ",
+      "benefitingChannels": [],
+      "atRiskChannels": [
+        "OEM"
+      ],
+      "prioritisationNote": "ควรตรวจสอบด้วย AI Analysis เพื่อความแม่นยำ"
+    },
+    "ceoQuestions": [
+      "ข่าววันนี้มีรายการใดที่ควรเปลี่ยนลำดับความสำคัญของแผนการขายหรือไม่",
+      "มีลูกค้ารายใดที่ควรเข้าไปติดต่อทันทีจากสัญญาณที่พบ"
+    ]
+  },
+  "items": [
+    {
+      "title": "แม้ว่าจะมีการลดราคาอย่างมากในหลายรุ่น แต่ยอดขายรถยนต์ซีดานขนาดเล็ก (B-segment) ยังคงลดลงอย่างต่อเนื่อง โดยโตโยต้า ไวออส เป็นผู้นำในเรื่องนี้ - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOS3Fqb085ajlRb0RLelJfaUh0SXBzVWJDc1dvSEYtajdiM3QwWHpXcjJ2bWxROE5UNE5yMTl2RWRlY25NanZpNWdQYm0td3BJQzRtdFA1M3RwTUFoR0E5T3pwN3dHbGNzR2E2dHpCLXJ1ektjSjJ3TGNOLTdQMWJmY3FIR1d6Y0ZtN1ZoMU1lU2tQMHc5WjFOZzBaLUp6SF9UTGc?oc=5",
+      "snippet": "แม้ว่าจะมีการลดราคาอย่างมากในหลายรุ่น แต่ยอดขายรถยนต์ซีดานขนาดเล็ก (B-segment) ยังคงลดลงอย่างต่อเนื่อง โดยโตโยต้า ไวออส เป็นผู้นำในเรื่องนี้ Vietnam.vn",
+      "publishedAt": "2026-11-18T05:40:03.000Z",
+      "sourceId": "google-news:th-TH",
+      "sourceName": "Vietnam.vn",
+      "sourceTier": 2,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "9f07a7888f06d1dc",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOS3Fqb085ajlRb0RLelJfaUh0SXBzVWJDc1dvSEYtajdiM3QwWHpXcjJ2bWxROE5UNE5yMTl2RWRlY25NanZpNWdQYm0td3BJQzRtdFA1M3RwTUFoR0E5T3pwN3dHbGNzR2E2dHpCLXJ1ektjSjJ3TGNOLTdQMWJmY3FIR1d6Y0ZtN1ZoMU1lU2tQMHc5WjFOZzBaLUp6SF9UTGc",
+      "contentHash": "53c542a954f656568b9da1b7",
+      "collectedAt": "2026-11-18T08:25:33.539Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 18,
+      "matchedCategories": [
+        "AUTO_MARKET",
+        "OEM_BRANDS",
+        "INTERNATIONAL"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [
+        "Toyota"
+      ],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "แม้ว่าจะมีการลดราคาอย่างมากในหลายรุ่น แต่ยอดขายรถยนต์ซีดานขนาดเล็ก (B-segment) ยังคงลดลงอย่างต่อเนื่อง โดยโตโยต้า ไวออส เป็นผู้นำในเรื่องนี้ - Vietnam.vn",
+      "shortSummaryTh": "แม้ว่าจะมีการลดราคาอย่างมากในหลายรุ่น แต่ยอดขายรถยนต์ซีดานขนาดเล็ก (B-segment) ยังคงลดลงอย่างต่อเนื่อง โดยโตโยต้า ไวออส เป็นผู้นำในเรื่องนี้ Vietnam.vn",
+      "classification": "negative",
+      "impactScore": -5,
+      "confidence": 58,
+      "relevanceScore": 68,
+      "newsCategory": "OEM_BRANDS",
+      "affectedChannels": [
+        "OEM"
+      ],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "negative",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [],
+      "negativeImpacts": [
+        "ตลาดหดตัว = ปริมาณรถเข้าศูนย์ลดลง",
+        "แรงกดดันด้านราคา กระทบมาร์จิ้น"
+      ],
+      "reasoningSummary": [
+        "วิเคราะห์ด้วยกฎอัตโนมัติ (ไม่ได้ใช้ AI)"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "high",
+          "deadline": "today"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOS3Fqb085ajlRb0RLelJfaUh0SXBzVWJDc1dvSEYtajdiM3QwWHpXcjJ2bWxROE5UNE5yMTl2RWRlY25NanZpNWdQYm0td3BJQzRtdFA1M3RwTUFoR0E5T3pwN3dHbGNzR2E2dHpCLXJ1ektjSjJ3TGNOLTdQMWJmY3FIR1d6Y0ZtN1ZoMU1lU2tQMHc5WjFOZzBaLUp6SF9UTGc",
+      "titleOriginal": "แม้ว่าจะมีการลดราคาอย่างมากในหลายรุ่น แต่ยอดขายรถยนต์ซีดานขนาดเล็ก (B-segment) ยังคงลดลงอย่างต่อเนื่อง โดยโตโยต้า ไวออส เป็นผู้นำในเรื่องนี้ - Vietnam.vn",
+      "originalSnippet": "แม้ว่าจะมีการลดราคาอย่างมากในหลายรุ่น แต่ยอดขายรถยนต์ซีดานขนาดเล็ก (B-segment) ยังคงลดลงอย่างต่อเนื่อง โดยโตโยต้า ไวออส เป็นผู้นำในเรื่องนี้ Vietnam.vn"
+    },
+    {
+      "title": "แอร์รถยนต์มีกลิ่นอับทำยังไงดี? #ตีตี้รีวิว#VISBELLA#โฟมล้างแอร์รถยนต์#แอร์รถเหม็นอับ#วิธีดูแลแอร์รถ",
+      "link": "https://www.youtube.com/watch?v=15c3H9e6E8g",
+      "snippet": "แอร์รถยนต์มีกลิ่นอับ ทำยังไงดี? รีวิว VISBELLA สเปรย์โฟมทำความสะอาดแอร์รถยนต์ พร้อมสาธิตวิธีใช้งานตามจุดที่เหมาะสม ... (ช่อง: ตีตี้_รีวิว) · ยอดวิว 45 ครั้ง",
+      "publishedAt": "2026-11-13T11:00:06.000Z",
+      "sourceId": "youtube",
+      "sourceName": "YouTube · ตีตี้_รีวิว",
+      "sourceTier": 3,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": true,
+      "itemKind": "social",
+      "id": "db94a790b9c27051",
+      "canonicalUrl": "https://youtube.com/watch?v=15c3H9e6E8g",
+      "contentHash": "523099c5ca64dea58a038e28",
+      "collectedAt": "2026-11-18T08:25:33.539Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 25,
+      "matchedCategories": [
+        "AC_CLEANING"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "แอร์รถยนต์มีกลิ่นอับทำยังไงดี? #ตีตี้รีวิว#VISBELLA#โฟมล้างแอร์รถยนต์#แอร์รถเหม็นอับ#วิธีดูแลแอร์รถ",
+      "shortSummaryTh": "แอร์รถยนต์มีกลิ่นอับ ทำยังไงดี? รีวิว VISBELLA สเปรย์โฟมทำความสะอาดแอร์รถยนต์ พร้อมสาธิตวิธีใช้งานตามจุดที่เหมาะสม ... (ช่อง: ตีตี้_รีวิว) · ยอดวิว 45 ครั้ง",
+      "classification": "positive",
+      "impactScore": 3,
+      "confidence": 46,
+      "relevanceScore": 90,
+      "newsCategory": "AC_CLEANING",
+      "affectedChannels": [],
+      "affectedProducts": [
+        "AC_CLEANING"
+      ],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "positive",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [
+        "ปัญหากลิ่น/เชื้อราในรถ = ความต้องการบริการหลักของ Air4",
+        "เกี่ยวข้องกับบริการหลักโดยตรง"
+      ],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "แหล่งข่าว Tier 3 — ข้อมูลยังต้องตรวจสอบ"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "high",
+          "deadline": "today"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://youtube.com/watch?v=15c3H9e6E8g",
+      "titleOriginal": "แอร์รถยนต์มีกลิ่นอับทำยังไงดี? #ตีตี้รีวิว#VISBELLA#โฟมล้างแอร์รถยนต์#แอร์รถเหม็นอับ#วิธีดูแลแอร์รถ",
+      "originalSnippet": "แอร์รถยนต์มีกลิ่นอับ ทำยังไงดี? รีวิว VISBELLA สเปรย์โฟมทำความสะอาดแอร์รถยนต์ พร้อมสาธิตวิธีใช้งานตามจุดที่เหมาะสม ... (ช่อง: ตีตี้_รีวิว) · ยอดวิว 45 ครั้ง"
+    },
+    {
+      "title": "SUSCO ฟอร์มแกร่ง! Q3 กำไรโต 800% ธุรกิจน้ำมัน-นอนออยล์หนุน ลุ้นยอดขายรถ EV ดันผลงานเข้าเป้า - Share2Trade",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5xTE1GY3JOQ3A3MWE5WHdlS3dEemNya2JoMjRtQmdJNVJuWVhneGItSUYzbnlydHE1QWJWS3Brclp4YmpmYnZIV21EUmNlUjA?oc=5",
+      "snippet": "SUSCO ฟอร์มแกร่ง! Q3 กำไรโต 800% ธุรกิจน้ำมัน-นอนออยล์หนุน ลุ้นยอดขายรถ EV ดันผลงานเข้าเป้า Share2Trade",
+      "publishedAt": "2026-11-16T22:57:02.000Z",
+      "sourceId": "google-news:th-TH",
+      "sourceName": "Share2Trade",
+      "sourceTier": 2,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "ea1647aade6e361e",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5xTE1GY3JOQ3A3MWE5WHdlS3dEemNya2JoMjRtQmdJNVJuWVhneGItSUYzbnlydHE1QWJWS3Brclp4YmpmYnZIV21EUmNlUjA",
+      "contentHash": "25793fb575319605a8209d5e",
+      "collectedAt": "2026-11-18T08:25:33.539Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 12,
+      "matchedCategories": [
+        "AUTO_MARKET",
+        "EV"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "SUSCO ฟอร์มแกร่ง! Q3 กำไรโต 800% ธุรกิจน้ำมัน-นอนออยล์หนุน ลุ้นยอดขายรถ EV ดันผลงานเข้าเป้า - Share2Trade",
+      "shortSummaryTh": "SUSCO ฟอร์มแกร่ง! Q3 กำไรโต 800% ธุรกิจน้ำมัน-นอนออยล์หนุน ลุ้นยอดขายรถ EV ดันผลงานเข้าเป้า Share2Trade",
+      "classification": "positive",
+      "impactScore": 2,
+      "confidence": 48,
+      "relevanceScore": 49,
+      "newsCategory": "EV",
+      "affectedChannels": [],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "positive",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [
+        "ตลาดรถยนต์เติบโต = ปริมาณรถเข้าศูนย์เพิ่ม",
+        "รถ EV ยังต้องล้างแอร์ และเจ้าของ EV ใส่ใจคุณภาพอากาศในห้องโดยสารสูง"
+      ],
+      "negativeImpacts": [
+        "EV ไม่มีหัวฉีดน้ำมัน = ความต้องการ Power Flow ลดลงในระยะยาว"
+      ],
+      "reasoningSummary": [
+        "ข่าว EV: ผลบวกต่อ AC_CLEANING หักลบผลลบต่อ POWER_FLOW → ประเมินผลสุทธิ"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "long-term",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinAdBVV95cUxNUFNDZjVINzYwaGNJRlRaRDAxaXVTaWdYRmQ5Zk56d1MxOUczbndQX205cVE3OHhVbHdpb0VCOE8tZFIxdTIxSWhaTUlkLVJScXk4Tjd6ODRQOVh0dDlvLVdzTTU5Tm5UXzJ3R0JsUTN3OHlGMjZEY3FkLWYtVk9MOEdkWjhOZ3dESzBObmFOTGZSdzJmNE1yZ1pBRzRqdVpYbm1qaDBBUE5HTUlDWmxXRllfSE1HNnVzNmxmUmk5UnZQX0l2MnJZMVVTck5lLThtQXFaNy1fSDVacWVsYTVFTXg5clVYNnVoUDhqTjV5UDJjYU9PS2pvVGNxN1N6SF8wbHN5OXNNdFpsUnM0MjhicGVMR21yMzFGUERkSTJoNXZKMTQyZnZrdjlncHhZbXpqZWVHWDBwaTZJU2VPX2dfcjRBNERZVE1hNThwdjlMcGtvdndieDY5VmJtaUxJaHRyTDY0T3Q4Z0NCT1E1MFRJSWIyMlc0bHczZ3IzdDlaTk9sVWF6WGVlMm5YZ3hxdUlwOGxBQzZJVDd1X3ZoXzhUVzBMcnBEbDdaOTR6bm1ncnhkM1ZLS1NqdDM0aVpINFpyc2k3NXpLN2hvVFUwdWEzOGVzVDNQR2tuQ3RULTh0dGZvczlZMXEwbVZVMlo4aFZCck12Uk5wSVhVYlZ0M3YweVV0OUJubENGQWZQVjhRVTBJdkEyTEJJSk0tUkxDUTI2S196REpLTTlNbnF2NFIzTnJ0SmtwNlJTd3hzLWZRd1BQRzFoMFlLWEdsMGttTzY0ZWw3Q19yQzl5YlZNRk9XZmU5MURoRmRreVpmTFlLRWZ4ci1mdkl5TmlJT3BtY0dNWEhDWlZIQW0yVzRmT2pEQ3dWVDZCLUZ2dXB0OHIyMGJacDd6S3YxOW51U1c3QmIzUHowVjc5d0V5ZDV0T3dUTGxpN1gxb05xQ0JYUFEtODFFLUNuZzNGV3RvcXNGMkJGOXpFLThaTnVHME10SU9XSkw0ZXNscFFNN0NYdDBzOGEwMWZMeDYtb2VoZUo3cVRILWx2ak9VTTd4amY4OGRGaGZJMllhX21nWTE0UUR4RUFSSUpEN3ZRV1BzUjd2X196TWFXVXRMTDMyZXM1SHQ0NGNFQ1Fac1hscXdqVjhHUkN2TlBHNnMtZWk3UGVMWXNqWDBZc3NsSVRWdGwxMWNsUmhaOEdjS0Rid29HTkg2c24xYlVnTk40VXo4M1E",
+      "titleOriginal": "SUSCO ฟอร์มแกร่ง! Q3 กำไรโต 800% ธุรกิจน้ำมัน-นอนออยล์หนุน ลุ้นยอดขายรถ EV ดันผลงานเข้าเป้า - Share2Trade",
+      "originalSnippet": "SUSCO ฟอร์มแกร่ง! Q3 กำไรโต 800% ธุรกิจน้ำมัน-นอนออยล์หนุน ลุ้นยอดขายรถ EV ดันผลงานเข้าเป้า Share2Trade"
+    },
+    {
+      "title": "เครื่องล้างแอร์รถยนต์อัตโนมัติ ￼k-1premium",
+      "link": "https://www.youtube.com/watch?v=JswsATYpRyE",
+      "snippet": "(ช่อง: เครื่องล้างแอร์รถยนต์ K-1PREMIUM) · ยอดวิว 263 ครั้ง",
+      "publishedAt": "2026-11-16T09:57:15.000Z",
+      "sourceId": "youtube",
+      "sourceName": "YouTube · เครื่องล้างแอร์รถยนต์ K-1PREMIUM",
+      "sourceTier": 3,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": true,
+      "itemKind": "social",
+      "id": "e1efb40208a58a91",
+      "canonicalUrl": "https://youtube.com/watch?v=JswsATYpRyE",
+      "contentHash": "6aa878bfc7fba5d607305083",
+      "collectedAt": "2026-11-18T08:25:33.539Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 25,
+      "matchedCategories": [
+        "AC_CLEANING"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [],
+      "hasAutomotiveContext": true,
+      "duplicateGroupId": "e1efb40208a58a91",
+      "relatedCoverage": [],
+      "titleTh": "เครื่องล้างแอร์รถยนต์อัตโนมัติ ￼k-1premium",
+      "shortSummaryTh": "(ช่อง: เครื่องล้างแอร์รถยนต์ K-1PREMIUM) · ยอดวิว 263 ครั้ง",
+      "classification": "neutral",
+      "impactScore": 1,
+      "confidence": 41,
+      "relevanceScore": 90,
+      "newsCategory": "AC_CLEANING",
+      "affectedChannels": [],
+      "affectedProducts": [
+        "AC_CLEANING"
+      ],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [
+        "เกี่ยวข้องกับบริการหลักโดยตรง"
+      ],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "แหล่งข่าว Tier 3 — ข้อมูลยังต้องตรวจสอบ"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://youtube.com/watch?v=JswsATYpRyE",
+      "titleOriginal": "เครื่องล้างแอร์รถยนต์อัตโนมัติ ￼k-1premium",
+      "originalSnippet": "(ช่อง: เครื่องล้างแอร์รถยนต์ K-1PREMIUM) · ยอดวิว 263 ครั้ง"
+    },
+    {
+      "title": "ซ่อมล้างแอร์รถยนต์ EV",
+      "link": "https://www.youtube.com/watch?v=iQfQ7k_CutQ",
+      "snippet": "(ช่อง: ตามหา สาระ) · ยอดวิว 411 ครั้ง",
+      "publishedAt": "2026-11-14T14:05:09.000Z",
+      "sourceId": "youtube",
+      "sourceName": "YouTube · ตามหา สาระ",
+      "sourceTier": 3,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": true,
+      "itemKind": "social",
+      "id": "e896ccc063e4645c",
+      "canonicalUrl": "https://youtube.com/watch?v=iQfQ7k_CutQ",
+      "contentHash": "433cac25949a58445f0b0e7e",
+      "collectedAt": "2026-11-18T08:25:33.539Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 25,
+      "matchedCategories": [
+        "AC_CLEANING"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "ซ่อมล้างแอร์รถยนต์ EV",
+      "shortSummaryTh": "(ช่อง: ตามหา สาระ) · ยอดวิว 411 ครั้ง",
+      "classification": "neutral",
+      "impactScore": 1,
+      "confidence": 36,
+      "relevanceScore": 90,
+      "newsCategory": "EV",
+      "affectedChannels": [],
+      "affectedProducts": [
+        "AC_CLEANING"
+      ],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [
+        "เกี่ยวข้องกับบริการหลักโดยตรง",
+        "รถ EV ยังต้องล้างแอร์ และเจ้าของ EV ใส่ใจคุณภาพอากาศในห้องโดยสารสูง"
+      ],
+      "negativeImpacts": [
+        "EV ไม่มีหัวฉีดน้ำมัน = ความต้องการ Power Flow ลดลงในระยะยาว"
+      ],
+      "reasoningSummary": [
+        "ข่าว EV: ผลบวกต่อ AC_CLEANING หักลบผลลบต่อ POWER_FLOW → ประเมินผลสุทธิ",
+        "แหล่งข่าว Tier 3 — ข้อมูลยังต้องตรวจสอบ"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "long-term",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://youtube.com/watch?v=iQfQ7k_CutQ",
+      "titleOriginal": "ซ่อมล้างแอร์รถยนต์ EV",
+      "originalSnippet": "(ช่อง: ตามหา สาระ) · ยอดวิว 411 ครั้ง"
+    },
+    {
+      "title": "โฟมล้างแอร์ AIR CLEANING แอร์รถยนต์ แอร์บ้าน แอร์เคลื่อนที่ เมนูการใช้งาน ภาษาไทย (ของแท้)",
+      "link": "https://www.youtube.com/watch?v=HGHCcfHAbVs",
+      "snippet": "(ช่อง: Porawut _Official) · ยอดวิว 323 ครั้ง",
+      "publishedAt": "2026-11-15T12:35:02.000Z",
+      "sourceId": "youtube",
+      "sourceName": "YouTube · Porawut _Official",
+      "sourceTier": 3,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": true,
+      "itemKind": "social",
+      "id": "7ab85b7471c74b26",
+      "canonicalUrl": "https://youtube.com/watch?v=HGHCcfHAbVs",
+      "contentHash": "07e8cbca6df6dfe95fffc9cc",
+      "collectedAt": "2026-11-18T08:25:33.539Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 22,
+      "matchedCategories": [
+        "AC_CLEANING",
+        "INTERNATIONAL"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "โฟมล้างแอร์ AIR CLEANING แอร์รถยนต์ แอร์บ้าน แอร์เคลื่อนที่ เมนูการใช้งาน ภาษาไทย (ของแท้)",
+      "shortSummaryTh": "(ช่อง: Porawut _Official) · ยอดวิว 323 ครั้ง",
+      "classification": "neutral",
+      "impactScore": 1,
+      "confidence": 41,
+      "relevanceScore": 80,
+      "newsCategory": "AC_CLEANING",
+      "affectedChannels": [],
+      "affectedProducts": [
+        "AC_CLEANING"
+      ],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [
+        "เกี่ยวข้องกับบริการหลักโดยตรง"
+      ],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "แหล่งข่าว Tier 3 — ข้อมูลยังต้องตรวจสอบ"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://youtube.com/watch?v=HGHCcfHAbVs",
+      "titleOriginal": "โฟมล้างแอร์ AIR CLEANING แอร์รถยนต์ แอร์บ้าน แอร์เคลื่อนที่ เมนูการใช้งาน ภาษาไทย (ของแท้)",
+      "originalSnippet": "(ช่อง: Porawut _Official) · ยอดวิว 323 ครั้ง"
+    },
+    {
+      "title": "โชว์รูมประชาชื่น - เบนท์ลีย์ ทอร์คัล อีวี มาไทย มค.70 - ซูซูกิ แคร์รี่ ดูแลฟรี 7 ปี - ฟอร์ดอัดแคมเปญปลายปี - ผลแข่งบริการลูกค้าโตโยต้า - ชวนเที่ยว เพชรบุรี หัวหิน วินเทจ คาร์ - อีซูซุ มอบ 736 ทุนการศึกษา -ไทยเร้นท์อะคาร์จัดรถเช่าใหม่ - Matichon Online",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1QdlZsMW5XRVBtMURhcllyaXVGdXk4cUN0Tk42S2otQzdNdmRINDBUVE1PS0QtS3dCTDdKT3dIYm8xNUxiNjRtcV96eG5XYnNZTi1DWUdBVU9zQVlka2JGQWpn?oc=5",
+      "snippet": "โชว์รูมประชาชื่น - เบนท์ลีย์ ทอร์คัล อีวี มาไทย มค.70 - ซูซูกิ แคร์รี่ ดูแลฟรี 7 ปี - ฟอร์ดอัดแคมเปญปลายปี - ผลแข่งบริการลูกค้าโตโยต้า - ชวนเที่ยว เพชรบุรี หัวหิน วินเทจ คาร์ - อีซูซุ มอบ 736 ทุนการศึกษา -ไทยเร้นท์อะคาร์จัดรถเช่าใหม่ Matichon Online",
+      "publishedAt": "2026-11-17T08:56:15.000Z",
+      "sourceId": "google-news:th-TH",
+      "sourceName": "Matichon Online",
+      "sourceTier": 2,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "87c4a22227243cf0",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1QdlZsMW5XRVBtMURhcllyaXVGdXk4cUN0Tk42S2otQzdNdmRINDBUVE1PS0QtS3dCTDdKT3dIYm8xNUxiNjRtcV96eG5XYnNZTi1DWUdBVU9zQVlka2JGQWpn",
+      "contentHash": "2f0b97db55d0e6cec4749781",
+      "collectedAt": "2026-11-18T08:25:33.539Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 20,
+      "matchedCategories": [
+        "OEM_BRANDS",
+        "INTERNATIONAL"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [
+        "Toyota",
+        "Isuzu",
+        "Ford",
+        "Suzuki"
+      ],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "โชว์รูมประชาชื่น - เบนท์ลีย์ ทอร์คัล อีวี มาไทย มค.70 - ซูซูกิ แคร์รี่ ดูแลฟรี 7 ปี - ฟอร์ดอัดแคมเปญปลายปี - ผลแข่งบริการลูกค้าโตโยต้า - ชวนเที่ยว เพชรบุรี หัวหิน วินเทจ คาร์ - อีซูซุ มอบ 736 ทุนการศึกษา -ไทยเร้นท์อะคาร์จัดรถเช่าใหม่ - Matichon Online",
+      "shortSummaryTh": "โชว์รูมประชาชื่น - เบนท์ลีย์ ทอร์คัล อีวี มาไทย มค.70 - ซูซูกิ แคร์รี่ ดูแลฟรี 7 ปี - ฟอร์ดอัดแคมเปญปลายปี - ผลแข่งบริการลูกค้าโตโยต้า - ชวนเที่ยว เพชรบุรี หัวหิน วินเทจ คาร์ - อีซูซุ มอบ 736 ทุนการศึกษา -ไทยเร้นท์อะคาร์จัดรถเช่าใหม่ Matichon Online",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 58,
+      "relevanceScore": 74,
+      "newsCategory": "OEM_BRANDS",
+      "affectedChannels": [
+        "OEM"
+      ],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "วิเคราะห์ด้วยกฎอัตโนมัติ (ไม่ได้ใช้ AI)"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1QdlZsMW5XRVBtMURhcllyaXVGdXk4cUN0Tk42S2otQzdNdmRINDBUVE1PS0QtS3dCTDdKT3dIYm8xNUxiNjRtcV96eG5XYnNZTi1DWUdBVU9zQVlka2JGQWpn",
+      "titleOriginal": "โชว์รูมประชาชื่น - เบนท์ลีย์ ทอร์คัล อีวี มาไทย มค.70 - ซูซูกิ แคร์รี่ ดูแลฟรี 7 ปี - ฟอร์ดอัดแคมเปญปลายปี - ผลแข่งบริการลูกค้าโตโยต้า - ชวนเที่ยว เพชรบุรี หัวหิน วินเทจ คาร์ - อีซูซุ มอบ 736 ทุนการศึกษา -ไทยเร้นท์อะคาร์จัดรถเช่าใหม่ - Matichon Online",
+      "originalSnippet": "โชว์รูมประชาชื่น - เบนท์ลีย์ ทอร์คัล อีวี มาไทย มค.70 - ซูซูกิ แคร์รี่ ดูแลฟรี 7 ปี - ฟอร์ดอัดแคมเปญปลายปี - ผลแข่งบริการลูกค้าโตโยต้า - ชวนเที่ยว เพชรบุรี หัวหิน วินเทจ คาร์ - อีซูซุ มอบ 736 ทุนการศึกษา -ไทยเร้นท์อะคาร์จัดรถเช่าใหม่ Matichon Online"
+    },
+    {
+      "title": "Toyota Hilux แซงหน้า Ford Ranger ขึ้นเป็นรถกระบะยอดนิยมในเวียดนามอีกครั้ง - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTFBSWEhqOThlVEZLUEhBRmlRMW4yRTZ2M0ljQWk0V3djSllZTWNSd2FocTdLVmtXbENnOUZuSTdKSzVqd19XR0VqSTFLMnhmejNzaFp2TVV3MndCeGx1dlljQ3lxSW9mVzFBcVAyRFpFUUVjbXRaYVZieW9IU1VFRkVhZ3liQU03TEZNdEJhcUxYS3FOb2F6eXZjcHdCbHNQbkE?oc=5",
+      "snippet": "Toyota Hilux แซงหน้า Ford Ranger ขึ้นเป็นรถกระบะยอดนิยมในเวียดนามอีกครั้ง Vietnam.vn",
+      "publishedAt": "2026-11-18T03:44:56.000Z",
+      "sourceId": "google-news:th-TH",
+      "sourceName": "Vietnam.vn",
+      "sourceTier": 2,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "96073edea93394e0",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTFBSWEhqOThlVEZLUEhBRmlRMW4yRTZ2M0ljQWk0V3djSllZTWNSd2FocTdLVmtXbENnOUZuSTdKSzVqd19XR0VqSTFLMnhmejNzaFp2TVV3MndCeGx1dlljQ3lxSW9mVzFBcVAyRFpFUUVjbXRaYVZieW9IU1VFRkVhZ3liQU03TEZNdEJhcUxYS3FOb2F6eXZjcHdCbHNQbkE",
+      "contentHash": "09293420ea84e9f401fe1a1e",
+      "collectedAt": "2026-11-18T08:25:33.539Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 18,
+      "matchedCategories": [
+        "AUTO_MARKET",
+        "OEM_BRANDS",
+        "INTERNATIONAL"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [
+        "Toyota",
+        "Ford"
+      ],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "Toyota Hilux แซงหน้า Ford Ranger ขึ้นเป็นรถกระบะยอดนิยมในเวียดนามอีกครั้ง - Vietnam.vn",
+      "shortSummaryTh": "Toyota Hilux แซงหน้า Ford Ranger ขึ้นเป็นรถกระบะยอดนิยมในเวียดนามอีกครั้ง Vietnam.vn",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 53,
+      "relevanceScore": 68,
+      "newsCategory": "OEM_BRANDS",
+      "affectedChannels": [
+        "OEM"
+      ],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "วิเคราะห์ด้วยกฎอัตโนมัติ (ไม่ได้ใช้ AI)"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTFBSWEhqOThlVEZLUEhBRmlRMW4yRTZ2M0ljQWk0V3djSllZTWNSd2FocTdLVmtXbENnOUZuSTdKSzVqd19XR0VqSTFLMnhmejNzaFp2TVV3MndCeGx1dlljQ3lxSW9mVzFBcVAyRFpFUUVjbXRaYVZieW9IU1VFRkVhZ3liQU03TEZNdEJhcUxYS3FOb2F6eXZjcHdCbHNQbkE",
+      "titleOriginal": "Toyota Hilux แซงหน้า Ford Ranger ขึ้นเป็นรถกระบะยอดนิยมในเวียดนามอีกครั้ง - Vietnam.vn",
+      "originalSnippet": "Toyota Hilux แซงหน้า Ford Ranger ขึ้นเป็นรถกระบะยอดนิยมในเวียดนามอีกครั้ง Vietnam.vn"
+    },
+    {
+      "title": "ล้างหัวฉีดแบบไม่ถอด ของคนไทย",
+      "link": "https://www.youtube.com/watch?v=lzwum7TsLk4",
+      "snippet": "ล้างหัวฉีดแบบไม่ถอด ของคนไทย ราคา โปร 1500 บาท สอบถามโทร 0968871952 #ล้างหัวฉีดรถยนต์ #รถกินน้ำมันผิดปกติ #รถอืดเร่งไม่ขึ้น ... (ช่อง: adamdocar) · ยอดวิว 849 ครั้ง",
+      "publishedAt": "2026-11-16T15:21:05.000Z",
+      "sourceId": "youtube",
+      "sourceName": "YouTube · adamdocar",
+      "sourceTier": 3,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": true,
+      "itemKind": "social",
+      "id": "7cbd5615b271c962",
+      "canonicalUrl": "https://youtube.com/watch?v=lzwum7TsLk4",
+      "contentHash": "77d760880ed3e98dbc0573cb",
+      "collectedAt": "2026-11-18T08:25:33.539Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 13,
+      "matchedCategories": [
+        "INJECTOR",
+        "INTERNATIONAL"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "ล้างหัวฉีดแบบไม่ถอด ของคนไทย",
+      "shortSummaryTh": "ล้างหัวฉีดแบบไม่ถอด ของคนไทย ราคา โปร 1500 บาท สอบถามโทร 0968871952 #ล้างหัวฉีดรถยนต์ #รถกินน้ำมันผิดปกติ #รถอืดเร่งไม่ขึ้น ... (ช่อง: adamdocar) · ยอดวิว 849 ครั้ง",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 46,
+      "relevanceScore": 52,
+      "newsCategory": "INJECTOR",
+      "affectedChannels": [],
+      "affectedProducts": [
+        "POWER_FLOW"
+      ],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "แหล่งข่าว Tier 3 — ข้อมูลยังต้องตรวจสอบ"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://youtube.com/watch?v=lzwum7TsLk4",
+      "titleOriginal": "ล้างหัวฉีดแบบไม่ถอด ของคนไทย",
+      "originalSnippet": "ล้างหัวฉีดแบบไม่ถอด ของคนไทย ราคา โปร 1500 บาท สอบถามโทร 0968871952 #ล้างหัวฉีดรถยนต์ #รถกินน้ำมันผิดปกติ #รถอืดเร่งไม่ขึ้น ... (ช่อง: adamdocar) · ยอดวิว 849 ครั้ง"
+    },
+    {
+      "title": "KGEN ร่วม MIDA LEASING ลุยธุรกิจสินเชื่อรถ EV รับรถยนต์ไฟฟ้า CHERY ยอดโตต่อเนื่อง - banmuang.co.th",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1rNDQwbldGTko0SE8yQXVpRTVDYU5hdkNBZHZXWWJfcEZpRl8zdWs5ZF9rcmpVUWFhZDVmd0w5RWxueXBhRk43SlYtcE44T0dMRlVYSDdqRndXUQ?oc=5",
+      "snippet": "KGEN ร่วม MIDA LEASING ลุยธุรกิจสินเชื่อรถ EV รับรถยนต์ไฟฟ้า CHERY ยอดโตต่อเนื่อง banmuang.co.th",
+      "publishedAt": "2026-11-17T06:18:00.000Z",
+      "sourceId": "google-news:th-TH",
+      "sourceName": "banmuang.co.th",
+      "sourceTier": 2,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "d839d58f7cc179f5",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1rNDQwbldGTko0SE8yQXVpRTVDYU5hdkNBZHZXWWJfcEZpRl8zdWs5ZF9rcmpVUWFhZDVmd0w5RWxueXBhRk43SlYtcE44T0dMRlVYSDdqRndXUQ",
+      "contentHash": "90dc56942e630a5dedc5b0e1",
+      "collectedAt": "2026-11-18T08:25:33.539Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 12,
+      "matchedCategories": [
+        "AUTO_MARKET",
+        "EV"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "KGEN ร่วม MIDA LEASING ลุยธุรกิจสินเชื่อรถ EV รับรถยนต์ไฟฟ้า CHERY ยอดโตต่อเนื่อง - banmuang.co.th",
+      "shortSummaryTh": "KGEN ร่วม MIDA LEASING ลุยธุรกิจสินเชื่อรถ EV รับรถยนต์ไฟฟ้า CHERY ยอดโตต่อเนื่อง banmuang.co.th",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 48,
+      "relevanceScore": 49,
+      "newsCategory": "EV",
+      "affectedChannels": [],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [
+        "รถ EV ยังต้องล้างแอร์ และเจ้าของ EV ใส่ใจคุณภาพอากาศในห้องโดยสารสูง"
+      ],
+      "negativeImpacts": [
+        "EV ไม่มีหัวฉีดน้ำมัน = ความต้องการ Power Flow ลดลงในระยะยาว"
+      ],
+      "reasoningSummary": [
+        "ข่าว EV: ผลบวกต่อ AC_CLEANING หักลบผลลบต่อ POWER_FLOW → ประเมินผลสุทธิ"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "long-term",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1rNDQwbldGTko0SE8yQXVpRTVDYU5hdkNBZHZXWWJfcEZpRl8zdWs5ZF9rcmpVUWFhZDVmd0w5RWxueXBhRk43SlYtcE44T0dMRlVYSDdqRndXUQ",
+      "titleOriginal": "KGEN ร่วม MIDA LEASING ลุยธุรกิจสินเชื่อรถ EV รับรถยนต์ไฟฟ้า CHERY ยอดโตต่อเนื่อง - banmuang.co.th",
+      "originalSnippet": "KGEN ร่วม MIDA LEASING ลุยธุรกิจสินเชื่อรถ EV รับรถยนต์ไฟฟ้า CHERY ยอดโตต่อเนื่อง banmuang.co.th"
+    },
+    {
+      "title": "KGEN จับมือ MIDA LEASING ต่อยอดธุรกิจสินเชื่อรถ EV รับกระแสรถยนต์ไฟฟ้ากลุ่ม CHERY ยอดโตพุ่งติดอันดับท็อป 3 - Matichon Online",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA0NnhTWE5NMmY1MTBhSVE1TEtpM0NuYmp0R0RoVE84cjdzbC1OMzV2NlphMjV5QVRoQWt4V0gwQ2hCNWdZcV9lVTZoZHcteXdIa0s0dlVxSXFhdkU?oc=5",
+      "snippet": "KGEN จับมือ MIDA LEASING ต่อยอดธุรกิจสินเชื่อรถ EV รับกระแสรถยนต์ไฟฟ้ากลุ่ม CHERY ยอดโตพุ่งติดอันดับท็อป 3 Matichon Online",
+      "publishedAt": "2026-11-17T10:21:50.000Z",
+      "sourceId": "google-news:th-TH",
+      "sourceName": "Matichon Online",
+      "sourceTier": 2,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "4da2982d03e9836c",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA0NnhTWE5NMmY1MTBhSVE1TEtpM0NuYmp0R0RoVE84cjdzbC1OMzV2NlphMjV5QVRoQWt4V0gwQ2hCNWdZcV9lVTZoZHcteXdIa0s0dlVxSXFhdkU",
+      "contentHash": "7dbc478612d43931d44fae95",
+      "collectedAt": "2026-11-18T08:25:33.539Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 12,
+      "matchedCategories": [
+        "AUTO_MARKET",
+        "EV"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "KGEN จับมือ MIDA LEASING ต่อยอดธุรกิจสินเชื่อรถ EV รับกระแสรถยนต์ไฟฟ้ากลุ่ม CHERY ยอดโตพุ่งติดอันดับท็อป 3 - Matichon Online",
+      "shortSummaryTh": "KGEN จับมือ MIDA LEASING ต่อยอดธุรกิจสินเชื่อรถ EV รับกระแสรถยนต์ไฟฟ้ากลุ่ม CHERY ยอดโตพุ่งติดอันดับท็อป 3 Matichon Online",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 53,
+      "relevanceScore": 49,
+      "newsCategory": "EV",
+      "affectedChannels": [],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [
+        "รถ EV ยังต้องล้างแอร์ และเจ้าของ EV ใส่ใจคุณภาพอากาศในห้องโดยสารสูง"
+      ],
+      "negativeImpacts": [
+        "EV ไม่มีหัวฉีดน้ำมัน = ความต้องการ Power Flow ลดลงในระยะยาว"
+      ],
+      "reasoningSummary": [
+        "ข่าว EV: ผลบวกต่อ AC_CLEANING หักลบผลลบต่อ POWER_FLOW → ประเมินผลสุทธิ"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "long-term",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA0NnhTWE5NMmY1MTBhSVE1TEtpM0NuYmp0R0RoVE84cjdzbC1OMzV2NlphMjV5QVRoQWt4V0gwQ2hCNWdZcV9lVTZoZHcteXdIa0s0dlVxSXFhdkU",
+      "titleOriginal": "KGEN จับมือ MIDA LEASING ต่อยอดธุรกิจสินเชื่อรถ EV รับกระแสรถยนต์ไฟฟ้ากลุ่ม CHERY ยอดโตพุ่งติดอันดับท็อป 3 - Matichon Online",
+      "originalSnippet": "KGEN จับมือ MIDA LEASING ต่อยอดธุรกิจสินเชื่อรถ EV รับกระแสรถยนต์ไฟฟ้ากลุ่ม CHERY ยอดโตพุ่งติดอันดับท็อป 3 Matichon Online"
+    },
+    {
+      "title": "แอร์รถยนต์มีกลิ่นเหม็นอับ",
+      "link": "https://pantip.com/topic/44280556",
+      "snippet": "",
+      "publishedAt": "2026-11-08T02:45:58.000Z",
+      "sourceId": "pantip:เครื่องปรับอากาศ",
+      "sourceName": "Pantip (แท็ก เครื่องปรับอากาศ)",
+      "sourceTier": 3,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": true,
+      "itemKind": "social",
+      "id": "0443a15ac8c1e8c7",
+      "canonicalUrl": "https://pantip.com/topic/44280556",
+      "contentHash": "e50f6103867d86f5df1a7fae",
+      "collectedAt": "2026-11-18T08:25:33.539Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 11,
+      "matchedCategories": [
+        "AC_CLEANING"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [
+        {
+          "sourceName": "Pantip (แท็ก Isuzu)",
+          "url": "https://pantip.com/topic/44280556",
+          "tier": 3
+        }
+      ],
+      "titleTh": "แอร์รถยนต์มีกลิ่นเหม็นอับ",
+      "shortSummaryTh": "แอร์รถยนต์มีกลิ่นเหม็นอับ",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 41,
+      "relevanceScore": 46,
+      "newsCategory": "AC_CLEANING",
+      "affectedChannels": [],
+      "affectedProducts": [
+        "AC_CLEANING"
+      ],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "แหล่งข่าว Tier 3 — ข้อมูลยังต้องตรวจสอบ"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://pantip.com/topic/44280556",
+      "titleOriginal": "แอร์รถยนต์มีกลิ่นเหม็นอับ",
+      "originalSnippet": ""
+    },
+    {
+      "title": "‘เอกชนญี่ปุ่น’ ขอบคุณไทยสร้างความเป็นธรรม หลังขึ้นภาษีนำเข้ารถ EV",
+      "link": "https://www.prachachat.net/finance/news-2098521",
+      "snippet": "รมว.คลัง เผยเอกชนญี่ปุ่นขอบคุณรัฐบาลไทย ปรับขึ้นภาษีสรรพสามิตนำเข้ารถยนต์ไฟฟ้า สร้างความเป็นธรรม แจงปกป้องการลงทุนในประเทศ ปฏิบัติตามกติกา WTO ตั้งเป้าดึงค่ายรถระดับโลกขยายการผลิตชิ้นส่วนอิเล็กทรอนิกส์ยานยนต์ในไทย นายเอกนิติ นิติทัณฑ์ประภาศ รองนายกรั … อ่านข่าวต้นฉบับ: ‘เอกชนญี่ปุ่น’ ขอบคุณไทยสร้างความเป็นธรรม หลังขึ้นภาษีนำเข้ารถ EV",
+      "publishedAt": "2026-11-18T05:04:30.000Z",
+      "sourceId": "prachachat",
+      "sourceName": "ประชาชาติธุรกิจ",
+      "sourceTier": 2,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "9f33e808dd7d68d1",
+      "canonicalUrl": "https://prachachat.net/finance/news-2098521",
+      "contentHash": "c7fe98f57251976320ad1306",
+      "collectedAt": "2026-11-18T08:25:33.539Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 10,
+      "matchedCategories": [
+        "EV",
+        "INTERNATIONAL"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "‘เอกชนญี่ปุ่น’ ขอบคุณไทยสร้างความเป็นธรรม หลังขึ้นภาษีนำเข้ารถ EV",
+      "shortSummaryTh": "รมว.คลัง เผยเอกชนญี่ปุ่นขอบคุณรัฐบาลไทย ปรับขึ้นภาษีสรรพสามิตนำเข้ารถยนต์ไฟฟ้า สร้างความเป็นธรรม แจงปกป้องการลงทุนในประเทศ ปฏิบัติตามกติกา WTO ตั้งเป้าดึงค่ายรถระดับโลกขยายการผลิตชิ้นส่วนอิเล็กทรอนิกส์ยานยนต์ในไทย นายเอกนิติ นิติทัณฑ์ประภาศ รองนายกรั … อ่านข่าวต้นฉบับ: ‘เอกชนญี่ปุ่น’ ขอบคุณไทยสร้าง…",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 53,
+      "relevanceScore": 43,
+      "newsCategory": "EV",
+      "affectedChannels": [
+        "OEM"
+      ],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [
+        "รถ EV ยังต้องล้างแอร์ และเจ้าของ EV ใส่ใจคุณภาพอากาศในห้องโดยสารสูง"
+      ],
+      "negativeImpacts": [
+        "EV ไม่มีหัวฉีดน้ำมัน = ความต้องการ Power Flow ลดลงในระยะยาว"
+      ],
+      "reasoningSummary": [
+        "ข่าว EV: ผลบวกต่อ AC_CLEANING หักลบผลลบต่อ POWER_FLOW → ประเมินผลสุทธิ"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "long-term",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://prachachat.net/finance/news-2098521",
+      "titleOriginal": "‘เอกชนญี่ปุ่น’ ขอบคุณไทยสร้างความเป็นธรรม หลังขึ้นภาษีนำเข้ารถ EV",
+      "originalSnippet": "รมว.คลัง เผยเอกชนญี่ปุ่นขอบคุณรัฐบาลไทย ปรับขึ้นภาษีสรรพสามิตนำเข้ารถยนต์ไฟฟ้า สร้างความเป็นธรรม แจงปกป้องการลงทุนในประเทศ ปฏิบัติตามกติกา WTO ตั้งเป้าดึงค่ายรถระดับโลกขยายการผลิตชิ้นส่วนอิเล็กทรอนิกส์ยานยนต์ในไทย นายเอกนิติ นิติทัณฑ์ประภาศ รองนายกรั … อ่านข่าวต้นฉบับ: ‘เอกชนญี่ปุ่น’ ขอบคุณไทยสร้างความเป็นธรรม หลังขึ้นภาษีนำเข้ารถ EV"
+    },
+    {
+      "title": "รถยนต์ไฟฟ้าคันแรกของ Bentley ขายหมดอย่างรวดเร็ว - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1HWXdhYkJPWEhqV29xQklrVEU4MF9NOWp6NzlYeW81NVJra1kyX2dtRmZLbmZxb0ltNTloSGl0YmxXdUV5T3Y2ZzB1Y2MxaTFuN1gydTRIRnRvdHpBNlBnTjkzbEtlcldkRi1qdUZSa0s2QQ?oc=5",
+      "snippet": "รถยนต์ไฟฟ้าคันแรกของ Bentley ขายหมดอย่างรวดเร็ว Vietnam.vn",
+      "publishedAt": "2026-11-18T00:49:26.000Z",
+      "sourceId": "google-news:th-TH",
+      "sourceName": "Vietnam.vn",
+      "sourceTier": 2,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "eaafb249ae92f2eb",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE1HWXdhYkJPWEhqV29xQklrVEU4MF9NOWp6NzlYeW81NVJra1kyX2dtRmZLbmZxb0ltNTloSGl0YmxXdUV5T3Y2ZzB1Y2MxaTFuN1gydTRIRnRvdHpBNlBnTjkzbEtlcldkRi1qdUZSa0s2QQ",
+      "contentHash": "bfb02ac712d231a734432781",
+      "collectedAt": "2026-11-18T08:25:33.539Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 10,
+      "matchedCategories": [
+        "EV",
+        "INTERNATIONAL"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "รถยนต์ไฟฟ้าคันแรกของ Bentley ขายหมดอย่างรวดเร็ว - Vietnam.vn",
+      "shortSummaryTh": "รถยนต์ไฟฟ้าคันแรกของ Bentley ขายหมดอย่างรวดเร็ว Vietnam.vn",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 48,
+      "relevanceScore": 43,
+      "newsCategory": "EV",
+      "affectedChannels": [],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [
+        "รถ EV ยังต้องล้างแอร์ และเจ้าของ EV ใส่ใจคุณภาพอากาศในห้องโดยสารสูง"
+      ],
+      "negativeImpacts": [
+        "EV ไม่มีหัวฉีดน้ำมัน = ความต้องการ Power Flow ลดลงในระยะยาว"
+      ],
+      "reasoningSummary": [
+        "ข่าว EV: ผลบวกต่อ AC_CLEANING หักลบผลลบต่อ POWER_FLOW → ประเมินผลสุทธิ"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "long-term",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE1HWXdhYkJPWEhqV29xQklrVEU4MF9NOWp6NzlYeW81NVJra1kyX2dtRmZLbmZxb0ltNTloSGl0YmxXdUV5T3Y2ZzB1Y2MxaTFuN1gydTRIRnRvdHpBNlBnTjkzbEtlcldkRi1qdUZSa0s2QQ",
+      "titleOriginal": "รถยนต์ไฟฟ้าคันแรกของ Bentley ขายหมดอย่างรวดเร็ว - Vietnam.vn",
+      "originalSnippet": "รถยนต์ไฟฟ้าคันแรกของ Bentley ขายหมดอย่างรวดเร็ว Vietnam.vn"
+    },
+    {
+      "title": "CHANGAN ปักหมุดไทยฐานผลิตรถยนต์ไฟฟ้าระดับโลก ตั้งเป้าขยายกำลังผลิต 200,000 คันต่อปี",
+      "link": "https://pantip.com/topic/44286000",
+      "snippet": "",
+      "publishedAt": "2026-11-14T21:07:04.000Z",
+      "sourceId": "pantip:รถยนต์ไฟฟ้า",
+      "sourceName": "Pantip (แท็ก รถยนต์ไฟฟ้า)",
+      "sourceTier": 3,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": true,
+      "itemKind": "social",
+      "id": "afa00c77b7764f66",
+      "canonicalUrl": "https://pantip.com/topic/44286000",
+      "contentHash": "02eab6b5e752b99a467d55a6",
+      "collectedAt": "2026-11-18T08:25:33.539Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 10,
+      "matchedCategories": [
+        "EV",
+        "OEM_BRANDS",
+        "INTERNATIONAL"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [
+        "Changan"
+      ],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "CHANGAN ปักหมุดไทยฐานผลิตรถยนต์ไฟฟ้าระดับโลก ตั้งเป้าขยายกำลังผลิต 200,000 คันต่อปี",
+      "shortSummaryTh": "CHANGAN ปักหมุดไทยฐานผลิตรถยนต์ไฟฟ้าระดับโลก ตั้งเป้าขยายกำลังผลิต 200,000 คันต่อปี",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 36,
+      "relevanceScore": 43,
+      "newsCategory": "EV",
+      "affectedChannels": [
+        "OEM"
+      ],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [
+        "รถ EV ยังต้องล้างแอร์ และเจ้าของ EV ใส่ใจคุณภาพอากาศในห้องโดยสารสูง"
+      ],
+      "negativeImpacts": [
+        "EV ไม่มีหัวฉีดน้ำมัน = ความต้องการ Power Flow ลดลงในระยะยาว"
+      ],
+      "reasoningSummary": [
+        "ข่าว EV: ผลบวกต่อ AC_CLEANING หักลบผลลบต่อ POWER_FLOW → ประเมินผลสุทธิ",
+        "แหล่งข่าว Tier 3 — ข้อมูลยังต้องตรวจสอบ"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "long-term",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://pantip.com/topic/44286000",
+      "titleOriginal": "CHANGAN ปักหมุดไทยฐานผลิตรถยนต์ไฟฟ้าระดับโลก ตั้งเป้าขยายกำลังผลิต 200,000 คันต่อปี",
+      "originalSnippet": ""
+    },
+    {
+      "title": "‘Tesla’ เลิกผลิต ‘Cybertruck’ หลังยอดขายต่ำ ตลาดรถกระบะ EV ต้องเน้นราคาถูก- ใช้งานได้ - bangkokbiznews",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1hTG8wcGMweFNsU2tsT0ZDa2pVSGdqekhrV21rUUVQeXU2ck1FWVFneXF0eHFCWGw2dlVDWmFOTlo5ODhhek9OTkk5UF9iXzUtaHI1NTVuYlBLZWFsdDMzMUd2WQ?oc=5",
+      "snippet": "‘Tesla’ เลิกผลิต ‘Cybertruck’ หลังยอดขายต่ำ ตลาดรถกระบะ EV ต้องเน้นราคาถูก- ใช้งานได้ bangkokbiznews",
+      "publishedAt": "2026-11-17T12:53:12.000Z",
+      "sourceId": "google-news:th-TH",
+      "sourceName": "bangkokbiznews",
+      "sourceTier": 2,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "4af16d2d5fe246ee",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1hTG8wcGMweFNsU2tsT0ZDa2pVSGdqekhrV21rUUVQeXU2ck1FWVFneXF0eHFCWGw2dlVDWmFOTlo5ODhhek9OTkk5UF9iXzUtaHI1NTVuYlBLZWFsdDMzMUd2WQ",
+      "contentHash": "e29bec2980a7de329d788542",
+      "collectedAt": "2026-11-18T08:25:33.539Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 9,
+      "matchedCategories": [
+        "AUTO_MARKET",
+        "OEM_BRANDS"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [
+        "Tesla"
+      ],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "‘Tesla’ เลิกผลิต ‘Cybertruck’ หลังยอดขายต่ำ ตลาดรถกระบะ EV ต้องเน้นราคาถูก- ใช้งานได้ - bangkokbiznews",
+      "shortSummaryTh": "‘Tesla’ เลิกผลิต ‘Cybertruck’ หลังยอดขายต่ำ ตลาดรถกระบะ EV ต้องเน้นราคาถูก- ใช้งานได้ bangkokbiznews",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 48,
+      "relevanceScore": 40,
+      "newsCategory": "EV",
+      "affectedChannels": [
+        "OEM"
+      ],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [
+        "รถ EV ยังต้องล้างแอร์ และเจ้าของ EV ใส่ใจคุณภาพอากาศในห้องโดยสารสูง"
+      ],
+      "negativeImpacts": [
+        "EV ไม่มีหัวฉีดน้ำมัน = ความต้องการ Power Flow ลดลงในระยะยาว"
+      ],
+      "reasoningSummary": [
+        "ข่าว EV: ผลบวกต่อ AC_CLEANING หักลบผลลบต่อ POWER_FLOW → ประเมินผลสุทธิ"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "long-term",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1hTG8wcGMweFNsU2tsT0ZDa2pVSGdqekhrV21rUUVQeXU2ck1FWVFneXF0eHFCWGw2dlVDWmFOTlo5ODhhek9OTkk5UF9iXzUtaHI1NTVuYlBLZWFsdDMzMUd2WQ",
+      "titleOriginal": "‘Tesla’ เลิกผลิต ‘Cybertruck’ หลังยอดขายต่ำ ตลาดรถกระบะ EV ต้องเน้นราคาถูก- ใช้งานได้ - bangkokbiznews",
+      "originalSnippet": "‘Tesla’ เลิกผลิต ‘Cybertruck’ หลังยอดขายต่ำ ตลาดรถกระบะ EV ต้องเน้นราคาถูก- ใช้งานได้ bangkokbiznews"
+    },
+    {
+      "title": "เจาะลึกเบื้องหลังความสำเร็จของ เอ็มจี ผ่านบทบาทผู้ผลิตรถยนต์ไฟฟ้า - banmuang.co.th",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB1VVRJaVdCaTJuMDR0Y3FpeVJiUWtvc3daSHlSZGQ2MkZnMVdBWl9TVW0yZkFtWE55M3BpVmlFNkZzN1JIX205aWFOMVJmZHJOR2ZsMHlB?oc=5",
+      "snippet": "เจาะลึกเบื้องหลังความสำเร็จของ เอ็มจี ผ่านบทบาทผู้ผลิตรถยนต์ไฟฟ้า banmuang.co.th",
+      "publishedAt": "2026-11-17T01:52:00.000Z",
+      "sourceId": "google-news:th-TH",
+      "sourceName": "banmuang.co.th",
+      "sourceTier": 2,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "930acaeb33a3c7a7",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB1VVRJaVdCaTJuMDR0Y3FpeVJiUWtvc3daSHlSZGQ2MkZnMVdBWl9TVW0yZkFtWE55M3BpVmlFNkZzN1JIX205aWFOMVJmZHJOR2ZsMHlB",
+      "contentHash": "020dc291ccd1ec42b1881a0a",
+      "collectedAt": "2026-11-18T08:25:33.539Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 9,
+      "matchedCategories": [
+        "EV",
+        "OEM_BRANDS"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [
+        "MG"
+      ],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "เจาะลึกเบื้องหลังความสำเร็จของ เอ็มจี ผ่านบทบาทผู้ผลิตรถยนต์ไฟฟ้า - banmuang.co.th",
+      "shortSummaryTh": "เจาะลึกเบื้องหลังความสำเร็จของ เอ็มจี ผ่านบทบาทผู้ผลิตรถยนต์ไฟฟ้า banmuang.co.th",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 48,
+      "relevanceScore": 40,
+      "newsCategory": "EV",
+      "affectedChannels": [
+        "OEM"
+      ],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [
+        "รถ EV ยังต้องล้างแอร์ และเจ้าของ EV ใส่ใจคุณภาพอากาศในห้องโดยสารสูง"
+      ],
+      "negativeImpacts": [
+        "EV ไม่มีหัวฉีดน้ำมัน = ความต้องการ Power Flow ลดลงในระยะยาว"
+      ],
+      "reasoningSummary": [
+        "ข่าว EV: ผลบวกต่อ AC_CLEANING หักลบผลลบต่อ POWER_FLOW → ประเมินผลสุทธิ"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "long-term",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB1VVRJaVdCaTJuMDR0Y3FpeVJiUWtvc3daSHlSZGQ2MkZnMVdBWl9TVW0yZkFtWE55M3BpVmlFNkZzN1JIX205aWFOMVJmZHJOR2ZsMHlB",
+      "titleOriginal": "เจาะลึกเบื้องหลังความสำเร็จของ เอ็มจี ผ่านบทบาทผู้ผลิตรถยนต์ไฟฟ้า - banmuang.co.th",
+      "originalSnippet": "เจาะลึกเบื้องหลังความสำเร็จของ เอ็มจี ผ่านบทบาทผู้ผลิตรถยนต์ไฟฟ้า banmuang.co.th"
+    },
+    {
+      "title": "ถ้ารถที่เราใช้เติม E20 ตลอด การเติมน้ำยาล้างหัวฉีดจำเป็นหรือไม่ครับ​ ?",
+      "link": "https://pantip.com/topic/44283032",
+      "snippet": "",
+      "publishedAt": "2026-11-11T05:08:18.000Z",
+      "sourceId": "pantip:ศูนย์บริการรถยนต์",
+      "sourceName": "Pantip (แท็ก ศูนย์บริการรถยนต์)",
+      "sourceTier": 3,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": true,
+      "itemKind": "social",
+      "id": "492fe655d25a5057",
+      "canonicalUrl": "https://pantip.com/topic/44283032",
+      "contentHash": "85ff32b343e8347df8c364ae",
+      "collectedAt": "2026-11-18T08:25:33.539Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 9,
+      "matchedCategories": [
+        "INJECTOR"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "ถ้ารถที่เราใช้เติม E20 ตลอด การเติมน้ำยาล้างหัวฉีดจำเป็นหรือไม่ครับ​ ?",
+      "shortSummaryTh": "ถ้ารถที่เราใช้เติม E20 ตลอด การเติมน้ำยาล้างหัวฉีดจำเป็นหรือไม่ครับ​ ?",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 41,
+      "relevanceScore": 40,
+      "newsCategory": "INJECTOR",
+      "affectedChannels": [],
+      "affectedProducts": [
+        "POWER_FLOW",
+        "TRADING"
+      ],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "แหล่งข่าว Tier 3 — ข้อมูลยังต้องตรวจสอบ"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://pantip.com/topic/44283032",
+      "titleOriginal": "ถ้ารถที่เราใช้เติม E20 ตลอด การเติมน้ำยาล้างหัวฉีดจำเป็นหรือไม่ครับ​ ?",
+      "originalSnippet": ""
+    },
+    {
+      "title": "น้ำยาล้างหัวฉีดเบนซิน",
+      "link": "https://www.youtube.com/watch?v=moprAMS_BSI",
+      "snippet": "น้ำยาล้างหัวฉีดเบนซิน #น้ำยาล้างหัวฉีด. (ช่อง: J Automotive) · ยอดวิว 881 ครั้ง",
+      "publishedAt": "2026-11-17T15:00:10.000Z",
+      "sourceId": "youtube",
+      "sourceName": "YouTube · J Automotive",
+      "sourceTier": 3,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": true,
+      "itemKind": "social",
+      "id": "0375504bb36e4032",
+      "canonicalUrl": "https://youtube.com/watch?v=moprAMS_BSI",
+      "contentHash": "2403f91238820f61fa08325c",
+      "collectedAt": "2026-11-18T08:25:33.539Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 9,
+      "matchedCategories": [
+        "INJECTOR"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [],
+      "hasAutomotiveContext": true,
+      "duplicateGroupId": "0375504bb36e4032",
+      "relatedCoverage": [
+        {
+          "sourceName": "YouTube · Nu Channel",
+          "url": "https://youtube.com/watch?v=xCtft9uJtJo",
+          "tier": 3
+        },
+        {
+          "sourceName": "YouTube · ภพ รีวิว",
+          "url": "https://youtube.com/watch?v=KoswnFB-u7E",
+          "tier": 3
+        },
+        {
+          "sourceName": "YouTube · ช่างกรุงเทพแท้ๆ",
+          "url": "https://youtube.com/watch?v=-_ZOcMiE50k",
+          "tier": 3
+        },
+        {
+          "sourceName": "YouTube · ช่างกรุงเทพแท้ๆ",
+          "url": "https://youtube.com/watch?v=Vn5kd7rJAOk",
+          "tier": 3
+        }
+      ],
+      "titleTh": "น้ำยาล้างหัวฉีดเบนซิน",
+      "shortSummaryTh": "น้ำยาล้างหัวฉีดเบนซิน #น้ำยาล้างหัวฉีด. (ช่อง: J Automotive) · ยอดวิว 881 ครั้ง",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 41,
+      "relevanceScore": 40,
+      "newsCategory": "INJECTOR",
+      "affectedChannels": [],
+      "affectedProducts": [
+        "POWER_FLOW",
+        "TRADING"
+      ],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "แหล่งข่าว Tier 3 — ข้อมูลยังต้องตรวจสอบ"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://youtube.com/watch?v=moprAMS_BSI",
+      "titleOriginal": "น้ำยาล้างหัวฉีดเบนซิน",
+      "originalSnippet": "น้ำยาล้างหัวฉีดเบนซิน #น้ำยาล้างหัวฉีด. (ช่อง: J Automotive) · ยอดวิว 881 ครั้ง"
+    }
+  ],
+  "sourceHealth": [
+    {
+      "sourceId": "pcd-air4thai",
+      "sourceName": "กรมควบคุมมลพิษ (คุณภาพอากาศ)",
+      "ok": false,
+      "itemCount": 0,
+      "durationMs": 0,
+      "error": "fetch failed"
+    },
+    {
+      "sourceId": "prachachat",
+      "sourceName": "ประชาชาติธุรกิจ",
+      "ok": true,
+      "itemCount": 20,
+      "durationMs": 2586
+    },
+    {
+      "sourceId": "headlightmag",
+      "sourceName": "HeadLightMag",
+      "ok": true,
+      "itemCount": 10,
+      "durationMs": 11735
+    },
+    {
+      "sourceId": "autolifethailand",
+      "sourceName": "AutoLife Thailand",
+      "ok": false,
+      "itemCount": 0,
+      "durationMs": 0,
+      "error": "fetch failed"
+    },
+    {
+      "sourceId": "autospinn",
+      "sourceName": "Autospinn",
+      "ok": false,
+      "itemCount": 0,
+      "durationMs": 0,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "sourceId": "khaosod",
+      "sourceName": "ข่าวสด",
+      "ok": true,
+      "itemCount": 20,
+      "durationMs": 1286
+    },
+    {
+      "sourceId": "matichon",
+      "sourceName": "มติชน",
+      "ok": true,
+      "itemCount": 20,
+      "durationMs": 1302
+    },
+    {
+      "sourceId": "bangkokpost-business",
+      "sourceName": "Bangkok Post — Business",
+      "ok": false,
+      "itemCount": 0,
+      "durationMs": 0,
+      "error": "HTTP 451 "
+    },
+    {
+      "sourceId": "automotive-news",
+      "sourceName": "Automotive News",
+      "ok": true,
+      "itemCount": 20,
+      "durationMs": 1315
+    },
+    {
+      "sourceId": "tire-business",
+      "sourceName": "Tire Business (Workshop / Aftermarket)",
+      "ok": true,
+      "itemCount": 20,
+      "durationMs": 2967
+    },
+    {
+      "sourceId": "just-auto",
+      "sourceName": "Just Auto",
+      "ok": true,
+      "itemCount": 10,
+      "durationMs": 1220
+    },
+    {
+      "sourceId": "insideevs",
+      "sourceName": "InsideEVs",
+      "ok": true,
+      "itemCount": 20,
+      "durationMs": 1214
+    },
+    {
+      "sourceId": "electrek",
+      "sourceName": "Electrek",
+      "ok": true,
+      "itemCount": 20,
+      "durationMs": 1264
+    },
+    {
+      "sourceId": "motor1",
+      "sourceName": "Motor1",
+      "ok": true,
+      "itemCount": 20,
+      "durationMs": 1217
+    },
+    {
+      "sourceId": "carscoops",
+      "sourceName": "Carscoops",
+      "ok": true,
+      "itemCount": 20,
+      "durationMs": 1223
+    },
+    {
+      "sourceId": "paultan",
+      "sourceName": "Paul Tan's Automotive News (MY/ASEAN)",
+      "ok": true,
+      "itemCount": 20,
+      "durationMs": 1290
+    },
+    {
+      "sourceId": "vnexpress-intl",
+      "sourceName": "VnExpress International",
+      "ok": true,
+      "itemCount": 20,
+      "durationMs": 2147
+    },
+    {
+      "sourceId": "nikkei-asia",
+      "sourceName": "Nikkei Asia",
+      "ok": true,
+      "itemCount": 20,
+      "durationMs": 1230
+    },
+    {
+      "sourceId": "google-news:th-TH",
+      "sourceName": "Google News (th-TH)",
+      "ok": true,
+      "itemCount": 152,
+      "durationMs": 15941
+    },
+    {
+      "sourceId": "google-news:en-TH",
+      "sourceName": "Google News (en-TH)",
+      "ok": true,
+      "itemCount": 89,
+      "durationMs": 16702
+    },
+    {
+      "sourceId": "google-news:en-SG",
+      "sourceName": "Google News (en-SG)",
+      "ok": true,
+      "itemCount": 19,
+      "durationMs": 310710,
+      "error": "12/14 queries failed (last: HTTP 503 Service Unavailable)"
+    },
+    {
+      "sourceId": "google-news:en-PH",
+      "sourceName": "Google News (en-PH)",
+      "ok": false,
+      "itemCount": 0,
+      "durationMs": 348889,
+      "error": "14/14 queries failed (last: HTTP 503 Service Unavailable)"
+    },
+    {
+      "sourceId": "google-news:en-US",
+      "sourceName": "Google News (en-US)",
+      "ok": false,
+      "itemCount": 0,
+      "durationMs": 346997,
+      "error": "14/14 queries failed (last: HTTP 503 Service Unavailable)"
+    },
+    {
+      "sourceId": "pantip",
+      "sourceName": "Pantip (ห้องรถยนต์)",
+      "ok": true,
+      "itemCount": 195,
+      "durationMs": 28680
+    },
+    {
+      "sourceId": "facebook-owned",
+      "sourceName": "Facebook (เพจที่บริษัทดูแล)",
+      "ok": false,
+      "itemCount": 0,
+      "durationMs": 0,
+      "error": "ยังไม่ได้ตั้งค่า FACEBOOK_PAGE_TOKEN — robots.txt ของ Facebook ห้าม crawl จึงต้องใช้ Graph API เท่านั้น (เข้าถึงได้เฉพาะเพจที่บริษัทดูแล)",
+      "configured": false
+    },
+    {
+      "sourceId": "tiktok",
+      "sourceName": "TikTok (แฮชแท็กที่ติดตาม)",
+      "ok": false,
+      "itemCount": 0,
+      "durationMs": 0,
+      "error": "ยังไม่ได้ตั้งค่า TIKTOK_ACCESS_TOKEN — เนื้อหา TikTok ถูก render ด้วย JS และ ToS จำกัดการ scrape จึงต้องใช้ Display API เท่านั้น",
+      "configured": false
+    },
+    {
+      "sourceId": "youtube",
+      "sourceName": "YouTube (คำค้นที่ติดตาม)",
+      "ok": true,
+      "itemCount": 32,
+      "durationMs": 6114,
+      "configured": true
+    },
+    {
+      "sourceId": "weather-signal",
+      "sourceName": "Open-Meteo (พยากรณ์อากาศ / คุณภาพอากาศ)",
+      "ok": true,
+      "itemCount": 0,
+      "durationMs": 2569
+    }
+  ],
+  "errors": [
+    "[feed:pcd-air4thai] fetch failed",
+    "[feed:autolifethailand] fetch failed",
+    "[feed:autospinn] HTTP 403 Forbidden",
+    "[feed:bangkokpost-business] HTTP 451 ",
+    "[google-news:en-SG:automotive production Thailand] HTTP 503 Service Unavailable",
+    "[google-news:en-SG:automotive aftermarket] HTTP 503 Service Unavailable",
+    "[google-news:en-SG:used car market] HTTP 503 Service Unavailable",
+    "[google-news:en-SG:EV sales Thailand] HTTP 503 Service Unavailable",
+    "[google-news:en-SG:EV service network] HTTP 503 Service Unavailable",
+    "[google-news:en-SG:EV after-sales problem] HTTP 503 Service Unavailable",
+    "[google-news:en-SG:EV heat pump HVAC] HTTP 503 Service Unavailable",
+    "[google-news:en-SG:EV cabin air quality] HTTP 503 Service Unavailable",
+    "[google-news:en-SG:car air conditioning cleaning] HTTP 503 Service Unavailable",
+    "[google-news:en-SG:automotive evaporator cleaning] HTTP 503 Service Unavailable",
+    "[google-news:en-SG:automotive condenser cleaning] HTTP 503 Service Unavailable",
+    "[google-news:en-SG:non-disassembly AC cleaning] HTTP 503 Service Unavailable",
+    "[google-news:en-PH:car sales Thailand] HTTP 503 Service Unavailable",
+    "[google-news:en-PH:vehicle registrations Thailand] HTTP 503 Service Unavailable",
+    "[google-news:en-PH:automotive production Thailand] HTTP 503 Service Unavailable",
+    "[google-news:en-PH:automotive aftermarket] HTTP 503 Service Unavailable",
+    "[google-news:en-PH:used car market] HTTP 503 Service Unavailable",
+    "[google-news:en-PH:EV sales Thailand] HTTP 503 Service Unavailable",
+    "[google-news:en-PH:EV service network] HTTP 503 Service Unavailable",
+    "[google-news:en-PH:EV after-sales problem] HTTP 429 Too Many Requests",
+    "[google-news:en-PH:EV heat pump HVAC] HTTP 503 Service Unavailable",
+    "[google-news:en-PH:EV cabin air quality] HTTP 503 Service Unavailable",
+    "[google-news:en-PH:car air conditioning cleaning] HTTP 503 Service Unavailable",
+    "[google-news:en-PH:automotive evaporator cleaning] HTTP 503 Service Unavailable",
+    "[google-news:en-PH:automotive condenser cleaning] HTTP 503 Service Unavailable",
+    "[google-news:en-PH:non-disassembly AC cleaning] HTTP 503 Service Unavailable",
+    "[google-news:en-US:car sales Thailand] HTTP 503 Service Unavailable",
+    "[google-news:en-US:vehicle registrations Thailand] HTTP 503 Service Unavailable",
+    "[google-news:en-US:automotive production Thailand] HTTP 503 Service Unavailable",
+    "[google-news:en-US:automotive aftermarket] HTTP 503 Service Unavailable",
+    "[google-news:en-US:used car market] HTTP 503 Service Unavailable",
+    "[google-news:en-US:EV sales Thailand] HTTP 503 Service Unavailable",
+    "[google-news:en-US:EV service network] HTTP 503 Service Unavailable",
+    "[google-news:en-US:EV after-sales problem] HTTP 503 Service Unavailable",
+    "[google-news:en-US:EV heat pump HVAC] HTTP 503 Service Unavailable",
+    "[google-news:en-US:EV cabin air quality] HTTP 503 Service Unavailable",
+    "[google-news:en-US:car air conditioning cleaning] HTTP 503 Service Unavailable",
+    "[google-news:en-US:automotive evaporator cleaning] HTTP 503 Service Unavailable",
+    "[google-news:en-US:automotive condenser cleaning] HTTP 503 Service Unavailable",
+    "[google-news:en-US:non-disassembly AC cleaning] HTTP 503 Service Unavailable",
+    "[ai:classify:e896ccc063e4645c] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011ChA5GWEta7ekNi1Qep6gB\"}",
+    "[ai:classify:7ab85b7471c74b26] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011ChA5GXxaDDdp7gPs6eybm\"}",
+    "[ai:classify:87c4a22227243cf0] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011ChA5GZfWG2QxGG3DTXWEP\"}",
+    "[ai:classify:9f07a7888f06d1dc] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011ChA5GbJjr1ByNJFWrav38\"}",
+    "[ai:classify:96073edea93394e0] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011ChA5GcywmiDJYwa6h8WLk\"}",
+    "[ai:classify:7cbd5615b271c962] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011ChA5GeftiFiLFtaN4daoL\"}",
+    "[ai:classify:4da2982d03e9836c] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011ChA5GgLMBTmYZ1NWVtWfY\"}",
+    "[ai:classify:9f33e808dd7d68d1] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011ChA5Gi2JN3iBpRSFLJUiA\"}",
+    "[ai:classify:eaafb249ae92f2eb] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011ChA5GjjjubfQX98jqFezs\"}",
+    "[ai:classify:930acaeb33a3c7a7] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011ChA5GmSwLVbxrt4cjans7\"}",
+    "[ai:classify:0375504bb36e4032] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011ChA5Go6A6NZJ4WoomVxn3\"}",
+    "[ai:daily] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011ChA5GpwXaTsfKZtqg2hZ3\"}"
+  ],
+  "ai": {
+    "enabled": true,
+    "model": "claude-haiku-4-5-20251001",
+    "itemsAnalyzedByAi": 0,
+    "itemsAnalyzedByFallback": 21,
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "estimatedCostUsd": 0
+  }
+}
