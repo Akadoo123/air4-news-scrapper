@@ -1,0 +1,2066 @@
+{
+  "date": "2026-11-24",
+  "generatedAt": "2026-11-24T10:39:00.391Z",
+  "timezone": "Asia/Bangkok",
+  "status": "degraded",
+  "kpi": {
+    "totalCollected": 1042,
+    "afterDedup": 597,
+    "afterPrefilter": 27,
+    "published": 25,
+    "positive": 2,
+    "neutral": 22,
+    "negative": 1,
+    "highImpact": 2,
+    "competitorAlerts": 0,
+    "evRelated": 3,
+    "international": 1,
+    "oemOpportunities": 0,
+    "b2bOpportunities": 0,
+    "b2cOpportunities": 0,
+    "o1Supporting": 2,
+    "o2Supporting": 0,
+    "socialMentions": 12,
+    "demandSignals": 0
+  },
+  "daily": {
+    "executiveSummaryTh": "วันนี้ระบบคัดกรองข่าวที่เกี่ยวข้องกับ Air4 ได้ 25 ข่าว แบ่งเป็นเชิงบวก 2 ข่าว เป็นกลาง 22 ข่าว และเชิงลบ 1 ข่าว คะแนนผลกระทบสุทธิอยู่ที่ 3.8 ซึ่งจัดอยู่ในระดับบวกต่อธุรกิจ ข่าวเชิงบวกที่สำคัญที่สุดคือ \"เตือน! แอร์รถมีกลิ่นอับ โฟมล้างแอร์ล้างเองได้\" ข่าวที่ต้องเฝ้าระวังมากที่สุดคือ \"เมื่อฤดูกาลช้อปปิ้งปลายปีใกล้เข้ามา ยอดขายรถยนต์ซีดานขนาดเล็ก (B-segment) ยังคงลดลงอย่างต่อเนื่อง - Vietnam.vn\" ยังไม่พบความเคลื่อนไหวสำคัญของคู่แข่งในวันนี้ หมายเหตุ: บทวิเคราะห์นี้สร้างโดยระบบกฎอัตโนมัติเนื่องจากไม่สามารถเรียกใช้ AI ได้",
+    "overallSentiment": "positive",
+    "netImpactScore": 3.8,
+    "urgencyLevel": "medium",
+    "opportunitySignals": [
+      {
+        "title": "เตือน! แอร์รถมีกลิ่นอับ โฟมล้างแอร์ล้างเองได้",
+        "detail": "ประเด็นคุณภาพอากาศหนุนความต้องการล้างแอร์",
+        "relatedNewsIds": [
+          "2897e60669f57926"
+        ]
+      },
+      {
+        "title": "สเปรย์โฟม VISBELLA ล้างแอร์รถยนต์ สอนวิธีการใช้งาน#ตีตี้รีวิว #VISBELLA #โฟมล้างแอร์",
+        "detail": "ปัญหากลิ่น/เชื้อราในรถ = ความต้องการบริการหลักของ Air4",
+        "relatedNewsIds": [
+          "89747faa555b9cc5"
+        ]
+      }
+    ],
+    "riskSignals": [
+      {
+        "title": "เมื่อฤดูกาลช้อปปิ้งปลายปีใกล้เข้ามา ยอดขายรถยนต์ซีดานขนาดเล็ก (B-segment) ยังคงลดลงอย่างต่อเนื่อง - Vietnam.vn",
+        "detail": "ตลาดหดตัว = ปริมาณรถเข้าศูนย์ลดลง",
+        "relatedNewsIds": [
+          "0468303e4ab09f7d"
+        ]
+      }
+    ],
+    "actionsToday": [
+      {
+        "action": "ประเมินผลกระทบจากข่าว: เมื่อฤดูกาลช้อปปิ้งปลายปีใกล้เข้ามา ยอดขายรถยนต์ซีดานขนาดเล็ก (B-segment) ยังคงลดลงอย่างต่อเนื่อง - Vietnam.vn",
+        "owner": "Business Intelligence",
+        "priority": "high",
+        "deadline": "today",
+        "reason": "ตลาดหดตัว = ปริมาณรถเข้าศูนย์ลดลง",
+        "relatedNewsIds": [
+          "0468303e4ab09f7d"
+        ]
+      }
+    ],
+    "actionsWithin7Days": [
+      {
+        "action": "ต่อยอดโอกาสจากข่าว: เตือน! แอร์รถมีกลิ่นอับ โฟมล้างแอร์ล้างเองได้",
+        "owner": "B2B Sales & Marketing",
+        "priority": "medium",
+        "deadline": "within_7_days",
+        "reason": "ประเด็นคุณภาพอากาศหนุนความต้องการล้างแอร์",
+        "relatedNewsIds": [
+          "2897e60669f57926"
+        ]
+      },
+      {
+        "action": "ต่อยอดโอกาสจากข่าว: สเปรย์โฟม VISBELLA ล้างแอร์รถยนต์ สอนวิธีการใช้งาน#ตีตี้รีวิว #VISBELLA #โฟมล้างแอร์",
+        "owner": "B2B Sales & Marketing",
+        "priority": "medium",
+        "deadline": "within_7_days",
+        "reason": "ปัญหากลิ่น/เชื้อราในรถ = ความต้องการบริการหลักของ Air4",
+        "relatedNewsIds": [
+          "89747faa555b9cc5"
+        ]
+      }
+    ],
+    "actionsToMonitor": [],
+    "okrAssessment": {
+      "O1": "สัญญาณวันนี้สนับสนุนเป้าหมายรายได้รวม +15% YoY",
+      "O2": "ข่าวที่เกี่ยวกับช่องทางนอก Toyota OEM มี 1 รายการ",
+      "benefitingChannels": [],
+      "atRiskChannels": [],
+      "prioritisationNote": "ควรตรวจสอบด้วย AI Analysis เพื่อความแม่นยำ"
+    },
+    "ceoQuestions": [
+      "ข่าววันนี้มีรายการใดที่ควรเปลี่ยนลำดับความสำคัญของแผนการขายหรือไม่",
+      "มีลูกค้ารายใดที่ควรเข้าไปติดต่อทันทีจากสัญญาณที่พบ"
+    ]
+  },
+  "items": [
+    {
+      "title": "เตือน! แอร์รถมีกลิ่นอับ โฟมล้างแอร์ล้างเองได้",
+      "link": "https://www.youtube.com/watch?v=uxXS3ocw4NQ",
+      "snippet": "เตือน! เปิดแอร์รถทีไรมีกลิ่นอับ ช่องแอร์ฝุ่นจับเป็นคราบดำ ✓ สเปรย์โฟมล้างแอร์ ขวดใหญ่ 500 มล. หัวฉีดไกปืน ✓ ฉีดเข้าช่องแอร์ได้เลย ... (ช่อง: คัดมาแล้ว) · ยอดวิว 17 ครั้ง",
+      "publishedAt": "2026-11-21T12:31:00.000Z",
+      "sourceId": "youtube",
+      "sourceName": "YouTube · คัดมาแล้ว",
+      "sourceTier": 3,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": true,
+      "itemKind": "social",
+      "id": "2897e60669f57926",
+      "canonicalUrl": "https://youtube.com/watch?v=uxXS3ocw4NQ",
+      "contentHash": "acfc15361e732e184e4e8d21",
+      "collectedAt": "2026-11-24T10:38:45.052Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 11,
+      "matchedCategories": [
+        "AC_CLEANING"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "เตือน! แอร์รถมีกลิ่นอับ โฟมล้างแอร์ล้างเองได้",
+      "shortSummaryTh": "เตือน! เปิดแอร์รถทีไรมีกลิ่นอับ ช่องแอร์ฝุ่นจับเป็นคราบดำ ✓ สเปรย์โฟมล้างแอร์ ขวดใหญ่ 500 มล. หัวฉีดไกปืน ✓ ฉีดเข้าช่องแอร์ได้เลย ... (ช่อง: คัดมาแล้ว) · ยอดวิว 17 ครั้ง",
+      "classification": "positive",
+      "impactScore": 4,
+      "confidence": 46,
+      "relevanceScore": 46,
+      "newsCategory": "AC_CLEANING",
+      "affectedChannels": [],
+      "affectedProducts": [
+        "AC_CLEANING",
+        "POWER_FLOW"
+      ],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "positive",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [
+        "ประเด็นคุณภาพอากาศหนุนความต้องการล้างแอร์",
+        "ปัญหากลิ่น/เชื้อราในรถ = ความต้องการบริการหลักของ Air4",
+        "เกี่ยวข้องกับบริการหลักโดยตรง"
+      ],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "แหล่งข่าว Tier 3 — ข้อมูลยังต้องตรวจสอบ"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "high",
+          "deadline": "today"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://youtube.com/watch?v=uxXS3ocw4NQ",
+      "titleOriginal": "เตือน! แอร์รถมีกลิ่นอับ โฟมล้างแอร์ล้างเองได้",
+      "originalSnippet": "เตือน! เปิดแอร์รถทีไรมีกลิ่นอับ ช่องแอร์ฝุ่นจับเป็นคราบดำ ✓ สเปรย์โฟมล้างแอร์ ขวดใหญ่ 500 มล. หัวฉีดไกปืน ✓ ฉีดเข้าช่องแอร์ได้เลย ... (ช่อง: คัดมาแล้ว) · ยอดวิว 17 ครั้ง"
+    },
+    {
+      "title": "สเปรย์โฟม VISBELLA ล้างแอร์รถยนต์ สอนวิธีการใช้งาน#ตีตี้รีวิว #VISBELLA #โฟมล้างแอร์",
+      "link": "https://www.youtube.com/watch?v=Xbzs0_vhvXU",
+      "snippet": "แอร์รถยนต์เริ่มมีกลิ่นอับ เปิดทีไรไม่สดชื่นเหมือนเดิม? วันนี้หยิบ VISBELLA Auto Air Conditioner Cleaner มารีวิว ... (ช่อง: ตีตี้_รีวิว) · ยอดวิว 34 ครั้ง",
+      "publishedAt": "2026-11-23T03:45:28.000Z",
+      "sourceId": "youtube",
+      "sourceName": "YouTube · ตีตี้_รีวิว",
+      "sourceTier": 3,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": true,
+      "itemKind": "social",
+      "id": "89747faa555b9cc5",
+      "canonicalUrl": "https://youtube.com/watch?v=Xbzs0_vhvXU",
+      "contentHash": "16efddc9c96ed548329a85f7",
+      "collectedAt": "2026-11-24T10:38:45.052Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 25,
+      "matchedCategories": [
+        "AC_CLEANING"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "สเปรย์โฟม VISBELLA ล้างแอร์รถยนต์ สอนวิธีการใช้งาน#ตีตี้รีวิว #VISBELLA #โฟมล้างแอร์",
+      "shortSummaryTh": "แอร์รถยนต์เริ่มมีกลิ่นอับ เปิดทีไรไม่สดชื่นเหมือนเดิม? วันนี้หยิบ VISBELLA Auto Air Conditioner Cleaner มารีวิว ... (ช่อง: ตีตี้_รีวิว) · ยอดวิว 34 ครั้ง",
+      "classification": "positive",
+      "impactScore": 3,
+      "confidence": 46,
+      "relevanceScore": 90,
+      "newsCategory": "AC_CLEANING",
+      "affectedChannels": [],
+      "affectedProducts": [
+        "AC_CLEANING"
+      ],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "positive",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [
+        "ปัญหากลิ่น/เชื้อราในรถ = ความต้องการบริการหลักของ Air4",
+        "เกี่ยวข้องกับบริการหลักโดยตรง"
+      ],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "แหล่งข่าว Tier 3 — ข้อมูลยังต้องตรวจสอบ"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "high",
+          "deadline": "today"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://youtube.com/watch?v=Xbzs0_vhvXU",
+      "titleOriginal": "สเปรย์โฟม VISBELLA ล้างแอร์รถยนต์ สอนวิธีการใช้งาน#ตีตี้รีวิว #VISBELLA #โฟมล้างแอร์",
+      "originalSnippet": "แอร์รถยนต์เริ่มมีกลิ่นอับ เปิดทีไรไม่สดชื่นเหมือนเดิม? วันนี้หยิบ VISBELLA Auto Air Conditioner Cleaner มารีวิว ... (ช่อง: ตีตี้_รีวิว) · ยอดวิว 34 ครั้ง"
+    },
+    {
+      "title": "เมื่อฤดูกาลช้อปปิ้งปลายปีใกล้เข้ามา ยอดขายรถยนต์ซีดานขนาดเล็ก (B-segment) ยังคงลดลงอย่างต่อเนื่อง - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPWGkwLVRHWW1EQ04xVFkwaXktbjl4NDdIazZBOWFpbU9zUE5GOVN3R0R1NG1od1hTaVcwS29COEpIS1d0c19taFBJN2FWSEd6YWpmcGJJYW82RTY2XzlFN1JHUXlNdDBTR1ZQcm5rSC1KanpUVURUZExxWXBCTzllcU5DMXI2WmZQWk52amg0VQ?oc=5",
+      "snippet": "เมื่อฤดูกาลช้อปปิ้งปลายปีใกล้เข้ามา ยอดขายรถยนต์ซีดานขนาดเล็ก (B-segment) ยังคงลดลงอย่างต่อเนื่อง Vietnam.vn",
+      "publishedAt": "2026-11-24T08:13:17.000Z",
+      "sourceId": "google-news:th-TH",
+      "sourceName": "Vietnam.vn",
+      "sourceTier": 2,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "0468303e4ab09f7d",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPWGkwLVRHWW1EQ04xVFkwaXktbjl4NDdIazZBOWFpbU9zUE5GOVN3R0R1NG1od1hTaVcwS29COEpIS1d0c19taFBJN2FWSEd6YWpmcGJJYW82RTY2XzlFN1JHUXlNdDBTR1ZQcm5rSC1KanpUVURUZExxWXBCTzllcU5DMXI2WmZQWk52amg0VQ",
+      "contentHash": "79909f8ac6e2ba22c95454b7",
+      "collectedAt": "2026-11-24T10:38:45.052Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 13,
+      "matchedCategories": [
+        "AUTO_MARKET",
+        "INTERNATIONAL"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "เมื่อฤดูกาลช้อปปิ้งปลายปีใกล้เข้ามา ยอดขายรถยนต์ซีดานขนาดเล็ก (B-segment) ยังคงลดลงอย่างต่อเนื่อง - Vietnam.vn",
+      "shortSummaryTh": "เมื่อฤดูกาลช้อปปิ้งปลายปีใกล้เข้ามา ยอดขายรถยนต์ซีดานขนาดเล็ก (B-segment) ยังคงลดลงอย่างต่อเนื่อง Vietnam.vn",
+      "classification": "negative",
+      "impactScore": -2,
+      "confidence": 53,
+      "relevanceScore": 52,
+      "newsCategory": "AUTO_MARKET",
+      "affectedChannels": [],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "negative",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [],
+      "negativeImpacts": [
+        "ตลาดหดตัว = ปริมาณรถเข้าศูนย์ลดลง"
+      ],
+      "reasoningSummary": [
+        "วิเคราะห์ด้วยกฎอัตโนมัติ (ไม่ได้ใช้ AI)"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPWGkwLVRHWW1EQ04xVFkwaXktbjl4NDdIazZBOWFpbU9zUE5GOVN3R0R1NG1od1hTaVcwS29COEpIS1d0c19taFBJN2FWSEd6YWpmcGJJYW82RTY2XzlFN1JHUXlNdDBTR1ZQcm5rSC1KanpUVURUZExxWXBCTzllcU5DMXI2WmZQWk52amg0VQ",
+      "titleOriginal": "เมื่อฤดูกาลช้อปปิ้งปลายปีใกล้เข้ามา ยอดขายรถยนต์ซีดานขนาดเล็ก (B-segment) ยังคงลดลงอย่างต่อเนื่อง - Vietnam.vn",
+      "originalSnippet": "เมื่อฤดูกาลช้อปปิ้งปลายปีใกล้เข้ามา ยอดขายรถยนต์ซีดานขนาดเล็ก (B-segment) ยังคงลดลงอย่างต่อเนื่อง Vietnam.vn"
+    },
+    {
+      "title": "เครื่องล้างแอร์รถยนต์อัตโนมัติ ￼k-1premium",
+      "link": "https://www.youtube.com/watch?v=UneDCcN_2sA",
+      "snippet": "(ช่อง: เครื่องล้างแอร์รถยนต์ K-1PREMIUM) · ยอดวิว 1,146 ครั้ง",
+      "publishedAt": "2026-11-24T02:54:59.000Z",
+      "sourceId": "youtube",
+      "sourceName": "YouTube · เครื่องล้างแอร์รถยนต์ K-1PREMIUM",
+      "sourceTier": 3,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": true,
+      "itemKind": "social",
+      "id": "5c1d25501b988e6a",
+      "canonicalUrl": "https://youtube.com/watch?v=UneDCcN_2sA",
+      "contentHash": "587322bffb77ba2f27b99609",
+      "collectedAt": "2026-11-24T10:38:45.052Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 25,
+      "matchedCategories": [
+        "AC_CLEANING"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [],
+      "hasAutomotiveContext": true,
+      "duplicateGroupId": "8385d6fa75c7d0ed",
+      "relatedCoverage": [],
+      "titleTh": "เครื่องล้างแอร์รถยนต์อัตโนมัติ ￼k-1premium",
+      "shortSummaryTh": "(ช่อง: เครื่องล้างแอร์รถยนต์ K-1PREMIUM) · ยอดวิว 1,146 ครั้ง",
+      "classification": "neutral",
+      "impactScore": 1,
+      "confidence": 41,
+      "relevanceScore": 90,
+      "newsCategory": "AC_CLEANING",
+      "affectedChannels": [],
+      "affectedProducts": [
+        "AC_CLEANING"
+      ],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [
+        "เกี่ยวข้องกับบริการหลักโดยตรง"
+      ],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "แหล่งข่าว Tier 3 — ข้อมูลยังต้องตรวจสอบ"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://youtube.com/watch?v=UneDCcN_2sA",
+      "titleOriginal": "เครื่องล้างแอร์รถยนต์อัตโนมัติ ￼k-1premium",
+      "originalSnippet": "(ช่อง: เครื่องล้างแอร์รถยนต์ K-1PREMIUM) · ยอดวิว 1,146 ครั้ง"
+    },
+    {
+      "title": "น้ำยาล้างแอร์รถยนต์ สเปรย์โฟมล้างแอร์รถยนต์ น้ำยาล้างแอร์ 450ml กำจัดกลิ่นและเพิ่มความเย็น",
+      "link": "https://www.youtube.com/watch?v=qWEAz2kWny4",
+      "snippet": "(ช่อง: Tom Media) · ยอดวิว 199 ครั้ง",
+      "publishedAt": "2026-11-24T01:49:23.000Z",
+      "sourceId": "youtube",
+      "sourceName": "YouTube · Tom Media",
+      "sourceTier": 3,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": true,
+      "itemKind": "social",
+      "id": "c2203b053bf9d1bd",
+      "canonicalUrl": "https://youtube.com/watch?v=qWEAz2kWny4",
+      "contentHash": "36298d201832be61c74c271d",
+      "collectedAt": "2026-11-24T10:38:45.052Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 25,
+      "matchedCategories": [
+        "AC_CLEANING"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "น้ำยาล้างแอร์รถยนต์ สเปรย์โฟมล้างแอร์รถยนต์ น้ำยาล้างแอร์ 450ml กำจัดกลิ่นและเพิ่มความเย็น",
+      "shortSummaryTh": "(ช่อง: Tom Media) · ยอดวิว 199 ครั้ง",
+      "classification": "neutral",
+      "impactScore": 1,
+      "confidence": 41,
+      "relevanceScore": 90,
+      "newsCategory": "AC_CLEANING",
+      "affectedChannels": [],
+      "affectedProducts": [
+        "AC_CLEANING",
+        "TRADING"
+      ],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [
+        "เกี่ยวข้องกับบริการหลักโดยตรง"
+      ],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "แหล่งข่าว Tier 3 — ข้อมูลยังต้องตรวจสอบ"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://youtube.com/watch?v=qWEAz2kWny4",
+      "titleOriginal": "น้ำยาล้างแอร์รถยนต์ สเปรย์โฟมล้างแอร์รถยนต์ น้ำยาล้างแอร์ 450ml กำจัดกลิ่นและเพิ่มความเย็น",
+      "originalSnippet": "(ช่อง: Tom Media) · ยอดวิว 199 ครั้ง"
+    },
+    {
+      "title": "สเปย์โฟมล้างแอร์ Air Cleaning ใช้ได้ทั้ง แอร์บ้าน แอร์รถยนต์ ปลอดภัย",
+      "link": "https://www.youtube.com/watch?v=FJvu5c3e0jI",
+      "snippet": "(ช่อง: Tom Media) · ยอดวิว 246 ครั้ง",
+      "publishedAt": "2026-11-24T09:01:29.000Z",
+      "sourceId": "youtube",
+      "sourceName": "YouTube · Tom Media",
+      "sourceTier": 3,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": true,
+      "itemKind": "social",
+      "id": "2ab9641b833b5223",
+      "canonicalUrl": "https://youtube.com/watch?v=FJvu5c3e0jI",
+      "contentHash": "e800a99854c958d190623d5a",
+      "collectedAt": "2026-11-24T10:38:45.052Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 18,
+      "matchedCategories": [
+        "AC_CLEANING"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "สเปย์โฟมล้างแอร์ Air Cleaning ใช้ได้ทั้ง แอร์บ้าน แอร์รถยนต์ ปลอดภัย",
+      "shortSummaryTh": "(ช่อง: Tom Media) · ยอดวิว 246 ครั้ง",
+      "classification": "neutral",
+      "impactScore": 1,
+      "confidence": 41,
+      "relevanceScore": 68,
+      "newsCategory": "AC_CLEANING",
+      "affectedChannels": [],
+      "affectedProducts": [
+        "AC_CLEANING"
+      ],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [
+        "เกี่ยวข้องกับบริการหลักโดยตรง"
+      ],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "แหล่งข่าว Tier 3 — ข้อมูลยังต้องตรวจสอบ"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://youtube.com/watch?v=FJvu5c3e0jI",
+      "titleOriginal": "สเปย์โฟมล้างแอร์ Air Cleaning ใช้ได้ทั้ง แอร์บ้าน แอร์รถยนต์ ปลอดภัย",
+      "originalSnippet": "(ช่อง: Tom Media) · ยอดวิว 246 ครั้ง"
+    },
+    {
+      "title": "อย่าลืม!! ล้างแอร์หรือตรวจเช็ค “ระบบแอร์รถยนต์” อย่างน้อยปีละ 1 ครั้งนะครับ #แชมป์LIBITU",
+      "link": "https://www.youtube.com/watch?v=BxWSmaEEyhk",
+      "snippet": "(ช่อง: แชมป์ LIBITU) · ยอดวิว 822 ครั้ง",
+      "publishedAt": "2026-11-23T10:51:12.000Z",
+      "sourceId": "youtube",
+      "sourceName": "YouTube · แชมป์ LIBITU",
+      "sourceTier": 3,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": true,
+      "itemKind": "social",
+      "id": "366b0c46ff80ba0b",
+      "canonicalUrl": "https://youtube.com/watch?v=BxWSmaEEyhk",
+      "contentHash": "df54425bdda2ca9fb92f1147",
+      "collectedAt": "2026-11-24T10:38:45.052Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 18,
+      "matchedCategories": [
+        "AC_CLEANING"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "อย่าลืม!! ล้างแอร์หรือตรวจเช็ค “ระบบแอร์รถยนต์” อย่างน้อยปีละ 1 ครั้งนะครับ #แชมป์LIBITU",
+      "shortSummaryTh": "(ช่อง: แชมป์ LIBITU) · ยอดวิว 822 ครั้ง",
+      "classification": "neutral",
+      "impactScore": 1,
+      "confidence": 41,
+      "relevanceScore": 68,
+      "newsCategory": "AC_CLEANING",
+      "affectedChannels": [],
+      "affectedProducts": [
+        "AC_CLEANING"
+      ],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [
+        "เกี่ยวข้องกับบริการหลักโดยตรง"
+      ],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "แหล่งข่าว Tier 3 — ข้อมูลยังต้องตรวจสอบ"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://youtube.com/watch?v=BxWSmaEEyhk",
+      "titleOriginal": "อย่าลืม!! ล้างแอร์หรือตรวจเช็ค “ระบบแอร์รถยนต์” อย่างน้อยปีละ 1 ครั้งนะครับ #แชมป์LIBITU",
+      "originalSnippet": "(ช่อง: แชมป์ LIBITU) · ยอดวิว 822 ครั้ง"
+    },
+    {
+      "title": "รถกระบะดีเซลอืด มีควันดำ! เคล็ดลับดูแลล้างหัวฉีดดีเซลให้สะอาดง่ายๆ ในถังเดียว #Shorts #ดูแลรถยนต์",
+      "link": "https://www.youtube.com/watch?v=A5pFwfAPHHs",
+      "snippet": "ฟื้นฟูอัตราเร่งรถกระบะและเครื่องยนต์ดีเซลให้กลับมาเดินเรียบ สตาร์ทง่าย และลดควันดำ ด้วย STP Diesel Injector Cleaner น้ำยาล้างหัวฉีดดีเซล ... (ช่อง: @SuthepDanHaiPang) · ยอดวิว 598 ครั้ง",
+      "publishedAt": "2026-11-19T22:40:17.000Z",
+      "sourceId": "youtube",
+      "sourceName": "YouTube · @SuthepDanHaiPang",
+      "sourceTier": 3,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": true,
+      "itemKind": "social",
+      "id": "dfef0a1d92bad5f7",
+      "canonicalUrl": "https://youtube.com/watch?v=A5pFwfAPHHs",
+      "contentHash": "8dc93b590e3883d2fb80ed72",
+      "collectedAt": "2026-11-24T10:38:45.052Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 21,
+      "matchedCategories": [
+        "AUTO_MARKET",
+        "INJECTOR"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "รถกระบะดีเซลอืด มีควันดำ! เคล็ดลับดูแลล้างหัวฉีดดีเซลให้สะอาดง่ายๆ ในถังเดียว #Shorts #ดูแลรถยนต์",
+      "shortSummaryTh": "ฟื้นฟูอัตราเร่งรถกระบะและเครื่องยนต์ดีเซลให้กลับมาเดินเรียบ สตาร์ทง่าย และลดควันดำ ด้วย STP Diesel Injector Cleaner น้ำยาล้างหัวฉีดดีเซล ... (ช่อง: @SuthepDanHaiPang) · ยอดวิว 598 ครั้ง",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 46,
+      "relevanceScore": 77,
+      "newsCategory": "INJECTOR",
+      "affectedChannels": [],
+      "affectedProducts": [
+        "POWER_FLOW",
+        "TRADING"
+      ],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "แหล่งข่าว Tier 3 — ข้อมูลยังต้องตรวจสอบ"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://youtube.com/watch?v=A5pFwfAPHHs",
+      "titleOriginal": "รถกระบะดีเซลอืด มีควันดำ! เคล็ดลับดูแลล้างหัวฉีดดีเซลให้สะอาดง่ายๆ ในถังเดียว #Shorts #ดูแลรถยนต์",
+      "originalSnippet": "ฟื้นฟูอัตราเร่งรถกระบะและเครื่องยนต์ดีเซลให้กลับมาเดินเรียบ สตาร์ทง่าย และลดควันดำ ด้วย STP Diesel Injector Cleaner น้ำยาล้างหัวฉีดดีเซล ... (ช่อง: @SuthepDanHaiPang) · ยอดวิว 598 ครั้ง"
+    },
+    {
+      "title": "โตโยต้า เปิดตัว ‘ไฮลักซ์ ทราโว่ แซด อิดิชั่น’ ตอบโจทย์ลูกค้าไทยเคาะราคา 5.99-8.77 แสนบาท",
+      "link": "https://www.prachachat.net/automotive/news-2101060",
+      "snippet": "โตโยต้า เติมเต็มไลน์อัปรถกระบะมหาชน “ไฮลักซ์ ทราโว่” ครบ 15 รุ่นย่อย หลังส่งรุ่นใหม่ แซดเอดิชั่นลุยตลาด กระบะตัวเตี้ย จับกลุ่มลูกค้าครอบคลุมทุกการใช้งาน บริษัท โตโยต้า มอเตอร์ ประเทศไทย จำกัด ส่งรถยนต์ ส่งรถกระบะตัวเตี้ย Hilux Travo Z Edition ออกสู่ต … อ่านข่าวต้นฉบับ: โตโยต้า เปิดตัว ‘ไฮลักซ์ ทราโว่ แซด อิดิชั่น’ ตอบโจทย์ลูกค้าไทยเคาะราคา 5.99-8.77 แสนบาท",
+      "publishedAt": "2026-11-24T09:33:51.000Z",
+      "sourceId": "prachachat",
+      "sourceName": "ประชาชาติธุรกิจ",
+      "sourceTier": 2,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "9a5873f6e7f9624a",
+      "canonicalUrl": "https://prachachat.net/automotive/news-2101060",
+      "contentHash": "dde70a9e017d1a2788899e2c",
+      "collectedAt": "2026-11-24T10:38:45.052Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 15,
+      "matchedCategories": [
+        "AUTO_MARKET",
+        "OEM_BRANDS",
+        "INTERNATIONAL"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [
+        "Toyota"
+      ],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "โตโยต้า เปิดตัว ‘ไฮลักซ์ ทราโว่ แซด อิดิชั่น’ ตอบโจทย์ลูกค้าไทยเคาะราคา 5.99-8.77 แสนบาท",
+      "shortSummaryTh": "โตโยต้า เติมเต็มไลน์อัปรถกระบะมหาชน “ไฮลักซ์ ทราโว่” ครบ 15 รุ่นย่อย หลังส่งรุ่นใหม่ แซดเอดิชั่นลุยตลาด กระบะตัวเตี้ย จับกลุ่มลูกค้าครอบคลุมทุกการใช้งาน บริษัท โตโยต้า มอเตอร์ ประเทศไทย จำกัด ส่งรถยนต์ ส่งรถกระบะตัวเตี้ย Hilux Travo Z Edition ออกสู่ต … อ่านข่าวต้นฉบับ: โตโยต้า เปิดตัว ‘ไฮลักซ์ ทราโ…",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 58,
+      "relevanceScore": 59,
+      "newsCategory": "OEM_BRANDS",
+      "affectedChannels": [
+        "OEM"
+      ],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "วิเคราะห์ด้วยกฎอัตโนมัติ (ไม่ได้ใช้ AI)"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://prachachat.net/automotive/news-2101060",
+      "titleOriginal": "โตโยต้า เปิดตัว ‘ไฮลักซ์ ทราโว่ แซด อิดิชั่น’ ตอบโจทย์ลูกค้าไทยเคาะราคา 5.99-8.77 แสนบาท",
+      "originalSnippet": "โตโยต้า เติมเต็มไลน์อัปรถกระบะมหาชน “ไฮลักซ์ ทราโว่” ครบ 15 รุ่นย่อย หลังส่งรุ่นใหม่ แซดเอดิชั่นลุยตลาด กระบะตัวเตี้ย จับกลุ่มลูกค้าครอบคลุมทุกการใช้งาน บริษัท โตโยต้า มอเตอร์ ประเทศไทย จำกัด ส่งรถยนต์ ส่งรถกระบะตัวเตี้ย Hilux Travo Z Edition ออกสู่ต … อ่านข่าวต้นฉบับ: โตโยต้า เปิดตัว ‘ไฮลักซ์ ทราโว่ แซด อิดิชั่น’ ตอบโจทย์ลูกค้าไทยเคาะราคา 5.99-8.77 แสนบาท"
+    },
+    {
+      "title": "ไฮลักซ์ ทราโว่ แซด อิดิชั่น ตัวเตี้ยคันเก่งคนทำกิน-สายแต่งสวยแต่งซิ่ง",
+      "link": "https://www.khaosod.co.th/car-vehicle/news_10483072",
+      "snippet": "โตโยต้า ประเทศไทย เปิดตัว ไฮลักซ์ ทราโว่ แซด อิดิขั่น รถปิกอัพตัวเตี้ย เอาใจนักเลงรถปิกอัพสายทำกิน สายซิ่ง มาพร้อมชุดแต่งเจ็บจี้ด หลากสไตล์ หล่อแบบไม่ผิดกฎหมาย โตโยต้า มอเตอร์ ประเทศไทย เปิดตัว โตโยต้า ไฮลักซ์ ทราโว่ แซด อิดิชั่น (Hilux Travo Z Edition) รถกระบะตัวเตี้ยที่ยังคง DNA ของ Hilux Travo พร้อมสร้างเอกลักษณ์เฉพาะตัว จึงทำให้ Hilux Travo Z Edition เป็น “รถที่ตอบโจทย์ชีวิต” อย่างแท้จริง ทั้งด้านการใช้งานในชีวิตประจำวัน ไลฟ์สไตล์ และการเดินทางของครอบครัว นอกจากนี้ Hilux Travo Z Edition ยังเหมาะสำหรับการใช้งานในเชิงธุรกิจ และเป็นผลิตภัณฑ์ที่สมบูรณ์แบบในด้าน QDR: คุณภาพ (Quality) ความทนทาน…",
+      "publishedAt": "2026-11-24T10:06:14.000Z",
+      "sourceId": "khaosod",
+      "sourceName": "ข่าวสด",
+      "sourceTier": 2,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "c02f8897fc939058",
+      "canonicalUrl": "https://khaosod.co.th/car-vehicle/news_10483072",
+      "contentHash": "fc427b75e41477f4b517eca8",
+      "collectedAt": "2026-11-24T10:38:45.052Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 15,
+      "matchedCategories": [
+        "AUTO_MARKET",
+        "OEM_BRANDS",
+        "INTERNATIONAL"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [
+        "Toyota"
+      ],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "ไฮลักซ์ ทราโว่ แซด อิดิชั่น ตัวเตี้ยคันเก่งคนทำกิน-สายแต่งสวยแต่งซิ่ง",
+      "shortSummaryTh": "โตโยต้า ประเทศไทย เปิดตัว ไฮลักซ์ ทราโว่ แซด อิดิขั่น รถปิกอัพตัวเตี้ย เอาใจนักเลงรถปิกอัพสายทำกิน สายซิ่ง มาพร้อมชุดแต่งเจ็บจี้ด หลากสไตล์ หล่อแบบไม่ผิดกฎหมาย โตโยต้า มอเตอร์ ประเทศไทย เปิดตัว โตโยต้า ไฮลักซ์ ทราโว่ แซด อิดิชั่น (Hilux Travo Z Edition) รถกระบะตัวเตี้ยที่ยังคง DNA ของ Hilux Travo พ…",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 58,
+      "relevanceScore": 59,
+      "newsCategory": "OEM_BRANDS",
+      "affectedChannels": [
+        "OEM"
+      ],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "วิเคราะห์ด้วยกฎอัตโนมัติ (ไม่ได้ใช้ AI)"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://khaosod.co.th/car-vehicle/news_10483072",
+      "titleOriginal": "ไฮลักซ์ ทราโว่ แซด อิดิชั่น ตัวเตี้ยคันเก่งคนทำกิน-สายแต่งสวยแต่งซิ่ง",
+      "originalSnippet": "โตโยต้า ประเทศไทย เปิดตัว ไฮลักซ์ ทราโว่ แซด อิดิขั่น รถปิกอัพตัวเตี้ย เอาใจนักเลงรถปิกอัพสายทำกิน สายซิ่ง มาพร้อมชุดแต่งเจ็บจี้ด หลากสไตล์ หล่อแบบไม่ผิดกฎหมาย โตโยต้า มอเตอร์ ประเทศไทย เปิดตัว โตโยต้า ไฮลักซ์ ทราโว่ แซด อิดิชั่น (Hilux Travo Z Edition) รถกระบะตัวเตี้ยที่ยังคง DNA ของ Hilux Travo พร้อมสร้างเอกลักษณ์เฉพาะตัว จึงทำให้ Hilux Travo Z Edition เป็น “รถที่ตอบโจทย์ชีวิต” อย่างแท้จริง ทั้งด้านการใช้งานในชีวิตประจำวัน ไลฟ์สไตล์ และการเดินทางของครอบครัว นอกจากนี้ Hilux Travo Z Edition ยังเหมาะสำหรับการใช้งานในเชิงธุรกิจ และเป็นผลิตภัณฑ์ที่สมบูรณ์แบบในด้าน QDR: คุณภาพ (Quality) ความทนทาน…"
+    },
+    {
+      "title": "BYD Skill Contest 2026 จัดต่อเนื่องปีที่ 3 เฟ้นหาสุดยอดช่าง EV และที่ปรึกษาบริการ ยกระดับศูนย์บริการ 170 แห่งทั่วไทย - รถใหม่วันนี้ ข่าวรถยนต์ EV ราคารถยนต์ไฟฟ้า รถยนต์พลังงานไฟฟ้า - CAR250",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA0WndVX0szLWN6aEMtVnBuc3otVWZobDZuZW9idklWNm9MTUZnS3BDNnF5NXFQWFVCS1lON2U2eUo0STFiTjc2NDU3LVZqZUlfaGdmb1gzQjBBclpUWVQ4?oc=5",
+      "snippet": "BYD Skill Contest 2026 จัดต่อเนื่องปีที่ 3 เฟ้นหาสุดยอดช่าง EV และที่ปรึกษาบริการ ยกระดับศูนย์บริการ 170 แห่งทั่วไทย - รถใหม่วันนี้ ข่าวรถยนต์ EV ราคารถยนต์ไฟฟ้า รถยนต์พลังงานไฟฟ้า CAR250",
+      "publishedAt": "2026-11-24T02:56:19.000Z",
+      "sourceId": "google-news:th-TH",
+      "sourceName": "CAR250",
+      "sourceTier": 2,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "b807213ed4908040",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA0WndVX0szLWN6aEMtVnBuc3otVWZobDZuZW9idklWNm9MTUZnS3BDNnF5NXFQWFVCS1lON2U2eUo0STFiTjc2NDU3LVZqZUlfaGdmb1gzQjBBclpUWVQ4",
+      "contentHash": "fc93807b14fe424462c00142",
+      "collectedAt": "2026-11-24T10:38:45.052Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 13,
+      "matchedCategories": [
+        "EV",
+        "OEM_BRANDS",
+        "INTERNATIONAL"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [
+        "BYD"
+      ],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "BYD Skill Contest 2026 จัดต่อเนื่องปีที่ 3 เฟ้นหาสุดยอดช่าง EV และที่ปรึกษาบริการ ยกระดับศูนย์บริการ 170 แห่งทั่วไทย - รถใหม่วันนี้ ข่าวรถยนต์ EV ราคารถยนต์ไฟฟ้า รถยนต์พลังงานไฟฟ้า - CAR250",
+      "shortSummaryTh": "BYD Skill Contest 2026 จัดต่อเนื่องปีที่ 3 เฟ้นหาสุดยอดช่าง EV และที่ปรึกษาบริการ ยกระดับศูนย์บริการ 170 แห่งทั่วไทย - รถใหม่วันนี้ ข่าวรถยนต์ EV ราคารถยนต์ไฟฟ้า รถยนต์พลังงานไฟฟ้า CAR250",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 53,
+      "relevanceScore": 52,
+      "newsCategory": "EV",
+      "affectedChannels": [
+        "B2B"
+      ],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [
+        "รถ EV ยังต้องล้างแอร์ และเจ้าของ EV ใส่ใจคุณภาพอากาศในห้องโดยสารสูง"
+      ],
+      "negativeImpacts": [
+        "EV ไม่มีหัวฉีดน้ำมัน = ความต้องการ Power Flow ลดลงในระยะยาว"
+      ],
+      "reasoningSummary": [
+        "ข่าว EV: ผลบวกต่อ AC_CLEANING หักลบผลลบต่อ POWER_FLOW → ประเมินผลสุทธิ"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "long-term",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA0WndVX0szLWN6aEMtVnBuc3otVWZobDZuZW9idklWNm9MTUZnS3BDNnF5NXFQWFVCS1lON2U2eUo0STFiTjc2NDU3LVZqZUlfaGdmb1gzQjBBclpUWVQ4",
+      "titleOriginal": "BYD Skill Contest 2026 จัดต่อเนื่องปีที่ 3 เฟ้นหาสุดยอดช่าง EV และที่ปรึกษาบริการ ยกระดับศูนย์บริการ 170 แห่งทั่วไทย - รถใหม่วันนี้ ข่าวรถยนต์ EV ราคารถยนต์ไฟฟ้า รถยนต์พลังงานไฟฟ้า - CAR250",
+      "originalSnippet": "BYD Skill Contest 2026 จัดต่อเนื่องปีที่ 3 เฟ้นหาสุดยอดช่าง EV และที่ปรึกษาบริการ ยกระดับศูนย์บริการ 170 แห่งทั่วไทย - รถใหม่วันนี้ ข่าวรถยนต์ EV ราคารถยนต์ไฟฟ้า รถยนต์พลังงานไฟฟ้า CAR250"
+    },
+    {
+      "title": "ตัวแทนจำหน่ายรถยนต์ฮุนไดถูกกล่าวหาว่าเพิกเฉยต่อรหัสข้อผิดพลาดของเครื่องยนต์และเสนอราคาค่าซ่อมที่สูงเกิน 17,500 ดอลลาร์สหรัฐ - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWl96VV80NE1pa2JUckZ5cWhJR1k5TlkySVZ6Yzh6X3lwS3NEeEVHWHExOVhiVDVNUjVhUGcwTlItUFlKelhXQmN4Sy1wWTlhazFkbE9MMHhJcjY1QWFuU3VuRXVWMG13c1hEXzlyZUlHeHh6X0wzdEtzS2ZtZFA3eE13eU1SOTBVV20yQkhzYzdteDgtU1UtMkNQUkpKQUE?oc=5",
+      "snippet": "ตัวแทนจำหน่ายรถยนต์ฮุนไดถูกกล่าวหาว่าเพิกเฉยต่อรหัสข้อผิดพลาดของเครื่องยนต์และเสนอราคาค่าซ่อมที่สูงเกิน 17,500 ดอลลาร์สหรัฐ Vietnam.vn",
+      "publishedAt": "2026-11-22T10:57:06.000Z",
+      "sourceId": "google-news:th-TH",
+      "sourceName": "Vietnam.vn",
+      "sourceTier": 2,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "9f14d4a2e9bd761b",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWl96VV80NE1pa2JUckZ5cWhJR1k5TlkySVZ6Yzh6X3lwS3NEeEVHWHExOVhiVDVNUjVhUGcwTlItUFlKelhXQmN4Sy1wWTlhazFkbE9MMHhJcjY1QWFuU3VuRXVWMG13c1hEXzlyZUlHeHh6X0wzdEtzS2ZtZFA3eE13eU1SOTBVV20yQkhzYzdteDgtU1UtMkNQUkpKQUE",
+      "contentHash": "25694d64be0baed26844b0bb",
+      "collectedAt": "2026-11-24T10:38:45.052Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 13,
+      "matchedCategories": [
+        "AUTO_MARKET",
+        "OEM_BRANDS",
+        "INTERNATIONAL"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [
+        "Hyundai"
+      ],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "ตัวแทนจำหน่ายรถยนต์ฮุนไดถูกกล่าวหาว่าเพิกเฉยต่อรหัสข้อผิดพลาดของเครื่องยนต์และเสนอราคาค่าซ่อมที่สูงเกิน 17,500 ดอลลาร์สหรัฐ - Vietnam.vn",
+      "shortSummaryTh": "ตัวแทนจำหน่ายรถยนต์ฮุนไดถูกกล่าวหาว่าเพิกเฉยต่อรหัสข้อผิดพลาดของเครื่องยนต์และเสนอราคาค่าซ่อมที่สูงเกิน 17,500 ดอลลาร์สหรัฐ Vietnam.vn",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 58,
+      "relevanceScore": 52,
+      "newsCategory": "OEM_BRANDS",
+      "affectedChannels": [
+        "OEM"
+      ],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "วิเคราะห์ด้วยกฎอัตโนมัติ (ไม่ได้ใช้ AI)"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWl96VV80NE1pa2JUckZ5cWhJR1k5TlkySVZ6Yzh6X3lwS3NEeEVHWHExOVhiVDVNUjVhUGcwTlItUFlKelhXQmN4Sy1wWTlhazFkbE9MMHhJcjY1QWFuU3VuRXVWMG13c1hEXzlyZUlHeHh6X0wzdEtzS2ZtZFA3eE13eU1SOTBVV20yQkhzYzdteDgtU1UtMkNQUkpKQUE",
+      "titleOriginal": "ตัวแทนจำหน่ายรถยนต์ฮุนไดถูกกล่าวหาว่าเพิกเฉยต่อรหัสข้อผิดพลาดของเครื่องยนต์และเสนอราคาค่าซ่อมที่สูงเกิน 17,500 ดอลลาร์สหรัฐ - Vietnam.vn",
+      "originalSnippet": "ตัวแทนจำหน่ายรถยนต์ฮุนไดถูกกล่าวหาว่าเพิกเฉยต่อรหัสข้อผิดพลาดของเครื่องยนต์และเสนอราคาค่าซ่อมที่สูงเกิน 17,500 ดอลลาร์สหรัฐ Vietnam.vn"
+    },
+    {
+      "title": "ฮอนด้า-โตโยต้า' เรียกคืนรถยนต์ 1.6 ล้านคัน กังวลถุงลมนิรภัยแตก",
+      "link": "https://pantip.com/topic/44292440",
+      "snippet": "",
+      "publishedAt": "2026-11-22T21:24:42.000Z",
+      "sourceId": "pantip:รถยนต์",
+      "sourceName": "Pantip (แท็ก รถยนต์)",
+      "sourceTier": 3,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": true,
+      "itemKind": "social",
+      "id": "10f4104ce5dc7d02",
+      "canonicalUrl": "https://pantip.com/topic/44292440",
+      "contentHash": "2d650fc0af4d19630c8b6f7b",
+      "collectedAt": "2026-11-24T10:38:45.052Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 12,
+      "matchedCategories": [
+        "OEM_BRANDS"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [
+        "Toyota",
+        "Honda"
+      ],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [
+        {
+          "sourceName": "Pantip (แท็ก รถยนต์ไฟฟ้า)",
+          "url": "https://pantip.com/topic/44292440",
+          "tier": 3
+        }
+      ],
+      "titleTh": "ฮอนด้า-โตโยต้า' เรียกคืนรถยนต์ 1.6 ล้านคัน กังวลถุงลมนิรภัยแตก",
+      "shortSummaryTh": "ฮอนด้า-โตโยต้า' เรียกคืนรถยนต์ 1.6 ล้านคัน กังวลถุงลมนิรภัยแตก",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 41,
+      "relevanceScore": 49,
+      "newsCategory": "OEM_BRANDS",
+      "affectedChannels": [
+        "OEM"
+      ],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "แหล่งข่าว Tier 3 — ข้อมูลยังต้องตรวจสอบ"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://pantip.com/topic/44292440",
+      "titleOriginal": "ฮอนด้า-โตโยต้า' เรียกคืนรถยนต์ 1.6 ล้านคัน กังวลถุงลมนิรภัยแตก",
+      "originalSnippet": ""
+    },
+    {
+      "title": "โตโยต้า เปิดสุดยอดแห่งรถกระบะมหาชน ไฮลักซ์ ทราโว่ แซด อิดิชั่น พร้อมถ่ายทอดตัวตนในแบบ ทรง Z สายหล่อ",
+      "link": "https://www.matichon.co.th/economy/auto/news_5988162",
+      "snippet": "โตโยต้า เปิดสุดยอดแห่งรถกระบะมหาชน ไฮลักซ์ ทราโว่ แซด อ […]",
+      "publishedAt": "2026-11-24T10:09:04.000Z",
+      "sourceId": "matichon",
+      "sourceName": "มติชน",
+      "sourceTier": 2,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "9e65b35791aaa184",
+      "canonicalUrl": "https://matichon.co.th/economy/auto/news_5988162",
+      "contentHash": "917e9fd639642364a38d6aae",
+      "collectedAt": "2026-11-24T10:38:45.052Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 11,
+      "matchedCategories": [
+        "AUTO_MARKET",
+        "OEM_BRANDS"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [
+        "Toyota"
+      ],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "โตโยต้า เปิดสุดยอดแห่งรถกระบะมหาชน ไฮลักซ์ ทราโว่ แซด อิดิชั่น พร้อมถ่ายทอดตัวตนในแบบ ทรง Z สายหล่อ",
+      "shortSummaryTh": "โตโยต้า เปิดสุดยอดแห่งรถกระบะมหาชน ไฮลักซ์ ทราโว่ แซด อ […]",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 53,
+      "relevanceScore": 46,
+      "newsCategory": "OEM_BRANDS",
+      "affectedChannels": [
+        "OEM"
+      ],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "วิเคราะห์ด้วยกฎอัตโนมัติ (ไม่ได้ใช้ AI)"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://matichon.co.th/economy/auto/news_5988162",
+      "titleOriginal": "โตโยต้า เปิดสุดยอดแห่งรถกระบะมหาชน ไฮลักซ์ ทราโว่ แซด อิดิชั่น พร้อมถ่ายทอดตัวตนในแบบ ทรง Z สายหล่อ",
+      "originalSnippet": "โตโยต้า เปิดสุดยอดแห่งรถกระบะมหาชน ไฮลักซ์ ทราโว่ แซด อ […]"
+    },
+    {
+      "title": "แอร์รถยนต์มีกลิ่นเหม็นอับ",
+      "link": "https://pantip.com/topic/44280556",
+      "snippet": "",
+      "publishedAt": "2026-11-08T02:45:58.000Z",
+      "sourceId": "pantip:เครื่องปรับอากาศ",
+      "sourceName": "Pantip (แท็ก เครื่องปรับอากาศ)",
+      "sourceTier": 3,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": true,
+      "itemKind": "social",
+      "id": "0443a15ac8c1e8c7",
+      "canonicalUrl": "https://pantip.com/topic/44280556",
+      "contentHash": "e50f6103867d86f5df1a7fae",
+      "collectedAt": "2026-11-24T10:38:45.052Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 11,
+      "matchedCategories": [
+        "AC_CLEANING"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [
+        {
+          "sourceName": "Pantip (แท็ก Isuzu)",
+          "url": "https://pantip.com/topic/44280556",
+          "tier": 3
+        }
+      ],
+      "titleTh": "แอร์รถยนต์มีกลิ่นเหม็นอับ",
+      "shortSummaryTh": "แอร์รถยนต์มีกลิ่นเหม็นอับ",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 41,
+      "relevanceScore": 46,
+      "newsCategory": "AC_CLEANING",
+      "affectedChannels": [],
+      "affectedProducts": [
+        "AC_CLEANING"
+      ],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "แหล่งข่าว Tier 3 — ข้อมูลยังต้องตรวจสอบ"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://pantip.com/topic/44280556",
+      "titleOriginal": "แอร์รถยนต์มีกลิ่นเหม็นอับ",
+      "originalSnippet": ""
+    },
+    {
+      "title": "น้ำยาล้างคอยล์ ร้อน-เย็น แอร์บ้านและแอร์รถยนต์ ซุปเปอร์คลีนยกลัง12ขวด #shorts",
+      "link": "https://www.youtube.com/watch?v=ku-i3ngqtAw",
+      "snippet": "น้ำยาล้างคอยล์ ร้อน-เย็น แอร์บ้านและแอร์รถยนต์ ซุปเปอร์คลีนยกลัง12ขวด สั่งซื้อ: https://s.shopee.co.th/2gCmWTWrDw #shorts ... (ช่อง: peeraphan sawasdisara) · ยอดวิว 315 ครั้ง",
+      "publishedAt": "2026-11-23T12:20:52.000Z",
+      "sourceId": "youtube",
+      "sourceName": "YouTube · peeraphan sawasdisara",
+      "sourceTier": 3,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": true,
+      "itemKind": "social",
+      "id": "2815fb17fcfa0178",
+      "canonicalUrl": "https://youtube.com/watch?v=ku-i3ngqtAw",
+      "contentHash": "7000387b74afd5aff228d266",
+      "collectedAt": "2026-11-24T10:38:45.052Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 11,
+      "matchedCategories": [
+        "AC_CLEANING"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "น้ำยาล้างคอยล์ ร้อน-เย็น แอร์บ้านและแอร์รถยนต์ ซุปเปอร์คลีนยกลัง12ขวด #shorts",
+      "shortSummaryTh": "น้ำยาล้างคอยล์ ร้อน-เย็น แอร์บ้านและแอร์รถยนต์ ซุปเปอร์คลีนยกลัง12ขวด สั่งซื้อ: https://s.shopee.co.th/2gCmWTWrDw #shorts ... (ช่อง: peeraphan sawasdisara) · ยอดวิว 315 ครั้ง",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 46,
+      "relevanceScore": 46,
+      "newsCategory": "AC_CLEANING",
+      "affectedChannels": [],
+      "affectedProducts": [
+        "AC_CLEANING",
+        "TRADING"
+      ],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "แหล่งข่าว Tier 3 — ข้อมูลยังต้องตรวจสอบ"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://youtube.com/watch?v=ku-i3ngqtAw",
+      "titleOriginal": "น้ำยาล้างคอยล์ ร้อน-เย็น แอร์บ้านและแอร์รถยนต์ ซุปเปอร์คลีนยกลัง12ขวด #shorts",
+      "originalSnippet": "น้ำยาล้างคอยล์ ร้อน-เย็น แอร์บ้านและแอร์รถยนต์ ซุปเปอร์คลีนยกลัง12ขวด สั่งซื้อ: https://s.shopee.co.th/2gCmWTWrDw #shorts ... (ช่อง: peeraphan sawasdisara) · ยอดวิว 315 ครั้ง"
+    },
+    {
+      "title": "จังหวัดทัญฮวา: ตลาดรถยนต์มือสองยังคงซบเซาในช่วงปลายปี - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWDB1bnZhYjlXT1hKaHR1cG85RVd5aTVrTTdFYXEyNGZUY253aE1wMTFmZ3RjeFRNaHFKejg3WUY2d2FZYjhIODJJc1Z2ZXJIYXhaMlVMWmdtaEM5ZjktTWFtRkVuMG9Wc2dVWU9IXzlkVkJiQko0UnluY0I2WVFTWjc5aw?oc=5",
+      "snippet": "จังหวัดทัญฮวา: ตลาดรถยนต์มือสองยังคงซบเซาในช่วงปลายปี Vietnam.vn",
+      "publishedAt": "2026-11-23T10:25:55.000Z",
+      "sourceId": "google-news:th-TH",
+      "sourceName": "Vietnam.vn",
+      "sourceTier": 2,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "fd51af134256dfe7",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWDB1bnZhYjlXT1hKaHR1cG85RVd5aTVrTTdFYXEyNGZUY253aE1wMTFmZ3RjeFRNaHFKejg3WUY2d2FZYjhIODJJc1Z2ZXJIYXhaMlVMWmdtaEM5ZjktTWFtRkVuMG9Wc2dVWU9IXzlkVkJiQko0UnluY0I2WVFTWjc5aw",
+      "contentHash": "fcdb950bf54a66b83cb95cff",
+      "collectedAt": "2026-11-24T10:38:45.052Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 10,
+      "matchedCategories": [
+        "AUTO_MARKET",
+        "INTERNATIONAL"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "จังหวัดทัญฮวา: ตลาดรถยนต์มือสองยังคงซบเซาในช่วงปลายปี - Vietnam.vn",
+      "shortSummaryTh": "จังหวัดทัญฮวา: ตลาดรถยนต์มือสองยังคงซบเซาในช่วงปลายปี Vietnam.vn",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 53,
+      "relevanceScore": 43,
+      "newsCategory": "AUTO_MARKET",
+      "affectedChannels": [],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "วิเคราะห์ด้วยกฎอัตโนมัติ (ไม่ได้ใช้ AI)"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWDB1bnZhYjlXT1hKaHR1cG85RVd5aTVrTTdFYXEyNGZUY253aE1wMTFmZ3RjeFRNaHFKejg3WUY2d2FZYjhIODJJc1Z2ZXJIYXhaMlVMWmdtaEM5ZjktTWFtRkVuMG9Wc2dVWU9IXzlkVkJiQko0UnluY0I2WVFTWjc5aw",
+      "titleOriginal": "จังหวัดทัญฮวา: ตลาดรถยนต์มือสองยังคงซบเซาในช่วงปลายปี - Vietnam.vn",
+      "originalSnippet": "จังหวัดทัญฮวา: ตลาดรถยนต์มือสองยังคงซบเซาในช่วงปลายปี Vietnam.vn"
+    },
+    {
+      "title": "นายกฯ หารือ 5 ค่ายรถญี่ปุ่น-จีน ดัน E20 และ B20 โตโยต้ายืนยันกระบะตั้งแต่ปี 2015 ใช้ B20 ได้ อีซูซุทดสอบ B30 - SiamCar",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9Ia3hZVjNsVnNDX0ZMWS1FTEV4MndVT3NmbEpET05aQ0VLMkRNaDdSWEgtRmNnbUJJckJFQ0xaYzZ2a1JtX0pJOFZaRGQtM2NQMFI1QnEtUVZzdk9jeEE?oc=5",
+      "snippet": "นายกฯ หารือ 5 ค่ายรถญี่ปุ่น-จีน ดัน E20 และ B20 โตโยต้ายืนยันกระบะตั้งแต่ปี 2015 ใช้ B20 ได้ อีซูซุทดสอบ B30 SiamCar",
+      "publishedAt": "2026-11-24T03:00:03.000Z",
+      "sourceId": "google-news:th-TH",
+      "sourceName": "SiamCar",
+      "sourceTier": 2,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "706baf9e84dbec97",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9Ia3hZVjNsVnNDX0ZMWS1FTEV4MndVT3NmbEpET05aQ0VLMkRNaDdSWEgtRmNnbUJJckJFQ0xaYzZ2a1JtX0pJOFZaRGQtM2NQMFI1QnEtUVZzdk9jeEE",
+      "contentHash": "3d4198c66f42e14c3cdfda1e",
+      "collectedAt": "2026-11-24T10:38:45.052Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 10,
+      "matchedCategories": [
+        "OEM_BRANDS"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [
+        "Toyota",
+        "Isuzu"
+      ],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "นายกฯ หารือ 5 ค่ายรถญี่ปุ่น-จีน ดัน E20 และ B20 โตโยต้ายืนยันกระบะตั้งแต่ปี 2015 ใช้ B20 ได้ อีซูซุทดสอบ B30 - SiamCar",
+      "shortSummaryTh": "นายกฯ หารือ 5 ค่ายรถญี่ปุ่น-จีน ดัน E20 และ B20 โตโยต้ายืนยันกระบะตั้งแต่ปี 2015 ใช้ B20 ได้ อีซูซุทดสอบ B30 SiamCar",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 53,
+      "relevanceScore": 43,
+      "newsCategory": "OEM_BRANDS",
+      "affectedChannels": [
+        "OEM"
+      ],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "วิเคราะห์ด้วยกฎอัตโนมัติ (ไม่ได้ใช้ AI)"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9Ia3hZVjNsVnNDX0ZMWS1FTEV4MndVT3NmbEpET05aQ0VLMkRNaDdSWEgtRmNnbUJJckJFQ0xaYzZ2a1JtX0pJOFZaRGQtM2NQMFI1QnEtUVZzdk9jeEE",
+      "titleOriginal": "นายกฯ หารือ 5 ค่ายรถญี่ปุ่น-จีน ดัน E20 และ B20 โตโยต้ายืนยันกระบะตั้งแต่ปี 2015 ใช้ B20 ได้ อีซูซุทดสอบ B30 - SiamCar",
+      "originalSnippet": "นายกฯ หารือ 5 ค่ายรถญี่ปุ่น-จีน ดัน E20 และ B20 โตโยต้ายืนยันกระบะตั้งแต่ปี 2015 ใช้ B20 ได้ อีซูซุทดสอบ B30 SiamCar"
+    },
+    {
+      "title": "4 ค่ายรถฟ้องรัฐนิวเจอร์ซีย์ ค้านกฎหมายคุมค่าซ่อม - TNN Thailand",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE90VF9PYVVlU2gxYVRLQ0FGSnQ5S3JOb2NyblZNWU1TTFI4dlhLYWY0SHNrN1FoUUstSmI0MmtNcWVlcGx5TWRlTUt2Y0xvZUNNWWhaN0NjSzJkaWtvZkF3?oc=5",
+      "snippet": "4 ค่ายรถฟ้องรัฐนิวเจอร์ซีย์ ค้านกฎหมายคุมค่าซ่อม TNN Thailand",
+      "publishedAt": "2026-11-24T06:24:11.000Z",
+      "sourceId": "google-news:th-TH",
+      "sourceName": "TNN Thailand",
+      "sourceTier": 2,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "4adfd377c10972a2",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE90VF9PYVVlU2gxYVRLQ0FGSnQ5S3JOb2NyblZNWU1TTFI4dlhLYWY0SHNrN1FoUUstSmI0MmtNcWVlcGx5TWRlTUt2Y0xvZUNNWWhaN0NjSzJkaWtvZkF3",
+      "contentHash": "cb3d8a9b61b8ad9d8ddee444",
+      "collectedAt": "2026-11-24T10:38:45.052Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 10,
+      "matchedCategories": [
+        "AUTO_MARKET",
+        "INTERNATIONAL"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "4 ค่ายรถฟ้องรัฐนิวเจอร์ซีย์ ค้านกฎหมายคุมค่าซ่อม - TNN Thailand",
+      "shortSummaryTh": "4 ค่ายรถฟ้องรัฐนิวเจอร์ซีย์ ค้านกฎหมายคุมค่าซ่อม TNN Thailand",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 53,
+      "relevanceScore": 43,
+      "newsCategory": "AUTO_MARKET",
+      "affectedChannels": [
+        "OEM"
+      ],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "วิเคราะห์ด้วยกฎอัตโนมัติ (ไม่ได้ใช้ AI)"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE90VF9PYVVlU2gxYVRLQ0FGSnQ5S3JOb2NyblZNWU1TTFI4dlhLYWY0SHNrN1FoUUstSmI0MmtNcWVlcGx5TWRlTUt2Y0xvZUNNWWhaN0NjSzJkaWtvZkF3",
+      "titleOriginal": "4 ค่ายรถฟ้องรัฐนิวเจอร์ซีย์ ค้านกฎหมายคุมค่าซ่อม - TNN Thailand",
+      "originalSnippet": "4 ค่ายรถฟ้องรัฐนิวเจอร์ซีย์ ค้านกฎหมายคุมค่าซ่อม TNN Thailand"
+    },
+    {
+      "title": "รถยนต์ไฟฟ้า Porsche Cayenne เปิดตัวในเวียดนามแล้ว โดยมีราคาเริ่มต้นที่ 4.72 พันล้านดองเวียดนาม - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQdkRlbFFNdzMzVUVBdXZTdU5mMFhkWEF2dU9tSW5veW5Yd00xRnBxZDd2TmdTV1c3UGYwMzNMaTZfMllnM2tHNVdPN3BSMEFXR3BSODFCWGJpS18wbGVQTHExTTk1Qy1UZUYyTnpkbFJkZlQ2MXg3S0FlX2xQWEZCV3RVNFI2dVNUQm5sNUl1OFNYUlFOTkVF?oc=5",
+      "snippet": "รถยนต์ไฟฟ้า Porsche Cayenne เปิดตัวในเวียดนามแล้ว โดยมีราคาเริ่มต้นที่ 4.72 พันล้านดองเวียดนาม Vietnam.vn",
+      "publishedAt": "2026-11-23T05:49:00.000Z",
+      "sourceId": "google-news:th-TH",
+      "sourceName": "Vietnam.vn",
+      "sourceTier": 2,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "93d64108f40fd8a4",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQdkRlbFFNdzMzVUVBdXZTdU5mMFhkWEF2dU9tSW5veW5Yd00xRnBxZDd2TmdTV1c3UGYwMzNMaTZfMllnM2tHNVdPN3BSMEFXR3BSODFCWGJpS18wbGVQTHExTTk1Qy1UZUYyTnpkbFJkZlQ2MXg3S0FlX2xQWEZCV3RVNFI2dVNUQm5sNUl1OFNYUlFOTkVF",
+      "contentHash": "e0cb5aa1110bb3643e1a12b0",
+      "collectedAt": "2026-11-24T10:38:45.052Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 10,
+      "matchedCategories": [
+        "EV",
+        "INTERNATIONAL"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "รถยนต์ไฟฟ้า Porsche Cayenne เปิดตัวในเวียดนามแล้ว โดยมีราคาเริ่มต้นที่ 4.72 พันล้านดองเวียดนาม - Vietnam.vn",
+      "shortSummaryTh": "รถยนต์ไฟฟ้า Porsche Cayenne เปิดตัวในเวียดนามแล้ว โดยมีราคาเริ่มต้นที่ 4.72 พันล้านดองเวียดนาม Vietnam.vn",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 48,
+      "relevanceScore": 43,
+      "newsCategory": "EV",
+      "affectedChannels": [],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [
+        "รถ EV ยังต้องล้างแอร์ และเจ้าของ EV ใส่ใจคุณภาพอากาศในห้องโดยสารสูง"
+      ],
+      "negativeImpacts": [
+        "EV ไม่มีหัวฉีดน้ำมัน = ความต้องการ Power Flow ลดลงในระยะยาว"
+      ],
+      "reasoningSummary": [
+        "ข่าว EV: ผลบวกต่อ AC_CLEANING หักลบผลลบต่อ POWER_FLOW → ประเมินผลสุทธิ"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "long-term",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQdkRlbFFNdzMzVUVBdXZTdU5mMFhkWEF2dU9tSW5veW5Yd00xRnBxZDd2TmdTV1c3UGYwMzNMaTZfMllnM2tHNVdPN3BSMEFXR3BSODFCWGJpS18wbGVQTHExTTk1Qy1UZUYyTnpkbFJkZlQ2MXg3S0FlX2xQWEZCV3RVNFI2dVNUQm5sNUl1OFNYUlFOTkVF",
+      "titleOriginal": "รถยนต์ไฟฟ้า Porsche Cayenne เปิดตัวในเวียดนามแล้ว โดยมีราคาเริ่มต้นที่ 4.72 พันล้านดองเวียดนาม - Vietnam.vn",
+      "originalSnippet": "รถยนต์ไฟฟ้า Porsche Cayenne เปิดตัวในเวียดนามแล้ว โดยมีราคาเริ่มต้นที่ 4.72 พันล้านดองเวียดนาม Vietnam.vn"
+    },
+    {
+      "title": "การใช้รถยนต์ไฟฟ้า MOVE: ประหยัดเงินได้จากประสบการณ์จริง - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxONjBZbzJxeGVSN21HM1dCdTFvellZQnJpdWQ1Z0VidDV2dWVKVXF5TmlPWWZub25MX2ZEUVp0MG51aXBQd1VEWTFZc3JGeVFYTGdFTEdwT3gzQUgtdkNHYXFwUUViaG5HR1MtNFpJX0lQQ25RNXlLUkw5R2ZDTW5ZSkk4MWp5VHV0dzRZMW01UUViOWRYaFRaZw?oc=5",
+      "snippet": "การใช้รถยนต์ไฟฟ้า MOVE: ประหยัดเงินได้จากประสบการณ์จริง Vietnam.vn",
+      "publishedAt": "2026-11-24T02:21:48.000Z",
+      "sourceId": "google-news:th-TH",
+      "sourceName": "Vietnam.vn",
+      "sourceTier": 2,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "882d2631878827e5",
+      "canonicalUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxONjBZbzJxeGVSN21HM1dCdTFvellZQnJpdWQ1Z0VidDV2dWVKVXF5TmlPWWZub25MX2ZEUVp0MG51aXBQd1VEWTFZc3JGeVFYTGdFTEdwT3gzQUgtdkNHYXFwUUViaG5HR1MtNFpJX0lQQ25RNXlLUkw5R2ZDTW5ZSkk4MWp5VHV0dzRZMW01UUViOWRYaFRaZw",
+      "contentHash": "dec4ebd77561e87d592b053d",
+      "collectedAt": "2026-11-24T10:38:45.052Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 10,
+      "matchedCategories": [
+        "EV",
+        "INTERNATIONAL"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "การใช้รถยนต์ไฟฟ้า MOVE: ประหยัดเงินได้จากประสบการณ์จริง - Vietnam.vn",
+      "shortSummaryTh": "การใช้รถยนต์ไฟฟ้า MOVE: ประหยัดเงินได้จากประสบการณ์จริง Vietnam.vn",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 48,
+      "relevanceScore": 43,
+      "newsCategory": "EV",
+      "affectedChannels": [],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [
+        "รถ EV ยังต้องล้างแอร์ และเจ้าของ EV ใส่ใจคุณภาพอากาศในห้องโดยสารสูง"
+      ],
+      "negativeImpacts": [
+        "EV ไม่มีหัวฉีดน้ำมัน = ความต้องการ Power Flow ลดลงในระยะยาว"
+      ],
+      "reasoningSummary": [
+        "ข่าว EV: ผลบวกต่อ AC_CLEANING หักลบผลลบต่อ POWER_FLOW → ประเมินผลสุทธิ"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "long-term",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxONjBZbzJxeGVSN21HM1dCdTFvellZQnJpdWQ1Z0VidDV2dWVKVXF5TmlPWWZub25MX2ZEUVp0MG51aXBQd1VEWTFZc3JGeVFYTGdFTEdwT3gzQUgtdkNHYXFwUUViaG5HR1MtNFpJX0lQQ25RNXlLUkw5R2ZDTW5ZSkk4MWp5VHV0dzRZMW01UUViOWRYaFRaZw",
+      "titleOriginal": "การใช้รถยนต์ไฟฟ้า MOVE: ประหยัดเงินได้จากประสบการณ์จริง - Vietnam.vn",
+      "originalSnippet": "การใช้รถยนต์ไฟฟ้า MOVE: ประหยัดเงินได้จากประสบการณ์จริง Vietnam.vn"
+    },
+    {
+      "title": "Toyota Hilux Travo Z-Edition Standard Cab ตัวเตี้ย (2026) ราคาอย่างเป็นทางการ : 599,000 – 689,000",
+      "link": "https://autolifethailand.tv/official-price-toyota-hilux-travo-z-edition-standard-cab-pick-up-truck-thailand-2026/",
+      "snippet": "Toyota Hilux Travo Z-Edition Standard Cab ตัวเตี้ย (2026) ราคาอย่างเป็นทางการ ประกอบในประเทศไทย โดย บริษัท โตโยต้า มอเตอร์ (ประเทศไทย) จำกัด 2.8 Standard Cab MT : 654,000 บาท 2.4 Standard Cab AT : 689,000 บาท 2.4 Standard Cab MT : 639,000 บาท 2.4 Standard Cab C&C AT : 649,000 บาท 2.4 Standard Cab C&C MT : 599,000 บาท มาพร้อมการรับประกันคุณภาพตัวรถ นาน […] The post Toyota Hilux Travo Z-Edition Standard Cab ตัวเตี้ย (2026) ราคาอย่างเป็นทางการ : 599,000 – 689,000 appeared first on Autolifethailand.tv .",
+      "publishedAt": "2026-11-24T08:50:39.000Z",
+      "sourceId": "autolifethailand",
+      "sourceName": "AutoLife Thailand",
+      "sourceTier": 2,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "15823f3a385eda0a",
+      "canonicalUrl": "https://autolifethailand.tv/official-price-toyota-hilux-travo-z-edition-standard-cab-pick-up-truck-thailand-2026",
+      "contentHash": "72ccfebc64a632f2bf47d1a3",
+      "collectedAt": "2026-11-24T10:38:45.052Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 9,
+      "matchedCategories": [
+        "OEM_BRANDS",
+        "INTERNATIONAL"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [
+        "Toyota"
+      ],
+      "hasAutomotiveContext": true,
+      "duplicateGroupId": "8f51cd9a9af8bfff",
+      "relatedCoverage": [
+        {
+          "sourceName": "HeadLightMag",
+          "url": "https://headlightmag.com/official-price-toyota-hilux-travo-z-edition-double-cab",
+          "tier": 2
+        }
+      ],
+      "titleTh": "Toyota Hilux Travo Z-Edition Standard Cab ตัวเตี้ย (2026) ราคาอย่างเป็นทางการ : 599,000 – 689,000",
+      "shortSummaryTh": "Toyota Hilux Travo Z-Edition Standard Cab ตัวเตี้ย (2026) ราคาอย่างเป็นทางการ ประกอบในประเทศไทย โดย บริษัท โตโยต้า มอเตอร์ (ประเทศไทย) จำกัด 2.8 Standard Cab MT : 654,000 บาท 2.4 Standard Cab AT : 689,000 บาท 2.4 Standard Cab MT : 639,000 บาท 2.4 Standard Cab C&C AT : 649,000 บาท 2.4 Standard Cab C…",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 58,
+      "relevanceScore": 40,
+      "newsCategory": "OEM_BRANDS",
+      "affectedChannels": [
+        "OEM"
+      ],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "วิเคราะห์ด้วยกฎอัตโนมัติ (ไม่ได้ใช้ AI)"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://autolifethailand.tv/official-price-toyota-hilux-travo-z-edition-standard-cab-pick-up-truck-thailand-2026",
+      "titleOriginal": "Toyota Hilux Travo Z-Edition Standard Cab ตัวเตี้ย (2026) ราคาอย่างเป็นทางการ : 599,000 – 689,000",
+      "originalSnippet": "Toyota Hilux Travo Z-Edition Standard Cab ตัวเตี้ย (2026) ราคาอย่างเป็นทางการ ประกอบในประเทศไทย โดย บริษัท โตโยต้า มอเตอร์ (ประเทศไทย) จำกัด 2.8 Standard Cab MT : 654,000 บาท 2.4 Standard Cab AT : 689,000 บาท 2.4 Standard Cab MT : 639,000 บาท 2.4 Standard Cab C&C AT : 649,000 บาท 2.4 Standard Cab C&C MT : 599,000 บาท มาพร้อมการรับประกันคุณภาพตัวรถ นาน […] The post Toyota Hilux Travo Z-Edition Standard Cab ตัวเตี้ย (2026) ราคาอย่างเป็นทางการ : 599,000 – 689,000 appeared first on Autolifethailand.tv ."
+    },
+    {
+      "title": "Toyota Land Cruiser FJ launched in Indonesia – 2.7L NA, 6AT; standard and Adventure variants; from RM189k",
+      "link": "https://paultan.org/2026/11/23/toyota-land-cruiser-fj-launched-in-indonesia/",
+      "snippet": "Indonesia has joined Thailand in welcoming the Toyota Land Cruiser FJ, which was officially launched in the republic recently at this year’s Gaikindo Auto Week in Jakarta. Unlike Thailand, Indonesia gets the retro-styled compact SUV […] The post Toyota Land Cruiser FJ launched in Indonesia – 2.7L NA, 6AT; standard and Adventure variants; from RM189k appeared first on Paul Tan's Automotive News .",
+      "publishedAt": "2026-11-23T08:31:12.000Z",
+      "sourceId": "paultan",
+      "sourceName": "Paul Tan's Automotive News (MY/ASEAN)",
+      "sourceTier": 2,
+      "sourceCountry": "MY",
+      "language": "en",
+      "unverified": false,
+      "itemKind": "news",
+      "id": "aeabf85f5e3b8b60",
+      "canonicalUrl": "https://paultan.org/2026/11/23/toyota-land-cruiser-fj-launched-in-indonesia",
+      "contentHash": "9ed8371a61439ceed875c0ad",
+      "collectedAt": "2026-11-24T10:38:45.052Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 9,
+      "matchedCategories": [
+        "OEM_BRANDS",
+        "INTERNATIONAL"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [
+        "Toyota"
+      ],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "[EN] Toyota Land Cruiser FJ launched in Indonesia – 2.7L NA, 6AT; standard and Adventure variants; from RM189k",
+      "shortSummaryTh": "Indonesia has joined Thailand in welcoming the Toyota Land Cruiser FJ, which was officially launched in the republic recently at this year’s Gaikindo Auto Week in Jakarta. Unlike Thailand, Indonesia gets the retro-styled compact SUV […] The post Toyota Land Cruiser FJ launched in Indonesia – 2.7L N…",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 58,
+      "relevanceScore": 40,
+      "newsCategory": "OEM_BRANDS",
+      "affectedChannels": [
+        "OEM"
+      ],
+      "affectedProducts": [],
+      "affectedCountries": [
+        "MY"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "วิเคราะห์ด้วยกฎอัตโนมัติ (ไม่ได้ใช้ AI)"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://paultan.org/2026/11/23/toyota-land-cruiser-fj-launched-in-indonesia",
+      "titleOriginal": "Toyota Land Cruiser FJ launched in Indonesia – 2.7L NA, 6AT; standard and Adventure variants; from RM189k",
+      "originalSnippet": "Indonesia has joined Thailand in welcoming the Toyota Land Cruiser FJ, which was officially launched in the republic recently at this year’s Gaikindo Auto Week in Jakarta. Unlike Thailand, Indonesia gets the retro-styled compact SUV […] The post Toyota Land Cruiser FJ launched in Indonesia – 2.7L NA, 6AT; standard and Adventure variants; from RM189k appeared first on Paul Tan's Automotive News ."
+    },
+    {
+      "title": "ถ้ารถที่เราใช้เติม E20 ตลอด การเติมน้ำยาล้างหัวฉีดจำเป็นหรือไม่ครับ​ ?",
+      "link": "https://pantip.com/topic/44283032",
+      "snippet": "",
+      "publishedAt": "2026-11-11T05:08:18.000Z",
+      "sourceId": "pantip:ศูนย์บริการรถยนต์",
+      "sourceName": "Pantip (แท็ก ศูนย์บริการรถยนต์)",
+      "sourceTier": 3,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": true,
+      "itemKind": "social",
+      "id": "492fe655d25a5057",
+      "canonicalUrl": "https://pantip.com/topic/44283032",
+      "contentHash": "85ff32b343e8347df8c364ae",
+      "collectedAt": "2026-11-24T10:38:45.052Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 9,
+      "matchedCategories": [
+        "INJECTOR"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [],
+      "hasAutomotiveContext": true,
+      "relatedCoverage": [],
+      "titleTh": "ถ้ารถที่เราใช้เติม E20 ตลอด การเติมน้ำยาล้างหัวฉีดจำเป็นหรือไม่ครับ​ ?",
+      "shortSummaryTh": "ถ้ารถที่เราใช้เติม E20 ตลอด การเติมน้ำยาล้างหัวฉีดจำเป็นหรือไม่ครับ​ ?",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 41,
+      "relevanceScore": 40,
+      "newsCategory": "INJECTOR",
+      "affectedChannels": [],
+      "affectedProducts": [
+        "POWER_FLOW",
+        "TRADING"
+      ],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "แหล่งข่าว Tier 3 — ข้อมูลยังต้องตรวจสอบ"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://pantip.com/topic/44283032",
+      "titleOriginal": "ถ้ารถที่เราใช้เติม E20 ตลอด การเติมน้ำยาล้างหัวฉีดจำเป็นหรือไม่ครับ​ ?",
+      "originalSnippet": ""
+    },
+    {
+      "title": "น้ำยาล้างหัวฉีดเบนซิน",
+      "link": "https://www.youtube.com/watch?v=moprAMS_BSI",
+      "snippet": "น้ำยาล้างหัวฉีดเบนซิน #น้ำยาล้างหัวฉีด. (ช่อง: J Automotive) · ยอดวิว 1,467 ครั้ง",
+      "publishedAt": "2026-11-17T15:00:10.000Z",
+      "sourceId": "youtube",
+      "sourceName": "YouTube · J Automotive",
+      "sourceTier": 3,
+      "sourceCountry": "TH",
+      "language": "th",
+      "unverified": true,
+      "itemKind": "social",
+      "id": "0375504bb36e4032",
+      "canonicalUrl": "https://youtube.com/watch?v=moprAMS_BSI",
+      "contentHash": "36bdd0fe399a2151cac35e67",
+      "collectedAt": "2026-11-24T10:38:45.052Z",
+      "isPressRelease": false,
+      "isSponsored": false,
+      "prefilterScore": 9,
+      "matchedCategories": [
+        "INJECTOR"
+      ],
+      "matchedCompetitors": [],
+      "matchedBrands": [],
+      "hasAutomotiveContext": true,
+      "duplicateGroupId": "0375504bb36e4032",
+      "relatedCoverage": [
+        {
+          "sourceName": "YouTube · Nu Channel",
+          "url": "https://youtube.com/watch?v=xCtft9uJtJo",
+          "tier": 3
+        },
+        {
+          "sourceName": "YouTube · ภพ รีวิว",
+          "url": "https://youtube.com/watch?v=KoswnFB-u7E",
+          "tier": 3
+        }
+      ],
+      "titleTh": "น้ำยาล้างหัวฉีดเบนซิน",
+      "shortSummaryTh": "น้ำยาล้างหัวฉีดเบนซิน #น้ำยาล้างหัวฉีด. (ช่อง: J Automotive) · ยอดวิว 1,467 ครั้ง",
+      "classification": "neutral",
+      "impactScore": 0,
+      "confidence": 41,
+      "relevanceScore": 40,
+      "newsCategory": "INJECTOR",
+      "affectedChannels": [],
+      "affectedProducts": [
+        "POWER_FLOW",
+        "TRADING"
+      ],
+      "affectedCountries": [
+        "TH"
+      ],
+      "affectedCompetitors": [],
+      "okrImpact": {
+        "O1": "neutral",
+        "O2": "neutral"
+      },
+      "positiveImpacts": [],
+      "negativeImpacts": [],
+      "reasoningSummary": [
+        "แหล่งข่าว Tier 3 — ข้อมูลยังต้องตรวจสอบ"
+      ],
+      "businessInterpretation": "วิเคราะห์โดยระบบกฎอัตโนมัติ (Rule-based) เนื่องจากไม่สามารถเรียกใช้ AI ได้ — ควรให้ผู้เชี่ยวชาญตรวจสอบก่อนตัดสินใจ",
+      "recommendedActions": [
+        {
+          "action": "ตรวจสอบรายละเอียดข่าวต้นฉบับและประเมินผลกระทบเชิงลึก",
+          "owner": "Business Intelligence",
+          "priority": "medium",
+          "deadline": "monitor"
+        }
+      ],
+      "timeHorizon": "1-3 months",
+      "analyzedBy": "fallback",
+      "sourceUrl": "https://youtube.com/watch?v=moprAMS_BSI",
+      "titleOriginal": "น้ำยาล้างหัวฉีดเบนซิน",
+      "originalSnippet": "น้ำยาล้างหัวฉีดเบนซิน #น้ำยาล้างหัวฉีด. (ช่อง: J Automotive) · ยอดวิว 1,467 ครั้ง"
+    }
+  ],
+  "sourceHealth": [
+    {
+      "sourceId": "pcd-air4thai",
+      "sourceName": "กรมควบคุมมลพิษ (คุณภาพอากาศ)",
+      "ok": false,
+      "itemCount": 0,
+      "durationMs": 0,
+      "error": "fetch failed"
+    },
+    {
+      "sourceId": "prachachat",
+      "sourceName": "ประชาชาติธุรกิจ",
+      "ok": true,
+      "itemCount": 20,
+      "durationMs": 2341
+    },
+    {
+      "sourceId": "headlightmag",
+      "sourceName": "HeadLightMag",
+      "ok": true,
+      "itemCount": 10,
+      "durationMs": 4363
+    },
+    {
+      "sourceId": "autolifethailand",
+      "sourceName": "AutoLife Thailand",
+      "ok": true,
+      "itemCount": 10,
+      "durationMs": 3227
+    },
+    {
+      "sourceId": "autospinn",
+      "sourceName": "Autospinn",
+      "ok": false,
+      "itemCount": 0,
+      "durationMs": 0,
+      "error": "HTTP 403 Forbidden"
+    },
+    {
+      "sourceId": "khaosod",
+      "sourceName": "ข่าวสด",
+      "ok": true,
+      "itemCount": 20,
+      "durationMs": 1820
+    },
+    {
+      "sourceId": "matichon",
+      "sourceName": "มติชน",
+      "ok": true,
+      "itemCount": 20,
+      "durationMs": 1526
+    },
+    {
+      "sourceId": "bangkokpost-business",
+      "sourceName": "Bangkok Post — Business",
+      "ok": true,
+      "itemCount": 10,
+      "durationMs": 3718
+    },
+    {
+      "sourceId": "automotive-news",
+      "sourceName": "Automotive News",
+      "ok": true,
+      "itemCount": 20,
+      "durationMs": 1695
+    },
+    {
+      "sourceId": "tire-business",
+      "sourceName": "Tire Business (Workshop / Aftermarket)",
+      "ok": true,
+      "itemCount": 20,
+      "durationMs": 3340
+    },
+    {
+      "sourceId": "just-auto",
+      "sourceName": "Just Auto",
+      "ok": true,
+      "itemCount": 10,
+      "durationMs": 1263
+    },
+    {
+      "sourceId": "insideevs",
+      "sourceName": "InsideEVs",
+      "ok": true,
+      "itemCount": 20,
+      "durationMs": 1217
+    },
+    {
+      "sourceId": "electrek",
+      "sourceName": "Electrek",
+      "ok": true,
+      "itemCount": 20,
+      "durationMs": 1254
+    },
+    {
+      "sourceId": "motor1",
+      "sourceName": "Motor1",
+      "ok": true,
+      "itemCount": 20,
+      "durationMs": 1220
+    },
+    {
+      "sourceId": "carscoops",
+      "sourceName": "Carscoops",
+      "ok": true,
+      "itemCount": 20,
+      "durationMs": 1259
+    },
+    {
+      "sourceId": "paultan",
+      "sourceName": "Paul Tan's Automotive News (MY/ASEAN)",
+      "ok": true,
+      "itemCount": 20,
+      "durationMs": 1299
+    },
+    {
+      "sourceId": "vnexpress-intl",
+      "sourceName": "VnExpress International",
+      "ok": true,
+      "itemCount": 20,
+      "durationMs": 2181
+    },
+    {
+      "sourceId": "nikkei-asia",
+      "sourceName": "Nikkei Asia",
+      "ok": true,
+      "itemCount": 20,
+      "durationMs": 1271
+    },
+    {
+      "sourceId": "google-news:th-TH",
+      "sourceName": "Google News (th-TH)",
+      "ok": true,
+      "itemCount": 146,
+      "durationMs": 15903
+    },
+    {
+      "sourceId": "google-news:en-TH",
+      "sourceName": "Google News (en-TH)",
+      "ok": true,
+      "itemCount": 98,
+      "durationMs": 16697
+    },
+    {
+      "sourceId": "google-news:en-SG",
+      "sourceName": "Google News (en-SG)",
+      "ok": true,
+      "itemCount": 94,
+      "durationMs": 16834
+    },
+    {
+      "sourceId": "google-news:en-PH",
+      "sourceName": "Google News (en-PH)",
+      "ok": true,
+      "itemCount": 96,
+      "durationMs": 16745
+    },
+    {
+      "sourceId": "google-news:en-US",
+      "sourceName": "Google News (en-US)",
+      "ok": true,
+      "itemCount": 97,
+      "durationMs": 16799
+    },
+    {
+      "sourceId": "pantip",
+      "sourceName": "Pantip (ห้องรถยนต์)",
+      "ok": true,
+      "itemCount": 195,
+      "durationMs": 17214
+    },
+    {
+      "sourceId": "facebook-owned",
+      "sourceName": "Facebook (เพจที่บริษัทดูแล)",
+      "ok": false,
+      "itemCount": 0,
+      "durationMs": 0,
+      "error": "ยังไม่ได้ตั้งค่า FACEBOOK_PAGE_TOKEN — robots.txt ของ Facebook ห้าม crawl จึงต้องใช้ Graph API เท่านั้น (เข้าถึงได้เฉพาะเพจที่บริษัทดูแล)",
+      "configured": false
+    },
+    {
+      "sourceId": "tiktok",
+      "sourceName": "TikTok (แฮชแท็กที่ติดตาม)",
+      "ok": false,
+      "itemCount": 0,
+      "durationMs": 0,
+      "error": "ยังไม่ได้ตั้งค่า TIKTOK_ACCESS_TOKEN — เนื้อหา TikTok ถูก render ด้วย JS และ ToS จำกัดการ scrape จึงต้องใช้ Display API เท่านั้น",
+      "configured": false
+    },
+    {
+      "sourceId": "youtube",
+      "sourceName": "YouTube (คำค้นที่ติดตาม)",
+      "ok": true,
+      "itemCount": 36,
+      "durationMs": 6102,
+      "configured": true
+    },
+    {
+      "sourceId": "weather-signal",
+      "sourceName": "Open-Meteo (พยากรณ์อากาศ / คุณภาพอากาศ)",
+      "ok": true,
+      "itemCount": 0,
+      "durationMs": 2619
+    }
+  ],
+  "errors": [
+    "[feed:pcd-air4thai] fetch failed",
+    "[feed:autospinn] HTTP 403 Forbidden",
+    "[ai:classify:5c1d25501b988e6a] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011ChMcH7JgHN7dvAcy7FATT\"}",
+    "[ai:classify:c2203b053bf9d1bd] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011ChMcH9KirY7zW2c2Qg8p6\"}",
+    "[ai:classify:89747faa555b9cc5] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011ChMcHBLmdgeuAEYSHiTt6\"}",
+    "[ai:classify:dfef0a1d92bad5f7] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011ChMcHDFMagiNRdHpefrcH\"}",
+    "[ai:classify:2ab9641b833b5223] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011ChMcHF7jUCX7DrG5RiEja\"}",
+    "[ai:classify:366b0c46ff80ba0b] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011ChMcHGx7HMn6r9WH31T8G\"}",
+    "[ai:classify:9a5873f6e7f9624a] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011ChMcHJqD4z6MqqJYZp7fS\"}",
+    "[ai:classify:c02f8897fc939058] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011ChMcHLipRyjaVe4cwUKuw\"}",
+    "[ai:classify:0468303e4ab09f7d] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011ChMcHNYwyfBff9MzL3tCy\"}",
+    "[ai:classify:b807213ed4908040] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011ChMcHQXGU88vwN7vmR2JL\"}",
+    "[ai:classify:9e65b35791aaa184] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011ChMcHSPtUMpg6tTawsC6Y\"}",
+    "[ai:classify:2815fb17fcfa0178] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011ChMcHUBYB9JJbPp1ud1xa\"}",
+    "[ai:classify:2897e60669f57926] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011ChMcHW2umvxFM4dU5XHaK\"}",
+    "[ai:classify:fd51af134256dfe7] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011ChMcHXwkPNZuS2qWwgKde\"}",
+    "[ai:classify:706baf9e84dbec97] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011ChMcHZpru7ssGeq6pqxKB\"}",
+    "[ai:classify:4adfd377c10972a2] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011ChMcHbmhawjiWsuWo15ov\"}",
+    "[ai:classify:93d64108f40fd8a4] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011ChMcHdfJRPjDnZhu266a1\"}",
+    "[ai:classify:882d2631878827e5] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011ChMcHfbsjatPxArh5SWFB\"}",
+    "[ai:classify:15823f3a385eda0a] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011ChMcHhVVExXnttrJotyG6\"}",
+    "[ai:classify:aeabf85f5e3b8b60] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011ChMcHjS4WJQMWUskhavJs\"}",
+    "[ai:classify:0375504bb36e4032] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011ChMcHmQ8mtt6B4nqF3RS6\"}",
+    "[ai:daily] 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011ChMcHoMxfWyFcSU5WXeun\"}"
+  ],
+  "ai": {
+    "enabled": true,
+    "model": "claude-haiku-4-5-20251001",
+    "itemsAnalyzedByAi": 0,
+    "itemsAnalyzedByFallback": 27,
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "estimatedCostUsd": 0
+  }
+}
